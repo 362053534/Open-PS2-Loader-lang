@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM játékok
   HDD_GAMES: HDD játékok
   NET_GAMES: ETH játékok
-  APPS: Alkalmazások
+  APPS: APPS & PS1
   THEME: Téma
   LANGUAGE: Nyelv
   CONFIRMATION_POFF: A rendszer le fog állni.
@@ -35,9 +35,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Nincs hálózati kapcsolat'
   'ON': Be
   'OFF': Ki
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Kiválaszt
   CANCEL: Vissza
   CIRCLE: Kör
@@ -81,28 +79,20 @@ translations:
   CAT_SMB_SERVER: '- SMB szerver -'
   IP_ADDRESS_TYPE: IP cím típus
   IP_ADDRESS_TYPE_STATIC: Statikus
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP cím
   ADDRESS: Cím
   MASK: Maszk
   GATEWAY: Alapértelmezett átjáró
   DNS_SERVER: DNS szerver
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Megosztás
   USER: Felhasználónév
   PASSWORD: Jelszó
   NOT_SET: <nincs megadva>
   ADDRESS_TYPE: Cím típus
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Elfogad
   DELETE_WARNING: Az elem véglegesen törlésre kerül, folytatja?
   RENAME: Átnevezés
@@ -112,7 +102,8 @@ translations:
   ENABLE_WRITE: Írásműveletek
   LASTPLAYED: Emlékezzen a legutóbbi játékra
   SELECTBUTTON: SELECT gomb
-  ERR_FRAGMENTED: Hiba, a játék töredezett
+  ERR_FRAGMENTED: A jelenlegi játéknak %d töredéke van. Töredezettségmentesítsd, majd
+    próbáld újra.
   ERR_FILE_INVALID: Hiba, az elem futtatása sikertelen
   TEST: Változások tesztelése
   HINT_GUEST: Hagyja üresen VENDÉG hitelesítéshez
@@ -138,7 +129,7 @@ translations:
   VMC_FILE_ERROR: Érvénytelen VMC fájl, helytelen méret
   VMC_FILE_NEW: VMC fájl létrehozása szükséges
   ERR_VMC_CONTINUE: Hiba a VMC-vel %s, folytatás a fizikai MC-vel (foglalat %d) ?
-  AUTOREFRESH: Automatikus frissítés
+  AUTOREFRESH: Hotplug-érzékelés
   ABOUT: Névjegy
   DEVS: Kódolók
   QANDA: Minőségbiztosítás
@@ -156,21 +147,15 @@ translations:
   RECONNECT: Újracsatlakozás
   HINT_SHARENAME: Hagyja üresen a megosztások listázásához
   ETH_PREFIX: ETH előtag elérési út
-  BACKSPACE:
-  - untranslated
-  - original: Backspace
+  BACKSPACE: Backspace
   SPACE: Szóköz
-  ENTER:
-  - untranslated
-  - original: Enter
+  ENTER: Enter
   MODE: Mód
   VMC_SLOT1: VMC foglalat 1
   VMC_SLOT2: VMC foglalat 2
   GAME_ID: Játék ID
   DMA_MODE: DMA mód
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Mód 1
   MODE2: Mód 2
   MODE3: Mód 3
@@ -184,25 +169,19 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: GSM beállítások
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM választó
   HINT_ENABLEGSM: KI vagy BE kapcsolja a GSM-et
   HINT_GSMVMODE: Kényszerített testreszabott megjelenítési mód
   XOFFSET: Vízszintes-pozíció
   HINT_XOFFSET: Vízszintes szabályozás
   YOFFSET: Függőleges-pozíció
   HINT_YOFFSET: Függőleges szabályozás
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan beállítása
   GSMSKIPVIDEOS: FMV átugrása
   HINT_GSMSKIPVIDEOS: Átugorja a Full Motion videókat
   CHEAT_SETTINGS: Csalás beállítások
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD csalómotor
   HINT_ENABLECHEAT: Engedi a PS2RD csalásmotornak, hogy patch-elje a játékokat.
   CHEATMODE: PS2RD csalásmotor mód
   HINT_CHEATMODE: Auto-kiválaszt vagy játékcsalások kiválasztása
@@ -224,30 +203,21 @@ translations:
   AUTOSTARTLAST: Automatikus indítás
   HINT_AUTOSTARTLAST: Érték másodpercben, 0 az Automatikus indítás letiltásához
   PS2LOGO: PS2 logó
-  HINT_PS2LOGO: Csak egy érvényes lemez logónál jelenik meg, amely egyezik a konzol régiójával
+  HINT_PS2LOGO: Csak egy érvényes lemez logónál jelenik meg, amely egyezik a konzol
+    régiójával
   PADEMUCONFIG: PADEMU konfigurálása
   PADEMU_SETTINGS: Pad Emulator beállítások
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Pademulátor
   HINT_PADEMU_ENABLE: Be/ki kapcsolja a PadEmulátor-t a kiválaszott játékhoz.
   PADEMU_MODE: Pad Emulátor mód
   HINT_PADEMU_MODE: Válassza ki a PadEmulátor módját.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Port beállítások:'
   HINT_PAD_PORT: Válassza ki a PadEmulátor portot a beállításokhoz.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Emuláció
   HINT_PADEMU_PORT: Be/ki kapcsolja a PadEmulátor-t a kiválasztott porthoz.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Rezgés
   HINT_PADEMU_VIB: Be/ki kapcsolja a rezgést a PadEmulátor kiválasztott portjához.
   USBDG_MAC: 'USB bluetooth adapter mac címe:'
   PAD_MAC: 'DS kontroller a következő MAC címhez párosítva:'
@@ -267,18 +237,13 @@ translations:
     a DS3/DS4 kontrollerekkel.
   BT_NOTSUPPORTED: A Bluetooth adapter nem biztos, hogy megfelelően fog működni DS3/DS4
     kontrollerekkel.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Multitap emuláció
   HINT_MTAP_ENABLE: Ki/be kapcsolja a Multitap emulációt a kiválasztott játékhoz.
   MTAP_PORT: Multitap emuláció ezen a porton
   HINT_MTAP_PORT: Válassza ki a portot a Multitap emulációhoz.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: Kerülő megoldás hamis DS3-hoz
+  HINT_PADEMU_WORKAROUND: Egyes hamis DS3 vezérlőkhöz kerülő megoldás kell; ez a beállítás
+    bekapcsolja.
   GSM_FIELD_FIX: FIELD flipping emulálása
   HINT_GSM_FIELD_FIX: Fix azon játékokhoz, melyek hibát produkálnak progresszív videó
     mód alatt.
@@ -300,18 +265,10 @@ translations:
   CFM_VMODE_CHG: jóváhagyja a Videó mód változtatását?
   CACHE_HDD_GAME_LIST: Játéklista cachelés (HDD)
   ENABLE_NOTIFICATIONS: Értesítések
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partíció mountolva.'
+  CFG_NOTIFICATION: 'A konfiguráció innen töltődött be: %s'
+  THM_NOTIFICATION: 'A téma innen töltődött be: %s'
+  LNG_NOTIFICATION: 'A nyelv innen töltődött be: %s'
+  PARTITION_NOTIFICATION: A(z) %s partíció csatolva.
   OPTIONS: Opciók
   GAME_SETTINGS_SAVED: Játékbeállítások elmentve.
   GAME_SETTINGS_REMOVED: '%s beállítások eltávolítva'
@@ -327,9 +284,7 @@ translations:
   INFO_RELEASE: Kiadás
   INFO_DEVELOPER: Fejlesztő
   INFO_DESCRIPTION: Leírás
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
+  BLOCKDEVICE_SETTINGS: BDM eszközök
   CONTROLLER_SETTINGS: Kontrollerbeállítások
   HINT_BDM_START: A Block Device Manager ki/bekapcsolása.
   HINT_BLOCK_DEVICES: Ki/bekapcsolja a Block eszközöket (pl. USB).
@@ -339,20 +294,13 @@ translations:
   PADMACROCONFIG: PADMACRO beállítása
   PADMACRO_SETTINGS: Padmakró beállítások
   PADMACRO_ENABLE: Padmakrók
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
+  PADMACRO_SLOWDOWN: 'Analóg lassítás:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Csökkenti az analóg kar tartományát, amíg a gomb le
+    van nyomva.
   LEFT_ANALOG: Bal kar
   RIGHT_ANALOG: Jobb kar
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
+  PADMACRO_INVERT_AXIS: 'Analóg tengely invertálása:'
+  HINT_PADMACRO_INVERT_AXIS: Megfordítja a kijelölt analóg kar tengelyét.
   TURBO_SPEED: Turbo gomb sebessége
   HINT_TURBO_SPEED: Milyen gyorsan nyomkodja a gombot, ha a turbó aktív
   ACT_WHILE_PRESSED: Amíg a gomb lenyomva van
@@ -371,10 +319,104 @@ translations:
   LANGUAGE_SIMPL_CHINESE: EGYSZERŰSÍTETT KÍNAI
   OSD_SETTINGS: OSD beállítások
   OSD_SETTINGS_LNG: OSD nyelv
+  HINT_OSD_SETTINGS_LNG: Egyéni nyelvi beállítás kényszerítése
   ENABLE_LNG: Nyelv módosítása
+  OSD_SETTINGS_TVASPECT: Képernyőméret
+  FULL_SCREEN: Teljes képernyő
+  OSD_SETTINGS_VMODE: Videómód
+  SYSTEM_DEFAULT: Rendszer alapértelmezett
   BGM: Háttérzene
   BGM_VOLUME: Háttérzene hangerő
-  DEF_BGM_PATH: Téma alapértelmezett zenéje
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  DEF_BGM_PATH: Egyéni háttérzene
+  DEF_BGM_PATH_HINT: Egyéni ogg fájl elérési útja; hagyd üresen a téma beépített BGM
+    zenéjének lejátszásához
+  HIGH: Magas
+  LOW: Alacsony
+  XSENSITIVITY: Analóg X-tengely érzékenysége
+  YSENSITIVITY: Analóg Y-tengely érzékenysége
+  FILE_COUNT: 'Talált fájlok: %i'
+  CHEAT_SELECTION: Csalások kiválasztása
+  HDD_HINT: Csak egy HDD engedélyezett, a bekapcsolás zárolja az APA vagy a GPT módot.
+  TXTRENAME: TXT leképezési lista
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL közreműködők (1/2. oldal)
+  ABOUT_CONTRIBUTORS_PENDING: A nevek megerősítésre várnak
+  ABOUT_ORIGINAL_CONTRIBUTORS: Hivatalos OPL közreműködők (2/2. oldal)
+  ABOUT_NEXT_PAGE: Következő oldal
+  ABOUT_PREVIOUS_PAGE: Előző oldal
+  HINT_DMA_MODE: HDD átviteli mód, a magasabb érték gyorsabb (az 1. módnak ki kell
+    lennie kapcsolva)
+  HINT_DMA_SOURCE: Globálisan érvényes, vagy csak a jelenlegi játékra
+  HINT_CF_COUNT: Módosítsd a képernyőn megjelenő borítók számát. Lassulás esetén csökkentsd
+    a számot.
+  BGM_SEARCH: ogg fájl keresése
+  HINT_BGM_SEARCH: ogg fájlt keres az indított eszközök gyökerében, és kitölti a fenti
+    elérési utat
+  BGM_NOT_FOUND: Nem található ogg fájl
+  ARTPACK: OPLM képescsomag támogatása (azonnali borítók)
+  HINT_ARTPACK: Az OPLM_ART zip csomagot (ne csomagold ki) tedd közvetlenül az ART2
+    mappába
+  HINT_ART_RANDOM: A hátterek és képernyőképek véletlenszerűen változnak (csak zip
+    képescsomag)
+  HINT_APAISO: Másold az ISO fájlokat a +OPL/DVD vagy CD mappába a közvetlen olvasáshoz,
+    HDL konverzió nélkül
+  HINT_AUTODETECT_PS1APPS: Közvetlenül felismeri az ELF fájlokat az APPS mappában
+    és a VCD-ket a POPS mappában
+  HINT_AUTO_MODE1: Az 1. mód (pontos olvasás) a legtöbb kompatibilitási problémát
+    megoldja, ajánlott
+  HINT_CACHE_HDD_GAME_LIST: A listagyorsítótárat a HDL telepítési formátum használja;
+    közvetlen ISO-olvasáskor nem szükséges
+  HINT_LASTPLAYED: Az OPL indításakor a kurzor az utoljára játszott játékon marad
+  HINT_COVERARTMODE: A kompatibilitási mód jelentősen lelassítja a képek betöltését,
+    a teljesítmény mód ajánlott
+  HINT_AUTOREFRESH: Az OPL valós időben reagál, ha blokkeszközöket, például USB-meghajtókat
+    csatlakoztatnak menet közben
+  HINT_TXTRENAME: Egy txt fájlt hoz létre, amellyel a játéknevek tetszőleges szöveghez
+    rendelhetők
+  HINT_ENABLE_WRITE: Az OPL törlési funkciója nem teljesen biztonságos, óvatosan használd
+  HINT_THEME: Két beépített téma között lehet váltani. A külső témákat a THM mappába
+    tedd
+  HINT_LANGUAGE: A további nyelvek támogatásához tedd az FGOPL nyelvi csomagokat az
+    LNG mappába
+  START_MODE_SETTINGS: Indítási mód beállításai
+  DEVICE_SWITCH: Eszközkapcsolók (a nem használt eszközök kikapcsolása gyorsítja az
+    indítást)
+  APAISO: Közvetlen ISO HDD(APA)
+  AUTODETECT_PS1APPS: APPS és PS1 automatikus felismerése
+  AUTO_MODE1: 1. mód automatikus bekapcsolása (jobb kompatibilitás)
+  COVERART_BG_OFF: Háttér ki
+  COVERART_BG_ON: Háttér be
+  COVERART_COV_OFF: Borító ki
+  COVERART_COV_ON: Borító be
+  COVERART_ICO_OFF: Lemez ki
+  COVERART_ICO_ON: Lemez be
+  COVERARTMODE_PERF: Teljesítmény (csak PNG)
+  COVERARTMODE_COMPAT: Kompatibilitás (JPG és PNG)
+  ART_RANDOM_OFF: Véletlen kép ki
+  ART_RANDOM_ON: Véletlen kép be
+  CF_COVER_COUNT_1: 'Borítók a képernyőn: 1'
+  CF_COVER_COUNT_3: 'Borítók a képernyőn: 3'
+  CF_COVER_COUNT_5: 'Borítók a képernyőn: 5'
+  CF_COVER_COUNT_7: 'Borítók a képernyőn: 7'
+  CF_COVER_COUNT_9: 'Borítók a képernyőn: 9'
+  GSM_VMODE_480I_NORMAL: 480i normál (CRT-hez)
+  GSM_VMODE_480I_SHRINK: 480i zsugorított (modern tévén 4:3-ra nyújtható)
+  DMA_UDMA4_DEFAULT: UDMA 4 alapértelmezett
+  DMA_UDMA5_HIGHEST: UDMA 5 aktuális HDD-maximum
+  DMA_UDMA6_HIGHEST: UDMA 6 aktuális HDD-maximum
+  DMA_UDMA7_HIGHEST: UDMA 7 aktuális HDD-maximum
+  DMA_UDMA7_EXTREME: UDMA 7 extrém
+  DMA_HDD_ONLY: <csak HDD>
+  CHEAT_TOGGLE_ALL: Összes kijelölése/törlése
+  CHEAT_SAVE_AND_RUN: Mentés és indítás
+  THEME_COVERFLOW: Beépített Coverflow téma
+  THEME_LIST: Beépített lista téma
+  MSG_DEVICE_DETECT_TIMEOUT: A(z) %s felismerése időtúllépésbe ütközött. Eszközkompatibilitási
+    probléma.
+  MSG_TXT_CREATED: A txt fájl létrejött!
+  MSG_TXT_REBUILT: A txt fájl újraépült!
+  MSG_HDD_EXFAT_HINT: A belső HDD exFAT formátumú. Engedélyezd a HDD(exFAT) opciót
+    a BDM beállításokban.
+  MSG_HDD_APA_HINT: A belső HDD APA formátumú. Engedélyezd a HDD(APA) indítási módot.
+  MSG_HDD_MIXED_CONFIRM: A HDD-d vegyes partíciókat tartalmaz. Mindenképpen engedélyezed
+    ezt a módot?
+  MSG_LIST_SEPARATOR: ', '

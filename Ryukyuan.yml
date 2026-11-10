@@ -1,5 +1,4 @@
-comments: |-
-  Ryukyuan translation by kuragehimekurara1
+comments: Ryukyuan translation by kuragehimekurara1
 translations:
   LOCALE: Ryukyuan
   SAVE_CHANGES: 設定たぶいん
@@ -15,7 +14,7 @@ translations:
   BDM_GAMES: BDMゲーム
   HDD_GAMES: HDDゲーム
   NET_GAMES: ETHゲーム
-  APPS: アプリ
+  APPS: APPS & PS1
   THEME: テーマ
   LANGUAGE: 言語
   CONFIRMATION_POFF: システム終了しー電源ちやびーん
@@ -101,7 +100,7 @@ translations:
   ENABLE_WRITE: 書き込み操作
   LASTPLAYED: 最後んかいプレイさるゲームうびーん
   SELECTBUTTON: セレクトボタン
-  ERR_FRAGMENTED: ゲームぬデフラグさりやびらん
+  ERR_FRAGMENTED: 現在ぬゲームや%d個ぬ断片に分かとりやびん。デフラグしてから再試行しやびー。
   ERR_FILE_INVALID: ゲーム（アプリ）開始なやびらんたん
   TEST: テストぬ変更
   HINT_GUEST: GUESTっしログインするばーや空欄
@@ -127,7 +126,7 @@ translations:
   VMC_FILE_ERROR: VMCファイルぬサイズぬ正しくあいびらん
   VMC_FILE_NEW: VMCファイル未作成
   ERR_VMC_CONTINUE: VMC %s でぃエラー。スロット %d ぬメモリカードちかやびーが？
-  AUTOREFRESH: 自動リフレッシュ
+  AUTOREFRESH: ホットプラグ検出
   ABOUT: OPLにちいてぃ
   DEVS: コーディング
   QANDA: QAテスター
@@ -210,26 +209,26 @@ translations:
   HINT_PADEMU_MODE: モード選択
   DS34USB_MODE: デュアルショック3/4 USB
   DS34BT_MODE: デュアルショック3/4 BT
-  PADPORT: 'ポート番号：'
+  PADPORT: ポート番号：
   HINT_PAD_PORT: PADEMU適用するポート指定
   PADEMU_PORT: エミュレーション
   HINT_PADEMU_PORT: ポート毎んかいPADEMU適用
   PADEMU_VIB: 振動
   HINT_PADEMU_VIB: ポート毎んかい振動ぬ有効/無効指定
-  USBDG_MAC: 'BluetoothアダプタぬMACアドレス：'
-  PAD_MAC: 'DSぬペア設定MACアドレス　　　　：'
+  USBDG_MAC: BluetoothアダプタぬMACアドレス：
+  PAD_MAC: DSぬペア設定MACアドレス　　　　：
   PAIR: ペア設定
   PAIR_PAD: DSコントローラーペア設定
   HINT_PAIRPAD: BluetoothぬMACアドレス指定しDSコントローラーペア設定
   NOT_CONNECTED: 接続さりやびらん
   BTINFO: Bluetooth アダプタ情報
   HINT_BTINFO: さらにサポートさりとーる機能表示
-  HCIVER: 'HCIバージョン：'
-  LMPVER: 'LMPバージョン：'
-  MANUFACTURER: 'メーカーID：'
-  SUPFEATURES: 'サポート機能：'
-  'YES': 'はい'
-  'NO': 'うぅーうぅー'
+  HCIVER: HCIバージョン：
+  LMPVER: LMPバージョン：
+  MANUFACTURER: メーカーID：
+  SUPFEATURES: サポート機能：
+  'YES': はい
+  'NO': うぅーうぅー
   BT_SUPPORTED: BluetoothアダプターDS3 / DS4コントローラサポートそーいびーん
   BT_NOTSUPPORTED: BluetoothアダプターDS3 / DS4コントローラサポートさびらん
   MTAP_ENABLE: マルチタップエミュレーション
@@ -248,7 +247,7 @@ translations:
   PARENLOCK_DISABLE_WARNING: パレンタルロックー無効やいびーん
   BUILD_DETAILS: ビルドオプション：
   PARENLOCK_INVALID_PASSWORD: エラー - くぬパスワードー使用なやびらん
-  ERR_VMC_FRAGMENTED_CONTINUE: VMC ％s ファイロー破損そーいびーん。 スロット ％d ぬメモリカードんかいたぶやびーが？
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s ファイロー破損そーいびーん。 スロット %d ぬメモリカードんかいたぶやびーが？
   AUDIO_SETTINGS: オーディオ設定
   SFX: 効果音
   BOOT_SND: 起動音
@@ -260,17 +259,17 @@ translations:
   CFG_NOTIFICATION: 構成ぬ %s からロードさりやびたん。
   THM_NOTIFICATION: テーマぬ %s からロードさりやびたん。
   LNG_NOTIFICATION: 言語ぬ %s からロードさりやびたん。
-  PARTITION_NOTIFICATION: 'パーティション%sぬマウントさりやびたん。'
+  PARTITION_NOTIFICATION: パーティション%sぬマウントさりやびたん。
   OPTIONS: オプション
   GAME_SETTINGS_SAVED: ゲーム設定ぬたぶらりやびたん。
-  GAME_SETTINGS_REMOVED: '設定%sぬ削除さりやびたん。'
+  GAME_SETTINGS_REMOVED: 設定%sぬ削除さりやびたん。
   NET_UPDATE_HINT: 有効なしねー、既存ぬゲーム互換性設定ぬ上書きさりやびーん。
   SETTINGS_SOURCE: 設定モード
   GLOBAL_SETTINGS: グローバル
   PERGAME_SETTINGS: ゲームぐとぅ
   ALL_SETTINGS: まじり
   GAME_SETTINGS_PROMPT: 削除する設定選択さびーん。
-  FORUM_DETAILS: 'サポートフォーラム：'
+  FORUM_DETAILS: サポートフォーラム：
   INFO_TITLE: タイトル
   INFO_GENRE: ジャンル
   INFO_RELEASE: リリース
@@ -286,11 +285,11 @@ translations:
   PADMACROCONFIG: パッドマクロぬ設定
   PADMACRO_SETTINGS: パッドマクロぬ設定
   PADMACRO_ENABLE: パッドマクロ
-  PADMACRO_SLOWDOWN: 'アナログスローダウン：'
+  PADMACRO_SLOWDOWN: アナログスローダウン：
   HINT_PADMACRO_SLOWDOWN_AXIS: ボタンうちゃるとぅちぬアナログスティックぬ範囲いばくすん
   LEFT_ANALOG: ふぃじゃいスティック
   RIGHT_ANALOG: にじりスティック
-  PADMACRO_INVERT_AXIS: 'アナログ軸反転：'
+  PADMACRO_INVERT_AXIS: アナログ軸反転：
   HINT_PADMACRO_INVERT_AXIS: アナログスティックぬ軸反転
   TURBO_SPEED: ターボボタンぬ速度
   HINT_TURBO_SPEED: ターボぬアクティブなとぅちにボタンうすんふぇーさ
@@ -310,4 +309,85 @@ translations:
   LANGUAGE_SIMPL_CHINESE: 簡体字中国語
   OSD_SETTINGS: OSD設定
   OSD_SETTINGS_LNG: OSD言語
+  HINT_OSD_SETTINGS_LNG: 言語設定強制的に変更さびん
   ENABLE_LNG: 言語変更
+  OSD_SETTINGS_TVASPECT: 画面サイズ
+  FULL_SCREEN: フルスクリーン
+  OSD_SETTINGS_VMODE: 映像モード
+  SYSTEM_DEFAULT: システムデフォルト
+  BGM: 背景音楽
+  BGM_VOLUME: 背景音楽ぬ音量
+  DEF_BGM_PATH: カスタム背景音楽
+  DEF_BGM_PATH_HINT: カスタムoggファイルぬパス。空欄ぬままならテーマ内蔵ぬBGM再生さびん
+  HIGH: 高い
+  LOW: 低い
+  XSENSITIVITY: アナログX軸ぬ感度
+  YSENSITIVITY: アナログY軸ぬ感度
+  FILE_COUNT: '見つかったファイル: %i'
+  CHEAT_SELECTION: チートぬ選択
+  HDD_HINT: HDDや1台のみ使えやびん。有効にすとAPAまたGPTロックさりやびん。
+  TXTRENAME: TXT割り当てリスト
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL貢献者（1/2ページ）
+  ABOUT_CONTRIBUTORS_PENDING: 名前や確認待ちやびん
+  ABOUT_ORIGINAL_CONTRIBUTORS: 公式OPL貢献者（2/2ページ）
+  ABOUT_NEXT_PAGE: 次ぬページ
+  ABOUT_PREVIOUS_PAGE: 前ぬページ
+  HINT_DMA_MODE: HDD転送モード。数値ぬ高いほど高速やびん（モード1オフにす必要ありやびん）
+  HINT_DMA_SOURCE: 全体に適用するか、現在ぬゲームのみに適用さびん
+  HINT_CF_COUNT: 画面上ぬカバー数変更なやびん。重たく感じたら数減らしやびー。
+  BGM_SEARCH: oggファイル検索
+  HINT_BGM_SEARCH: 起動中ぬデバイスぬルートからoggファイル探し、上ぬパスに自動入力さびん
+  BGM_NOT_FOUND: oggファイル見つかやびらん
+  ARTPACK: OPLMアートパック対応（画像すぐ表示）
+  HINT_ARTPACK: OPLM_ARTぬzipパック（解凍すな）ART2にそのまま置きやびー
+  HINT_ART_RANDOM: 背景とスクリーンショットやランダムに切り替わりやびん（zipアートパック専用）
+  HINT_APAISO: ISOな+OPL/DVDまたCDにコピーすれば直接読まりやびん。HDL変換や不要やびん
+  HINT_AUTODETECT_PS1APPS: APPSフォルダ内ぬELFとPOPSフォルダ内ぬVCDな直接検出さびん
+  HINT_AUTO_MODE1: モード1（高精度読み取り）やほとんどの互換性問題解決さびん。有効化推奨やびん
+  HINT_CACHE_HDD_GAME_LIST: リストキャッシュやHDL導入形式で使いやびん。ISO直接読む場合や不要やびん
+  HINT_LASTPLAYED: OPL起動時、カーソルや最後にプレイしたゲームに留まりやびん
+  HINT_COVERARTMODE: 互換モードや画像ぬ読み込み大幅に遅くさびん。パフォーマンスモード推奨やびん
+  HINT_AUTOREFRESH: USBドライブなどぬブロックデバイスなホットプラグすと、OPLやリアルタイムで応答さびん
+  HINT_TXTRENAME: ゲーム名な任意ぬ文字に割り当てるためのtxtファイル生成さびん
+  HINT_ENABLE_WRITE: OPLぬ削除機能や絶対に安全やありやびらん。注意して使いやびー
+  HINT_THEME: 内蔵テーマや2種類切り替えなやびん。サードパーティ製テーマやTHMフォルダに置きやびー
+  HINT_LANGUAGE: より多くの言語対応さするなら、FGOPL言語パックLNGフォルダに置きやびー
+  START_MODE_SETTINGS: 起動モード設定
+  DEVICE_SWITCH: デバイススイッチ（使わんデバイスオフにすと起動ぬ速くなりやびん）
+  APAISO: HDD(APA) ISO直接読み込み
+  AUTODETECT_PS1APPS: APPS & PS1 自動検出
+  AUTO_MODE1: モード1自動で有効化（互換性向上）
+  COVERART_BG_OFF: 背景オフ
+  COVERART_BG_ON: 背景オン
+  COVERART_COV_OFF: カバーオフ
+  COVERART_COV_ON: カバーオン
+  COVERART_ICO_OFF: ディスクオフ
+  COVERART_ICO_ON: ディスクオン
+  COVERARTMODE_PERF: パフォーマンス（PNGのみ）
+  COVERARTMODE_COMPAT: 互換性（JPGとPNG）
+  ART_RANDOM_OFF: ランダム画像オフ
+  ART_RANDOM_ON: ランダム画像オン
+  CF_COVER_COUNT_1: '画面上ぬカバー数: 1'
+  CF_COVER_COUNT_3: '画面上ぬカバー数: 3'
+  CF_COVER_COUNT_5: '画面上ぬカバー数: 5'
+  CF_COVER_COUNT_7: '画面上ぬカバー数: 7'
+  CF_COVER_COUNT_9: '画面上ぬカバー数: 9'
+  GSM_VMODE_480I_NORMAL: 480i 通常（CRT向け）
+  GSM_VMODE_480I_SHRINK: 480i 縮小（今のテレビでは4:3に横伸ばしなやびん）
+  DMA_UDMA4_DEFAULT: UDMA 4 デフォルト
+  DMA_UDMA5_HIGHEST: UDMA 5 現在ぬHDD最大
+  DMA_UDMA6_HIGHEST: UDMA 6 現在ぬHDD最大
+  DMA_UDMA7_HIGHEST: UDMA 7 現在ぬHDD最大
+  DMA_UDMA7_EXTREME: UDMA 7 エクストリーム
+  DMA_HDD_ONLY: <HDDのみ>
+  CHEAT_TOGGLE_ALL: すべて選択/解除
+  CHEAT_SAVE_AND_RUN: 保存して実行
+  THEME_COVERFLOW: 内蔵カバーフローテーマ
+  THEME_LIST: 内蔵リストテーマ
+  MSG_DEVICE_DETECT_TIMEOUT: '%sぬ検出がタイムアウトしやびたん。デバイスぬ互換性に問題ありやびん。'
+  MSG_TXT_CREATED: txtファイル作成さびたん！
+  MSG_TXT_REBUILT: txtファイル再構築さびたん！
+  MSG_HDD_EXFAT_HINT: 内蔵HDDやexFATやびん。BDM設定でHDD(exFAT)有効にしやびー。
+  MSG_HDD_APA_HINT: 内蔵HDDやAPAやびん。HDD(APA)起動モード有効にしやびー。
+  MSG_HDD_MIXED_CONFIRM: HDDや混合パーティションやびん。くぬモード有効にしてぃんかい？
+  MSG_LIST_SEPARATOR: 、

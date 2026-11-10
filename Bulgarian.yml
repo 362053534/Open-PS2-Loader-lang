@@ -17,7 +17,7 @@ translations:
   BDM_GAMES: BDM Игри
   HDD_GAMES: HDD Игри
   NET_GAMES: ETH Игри
-  APPS: Приложения
+  APPS: APPS & PS1
   THEME: Тема
   LANGUAGE: Език
   CONFIRMATION_POFF: Изключване на системата?
@@ -54,22 +54,16 @@ translations:
   ERROR_LOADING_ID: Грешка при зареждането на Game ID
   AUTOSORT: Сортиране
   ERR_LOADING_LANGFILE: Грешка при зареждането на езиковия файл
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Цветове за отстраняване на грешки
   NO_CONTROLLER: Не е включен контролер. Чакам…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Корици
   WIDE_SCREEN: Широк екран
   POWEROFF: Изключване
   LOADING_SETTINGS: Зареждам настройките
   SAVING_SETTINGS: Запазвам настройките…
   START_DEVICE: Стартиране на устройството
   REFRESH: Опресни
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: Режим на стартиране BDM
   HDDMODE: HDD режим - стартиране
   ETHMODE: ETH режим - стартиране
   APPMODE: Меню "Приложения" - стартиране
@@ -86,9 +80,7 @@ translations:
   CAT_SMB_SERVER: '- SMB Сървър -'
   IP_ADDRESS_TYPE: Тип IP адрес
   IP_ADDRESS_TYPE_STATIC: Статичен
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP адрес
   ADDRESS: Име
   MASK: Маска на подмрежата
@@ -100,12 +92,8 @@ translations:
   PASSWORD: Парола
   NOT_SET: <празно>
   ADDRESS_TYPE: Тип адрес
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Приеми
   DELETE_WARNING: Позицията ще бъде окончателно изтрита! Съгласни?
   RENAME: Смяна име
@@ -115,7 +103,7 @@ translations:
   ENABLE_WRITE: Операции за запис
   LASTPLAYED: Запомняне на последната игра
   SELECTBUTTON: Бутон за избор
-  ERR_FRAGMENTED: Грешка - играта е фрагментирана!
+  ERR_FRAGMENTED: Текущата игра има %d фрагмента. Дефрагментирайте я и опитайте отново.
   ERR_FILE_INVALID: Грешка - не може да се стартира!
   TEST: Проба на промените
   HINT_GUEST: Оставете свободно за влизане като "гост".
@@ -141,7 +129,7 @@ translations:
   VMC_FILE_ERROR: Невалиден VMC файл - грешен обем.
   VMC_FILE_NEW: VMC файлът трябва да бъде създаден.
   ERR_VMC_CONTINUE: Проблем с VMC %s. Продължаване са Memory Card в слот %d?
-  AUTOREFRESH: Автоматично опресняване
+  AUTOREFRESH: Откриване на горещо свързване
   ABOUT: Относно
   DEVS: 'Програмисти:'
   QANDA: 'Качествен контрол от:'
@@ -165,9 +153,7 @@ translations:
   MODE: Регистър
   VMC_SLOT1: VMC Слот 1
   VMC_SLOT2: VMC Слот 2
-  GAME_ID:
-  - untranslated
-  - original: Game ID
+  GAME_ID: ID на играта
   DMA_MODE: ДДП (DMA) режим
   VSYNC: Верт. Синхр.
   MODE1: Режим 1
@@ -183,9 +169,7 @@ translations:
   ETH_10MFDX: 10 Mbit пълен дуплекс
   ETH_10MHDX: 10 Mbit полу-дуплекс
   GSM_SETTINGS: GSM настройки
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM селектор
   HINT_ENABLEGSM: Сменя състоянието
   HINT_GSMVMODE: PS2 ще е задължен да го използва
   XOFFSET: Регулиране по хоризонтала
@@ -197,9 +181,7 @@ translations:
   GSMSKIPVIDEOS: Пропускане на FMV
   HINT_GSMSKIPVIDEOS: Прескача видеоклиповете (съвместимост)
   CHEAT_SETTINGS: Cheat настройки
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD чийт енджин
   HINT_ENABLECHEAT: Позволява на PS2RD да patch-ва игрите
   CHEATMODE: PS2RD Cheat Engine режим
   HINT_CHEATMODE: автоматично / ръчно
@@ -228,12 +210,8 @@ translations:
   HINT_PADEMU_ENABLE: Включва/изключва PADEMU за избраната игра
   PADEMU_MODE: Режим на PAD Емулация
   HINT_PADEMU_MODE: Избор на режим на PAD Емулация.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Настройки на порта:'
   HINT_PAD_PORT: Избор на порта, за който да се зададат настройки.
   PADEMU_PORT: Емулация
@@ -288,9 +266,7 @@ translations:
   CFG_NOTIFICATION: Конфигурацията е заредена от %s
   THM_NOTIFICATION: Темата е заредена от %s
   LNG_NOTIFICATION: Езиков файл е зареден от %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
+  PARTITION_NOTIFICATION: Дял %s е монтиран.
   OPTIONS: Опции
   GAME_SETTINGS_SAVED: Настройките на игри запазени.
   GAME_SETTINGS_REMOVED: '%s настройки премахнати.'
@@ -315,9 +291,7 @@ translations:
   MX4SIO_GAMES: MX4SIO Игри
   PADMACROCONFIG: Настройка на PADMACRO
   PADMACRO_SETTINGS: Настройки за Pad macro
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
+  PADMACRO_ENABLE: Макроси на пада
   PADMACRO_SLOWDOWN: 'Забавяне на аналогов стик:'
   HINT_PADMACRO_SLOWDOWN_AXIS: Намалява обхвата на аналоговия стик, когато бутонът
     е натиснат
@@ -329,60 +303,119 @@ translations:
   HINT_TURBO_SPEED: Колко бързо да се натиска бутона, когато турбо е активирано
   ACT_WHILE_PRESSED: Докато бутонът е натиснат
   ACT_TOGGLED: Превключване чрез бутон
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  LANGUAGE_JAPANESE: Японски
+  LANGUAGE_ENGLISH: Английски
+  LANGUAGE_FRENCH: Френски
+  LANGUAGE_SPANISH: Испански
+  LANGUAGE_GERMAN: Немски
+  LANGUAGE_ITALIAN: Италиански
+  LANGUAGE_DUTCH: Нидерландски
+  LANGUAGE_PORTUGUESE: Португалски
+  LANGUAGE_RUSSIAN: Руски
+  LANGUAGE_KOREAN: Корейски
+  LANGUAGE_TRAD_CHINESE: Традиционен китайски
+  LANGUAGE_SIMPL_CHINESE: Опростен китайски
+  OSD_SETTINGS: OSD настройки
+  OSD_SETTINGS_LNG: Език на OSD
+  HINT_OSD_SETTINGS_LNG: Принудителна потребителска езикова конфигурация
+  ENABLE_LNG: Активиране
+  OSD_SETTINGS_TVASPECT: Размер на екрана
+  FULL_SCREEN: Цял екран
+  OSD_SETTINGS_VMODE: Видеорежим
+  SYSTEM_DEFAULT: Системна стойност по подразбиране
+  BGM: Фонова музика
+  BGM_VOLUME: Сила на фоновата музика
+  DEF_BGM_PATH: Персонализирана фонова музика
+  DEF_BGM_PATH_HINT: Път към персонализиран ogg файл; оставете празно, за да се възпроизвежда
+    вградената BGM на темата
+  HIGH: Високо
+  LOW: Ниско
+  XSENSITIVITY: Чувствителност по аналоговата ос X
+  YSENSITIVITY: Чувствителност по аналоговата ос Y
+  FILE_COUNT: 'Намерени файлове: %i'
+  CHEAT_SELECTION: Избор на чийтове
+  HDD_HINT: Разрешен е само един HDD; включването заключва APA или GPT.
+  TXTRENAME: Списък за съответствие TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Сътрудници на FGOPL (страница 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Имената предстоят да бъдат потвърдени
+  ABOUT_ORIGINAL_CONTRIBUTORS: Официални сътрудници на OPL (страница 2/2)
+  ABOUT_NEXT_PAGE: Следваща страница
+  ABOUT_PREVIOUS_PAGE: Предишна страница
+  HINT_DMA_MODE: Режим на трансфер на HDD, по-високата стойност е по-бърза (изисква
+    режим 1 да е изключен)
+  HINT_DMA_SOURCE: Прилага се глобално или само за текущата игра
+  HINT_CF_COUNT: Променете броя корици на екрана. Ако се усеща забавяне, намалете
+    числото.
+  BGM_SEARCH: Търсене на ogg файл
+  HINT_BGM_SEARCH: Търси ogg файл в корена на стартираните устройства и попълва пътя
+    по-горе
+  BGM_NOT_FOUND: Не е намерен ogg файл
+  ARTPACK: Поддръжка на OPLM пакет с изображения (моментални корици)
+  HINT_ARTPACK: Поставете zip пакета OPLM_ART (без да го разархивирате) направо в
+    ART2
+  HINT_ART_RANDOM: Фоновете и екранните снимки се сменят случайно (само zip пакет
+    с изображения)
+  HINT_APAISO: Копирайте ISO файловете в +OPL/DVD или CD, за да се четат директно,
+    без HDL преобразуване
+  HINT_AUTODETECT_PS1APPS: Открива директно ELF файловете в папката APPS и VCD файловете
+    в папката POPS
+  HINT_AUTO_MODE1: Режим 1 (точно четене) решава повечето проблеми със съвместимостта,
+    препоръчва се
+  HINT_CACHE_HDD_GAME_LIST: Кешът на списъка се използва от HDL формата за инсталиране
+    и не е нужен при директно четене на ISO
+  HINT_LASTPLAYED: При стартиране на OPL курсорът остава върху последната играна игра
+  HINT_COVERARTMODE: Режимът за съвместимост забавя силно зареждането на изображения,
+    препоръчва се режимът за производителност
+  HINT_AUTOREFRESH: OPL реагира в реално време при горещо включване на блокови устройства
+    като USB дискове
+  HINT_TXTRENAME: Създава txt файл, с който имената на игрите се съпоставят с произволен
+    текст
+  HINT_ENABLE_WRITE: Функцията за изтриване на OPL не е напълно безопасна, използвайте
+    я внимателно
+  HINT_THEME: Могат да се превключват две вградени теми. Поставете теми от трети страни
+    в папката THM
+  HINT_LANGUAGE: Поставете езиковите пакети на FGOPL в папката LNG, за да се поддържат
+    още езици
+  START_MODE_SETTINGS: Настройки на режима на стартиране
+  DEVICE_SWITCH: Превключватели на устройства (изключете неизползваните за по-бърз
+    старт)
+  APAISO: Директно ISO от HDD(APA)
+  AUTODETECT_PS1APPS: Автоматично откриване на APPS и PS1
+  AUTO_MODE1: Автоматично включване на режим 1 (по-добра съвместимост)
+  COVERART_BG_OFF: Фон изкл.
+  COVERART_BG_ON: Фон вкл.
+  COVERART_COV_OFF: Корица изкл.
+  COVERART_COV_ON: Корица вкл.
+  COVERART_ICO_OFF: Диск изкл.
+  COVERART_ICO_ON: Диск вкл.
+  COVERARTMODE_PERF: Производителност (само PNG)
+  COVERARTMODE_COMPAT: Съвместимост (JPG и PNG)
+  ART_RANDOM_OFF: Случайно изображение изкл.
+  ART_RANDOM_ON: Случайно изображение вкл.
+  CF_COVER_COUNT_1: 'Корици на екрана: 1'
+  CF_COVER_COUNT_3: 'Корици на екрана: 3'
+  CF_COVER_COUNT_5: 'Корици на екрана: 5'
+  CF_COVER_COUNT_7: 'Корици на екрана: 7'
+  CF_COVER_COUNT_9: 'Корици на екрана: 9'
+  GSM_VMODE_480I_NORMAL: 480i нормален (за CRT)
+  GSM_VMODE_480I_SHRINK: 480i свит (разтяга се до 4:3 на съвременни телевизори)
+  DMA_UDMA4_DEFAULT: UDMA 4 по подразбиране
+  DMA_UDMA5_HIGHEST: UDMA 5 текущ максимум на HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 текущ максимум на HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 текущ максимум на HDD
+  DMA_UDMA7_EXTREME: UDMA 7 екстремен
+  DMA_HDD_ONLY: <само HDD>
+  CHEAT_TOGGLE_ALL: Избор/отмяна на всички
+  CHEAT_SAVE_AND_RUN: Запазване и стартиране
+  THEME_COVERFLOW: Вградена тема Coverflow
+  THEME_LIST: Вградена тема списък
+  MSG_DEVICE_DETECT_TIMEOUT: Времето за откриване на %s изтече. Проблем със съвместимостта
+    на устройството.
+  MSG_TXT_CREATED: txt файлът е създаден!
+  MSG_TXT_REBUILT: txt файлът е създаден отново!
+  MSG_HDD_EXFAT_HINT: Вътрешният HDD е exFAT. Активирайте HDD(exFAT) в настройките
+    на BDM.
+  MSG_HDD_APA_HINT: Вътрешният HDD е APA. Активирайте режима на стартиране HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Вашият HDD има смесени дялове. Да се активира ли този режим
+    въпреки това?
+  MSG_LIST_SEPARATOR: ', '

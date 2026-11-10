@@ -8,21 +8,15 @@ translations:
   NETCONFIG: Netwerkconfiguratie
   SHOW_ADVANCED_OPTS: Geavanceerde opties
   NO_ITEMS: <geen waarde>
-  SETTINGS_SAVED:
-  - untranslated
-  - original: Settings saved to %s
+  SETTINGS_SAVED: Instellingen opgeslagen in %s
   ERROR_SAVING_SETTINGS: Fout bij schrijven van instellingen!
   EXIT: Sluiten
   SETTINGS: Instellingen
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: BDM Spellen
   HDD_GAMES: HDD Spellen
   NET_GAMES: ETH Spellen
-  APPS:
-  - untranslated
-  - original: Apps
+  APPS: APPS & PS1
   THEME: Thema's
   LANGUAGE: Taal
   CONFIRMATION_POFF: Het systeem zal worden uitgeschakeld.
@@ -41,18 +35,14 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Geen netwerkconnectie'
   'ON': Aan
   'OFF': Uit
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Select.
   CANCEL: Annuleer
   CIRCLE: Cirkel
   CROSS: Kruis
   GAMES_LIST: Spellenlijst
   COMPAT_SETTINGS: Spelinstellingen
-  REMOVE_ALL_SETTINGS:
-  - untranslated
-  - original: Remove Settings
+  REMOVE_ALL_SETTINGS: Instellingen verwijderen
   SCROLLING: Scrollen
   SLOW: Langzaam
   MEDIUM: Normaal
@@ -63,32 +53,22 @@ translations:
   ERROR_LOADING_ID: Fout tijdens laden van Spel ID
   AUTOSORT: Automatisch sorteren
   ERR_LOADING_LANGFILE: Fout bij laden van taalbestand
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Debugkleuren
   NO_CONTROLLER: Geen controller gedetecteerd, wachtend…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Coverart
   WIDE_SCREEN: Breedbeeld
   POWEROFF: Uitschakelen
   LOADING_SETTINGS: Configuratie laden
   SAVING_SETTINGS: Configuratie opslaan
   START_DEVICE: Start apparaat
   REFRESH: Vernieuwen
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: BDM-startmodus
   HDDMODE: HDD-apparaat startmodus
   ETHMODE: ETH-apparaat startmodus
   APPMODE: Applicaties startmodus
-  AUTO:
-  - untranslated
-  - original: Auto
+  AUTO: Auto
   MANUAL: Handmatig
-  STARTNBD:
-  - untranslated
-  - original: Start NBD Server
+  STARTNBD: NBD-server starten
   STARTINGNBD: NBD Server starten…
   RUNNINGNBD: NBD Server uitgevoerd…
   STARTFAILNBD: Mislukt om NBD Server te starten.
@@ -96,53 +76,36 @@ translations:
   EXITTO: IGR pad
   BGCOLOR: Achtergrondkleur
   TXTCOLOR: Tekstkleur
-  CAT_SMB_SERVER:
-  - untranslated
-  - original: '- SMB Server -'
+  CAT_SMB_SERVER: '- SMB-server -'
   IP_ADDRESS_TYPE: IP-adres type
   IP_ADDRESS_TYPE_STATIC: Statisch
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP-adres
   ADDRESS: Adres
-  MASK:
-  - untranslated
-  - original: Mask
-  GATEWAY:
-  - untranslated
-  - original: Gateway
-  DNS_SERVER:
-  - untranslated
-  - original: DNS Server
+  MASK: Masker
+  GATEWAY: Gateway
+  DNS_SERVER: DNS-server
   PORT: Poort
   SHARE: Deel
   USER: Gebruiker
   PASSWORD: Wachtwoord
   NOT_SET: <niet ingesteld>
   ADDRESS_TYPE: Adrestype
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Accepteer
   DELETE_WARNING: Item zal permanent verwijdert worden, doorgaan?
   RENAME: Wijzig naam
   DELETE: Verwijder
   RUN: Uitvoeren
   GFX_SETTINGS: Beeldinstellingen
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: Schrijfbewerkingen
   LASTPLAYED: Herinner laatst gespeelde spel
   SELECTBUTTON: Selecteerknop
-  ERR_FRAGMENTED: Foutmelding, het spel is gefragmenteerd
+  ERR_FRAGMENTED: Het huidige spel heeft %d fragmenten. Defragmenteer het en probeer
+    het opnieuw.
   ERR_FILE_INVALID: Foutmelding, kan het item niet uitvoeren
-  TEST:
-  - untranslated
-  - original: Test Changes
+  TEST: Wijzigingen testen
   HINT_GUEST: Laat leeg voor GUEST auth.
   HINT_MODE1: Accurate reads
   HINT_MODE2: Synchrone modus
@@ -152,31 +115,23 @@ translations:
   HINT_MODE6: IGR uitschakelen
   HINT_VMC_SIZE: Het wijzigen van de grootte zal VMC formatteren
   CREATE: Creëer
-  START:
-  - untranslated
-  - original: Start
+  START: Start
   MODIFY: Aanpassen
   ABORT: Afbreken
-  RESET:
-  - untranslated
-  - original: Reset
+  RESET: Resetten
   USE_GENERIC: Gebruik generieke
   VMC_SCREEN: Configureer VMC
   VMC_NAME: Naam
   SIZE: Groote
-  VMC_STATUS:
-  - untranslated
-  - original: Status
+  VMC_STATUS: Status
   VMC_PROGRESS: Voortgang
   VMC_FILE_EXISTS: VMC-bestand bestaat
   VMC_FILE_ERROR: Ongeldige VMC-bestand, grootte is incorrect
   VMC_FILE_NEW: VMC-bestand moet gecreëerd worden
   ERR_VMC_CONTINUE: Fout met VMC %s, voorzetten met fysieke MC (slot %d)?
-  AUTOREFRESH: Automatisch vernieuwen
+  AUTOREFRESH: Hotplug-detectie
   ABOUT: Over
-  DEVS:
-  - untranslated
-  - original: Coders
+  DEVS: Programmeurs
   QANDA: Kwaliteitsgarantie
   BDM_PREFIX: BDM-prefix pad
   HINT_EXITPATH: Start aangepaste ELF na een IGR
@@ -185,38 +140,22 @@ translations:
   VMODE: Videomodus
   UICOLOR: Dialoogvensterkleur
   SELCOLOR: Geselecteerde kleur
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
-  INFO:
-  - untranslated
-  - original: Info
+  RESETCOLOR: Kleuren resetten
+  INFO: Info
   ALTSTARTUP: Aangepaste ELF
   COLOR_SELECTION: Kleurselectie
   RECONNECT: Opnieuw verbinden
   HINT_SHARENAME: Laat leeg om het gedeelde in te lijsten
   ETH_PREFIX: ETH-prefix pad
-  BACKSPACE:
-  - untranslated
-  - original: Backspace
-  SPACE:
-  - untranslated
-  - original: Space
-  ENTER:
-  - untranslated
-  - original: Enter
+  BACKSPACE: Backspace
+  SPACE: Spatie
+  ENTER: Enter
   MODE: Modus
-  VMC_SLOT1:
-  - untranslated
-  - original: VMC Slot 1
-  VMC_SLOT2:
-  - untranslated
-  - original: VMC Slot 2
+  VMC_SLOT1: VMC-sleuf 1
+  VMC_SLOT2: VMC-sleuf 2
   GAME_ID: Spel ID
   DMA_MODE: DMA Modus
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Modus 1
   MODE2: Modus 2
   MODE3: Modus 3
@@ -230,29 +169,19 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: GSM instellingen
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM-selector
   HINT_ENABLEGSM: Schakelt GSM AAN of UIT
   HINT_GSMVMODE: Geforceerde aangepast beeldschermmodus
-  XOFFSET:
-  - untranslated
-  - original: H-POS
+  XOFFSET: H-POS
   HINT_XOFFSET: Horizontale aanpassing
-  YOFFSET:
-  - untranslated
-  - original: V-POS
+  YOFFSET: V-POS
   HINT_YOFFSET: Verticale aanpassing
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan aanpassing
   GSMSKIPVIDEOS: FMV overslaan
   HINT_GSMSKIPVIDEOS: Slaat Full Motion Videos over
   CHEAT_SETTINGS: Cheat instellingen
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD-cheatengine
   HINT_ENABLECHEAT: Laat PS2RD Cheat Engine uw spellen patchen
   CHEATMODE: PS2RD Cheat Engine Modus
   HINT_CHEATMODE: Auto-selecteer of selecteer spelcheats
@@ -262,9 +191,7 @@ translations:
   NO_CHEATS_FOUND: Geen cheats gevonden
   DL_DEFAULTS: Download standaardwaarden
   NET_UPDATE: Netwerkupdate
-  NET_UPDATE_ALL:
-  - untranslated
-  - original: Overwrite Existing Records
+  NET_UPDATE_ALL: Bestaande records overschrijven
   NET_UPDATE_FAILED: Update mislukt.
   NET_UPDATE_CONN_FAILED: Mislukt om te verbinden met update server.
   NET_UPDATE_DONE: Update voltooid.
@@ -279,27 +206,17 @@ translations:
   HINT_PS2LOGO: Alleen getoond voor geldige schijflogo die bij de console-regio past
   PADEMUCONFIG: Configureer PADEMU
   PADEMU_SETTINGS: Pad-emulator instellingen
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Pad-emulator
   HINT_PADEMU_ENABLE: Schakelt Pad-emulator in/uit voor geselecteerde spel
   PADEMU_MODE: Pad-emulator modus
   HINT_PADEMU_MODE: Selecteer Pad-emulator modus.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Instellingen voor poort:'
   HINT_PAD_PORT: Selecteer Pad-emulator poort voor instellingen.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Emulatie
   HINT_PADEMU_PORT: Schakelt Pad-emulator in/uit voor geselecteerde poort.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Trilling
   HINT_PADEMU_VIB: Schakelt vibratie in/uit voor Pad-emulator geselecteerde poort.
   USBDG_MAC: 'USB-bluetoothadapter mac-adres:'
   PAD_MAC: 'DS-controller gepaard met mac-adres:'
@@ -309,270 +226,189 @@ translations:
   NOT_CONNECTED: Niet verbonden
   BTINFO: Bluetooth adapter information
   HINT_BTINFO: Shows more information and supported features
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
-  MANUFACTURER:
-  - untranslated
-  - original: 'Manufacturer ID:'
+  HCIVER: 'HCI-versie:'
+  LMPVER: 'LMP-versie:'
+  MANUFACTURER: 'Fabrikant-ID:'
   SUPFEATURES: 'Support features:'
-  'YES':
-  - untranslated
-  - original: 'Yes'
-  'NO':
-  - untranslated
-  - original: 'No'
-  BT_SUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter should be fully compatible with DS3/DS4 controllers.
-  BT_NOTSUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter may not work correctly with DS3/DS4 controllers.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
-  HINT_MTAP_ENABLE:
-  - untranslated
-  - original: Turns on/off Multitap emulation for selected game.
+  'YES': Ja
+  'NO': Nee
+  BT_SUPPORTED: De Bluetooth-adapter zou volledig compatibel moeten zijn met DS3-/DS4-controllers.
+  BT_NOTSUPPORTED: De Bluetooth-adapter werkt mogelijk niet correct met DS3-/DS4-controllers.
+  MTAP_ENABLE: Multitap-emulatie
+  HINT_MTAP_ENABLE: Schakelt Multitap-emulatie voor het geselecteerde spel in of uit.
   MTAP_PORT: Multitap emulator on port
-  HINT_MTAP_PORT:
-  - untranslated
-  - original: Select port for Multitap emulation.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  HINT_MTAP_PORT: Selecteer de poort voor Multitap-emulatie.
+  PADEMU_WORKAROUND: Workaround voor nep-DS3
+  HINT_PADEMU_WORKAROUND: Sommige nep-DS3's hebben een workaround nodig; deze optie
+    schakelt die in.
   GSM_FIELD_FIX: Emulate FIELD flipping
-  HINT_GSM_FIELD_FIX:
-  - untranslated
-  - original: Fix for games that glitch under progressive video modes.
-  PARENLOCKCONFIG:
-  - untranslated
-  - original: Parental Lock Settings
-  PARENLOCK_PASSWORD:
-  - untranslated
-  - original: Parental Lock Password
-  PARENLOCK_PASSWORD_HINT:
-  - untranslated
-  - original: Leave blank to disable the parental lock.
-  PARENLOCK_ENTER_PASSWORD_TITLE:
-  - untranslated
-  - original: Enter Parental Lock Password
-  PARENLOCK_PASSWORD_INCORRECT:
-  - untranslated
-  - original: Parental lock password incorrect.
-  PARENLOCK_DISABLE_WARNING:
-  - untranslated
-  - original: Parental lock disabled.
-  BUILD_DETAILS:
-  - untranslated
-  - original: 'Build Options:'
-  PARENLOCK_INVALID_PASSWORD:
-  - untranslated
-  - original: Error - this password cannot be used.
-  ERR_VMC_FRAGMENTED_CONTINUE:
-  - untranslated
-  - original: VMC %s file is fragmented. Continue with Memory Card in slot %d?
-  AUDIO_SETTINGS:
-  - untranslated
-  - original: Audio Settings
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
-  SFX_VOLUME:
-  - untranslated
-  - original: Sound Effects Volume
-  BOOT_SND_VOLUME:
-  - untranslated
-  - original: Boot Sound Volume
-  CFM_VMODE_CHG:
-  - untranslated
-  - original: Confirm video mode change?
-  CACHE_HDD_GAME_LIST:
-  - untranslated
-  - original: Cache Game List (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
-  GAME_SETTINGS_SAVED:
-  - untranslated
-  - original: Game settings saved.
-  GAME_SETTINGS_REMOVED:
-  - untranslated
-  - original: '%s settings removed.'
-  NET_UPDATE_HINT:
-  - untranslated
-  - original: Overwrites existing game compatibility settings when enabled.
-  SETTINGS_SOURCE:
-  - untranslated
-  - original: Settings Mode
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
-  PERGAME_SETTINGS:
-  - untranslated
-  - original: Per Game
-  ALL_SETTINGS:
-  - untranslated
-  - original: All
-  GAME_SETTINGS_PROMPT:
-  - untranslated
-  - original: Select settings to remove.
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  HINT_GSM_FIELD_FIX: Correctie voor spellen die storingen vertonen in progressieve
+    videomodi.
+  PARENLOCKCONFIG: Instellingen voor ouderlijk slot
+  PARENLOCK_PASSWORD: Wachtwoord voor ouderlijk slot
+  PARENLOCK_PASSWORD_HINT: Laat leeg om het ouderlijk slot uit te schakelen.
+  PARENLOCK_ENTER_PASSWORD_TITLE: Voer het wachtwoord voor het ouderlijk slot in
+  PARENLOCK_PASSWORD_INCORRECT: Wachtwoord voor ouderlijk slot onjuist.
+  PARENLOCK_DISABLE_WARNING: Ouderlijk slot uitgeschakeld.
+  BUILD_DETAILS: 'Build-opties:'
+  PARENLOCK_INVALID_PASSWORD: 'Fout: dit wachtwoord kan niet worden gebruikt.'
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC-bestand %s is gefragmenteerd. Doorgaan met de Memory
+    Card in sleuf %d?
+  AUDIO_SETTINGS: Audio-instellingen
+  SFX: Geluidseffecten
+  BOOT_SND: Opstartgeluid
+  SFX_VOLUME: Volume geluidseffecten
+  BOOT_SND_VOLUME: Volume opstartgeluid
+  CFM_VMODE_CHG: Videomoduswijziging bevestigen?
+  CACHE_HDD_GAME_LIST: Spellenlijst cachen (HDD)
+  ENABLE_NOTIFICATIONS: Meldingen
+  CFG_NOTIFICATION: Configuratie geladen van %s
+  THM_NOTIFICATION: Thema geladen van %s
+  LNG_NOTIFICATION: Taal geladen van %s
+  PARTITION_NOTIFICATION: Partitie %s aangekoppeld.
+  OPTIONS: Opties
+  GAME_SETTINGS_SAVED: Spelinstellingen opgeslagen.
+  GAME_SETTINGS_REMOVED: '%s-instellingen verwijderd.'
+  NET_UPDATE_HINT: Overschrijft bestaande compatibiliteitsinstellingen van spellen
+    wanneer ingeschakeld.
+  SETTINGS_SOURCE: Instellingenmodus
+  GLOBAL_SETTINGS: Globaal
+  PERGAME_SETTINGS: Per spel
+  ALL_SETTINGS: Alles
+  GAME_SETTINGS_PROMPT: Selecteer te verwijderen instellingen.
+  FORUM_DETAILS: 'Ondersteuningsforums:'
+  INFO_TITLE: Titel
+  INFO_GENRE: Genre
+  INFO_RELEASE: Uitgave
+  INFO_DEVELOPER: Ontwikkelaar
+  INFO_DESCRIPTION: Beschrijving
+  BLOCKDEVICE_SETTINGS: BDM-apparaten
+  CONTROLLER_SETTINGS: Controllerinstellingen
+  HINT_BDM_START: Block Device Manager in- of uitschakelen.
+  HINT_BLOCK_DEVICES: BDM-apparaten in- of uitschakelen (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: USB-spellen
+  ILINK_GAMES: iLink-spellen
+  MX4SIO_GAMES: MX4SIO-spellen
+  PADMACROCONFIG: PADMACRO configureren
+  PADMACRO_SETTINGS: Instellingen voor padmacro's
+  PADMACRO_ENABLE: Padmacro's
+  PADMACRO_SLOWDOWN: 'Analoge vertraging:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Verkleint het bereik van de analoge stick wanneer de
+    knop wordt ingedrukt.
+  LEFT_ANALOG: Linker stick
+  RIGHT_ANALOG: Rechter stick
+  PADMACRO_INVERT_AXIS: 'Analoge as omkeren:'
+  HINT_PADMACRO_INVERT_AXIS: Keert de as van de geselecteerde analoge stick om.
+  TURBO_SPEED: Turboknopsnelheid
+  HINT_TURBO_SPEED: Hoe snel de knop wordt ingedrukt wanneer turbo actief is.
+  ACT_WHILE_PRESSED: Terwijl knop is ingedrukt
+  ACT_TOGGLED: Omschakelen met knop
+  LANGUAGE_JAPANESE: Japans
+  LANGUAGE_ENGLISH: Engels
+  LANGUAGE_FRENCH: Frans
+  LANGUAGE_SPANISH: Spaans
+  LANGUAGE_GERMAN: Duits
+  LANGUAGE_ITALIAN: Italiaans
+  LANGUAGE_DUTCH: Nederlands
+  LANGUAGE_PORTUGUESE: Portugees
+  LANGUAGE_RUSSIAN: Russisch
+  LANGUAGE_KOREAN: Koreaans
+  LANGUAGE_TRAD_CHINESE: Traditioneel Chinees
+  LANGUAGE_SIMPL_CHINESE: Vereenvoudigd Chinees
+  OSD_SETTINGS: OSD-instellingen
+  OSD_SETTINGS_LNG: OSD-taal
+  HINT_OSD_SETTINGS_LNG: Een aangepaste taalconfiguratie afdwingen
+  ENABLE_LNG: Inschakelen
+  OSD_SETTINGS_TVASPECT: Schermgrootte
+  FULL_SCREEN: Volledig scherm
+  OSD_SETTINGS_VMODE: Videomodus
+  SYSTEM_DEFAULT: Systeemstandaard
+  BGM: Achtergrondmuziek
+  BGM_VOLUME: Volume achtergrondmuziek
+  DEF_BGM_PATH: Aangepaste achtergrondmuziek
+  DEF_BGM_PATH_HINT: Pad naar een aangepast ogg-bestand; laat leeg om de ingebouwde
+    BGM van het thema af te spelen
+  HIGH: Hoog
+  LOW: Laag
+  XSENSITIVITY: Gevoeligheid analoge X-as
+  YSENSITIVITY: Gevoeligheid analoge Y-as
+  FILE_COUNT: 'Bestanden gevonden: %i'
+  CHEAT_SELECTION: Cheatselectie
+  HDD_HINT: Slechts één HDD toegestaan; inschakelen vergrendelt APA of GPT.
+  TXTRENAME: TXT-toewijzingslijst
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL-bijdragers (pagina 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Namen wachten op bevestiging
+  ABOUT_ORIGINAL_CONTRIBUTORS: Officiële OPL-bijdragers (pagina 2/2)
+  ABOUT_NEXT_PAGE: Volgende pagina
+  ABOUT_PREVIOUS_PAGE: Vorige pagina
+  HINT_DMA_MODE: HDD-overdrachtsmodus, hoger is sneller (modus 1 moet uit staan)
+  HINT_DMA_SOURCE: Globaal toepassen, of alleen op het huidige spel
+  HINT_CF_COUNT: Wijzig het aantal covers op het scherm. Als het stroef aanvoelt,
+    verlaag het aantal.
+  BGM_SEARCH: Zoek ogg-bestand
+  HINT_BGM_SEARCH: Zoek in de hoofdmap van gestarte apparaten naar een ogg-bestand
+    en vul het pad hierboven in
+  BGM_NOT_FOUND: Geen ogg-bestand gevonden
+  ARTPACK: Ondersteuning voor OPLM-artpack (directe covers)
+  HINT_ARTPACK: Plaats het OPLM_ART-zippakket (niet uitpakken) rechtstreeks in ART2
+  HINT_ART_RANDOM: Achtergronden en schermafbeeldingen wisselen willekeurig (alleen
+    zip-artpack)
+  HINT_APAISO: Kopieer ISO's naar +OPL/DVD of CD om ze rechtstreeks te lezen, zonder
+    HDL-conversie
+  HINT_AUTODETECT_PS1APPS: Detecteert rechtstreeks ELF-bestanden in de map APPS en
+    VCD's in de map POPS
+  HINT_AUTO_MODE1: Modus 1 (nauwkeurig lezen) lost de meeste compatibiliteitsproblemen
+    op, aanbevolen
+  HINT_CACHE_HDD_GAME_LIST: De lijstcache wordt gebruikt door het HDL-installatieformaat
+    en is niet nodig bij het rechtstreeks lezen van ISO's
+  HINT_LASTPLAYED: Als OPL start, blijft de cursor op het laatst gespeelde spel staan
+  HINT_COVERARTMODE: De compatibiliteitsmodus vertraagt het laden van afbeeldingen
+    sterk, de prestatiemodus wordt aanbevolen
+  HINT_AUTOREFRESH: OPL reageert in realtime wanneer blokapparaten zoals USB-schijven
+    hot-plug worden aangesloten
+  HINT_TXTRENAME: Maakt een txt-bestand aan dat spelnamen aan willekeurige tekst koppelt
+  HINT_ENABLE_WRITE: De verwijderfunctie van OPL is niet volledig veilig, gebruik
+    deze voorzichtig
+  HINT_THEME: Er kan tussen twee ingebouwde thema's worden geschakeld. Plaats thema's
+    van derden in de map THM
+  HINT_LANGUAGE: Plaats FGOPL-taalpakketten in de map LNG om meer talen te ondersteunen
+  START_MODE_SETTINGS: Instellingen startmodus
+  DEVICE_SWITCH: Apparaatschakelaars (schakel ongebruikte apparaten uit voor snellere
+    start)
+  APAISO: Direct ISO vanaf HDD(APA)
+  AUTODETECT_PS1APPS: APPS en PS1 automatisch detecteren
+  AUTO_MODE1: Modus 1 automatisch inschakelen (betere compatibiliteit)
+  COVERART_BG_OFF: Achtergrond uit
+  COVERART_BG_ON: Achtergrond aan
+  COVERART_COV_OFF: Cover uit
+  COVERART_COV_ON: Cover aan
+  COVERART_ICO_OFF: Schijf uit
+  COVERART_ICO_ON: Schijf aan
+  COVERARTMODE_PERF: Prestaties (alleen PNG)
+  COVERARTMODE_COMPAT: Compatibiliteit (JPG en PNG)
+  ART_RANDOM_OFF: Willekeurige art uit
+  ART_RANDOM_ON: Willekeurige art aan
+  CF_COVER_COUNT_1: 'Covers op het scherm: 1'
+  CF_COVER_COUNT_3: 'Covers op het scherm: 3'
+  CF_COVER_COUNT_5: 'Covers op het scherm: 5'
+  CF_COVER_COUNT_7: 'Covers op het scherm: 7'
+  CF_COVER_COUNT_9: 'Covers op het scherm: 9'
+  GSM_VMODE_480I_NORMAL: 480i normaal (voor CRT)
+  GSM_VMODE_480I_SHRINK: 480i verkleind (wordt naar 4:3 uitgerekt op moderne tv's)
+  DMA_UDMA4_DEFAULT: UDMA 4 standaard
+  DMA_UDMA5_HIGHEST: UDMA 5 huidig HDD-maximum
+  DMA_UDMA6_HIGHEST: UDMA 6 huidig HDD-maximum
+  DMA_UDMA7_HIGHEST: UDMA 7 huidig HDD-maximum
+  DMA_UDMA7_EXTREME: UDMA 7 extreem
+  DMA_HDD_ONLY: <alleen HDD>
+  CHEAT_TOGGLE_ALL: Alles selecteren/deselecteren
+  CHEAT_SAVE_AND_RUN: Opslaan en starten
+  THEME_COVERFLOW: Ingebouwd Coverflow-thema
+  THEME_LIST: Ingebouwd lijstthema
+  MSG_DEVICE_DETECT_TIMEOUT: Detectie van %s is verlopen. Probleem met apparaatcompatibiliteit.
+  MSG_TXT_CREATED: Het txt-bestand is aangemaakt!
+  MSG_TXT_REBUILT: Het txt-bestand is opnieuw opgebouwd!
+  MSG_HDD_EXFAT_HINT: De interne HDD is exFAT. Schakel HDD(exFAT) in bij de BDM-instellingen.
+  MSG_HDD_APA_HINT: De interne HDD is APA. Schakel de startmodus HDD(APA) in.
+  MSG_HDD_MIXED_CONFIRM: Je HDD heeft gemengde partities. Deze modus toch inschakelen?
+  MSG_LIST_SEPARATOR: ', '

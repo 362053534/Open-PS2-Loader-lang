@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDMゲーム
   HDD_GAMES: HDDゲーム
   NET_GAMES: ETHゲーム
-  APPS: アプリ
+  APPS: APPS & PS1
   THEME: テーマ
   LANGUAGE: 言語
   CONFIRMATION_POFF: システムを終了し電源を切ります
@@ -78,12 +78,8 @@ translations:
   TXTCOLOR: 文字色
   CAT_SMB_SERVER: '- SMBサーバー -'
   IP_ADDRESS_TYPE: IPアドレスタイプ
-  IP_ADDRESS_TYPE_STATIC:
-  - untranslated
-  - original: Static
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_STATIC: 静的
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IPアドレス
   ADDRESS: アドレス
   MASK: マスク
@@ -95,12 +91,8 @@ translations:
   PASSWORD: パスワード
   NOT_SET: <未設定>
   ADDRESS_TYPE: アドレスタイプ
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: 分かった
   DELETE_WARNING: 削除すると二度と元に戻せません。よろしいですか？
   RENAME: 名前を変更
@@ -110,7 +102,7 @@ translations:
   ENABLE_WRITE: 書き込み操作
   LASTPLAYED: 最後にプレイしたゲームを記憶する
   SELECTBUTTON: セレクトボタン
-  ERR_FRAGMENTED: ゲームがデフラグされていません
+  ERR_FRAGMENTED: 現在のゲームは%d個の断片に分かれています。デフラグしてから再試行してください。
   ERR_FILE_INVALID: ゲーム（アプリ）を開始出来ませんでした
   TEST: テストの変更
   HINT_GUEST: GUESTでログインする場合は空欄
@@ -136,7 +128,7 @@ translations:
   VMC_FILE_ERROR: VMCファイルのサイズが正しくありません
   VMC_FILE_NEW: VMCファイル未作成
   ERR_VMC_CONTINUE: VMC %s でエラー。スロット %d のメモリカードを使いますか？
-  AUTOREFRESH: 自動リフレッシュ
+  AUTOREFRESH: ホットプラグ検出
   ABOUT: OPLについて
   DEVS: コーディング
   QANDA: QAテスター
@@ -257,7 +249,7 @@ translations:
   PARENLOCK_DISABLE_WARNING: パレンタルロックは無効です
   BUILD_DETAILS: ビルドオプション：
   PARENLOCK_INVALID_PASSWORD: エラー - このパスワードは使用できません
-  ERR_VMC_FRAGMENTED_CONTINUE: VMC ％s ファイルは破損しています。 スロット ％d のメモリカードに保存しますか？
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s ファイルは破損しています。 スロット %d のメモリカードに保存しますか？
   AUDIO_SETTINGS: オーディオ設定
   SFX: 効果音
   BOOT_SND: 起動音
@@ -319,16 +311,85 @@ translations:
   LANGUAGE_SIMPL_CHINESE: 簡体字中国語
   OSD_SETTINGS: OSD設定
   OSD_SETTINGS_LNG: OSD言語
+  HINT_OSD_SETTINGS_LNG: 言語設定を強制的に変更します
   ENABLE_LNG: 言語を変更
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  OSD_SETTINGS_TVASPECT: 画面サイズ
+  FULL_SCREEN: フルスクリーン
+  OSD_SETTINGS_VMODE: 映像モード
+  SYSTEM_DEFAULT: システムデフォルト
+  BGM: 背景音楽
+  BGM_VOLUME: 背景音楽の音量
+  DEF_BGM_PATH: カスタム背景音楽
+  DEF_BGM_PATH_HINT: カスタムoggファイルのパス。空欄のままにするとテーマ内蔵のBGMを再生します
+  HIGH: 高
+  LOW: 低
+  XSENSITIVITY: アナログX軸の感度
+  YSENSITIVITY: アナログY軸の感度
+  FILE_COUNT: '見つかったファイル: %i'
+  CHEAT_SELECTION: チートの選択
+  HDD_HINT: HDDは1台のみ使用できます。有効にするとAPAまたはGPTがロックされます。
+  TXTRENAME: TXT割り当てリスト
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL貢献者（1/2ページ）
+  ABOUT_CONTRIBUTORS_PENDING: 氏名は確認待ちです
+  ABOUT_ORIGINAL_CONTRIBUTORS: 公式OPL貢献者（2/2ページ）
+  ABOUT_NEXT_PAGE: 次のページ
+  ABOUT_PREVIOUS_PAGE: 前のページ
+  HINT_DMA_MODE: HDD転送モード。数値が高いほど高速です（モード1をオフにする必要があります）
+  HINT_DMA_SOURCE: 全体に適用するか、現在のゲームのみに適用します
+  HINT_CF_COUNT: 画面上のカバー数を変更できます。動作が重いと感じたら数を減らしてください。
+  BGM_SEARCH: oggファイルを検索
+  HINT_BGM_SEARCH: 起動中のデバイスのルートからoggファイルを探し、上のパスに自動入力します
+  BGM_NOT_FOUND: oggファイルが見つかりません
+  ARTPACK: OPLMアートパック対応（画像を即座に表示）
+  HINT_ARTPACK: OPLM_ARTのzipパック（解凍しない）をART2にそのまま置いてください
+  HINT_ART_RANDOM: 背景とスクリーンショットがランダムに切り替わります（zipアートパック専用）
+  HINT_APAISO: ISOを+OPL/DVDまたはCDにコピーすれば直接読み込めます。HDL変換は不要です
+  HINT_AUTODETECT_PS1APPS: APPSフォルダ内のELFとPOPSフォルダ内のVCDを直接検出します
+  HINT_AUTO_MODE1: モード1（高精度読み取り）はほとんどの互換性問題を解決します。有効化を推奨します
+  HINT_CACHE_HDD_GAME_LIST: リストキャッシュはHDL導入形式で使います。ISOを直接読む場合は不要です
+  HINT_LASTPLAYED: OPL起動時、カーソルは最後にプレイしたゲームに留まります
+  HINT_COVERARTMODE: 互換モードは画像の読み込みを大幅に遅くします。パフォーマンスモードを推奨します
+  HINT_AUTOREFRESH: USBドライブなどのブロックデバイスをホットプラグすると、OPLがリアルタイムで応答します
+  HINT_TXTRENAME: ゲーム名を任意の文字に割り当てるためのtxtファイルを生成します
+  HINT_ENABLE_WRITE: OPLの削除機能は絶対に安全とは言えません。十分注意して使用してください
+  HINT_THEME: 内蔵テーマは2種類切り替えられます。サードパーティ製テーマはTHMフォルダに置いてください
+  HINT_LANGUAGE: より多くの言語に対応するには、FGOPL言語パックをLNGフォルダに置いてください
+  START_MODE_SETTINGS: 起動モード設定
+  DEVICE_SWITCH: デバイススイッチ（未使用のデバイスをオフにすると起動が速くなります）
+  APAISO: HDD(APA) ISO直接読み込み
+  AUTODETECT_PS1APPS: APPS & PS1 自動検出
+  AUTO_MODE1: モード1を自動で有効化（互換性向上）
+  COVERART_BG_OFF: 背景オフ
+  COVERART_BG_ON: 背景オン
+  COVERART_COV_OFF: カバーオフ
+  COVERART_COV_ON: カバーオン
+  COVERART_ICO_OFF: ディスクオフ
+  COVERART_ICO_ON: ディスクオン
+  COVERARTMODE_PERF: パフォーマンス（PNGのみ）
+  COVERARTMODE_COMPAT: 互換性（JPGとPNG）
+  ART_RANDOM_OFF: ランダム画像オフ
+  ART_RANDOM_ON: ランダム画像オン
+  CF_COVER_COUNT_1: '画面上のカバー数: 1'
+  CF_COVER_COUNT_3: '画面上のカバー数: 3'
+  CF_COVER_COUNT_5: '画面上のカバー数: 5'
+  CF_COVER_COUNT_7: '画面上のカバー数: 7'
+  CF_COVER_COUNT_9: '画面上のカバー数: 9'
+  GSM_VMODE_480I_NORMAL: 480i 通常（CRT向け）
+  GSM_VMODE_480I_SHRINK: 480i 縮小（現代のテレビでは4:3に横伸ばし可能）
+  DMA_UDMA4_DEFAULT: UDMA 4 デフォルト
+  DMA_UDMA5_HIGHEST: UDMA 5 現在のHDD最大
+  DMA_UDMA6_HIGHEST: UDMA 6 現在のHDD最大
+  DMA_UDMA7_HIGHEST: UDMA 7 現在のHDD最大
+  DMA_UDMA7_EXTREME: UDMA 7 エクストリーム
+  DMA_HDD_ONLY: <HDDのみ>
+  CHEAT_TOGGLE_ALL: すべて選択/解除
+  CHEAT_SAVE_AND_RUN: 保存して実行
+  THEME_COVERFLOW: 内蔵カバーフローテーマ
+  THEME_LIST: 内蔵リストテーマ
+  MSG_DEVICE_DETECT_TIMEOUT: '%sの検出がタイムアウトしました。デバイスの互換性に問題があります。'
+  MSG_TXT_CREATED: txtファイルを作成しました！
+  MSG_TXT_REBUILT: txtファイルを再構築しました！
+  MSG_HDD_EXFAT_HINT: 内蔵HDDはexFATです。BDM設定でHDD(exFAT)を有効にしてください。
+  MSG_HDD_APA_HINT: 内蔵HDDはAPAです。HDD(APA)起動モードを有効にしてください。
+  MSG_HDD_MIXED_CONFIRM: HDDは混合パーティションです。このモードを有効にしてもよろしいですか？
+  MSG_LIST_SEPARATOR: 、

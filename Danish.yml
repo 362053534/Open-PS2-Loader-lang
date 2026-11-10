@@ -12,13 +12,11 @@ translations:
   ERROR_SAVING_SETTINGS: Fejl ved lagering af indstillinger!
   EXIT: Afslut
   SETTINGS: Indstillinger
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: BDM-spil
   HDD_GAMES: HDD-spil
   NET_GAMES: ETH-spil
-  APPS: Programmer
+  APPS: APPS & PS1
   THEME: Tema
   LANGUAGE: Sprog
   CONFIRMATION_POFF: Systemet slukkes.
@@ -37,9 +35,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Ingen netværksforbindelse'
   'ON': Til
   'OFF': Fra
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Vælg
   CANCEL: Annuller
   CIRCLE: Cirkel
@@ -49,9 +45,7 @@ translations:
   REMOVE_ALL_SETTINGS: Fjern indstillinger
   SCROLLING: Scrolling
   SLOW: Langsom
-  MEDIUM:
-  - untranslated
-  - original: Medium
+  MEDIUM: Mellem
   FAST: Hurtig
   DEFDEVICE: Standardmenu
   LOAD_FROM_DISC: Indlæs fra disk
@@ -59,22 +53,16 @@ translations:
   ERROR_LOADING_ID: Fejl ved indlæsning af spil-ID
   AUTOSORT: Automatisk sortering
   ERR_LOADING_LANGFILE: Fejl ved indlæsning af sprogfil
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Fejlretningsfarver
   NO_CONTROLLER: Ingen controller registreret, venter…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Coverbilleder
   WIDE_SCREEN: Widescreen-format
   POWEROFF: Sluk
   LOADING_SETTINGS: Indlæser indstillinger
   SAVING_SETTINGS: Gemmer indstillinger
   START_DEVICE: Start enhed
   REFRESH: Genindlæs
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: BDM-starttilstand
   HDDMODE: HDD-enhed starttilstand
   ETHMODE: ETH-enhed starttilstand
   APPMODE: Programmenu starttilstand
@@ -91,42 +79,30 @@ translations:
   CAT_SMB_SERVER: '- SMB-server -'
   IP_ADDRESS_TYPE: IP-metode
   IP_ADDRESS_TYPE_STATIC: Statisk
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP-adresse
   ADDRESS: Adresse
   MASK: Undernetmaske
-  GATEWAY:
-  - untranslated
-  - original: Gateway
+  GATEWAY: Gateway
   DNS_SERVER: DNS-server
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Mappe
   USER: Brugernavn
   PASSWORD: Adgangskode
   NOT_SET: <ikke specificeret>
   ADDRESS_TYPE: Adressetype
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Acceptér
   DELETE_WARNING: Elementet vil slettets permanent, fortsæt?
   RENAME: Omdøb
   DELETE: Slet
   RUN: Kør
   GFX_SETTINGS: Skærmindstillinger
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: Skrivehandlinger
   LASTPLAYED: Husk sidst spillede spil
   SELECTBUTTON: Select-knap
-  ERR_FRAGMENTED: 'Fejl: spillet er fragmenteret'
+  ERR_FRAGMENTED: Det aktuelle spil har %d fragmenter. Defragmentér det og prøv igen.
   ERR_FILE_INVALID: 'Fejl: kunne ikke køre elementet'
   TEST: Test ændringer
   HINT_GUEST: Efterlad tom for gæstekonto
@@ -138,9 +114,7 @@ translations:
   HINT_MODE6: Deaktiver IGR
   HINT_VMC_SIZE: Ændring af størrelsen vil omformatere VMC
   CREATE: Opret
-  START:
-  - untranslated
-  - original: Start
+  START: Start
   MODIFY: Modificer
   ABORT: Afbryd
   RESET: Nulstil
@@ -148,15 +122,13 @@ translations:
   VMC_SCREEN: Konfigurér VMC
   VMC_NAME: Navn
   SIZE: Størrelse
-  VMC_STATUS:
-  - untranslated
-  - original: Status
+  VMC_STATUS: Status
   VMC_PROGRESS: Fremskridt
   VMC_FILE_EXISTS: VMC-fil eksisterer allerede
   VMC_FILE_ERROR: Ugyldig VMC-fil, størrelse er ukorrekt
   VMC_FILE_NEW: VMC-fil skal oprettes
   ERR_VMC_CONTINUE: Fejl med VMC %s, fortsæt med fysisk MC (port %d)?
-  AUTOREFRESH: Automatisk opdatering
+  AUTOREFRESH: Hotplug-detektion
   ABOUT: Om
   DEVS: Kodere
   QANDA: Kvalitetstestere
@@ -168,9 +140,7 @@ translations:
   UICOLOR: Dialogfarve
   SELCOLOR: Markeringsfarve
   RESETCOLOR: Gendan farver
-  INFO:
-  - untranslated
-  - original: Info
+  INFO: Info
   ALTSTARTUP: Brugerdefineret ELF
   COLOR_SELECTION: Farvevalg
   RECONNECT: Genopret forbindelse
@@ -184,27 +154,13 @@ translations:
   VMC_SLOT2: VMC-port 2
   GAME_ID: Spil-ID
   DMA_MODE: DMA-tilstand
-  VSYNC:
-  - untranslated
-  - original: V-Sync
-  MODE1:
-  - untranslated
-  - original: Mode 1
-  MODE2:
-  - untranslated
-  - original: Mode 2
-  MODE3:
-  - untranslated
-  - original: Mode 3
-  MODE4:
-  - untranslated
-  - original: Mode 4
-  MODE5:
-  - untranslated
-  - original: Mode 5
-  MODE6:
-  - untranslated
-  - original: Mode 6
+  VSYNC: V-Sync
+  MODE1: Tilstand 1
+  MODE2: Tilstand 2
+  MODE3: Tilstand 3
+  MODE4: Tilstand 4
+  MODE5: Tilstand 5
+  MODE6: Tilstand 6
   GSCONFIG: Konfigurér GSM
   ETH_OPMODE: Ethernet-hastighed og duplex
   ETH_100MFDX: 100Mbit full-duplex
@@ -212,25 +168,19 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: GSM-indstillinger
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM-vælger
   HINT_ENABLEGSM: Slå GSM til eller fra
   HINT_GSMVMODE: Tvungen brugerdefineret skærmtilstand
   XOFFSET: Horisontal position
   HINT_XOFFSET: Horisontal justering
   YOFFSET: Vertikal position
   HINT_YOFFSET: Vertikal justering
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan-justering
   GSMSKIPVIDEOS: Vis ikke FMV
   HINT_GSMSKIPVIDEOS: Springer over Full Motion-videoer
   CHEAT_SETTINGS: Snydeindstillinger
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD snydemotor
   HINT_ENABLECHEAT: Tillad PS2RD Cheat Engine at patche dine spil
   CHEATMODE: PS2RD Cheat Engine-tilstand
   HINT_CHEATMODE: Auto-vælg eller Vælg spilsnydekoder
@@ -255,27 +205,17 @@ translations:
   HINT_PS2LOGO: Vises kun med et gyldigt disklogo, som matcher konsollens region
   PADEMUCONFIG: Konfigurér PADEMU
   PADEMU_SETTINGS: Pad Emulator-indstillinger
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Pad-emulator
   HINT_PADEMU_ENABLE: Slå Pad Emulator Til/Fra for valgte spil.
   PADEMU_MODE: Pad Emulator-tilstand
   HINT_PADEMU_MODE: Vælg Pad Emulator-tilstand.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'indstillinger for port:'
   HINT_PAD_PORT: Vælg Pad Emulator-port for indstillinger.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Emulering
   HINT_PADEMU_PORT: Slå Pad Emulator Til/Fra for valgte port.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Vibration
   HINT_PADEMU_VIB: Slå vibration Til/Fra for valgte Pad Emulator-port.
   USBDG_MAC: 'USB-bluetooth adapter MAC-adresse:'
   PAD_MAC: 'DS controller parret med MAC-adresse:'
@@ -285,30 +225,21 @@ translations:
   NOT_CONNECTED: Ikke tilsluttet
   BTINFO: Bluetooth-adapteroplysninger
   HINT_BTINFO: Viser mere information og understøttede funktioner
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
+  HCIVER: 'HCI-version:'
+  LMPVER: 'LMP-version:'
   MANUFACTURER: 'Fabrikant ID:'
   SUPFEATURES: 'Understøttede funktioner:'
   'YES': Ja
   'NO': Nej
   BT_SUPPORTED: Bluetooth-adapter skal være fuldt kompatibel med DS3/DS4 controllere.
   BT_NOTSUPPORTED: Bluetooth-adapter fungerer muligvis ikke korrekt med DS3/DS4 controllere.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Multitap-emulering
   HINT_MTAP_ENABLE: Slå Multitap-emulering Til/Fra for valgte spil.
   MTAP_PORT: Multitap Emulator på port
   HINT_MTAP_PORT: Vælg port til Multitap-emulering.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: Omgåelse til falske DS3
+  HINT_PADEMU_WORKAROUND: Nogle falske DS3'ere har brug for en omgåelse; denne indstilling
+    aktiverer den.
   GSM_FIELD_FIX: Emuler FIELD flipping
   HINT_GSM_FIELD_FIX: Fikser spil der har fejl ved progressive video-tilstand.
   PARENLOCKCONFIG: Forældrelås-indstillinger
@@ -322,31 +253,17 @@ translations:
   ERR_VMC_FRAGMENTED_CONTINUE: VMC %s fil er fragmenteret. Fortsæt med Memory Card
     i indgang %d?
   AUDIO_SETTINGS: Lydindstillinger
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
+  SFX: Lydeffekter
+  BOOT_SND: Startlyd
   SFX_VOLUME: Lydeffekter-volumen
   BOOT_SND_VOLUME: Opstartslyd-volumen
   CFM_VMODE_CHG: Bekræft skift af videotilstand?
   CACHE_HDD_GAME_LIST: Cache spillisten (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
+  ENABLE_NOTIFICATIONS: Meddelelser
+  CFG_NOTIFICATION: Konfiguration indlæst fra %s
+  THM_NOTIFICATION: Tema indlæst fra %s
+  LNG_NOTIFICATION: Sprog indlæst fra %s
+  PARTITION_NOTIFICATION: Partitionen %s er monteret.
   OPTIONS: Indstillinger
   GAME_SETTINGS_SAVED: Spilindstillinger gemt.
   GAME_SETTINGS_REMOVED: '%s indstillinger fjernet.'
@@ -359,124 +276,138 @@ translations:
   GAME_SETTINGS_PROMPT: Vælg indstiller der skal fjernes.
   FORUM_DETAILS: 'Supportfora:'
   INFO_TITLE: Titel
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
+  INFO_GENRE: Genre
   INFO_RELEASE: Udgivelse
   INFO_DEVELOPER: Udvikler
   INFO_DESCRIPTION: Beskrivelse
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
+  BLOCKDEVICE_SETTINGS: BDM-enheder
   CONTROLLER_SETTINGS: Controller-indstillinger
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  HINT_BDM_START: Slå Block Device Manager til/fra.
+  HINT_BLOCK_DEVICES: Slå BDM-enheder til/fra (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: USB-spil
+  ILINK_GAMES: iLink-spil
+  MX4SIO_GAMES: MX4SIO-spil
+  PADMACROCONFIG: Konfigurér PADMACRO
+  PADMACRO_SETTINGS: Indstillinger for pad-makroer
+  PADMACRO_ENABLE: Pad-makroer
+  PADMACRO_SLOWDOWN: 'Analog nedbremsning:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Reducerer analog-stickens rækkevidde, når knappen holdes
+    nede.
+  LEFT_ANALOG: Venstre stick
+  RIGHT_ANALOG: Højre stick
+  PADMACRO_INVERT_AXIS: 'Invertér analog akse:'
+  HINT_PADMACRO_INVERT_AXIS: Inverterer aksen på den valgte analog-stick.
+  TURBO_SPEED: Turbo-knaphastighed
+  HINT_TURBO_SPEED: Hvor hurtigt knappen trykkes, når turbo er aktiv.
+  ACT_WHILE_PRESSED: Mens knappen holdes nede
+  ACT_TOGGLED: Skiftes med knap
+  LANGUAGE_JAPANESE: Japansk
+  LANGUAGE_ENGLISH: Engelsk
+  LANGUAGE_FRENCH: Fransk
+  LANGUAGE_SPANISH: Spansk
+  LANGUAGE_GERMAN: Tysk
+  LANGUAGE_ITALIAN: Italiensk
+  LANGUAGE_DUTCH: Hollandsk
+  LANGUAGE_PORTUGUESE: Portugisisk
+  LANGUAGE_RUSSIAN: Russisk
+  LANGUAGE_KOREAN: Koreansk
+  LANGUAGE_TRAD_CHINESE: Traditionelt kinesisk
+  LANGUAGE_SIMPL_CHINESE: Forenklet kinesisk
+  OSD_SETTINGS: OSD-indstillinger
+  OSD_SETTINGS_LNG: OSD-sprog
+  HINT_OSD_SETTINGS_LNG: Gennemtving en tilpasset sprogkonfiguration
+  ENABLE_LNG: Aktivér
+  OSD_SETTINGS_TVASPECT: Skærmstørrelse
+  FULL_SCREEN: Fuld skærm
+  OSD_SETTINGS_VMODE: Videotilstand
+  SYSTEM_DEFAULT: Systemstandard
+  BGM: Baggrundsmusik
+  BGM_VOLUME: Baggrundsmusikvolumen
+  DEF_BGM_PATH: Brugerdefineret baggrundsmusik
+  DEF_BGM_PATH_HINT: Sti til brugerdefineret ogg-fil; lad feltet være tomt for at
+    afspille temaets indbyggede BGM
+  HIGH: Høj
+  LOW: Lav
+  XSENSITIVITY: Følsomhed for analog X-akse
+  YSENSITIVITY: Følsomhed for analog Y-akse
+  FILE_COUNT: 'Filer fundet: %i'
+  CHEAT_SELECTION: Valg af snydekoder
+  HDD_HINT: Kun én HDD er tilladt; aktivering låser APA eller GPT.
+  TXTRENAME: TXT-tilknytningsliste
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL-bidragydere (side 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Navne afventer bekræftelse
+  ABOUT_ORIGINAL_CONTRIBUTORS: Officielle OPL-bidragydere (side 2/2)
+  ABOUT_NEXT_PAGE: Næste side
+  ABOUT_PREVIOUS_PAGE: Forrige side
+  HINT_DMA_MODE: HDD-overførselstilstand, højere er hurtigere (kræver at tilstand
+    1 er slået fra)
+  HINT_DMA_SOURCE: Anvend globalt, eller kun på det aktuelle spil
+  HINT_CF_COUNT: Ændr antallet af covers på skærmen. Hvis det føles langsomt, så sænk
+    antallet.
+  BGM_SEARCH: Søg efter ogg-fil
+  HINT_BGM_SEARCH: Søg i roden af startede enheder efter en ogg-fil, og udfyld stien
+    ovenfor
+  BGM_NOT_FOUND: Ingen ogg-fil fundet
+  ARTPACK: Understøttelse af OPLM-billedpakke (øjeblikkelige covers)
+  HINT_ARTPACK: Læg zip-pakken OPLM_ART (uden at udpakke den) direkte i ART2
+  HINT_ART_RANDOM: Baggrunde og skærmbilleder skifter tilfældigt (kun zip-billedpakke)
+  HINT_APAISO: Kopiér ISO-filer til +OPL/DVD eller CD for at læse dem direkte uden
+    HDL-konvertering
+  HINT_AUTODETECT_PS1APPS: Finder ELF-filer i mappen APPS og VCD-filer i mappen POPS
+    direkte
+  HINT_AUTO_MODE1: Tilstand 1 (præcis læsning) løser de fleste kompatibilitetsproblemer,
+    anbefales
+  HINT_CACHE_HDD_GAME_LIST: Listens cache bruges af HDL-installationsformatet og er
+    unødvendig ved direkte læsning af ISO-filer
+  HINT_LASTPLAYED: Når OPL starter, bliver markøren stående på det sidst spillede
+    spil
+  HINT_COVERARTMODE: Kompatibilitetstilstanden gør billedindlæsning meget langsommere,
+    ydelsestilstand anbefales
+  HINT_AUTOREFRESH: OPL reagerer med det samme, når blokenheder som USB-drev tilsluttes
+    under drift
+  HINT_TXTRENAME: Opretter en txt-fil, der bruges til at knytte spilnavne til vilkårlig
+    tekst
+  HINT_ENABLE_WRITE: OPL's slettefunktion er ikke helt sikker, brug den med forsigtighed
+  HINT_THEME: Der kan skiftes mellem to indbyggede temaer. Læg tredjepartstemaer i
+    mappen THM
+  HINT_LANGUAGE: Læg FGOPL-sprogpakker i mappen LNG for at understøtte flere sprog
+  START_MODE_SETTINGS: Indstillinger for starttilstand
+  DEVICE_SWITCH: Enhedskontakter (slå ubrugte enheder fra for hurtigere start)
+  APAISO: Direkte ISO fra HDD(APA)
+  AUTODETECT_PS1APPS: Auto-registrering af APPS og PS1
+  AUTO_MODE1: Aktivér automatisk tilstand 1 (bedre kompatibilitet)
+  COVERART_BG_OFF: Baggrund fra
+  COVERART_BG_ON: Baggrund til
+  COVERART_COV_OFF: Cover fra
+  COVERART_COV_ON: Cover til
+  COVERART_ICO_OFF: Disk fra
+  COVERART_ICO_ON: Disk til
+  COVERARTMODE_PERF: Ydeevne (kun PNG)
+  COVERARTMODE_COMPAT: Kompatibilitet (JPG og PNG)
+  ART_RANDOM_OFF: Tilfældigt billede fra
+  ART_RANDOM_ON: Tilfældigt billede til
+  CF_COVER_COUNT_1: 'Cover på skærmen: 1'
+  CF_COVER_COUNT_3: 'Cover på skærmen: 3'
+  CF_COVER_COUNT_5: 'Cover på skærmen: 5'
+  CF_COVER_COUNT_7: 'Cover på skærmen: 7'
+  CF_COVER_COUNT_9: 'Cover på skærmen: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (til CRT)
+  GSM_VMODE_480I_SHRINK: 480i indskrænket (strækkes til 4:3 på moderne tv)
+  DMA_UDMA4_DEFAULT: UDMA 4 standard
+  DMA_UDMA5_HIGHEST: UDMA 5 aktuel HDD-maksimum
+  DMA_UDMA6_HIGHEST: UDMA 6 aktuel HDD-maksimum
+  DMA_UDMA7_HIGHEST: UDMA 7 aktuel HDD-maksimum
+  DMA_UDMA7_EXTREME: UDMA 7 ekstrem
+  DMA_HDD_ONLY: <kun HDD>
+  CHEAT_TOGGLE_ALL: Vælg/fravælg alle
+  CHEAT_SAVE_AND_RUN: Gem og kør
+  THEME_COVERFLOW: Indbygget Coverflow-tema
+  THEME_LIST: Indbygget listetema
+  MSG_DEVICE_DETECT_TIMEOUT: Registreringen af %s fik timeout. Enhedskompatibilitetsproblem.
+  MSG_TXT_CREATED: txt-filen er blevet oprettet!
+  MSG_TXT_REBUILT: txt-filen er blevet genopbygget!
+  MSG_HDD_EXFAT_HINT: Den interne HDD er exFAT. Aktivér HDD(exFAT) i BDM-indstillingerne.
+  MSG_HDD_APA_HINT: Den interne HDD er APA. Aktivér starttilstanden HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Din HDD har blandede partitioner. Aktivér denne tilstand
+    alligevel?
+  MSG_LIST_SEPARATOR: ', '

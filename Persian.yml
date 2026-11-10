@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM ﺑﺎزی ﻫﺎی
   HDD_GAMES: HDD ﺑﺎزی ﻫﺎی
   NET_GAMES: ETH ﺑﺎزی ﻫﺎی
-  APPS: ﺑﺮﻧﺎﻣﻪ ﻫﺎ
+  APPS: APPS & PS1
   THEME: ﭘﻮﺳﺘﻪ
   LANGUAGE: زﺑﺎن
   CONFIRMATION_POFF: آﯾﺎ ﻣﺎﯾﻞ ﺑﻪ ﺧﺎﻣﻮﺵ ﻛﺮﺩﻥ ﻛﻨﺴﻮﻝ ﻣﻴﺒﺎﺷﻴﺪ؟
@@ -53,22 +53,16 @@ translations:
   ERROR_LOADING_ID: در ﻫﻨﮕﺎم ﺑﺎرﮔﺬاری ﺷﻨﺎﺳﻪ ﺑﺎزی ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪه
   AUTOSORT: ﺗﺮﺗﻴﺐ دادن ﺧﻮدﻛﺎر
   ERR_LOADING_LANGFILE: درﻫﻨﮕﺎم ﺑﺎرﮔﺬاری ﻓﺎﻴﻞ زﺑﺎن ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪ
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: رنگ‌های اشکال‌زدایی
   NO_CONTROLLER: …ﻫﻴﭻ ﻛﻨﺘﺮﻟﺮی ﭘﻴﺪا ﻧﺸﺪ ﻣﻨﺘﻈﺮ ﺑﻤﺎﻧﻴﺪ
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: تصویر جلد
   WIDE_SCREEN: ﺻﻔﺤﻪ ﻛﺸﻴﺪه
   POWEROFF: ﺧﺎﻣﻮش ﻛﺮدن
   LOADING_SETTINGS: درﺣﺎل ﺑﺎرﮔﺬاری ﭘﻴﻜﺮﺑﻨﺪی
   SAVING_SETTINGS: درﺣﺎل ذﺧﻴﺮه ﭘﻴﻜﺮﺑﻨﺪی
   START_DEVICE: دﺳﺘﮕﺎه ﺷﺮوع ﻛﻨﻨﺪه
   REFRESH: ﺗﺎزه ﺳﺎزی
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: حالت شروع BDM
   HDDMODE: HDD ﺣﺎﻟﺖ ﺷﺮوع دﺳﺘﮕﺎه
   ETHMODE: ETH ﺣﺎﻟﺖ ﺷﺮوع دﺳﺘﮕﺎه
   APPMODE: ﻧﺸﺎن دادن ﻣﻨﻮ ﺑﺮﻧﺎﻣﻪ ﻫﺎ
@@ -85,9 +79,7 @@ translations:
   CAT_SMB_SERVER: '- SMB ﺳﺮور -'
   IP_ADDRESS_TYPE: ﻧﻮع آدرس آﻳﭙﻲ
   IP_ADDRESS_TYPE_STATIC: اﻳﺴﺘﺎ
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: آدرس آﻳﭙﻲ
   ADDRESS: آدرس
   MASK: ﭘﻮﺷﺶ
@@ -100,27 +92,22 @@ translations:
   NOT_SET: +ﺗﻌﻴﻴﻦ ﻧﺸﺪه+
   ADDRESS_TYPE: ﻧﻮع آدرس
   ADDR_TYPE_IP: آﻳﭙﻲ
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: ﭘﺬﻳﺮﻓﺘﻦ
   DELETE_WARNING: آﻳﺘﻢ ﺑﻄﻮر ﻛﺎﻣﻞ ﭘﺎک ﻣﻴﺸﻮد اداﻣﻪ ﻣﻴﺪﻫﻴﺪ؟
   RENAME: ﺗﻐﻴﻴﺮﻧﺎم
   DELETE: ﭘﺎک ﻛﺮدن
   RUN: اﺟﺮا
   GFX_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﻧﻤﺎﻳﺸﮕﺮ
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: عملیات نوشتن
   LASTPLAYED: ﺑﻪ ﻳﺎد داﺷﺘﻦ آﺧﺮﻳﻦ ﺑﺎزی اﻧﺟﺎم ﺷﺪه
   SELECTBUTTON: دﻛﻤﻪ ی اﻧﺘﺨﺎب
-  ERR_FRAGMENTED: ﻣﺸﻜﻠﻲ ﺑﻪ وﺟﻮد آﻣﺪه ﻓﺎﻳﻞ ﻫﺎی ﺑﺎزی ﺑﻪ ﻫﻢ رﻳﺨﺘﻪ اﺳﺖ
+  ERR_FRAGMENTED: بازی فعلی دارای %d قطعه است. آن را یکپارچه‌سازی کنید و دوباره تلاش
+    کنید.
   ERR_FILE_INVALID: ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪه اﺟﺮای آﻳﺘﻢ اﻣﻜﺎن ﭘﺬﻳﺮ ﻧﻴﺴﺖ
   TEST: ﺗﺴﺖ ﺗﻐﻴﺮﺍﺕ
   HINT_GUEST: ﺑﺮای ورود ﺑﻪ ﺻﻮرت ﻧﺎﺷﻨﺎس ﺧﺎﻟﻲ ﺑﮕﺬارﻳﺪ.
-  HINT_MODE1:
-  - untranslated
-  - original: Accurate Reads
+  HINT_MODE1: خواندن دقیق
   HINT_MODE2: Synchronous ﺣﺎﻟﺖ
   HINT_MODE3: Syscalls ﺑﺎزﻛﺮدن
   HINT_MODE4: رد ﻛﺮدن وﻳﺪﻳﻮ ﻫﺎ
@@ -141,9 +128,8 @@ translations:
   VMC_FILE_EXISTS: ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺟﺎزی ﻣﻮﺟﻮد اﺳﺖ
   VMC_FILE_ERROR: ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺟﺎزی ﻧﺎﻣﻌﺘﺒﺮ اﺳﺖ اﻧﺪازه درﺳﺖ ﻧﻴﺴﺖ
   VMC_FILE_NEW: ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺟﺎزی ﻧﻴﺎز ﺑﻪ ﺳﺎﺧﺘﻪ ﺷﺪن دارد
-  ERR_VMC_CONTINUE: اداﻣﻪ ﻣﻴﺪﻫﻴﺪ؟ %s ﻣﺸﻜﻠﻰ ﭘﻴﺶ ﺁﻣﺪه ﺑﺎ ﺣﺎﻓﻈﻪ ﻓﻴﺰﻳﻜﻰ درﮔﺎه %s در ﺩﺳﺘﺮﺳﻰ
-    ﺑﻪ ﺣﺎﻓﻈﻪ ﻣﺠﺎﺯﻯ
-  AUTOREFRESH: ﺗﺎزه ﺳﺎزی ﺧﻮدﻛﺎر
+  ERR_VMC_CONTINUE: خطا در دسترسی به VMC %s. با کارت حافظه در شکاف %d ادامه می‌دهید؟
+  AUTOREFRESH: تشخیص اتصال آنی
   ABOUT: درﺑﺎره
   DEVS: ﺑرﻧﺎﻣﻪ ﻧﻮﻳﺴﺎن
   QANDA: ﺗﺴﺖ ﻛﻴﻔﻴﺖ
@@ -169,9 +155,7 @@ translations:
   VMC_SLOT2: درﮔﺎه ﺣﺎﻓﻈﻪ ﻣﺟﺎزی 2
   GAME_ID: ﺷﻨﺎﺳﻪ ﺑﺎزی
   DMA_MODE: DMA ﺣﺎﻟﺖ
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: ﺣﺎﻟﺖ 1
   MODE2: ﺣﺎﻟﺖ 2
   MODE3: ﺣﺎﻟﺖ 3
@@ -185,9 +169,7 @@ translations:
   ETH_10MFDX: 10 ﻣﮕﺎﺑﻴﺖ ﻛﺎﻣﻠﺎ ﻣﻀﺎﻋﻒ
   ETH_10MHDX: 10 ﻣﮕﺎﺑﻴﺖ ﻧﻴﻤﻪ ﻣﻀﺎﻋﻒ
   GSM_SETTINGS: GSM ﺗﻨﻈﻴﻤﺎت
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: انتخابگر GSM
   HINT_ENABLEGSM: GSM روﺷﻦ ﻳﺎ ﺧﺎﻣﻮش ﻛﺮدن
   HINT_GSMVMODE: اﺟﺒﺎر ﺑﻪ ﻧﻤﺎﻳﺸﮕﺮ ﺳﻔﺎرﺷﻲ
   XOFFSET: H ﻣﻮﻘﻌﻴﺖ
@@ -199,9 +181,7 @@ translations:
   GSMSKIPVIDEOS: FMV ﭘﺮﻳﺪن از
   HINT_GSMSKIPVIDEOS: ﭘﺮﻳﺪن از ﻛﺎت ﺳﻴﻦ ﻫﺎ
   CHEAT_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﻛﺪ ﺗﻘﻠﺐ
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: موتور تقلب PS2RD
   HINT_ENABLECHEAT: ﺑﺎزی ﺷﻤﺎرا ﭘﭻ ﻛﻨﺪ PS2RD ﺑﮕﺬارﻳﺪ ﺗﺎ ﻣﻮﺗﻮر ﻛﺪ ﺗﻘﻠﺐ
   CHEATMODE: PS2RD ﺣﺎﻟﺖ ﻣﻮﺗﻮر ﻛﺪ ﺗﻘﻠﺐ
   HINT_CHEATMODE: اﻧﺘﺨﺎب ﺧﻮدﻛﺎر و ﻳﺎ اﻧﺘﺨﺎب دﺳﺘﻲ رﻣﺰ ﺗﻘﻠﺐ ﺑﺎزی
@@ -226,9 +206,7 @@ translations:
   HINT_PS2LOGO: ﺑﺮﺍﻯ ﺩﻳﺴﮏ ﻫﺎﻯ ﻣﻌﺘﺒﺮﻯ ﻛﻪ ﺑﺎ ﺭﻳﺠﻦ ﻛﻨﺴﻮﻝ ﻫﻤﺨﻮﺍﻧﻰ ﺩﺍﺭﻧﺪ ﻧﺸﺎﻥ ﺩﺍﺩﻩ ﻣﻰ ﺷﻮﺩ.
   PADEMUCONFIG: ﭘﻴﻜﺮﺑﻨﺪی ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ
   PADEMU_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: شبیه‌ساز دسته
   HINT_PADEMU_ENABLE: روﺷن و ﻳﺎ ﺧﺎﻣﻮش ﻛﺮدن ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ ﺑﺮای ﺑﺎزی ﻫﺎی اﻧﺘﺨﺎب ﺷﺪه.
   PADEMU_MODE: ﺣﺎﻟﺖ ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ
   HINT_PADEMU_MODE: اﻧﺘﺨﺎب ﺣﺎﻟﺖ ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ.
@@ -236,13 +214,9 @@ translations:
   DS34BT_MODE: ﻛﻨﺘﺮﻟﺮ ﭘﻠﻲ اﺳﺘﻴﺸﻦ 3/4 از ﻃﺮﻴﻖ ﺑﻠﻮﺗﻮث
   PADPORT: 'ﺗﻨﻈﻴﻤﺎت ﺑﺮای درﮔﺎه:'
   HINT_PAD_PORT: درﮔﺎه ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ را ﺑﺮای ﺗﻨﻈﻴﻤﺎت اﻧﺘﺨﺎب ﻛﻨﻴﺪ.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: شبیه‌سازی
   HINT_PADEMU_PORT: روﺷﻦ و ﻳﺎ ﺧﺎﻣﻮش ﻛﺮدن ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ ﺑﺮای درﮔﺎه ﻫﺎی اﻧﺘﺨﺎب ﺷﺪه.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: لرزش
   HINT_PADEMU_VIB: ﻓﻌﺎل ﻳﺎ ﻏﻴﺮﻓﻌﺎل ﻛﺮدن وﻳﺒﺮه ی ﺷﺒﻴﻪ ﺳﺎز ﻛﻨﺘﺮﻟﺮ ﺑﺮای دﺮﮔﺎه ﻫﺎی اﻧﺘﺨﺎب
     ﺷﺪه.
   USBDG_MAC: :USB ﻣﮏ آدرس آداﭘﺘﻮر ﺑﻠﻮﺗﻮث
@@ -262,19 +236,14 @@ translations:
   BT_SUPPORTED: .آداﭘﺘﻮر ﺑﻠﻮﺗﻮث ﺑﺎﻳﺪ ﺑﻪ ﺻﻮرت ﻛﺎﻣﻞ ﺑﺎ ﻛﻨﺘﺮﻟﺮ ﻫﺎی ﭘﻠﻲ اﺳﺘﻴﺸﻦ 3 و 4 ﺳﺎزﮔﺎر
     ﺑﺎﺷﺪ
   BT_NOTSUPPORTED: .آداﭘﺘﻮر ﺑﻠﻮﺗﻮث ﺷﺎﻳﺪ ﺑﺎ ﻛﻨﺘﺮﻟﺮ ﻫﺎی ﭘﻠﻲ اﺳﺘﻴﺸﻦ 3 و4 ﻛﺎر ﻧﻜﻨﺪ
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: شبیه‌سازی Multitap
   HINT_MTAP_ENABLE: .روﺷﻦ و ﻳﺎ ﺧﺎﻣﻮش ﻛﺮدن ﺷﺒﻴﻪ ﺳﺎزی ﻓﺸﺮدن ﻫﻤﺰﻣﺎن ﭼﻨﺪ ﻛﻠﻴﺪ ﺑﺮای ﺑﺎزی
     ﻫﺎی اﻧﺘﺨﺎب ﺷﺪه
   MTAP_PORT: ﺷﺒﻴﻪ ﺳﺎزی ﻓﺸﺮدن ﻫﻤﺰﻣﺎن ﭼﻨﺪ ﻛﻠﻴﺪ در درﮔﺎه
   HINT_MTAP_PORT: .اﻧﺘﺨﺎب درﮔﺎه ﺑﺮای ﺷﺒﻴﻪ ﺳﺎزی ﻓﺸﺮدن ﻫﻤﺰﻣﺎن ﭼﻨﺪ ﻛﻠﻴﺪ
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: راه‌حل موقت برای DS3 تقلبی
+  HINT_PADEMU_WORKAROUND: برخی DS3های تقلبی به راه‌حل موقت نیاز دارند؛ این گزینه آن
+    را فعال می‌کند.
   GSM_FIELD_FIX: FIELD flipping ﺷﺒﻴﻪ ﺳﺎزی
   HINT_GSM_FIELD_FIX: .ﮔﻠﻴﭻ دارﻧﺪ progressive درﺳﺖ ﻛﺮدن ﺑﺎزی ﻫﺎیی ﻛﻪ در ﺣﺎﻟﺖ وﻳﺪﻳﻮ
   PARENLOCKCONFIG: ﺗﻨﻈﻴﻤﺎت ﻗﻔﻞ واﻟﺪﻳﻦ
@@ -285,39 +254,23 @@ translations:
   PARENLOCK_DISABLE_WARNING: .ﻗﻔﻞ واﻟﺪﻳﻦ ﻏﻴﺮﻓﻌﺎل ﺷﺪ
   BUILD_DETAILS: :ﮔﺰﻳﻨﻪ ﻫﺎی ﺳﺎﺧﺖ
   PARENLOCK_INVALID_PASSWORD: .ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪه - اﻳﻦ رﻣﺰ ﻋﺒﻮر ﻧﻤﻴﺘﻮاﻧﺪ اﺳﺘﻔﺎده ﺷﻮد
-  ERR_VMC_FRAGMENTED_CONTINUE: ؟ %d دﭼﺎر ﺑﻬﻢ رﻳﺨﺘﮕﻲ ﺷﺪه اﺳﺖ. اداﻣﻪ ﺑﺎ ﺣﺎﻓﻈﻪ ی ﻓﻴﺰﻳﻜﻲ
-    درﮔﺎه %s ﻓﺎﻳﻞ ﺣﺎﻓﻈﻪ ﻣﺠﺎزی
+  ERR_VMC_FRAGMENTED_CONTINUE: پرونده VMC %s تکه‌تکه است. با کارت حافظه در شکاف %d
+    ادامه می‌دهید؟
   AUDIO_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﺻﺪا
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
+  SFX: جلوه‌های صوتی
+  BOOT_SND: صدای راه‌اندازی
   SFX_VOLUME: درﺟﻪ ﺻﺪا ﺟﻠﻮه ﻫﺎی ﺻﻮﺗﻲ
   BOOT_SND_VOLUME: درﺟﻪ ی ﺻﺪای ﺑﻮت
   CFM_VMODE_CHG: ﺗﻐﻴﻴﺮ ﺣﺎﻟﺖ وﻳﺪﻳﻮ را ﺗﺎﻳﻴﺪ ﻣﻴﻜﻨﻴﺪ؟
   CACHE_HDD_GAME_LIST: (HDD) ﻛﺶ ﻓﻬﺮﺳﺖ ﺑﺎزی ﻫﺎ
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
+  ENABLE_NOTIFICATIONS: اعلان‌ها
+  CFG_NOTIFICATION: پیکربندی از %s بارگذاری شد
+  THM_NOTIFICATION: پوسته از %s بارگذاری شد
+  LNG_NOTIFICATION: زبان از %s بارگذاری شد
+  PARTITION_NOTIFICATION: پارتیشن %s سوار شد.
+  OPTIONS: گزینه‌ها
   GAME_SETTINGS_SAVED: ﺗﻨﻈﻴﻤﺎﺕ ﺑﺎﺯﻯ ﺫﺧﻴﺮﻩ ﺷﺪ
-  GAME_SETTINGS_REMOVED: '%s ﭘﺎﮎ ﺷﺪ %s ﺗﻨﻈﻴﻤﺎﺕ'
+  GAME_SETTINGS_REMOVED: تنظیمات %s حذف شد.
   NET_UPDATE_HINT: ﺭﻭ ﻧﻮﻳﺴﻰ ﺗﻨﻈﻴﻤﺎﺕ ﺳﺎﺯﮔﺎﺭ ﺑﺎ ﺑﺎﺯﻯ ﻫﻨﮕﺎﻢ ﻓﻌﺎﻝ ﺑﻮﺩﻥ
   SETTINGS_SOURCE: ﺣﺎﻟﺖ ﺗﻨﻈﻴﻤﺎﺕ
   GLOBAL_SETTINGS: ﺳﺮﺍﺭﻯ
@@ -330,120 +283,136 @@ translations:
   INFO_RELEASE: ﺗﺎﺭﻳﺦ ﻋﺮﺿﻪ
   INFO_DEVELOPER: ﺳﺎﺯﻧﺪﻩ
   INFO_DESCRIPTION: ﺗﻮﺿﻴﺤﺎﺕ
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  BLOCKDEVICE_SETTINGS: دستگاه‌های BDM
+  CONTROLLER_SETTINGS: تنظیمات دسته
+  HINT_BDM_START: مدیر دستگاه‌های بلوکی را روشن یا خاموش کنید.
+  HINT_BLOCK_DEVICES: دستگاه‌های BDM را روشن یا خاموش کنید (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: بازی‌های USB
+  ILINK_GAMES: بازی‌های iLink
+  MX4SIO_GAMES: بازی‌های MX4SIO
+  PADMACROCONFIG: پیکربندی PADMACRO
+  PADMACRO_SETTINGS: تنظیمات ماکروی دسته
+  PADMACRO_ENABLE: ماکروهای دسته
+  PADMACRO_SLOWDOWN: 'کند کردن آنالوگ:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: هنگام فشردن دکمه، دامنهٔ آنالوگ‌استیک را کم می‌کند.
+  LEFT_ANALOG: استیک چپ
+  RIGHT_ANALOG: استیک راست
+  PADMACRO_INVERT_AXIS: 'وارونه کردن محور آنالوگ:'
+  HINT_PADMACRO_INVERT_AXIS: محور آنالوگ‌استیک انتخاب‌شده را وارونه می‌کند.
+  TURBO_SPEED: سرعت دکمه توربو
+  HINT_TURBO_SPEED: وقتی توربو فعال است، دکمه با چه سرعتی فشرده می‌شود.
+  ACT_WHILE_PRESSED: تا وقتی دکمه فشرده است
+  ACT_TOGGLED: با دکمه روشن/خاموش می‌شود
+  LANGUAGE_JAPANESE: ژاپنی
+  LANGUAGE_ENGLISH: انگلیسی
+  LANGUAGE_FRENCH: فرانسوی
+  LANGUAGE_SPANISH: اسپانیایی
+  LANGUAGE_GERMAN: آلمانی
+  LANGUAGE_ITALIAN: ایتالیایی
+  LANGUAGE_DUTCH: هلندی
+  LANGUAGE_PORTUGUESE: پرتغالی
+  LANGUAGE_RUSSIAN: روسی
+  LANGUAGE_KOREAN: کره‌ای
+  LANGUAGE_TRAD_CHINESE: چینی سنتی
+  LANGUAGE_SIMPL_CHINESE: چینی ساده‌شده
+  OSD_SETTINGS: تنظیمات OSD
+  OSD_SETTINGS_LNG: زبان OSD
+  HINT_OSD_SETTINGS_LNG: یک پیکربندی زبان سفارشی را اجبار کنید
+  ENABLE_LNG: فعال‌سازی
+  OSD_SETTINGS_TVASPECT: اندازه صفحه
+  FULL_SCREEN: تمام‌صفحه
+  OSD_SETTINGS_VMODE: حالت ویدیو
+  SYSTEM_DEFAULT: پیش‌فرض سیستم
+  BGM: موسیقی زمینه
+  BGM_VOLUME: صدای موسیقی زمینه
+  DEF_BGM_PATH: موسیقی زمینه سفارشی
+  DEF_BGM_PATH_HINT: مسیر پرونده ogg سفارشی؛ برای پخش موسیقی زمینه داخلی پوسته خالی
+    بگذارید
+  HIGH: زیاد
+  LOW: کم
+  XSENSITIVITY: حساسیت محور X آنالوگ
+  YSENSITIVITY: حساسیت محور Y آنالوگ
+  FILE_COUNT: 'پرونده‌های یافت‌شده: %i'
+  CHEAT_SELECTION: انتخاب تقلب
+  HDD_HINT: فقط یک هارددیسک مجاز است؛ با فعال‌سازی، APA یا GPT قفل می‌شود.
+  TXTRENAME: فهرست نگاشت TXT
+  ABOUT_CHINESE_CONTRIBUTORS: مشارکت‌کنندگان FGOPL (صفحه ۱/۲)
+  ABOUT_CONTRIBUTORS_PENDING: نام‌ها در انتظار تأیید
+  ABOUT_ORIGINAL_CONTRIBUTORS: مشارکت‌کنندگان رسمی OPL (صفحه ۲/۲)
+  ABOUT_NEXT_PAGE: صفحه بعد
+  ABOUT_PREVIOUS_PAGE: صفحه قبل
+  HINT_DMA_MODE: حالت انتقال هارددیسک؛ مقدار بالاتر سریع‌تر است (حالت ۱ باید خاموش
+    باشد)
+  HINT_DMA_SOURCE: به‌صورت سراسری اعمال شود، یا فقط برای بازی فعلی
+  HINT_CF_COUNT: تعداد جلدهای روی صفحه را تغییر دهید. اگر کند به نظر می‌رسد، عدد را
+    کم کنید.
+  BGM_SEARCH: جستجوی پرونده ogg
+  HINT_BGM_SEARCH: در ریشه دستگاه‌های راه‌اندازی‌شده به‌دنبال پرونده ogg بگردید و
+    مسیر بالا را پر کنید
+  BGM_NOT_FOUND: پرونده ogg پیدا نشد
+  ARTPACK: پشتیبانی از بسته تصاویر OPLM (نمایش فوری)
+  HINT_ARTPACK: بستهٔ زیپ OPLM_ART را (بدون استخراج) مستقیماً در ART2 قرار دهید
+  HINT_ART_RANDOM: پس‌زمینه‌ها و نماگرفت‌ها به‌طور تصادفی عوض می‌شوند (فقط بستهٔ زیپ
+    تصاویر)
+  HINT_APAISO: پرونده‌های ISO را در +OPL/DVD یا CD کپی کنید تا مستقیم خوانده شوند؛
+    نیازی به تبدیل HDL نیست
+  HINT_AUTODETECT_PS1APPS: پرونده‌های ELF در پوشهٔ APPS و VCD در پوشهٔ POPS را مستقیم
+    شناسایی می‌کند
+  HINT_AUTO_MODE1: حالت ۱ (خواندن دقیق) بیشتر مشکلات سازگاری را برطرف می‌کند و توصیه
+    می‌شود
+  HINT_CACHE_HDD_GAME_LIST: حافظهٔ موقت فهرست برای قالب نصب HDL است و هنگام خواندن
+    مستقیم ISO لازم نیست
+  HINT_LASTPLAYED: هنگام شروع OPL، مکان‌نما روی آخرین بازی انجام‌شده می‌ماند
+  HINT_COVERARTMODE: حالت سازگاری بارگذاری تصاویر را بسیار کند می‌کند؛ حالت عملکرد
+    توصیه می‌شود
+  HINT_AUTOREFRESH: وقتی دستگاه‌های بلوکی مانند حافظهٔ USB در حال کار وصل شوند، OPL
+    بی‌درنگ واکنش نشان می‌دهد
+  HINT_TXTRENAME: یک پرونده txt می‌سازد که نام بازی‌ها را به هر متنی نگاشت می‌کند
+  HINT_ENABLE_WRITE: عملکرد حذف OPL کاملاً ایمن نیست، لطفاً با احتیاط از آن استفاده
+    کنید
+  HINT_THEME: دو پوستهٔ داخلی قابل تعویض است. پوسته‌های شخص ثالث را در پوشهٔ THM قرار
+    دهید
+  HINT_LANGUAGE: برای پشتیبانی از زبان‌های بیشتر، بسته‌های زبان FGOPL را در پوشهٔ
+    LNG قرار دهید
+  START_MODE_SETTINGS: تنظیمات حالت شروع
+  DEVICE_SWITCH: کلیدهای دستگاه (دستگاه‌های بلااستفاده را برای راه‌اندازی سریع‌تر
+    خاموش کنید)
+  APAISO: ISO مستقیم HDD(APA)
+  AUTODETECT_PS1APPS: تشخیص خودکار APPS و PS1
+  AUTO_MODE1: فعال‌سازی خودکار حالت ۱ (سازگاری بهتر)
+  COVERART_BG_OFF: پس‌زمینه خاموش
+  COVERART_BG_ON: پس‌زمینه روشن
+  COVERART_COV_OFF: جلد خاموش
+  COVERART_COV_ON: جلد روشن
+  COVERART_ICO_OFF: دیسک خاموش
+  COVERART_ICO_ON: دیسک روشن
+  COVERARTMODE_PERF: عملکرد (فقط PNG)
+  COVERARTMODE_COMPAT: سازگاری (JPG و PNG)
+  ART_RANDOM_OFF: تصویر تصادفی خاموش
+  ART_RANDOM_ON: تصویر تصادفی روشن
+  CF_COVER_COUNT_1: 'تعداد جلد روی صفحه: 1'
+  CF_COVER_COUNT_3: 'تعداد جلد روی صفحه: 3'
+  CF_COVER_COUNT_5: 'تعداد جلد روی صفحه: 5'
+  CF_COVER_COUNT_7: 'تعداد جلد روی صفحه: 7'
+  CF_COVER_COUNT_9: 'تعداد جلد روی صفحه: 9'
+  GSM_VMODE_480I_NORMAL: 480i معمولی (برای CRT)
+  GSM_VMODE_480I_SHRINK: 480i فشرده (در تلویزیون‌های امروزی تا ۴:۳ کشیده می‌شود)
+  DMA_UDMA4_DEFAULT: UDMA 4 پیش‌فرض
+  DMA_UDMA5_HIGHEST: UDMA 5 حداکثر فعلی هارددیسک
+  DMA_UDMA6_HIGHEST: UDMA 6 حداکثر فعلی هارددیسک
+  DMA_UDMA7_HIGHEST: UDMA 7 حداکثر فعلی هارددیسک
+  DMA_UDMA7_EXTREME: UDMA 7 بسیار بالا
+  DMA_HDD_ONLY: <فقط HDD>
+  CHEAT_TOGGLE_ALL: انتخاب/لغو انتخاب همه
+  CHEAT_SAVE_AND_RUN: ذخیره و اجرا
+  THEME_COVERFLOW: پوسته داخلی Coverflow
+  THEME_LIST: پوسته داخلی فهرستی
+  MSG_DEVICE_DETECT_TIMEOUT: مهلت شناسایی %s تمام شد. مشکل سازگاری دستگاه.
+  MSG_TXT_CREATED: پرونده txt ایجاد شد!
+  MSG_TXT_REBUILT: پرونده txt بازسازی شد!
+  MSG_HDD_EXFAT_HINT: هارددیسک داخلی exFAT است. در تنظیمات BDM گزینه HDD(exFAT) را
+    فعال کنید.
+  MSG_HDD_APA_HINT: هارددیسک داخلی APA است. حالت شروع HDD(APA) را فعال کنید.
+  MSG_HDD_MIXED_CONFIRM: هارددیسک شما پارتیشن‌های ترکیبی دارد. با این حال این حالت
+    فعال شود؟
+  MSG_LIST_SEPARATOR: '، '

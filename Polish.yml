@@ -12,13 +12,11 @@ translations:
   ERROR_SAVING_SETTINGS: Błąd zapisu ustawień!
   EXIT: Wyjdź
   SETTINGS: Ustawienia
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: Gry BDM
   HDD_GAMES: Gry HDD
   NET_GAMES: Gry ETH
-  APPS: Aplikacje
+  APPS: APPS & PS1
   THEME: Motyw
   LANGUAGE: Język
   CONFIRMATION_POFF: System zostanie wyłączony.
@@ -37,9 +35,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Brak połączenia sieciowego.'
   'ON': Włącz
   'OFF': Wyłącz
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Wybierz
   CANCEL: Anuluj
   CIRCLE: O
@@ -83,28 +79,20 @@ translations:
   CAT_SMB_SERVER: '- Serwer SMB -'
   IP_ADDRESS_TYPE: Typ Adresu IP
   IP_ADDRESS_TYPE_STATIC: Statyczny
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: Adres IP
   ADDRESS: Adres
   MASK: Maska
   GATEWAY: Brama
   DNS_SERVER: Serwer DNS
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Udostępniany Folder
   USER: Użytkownik
   PASSWORD: Hasło
   NOT_SET: <nie ustawiono>
   ADDRESS_TYPE: Typ Adresu
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Akceptuj
   DELETE_WARNING: Element zostanie trwale usunięty, kontynuować?
   RENAME: Zmień Nazwę
@@ -114,7 +102,7 @@ translations:
   ENABLE_WRITE: Operacja Zapisu
   LASTPLAYED: Zapamiętaj Ostatnio Uruchomioną Grę
   SELECTBUTTON: Przycisk Wyboru
-  ERR_FRAGMENTED: Błąd, gra jest pofragmentowana.
+  ERR_FRAGMENTED: Bieżąca gra ma %d fragmentów. Zdefragmentuj ją i spróbuj ponownie.
   ERR_FILE_INVALID: Błąd, nie można uruchomić pozycji.
   TEST: Testuj Zmiany
   HINT_GUEST: Pozostaw puste dla "GOŚCIA".
@@ -126,28 +114,22 @@ translations:
   HINT_MODE6: Wyłącz IGR
   HINT_VMC_SIZE: Zmiana rozmiaru spowoduje przeformatowanie VMC.
   CREATE: Utwórz
-  START:
-  - untranslated
-  - original: Start
+  START: Start
   MODIFY: Modyfikuj
   ABORT: Przerwij
-  RESET:
-  - untranslated
-  - original: Reset
+  RESET: Resetuj
   USE_GENERIC: Użyj Ogólnie
   VMC_SCREEN: Konfiguruj VMC
   VMC_NAME: Nazwa
   SIZE: Rozmiar
-  VMC_STATUS:
-  - untranslated
-  - original: Status
+  VMC_STATUS: Status
   VMC_PROGRESS: Postęp
   VMC_FILE_EXISTS: Plik VMC istnieje.
   VMC_FILE_ERROR: Błędny plik VMC, nieprawidłowy rozmiar.
   VMC_FILE_NEW: Plik VMC musi zostać utworzony.
   ERR_VMC_CONTINUE: Błąd dostępu do VMC %s, kontynuuj z kartą pamięci w gnieździe
     %d?
-  AUTOREFRESH: Automatyczne Odświeżanie
+  AUTOREFRESH: Wykrywanie podłączania na gorąco
   ABOUT: O Programie
   DEVS: Programiści
   QANDA: Kontrola Jakości
@@ -167,17 +149,13 @@ translations:
   ETH_PREFIX: Prefix Ścieżki ETH
   BACKSPACE: Cofnij
   SPACE: Odstęp
-  ENTER:
-  - untranslated
-  - original: Enter
+  ENTER: Enter
   MODE: Tryb
   VMC_SLOT1: Gniazdo VMC 1
   VMC_SLOT2: Gniazdo VMC 2
   GAME_ID: Identyfikator Gry
   DMA_MODE: Tryb DMA
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Tryb 1
   MODE2: Tryb 2
   MODE3: Tryb 3
@@ -191,18 +169,14 @@ translations:
   ETH_10MFDX: 10Mbit Pełny-dupleks
   ETH_10MHDX: 10Mbit Pół-dupleks
   GSM_SETTINGS: Ustawienia GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: Selektor GSM
   HINT_ENABLEGSM: Włącz lub wyłącz GSM.
   HINT_GSMVMODE: Wymuś określony tryb wyświetlania.
   XOFFSET: Położenie Poziome
   HINT_XOFFSET: Regulacja w poziomie.
   YOFFSET: Położenie Pionowe
   HINT_YOFFSET: Regulacja w pionie.
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Regulacja overscanu.
   GSMSKIPVIDEOS: Pomiń FMV
   HINT_GSMSKIPVIDEOS: Pomija wstawki filmowe.
@@ -226,9 +200,7 @@ translations:
   CUSTOMIZED_SETTINGS: Dodatkowe Ustawienia
   DOWNLOADED_DEFAULTS: Pobrano domyślne.
   AUTO_START_IN_N_SECS: Auto start w %i s…
-  AUTOSTARTLAST:
-  - untranslated
-  - original: Auto Start
+  AUTOSTARTLAST: Autostart
   HINT_AUTOSTARTLAST: Wartość w sekundach, 0 wyłącza auto start.
   PS2LOGO: Logo PS2
   HINT_PS2LOGO: Logo zostanie wyświetlone wyłącznie jeśli region gry i konsoli będzie
@@ -239,12 +211,8 @@ translations:
   HINT_PADEMU_ENABLE: Włącza/wyłącza emulację Pada dla wybranej gry.
   PADEMU_MODE: Tryb Emulacji Pada
   HINT_PADEMU_MODE: Wybierz tryb emulacji Pada.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Ustawienia Portu:'
   HINT_PAD_PORT: Wybierz Port emulacji Pada dla ustawień.
   PADEMU_PORT: Emulacja
@@ -337,60 +305,115 @@ translations:
   HINT_TURBO_SPEED: Jak szybko naciskać przycisk kiedy turbo jest aktywne
   ACT_WHILE_PRESSED: Kiedy wciśnięty
   ACT_TOGGLED: Wciśnięcie przełącza
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  LANGUAGE_JAPANESE: Japoński
+  LANGUAGE_ENGLISH: Angielski
+  LANGUAGE_FRENCH: Francuski
+  LANGUAGE_SPANISH: Hiszpański
+  LANGUAGE_GERMAN: Niemiecki
+  LANGUAGE_ITALIAN: Włoski
+  LANGUAGE_DUTCH: Niderlandzki
+  LANGUAGE_PORTUGUESE: Portugalski
+  LANGUAGE_RUSSIAN: Rosyjski
+  LANGUAGE_KOREAN: Koreański
+  LANGUAGE_TRAD_CHINESE: Chiński tradycyjny
+  LANGUAGE_SIMPL_CHINESE: Chiński uproszczony
+  OSD_SETTINGS: Ustawienia OSD
+  OSD_SETTINGS_LNG: Język OSD
+  HINT_OSD_SETTINGS_LNG: Wymuś własne ustawienie języka
+  ENABLE_LNG: Włącz
+  OSD_SETTINGS_TVASPECT: Rozmiar ekranu
+  FULL_SCREEN: Pełny ekran
+  OSD_SETTINGS_VMODE: Tryb wideo
+  SYSTEM_DEFAULT: Domyślne ustawienie systemu
+  BGM: Muzyka tła
+  BGM_VOLUME: Głośność muzyki tła
+  DEF_BGM_PATH: Własna muzyka tła
+  DEF_BGM_PATH_HINT: Ścieżka własnego pliku ogg; pozostaw puste, aby odtworzyć wbudowaną
+    BGM motywu
+  HIGH: Wysoki
+  LOW: Niski
+  XSENSITIVITY: Czułość analogowej osi X
+  YSENSITIVITY: Czułość analogowej osi Y
+  FILE_COUNT: 'Znalezione pliki: %i'
+  CHEAT_SELECTION: Wybór kodów
+  HDD_HINT: Dozwolony jest tylko jeden HDD; włączenie blokuje APA lub GPT.
+  TXTRENAME: Lista mapowania TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Współtwórcy FGOPL (strona 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Nazwiska oczekują na potwierdzenie
+  ABOUT_ORIGINAL_CONTRIBUTORS: Oficjalni współtwórcy OPL (strona 2/2)
+  ABOUT_NEXT_PAGE: Następna strona
+  ABOUT_PREVIOUS_PAGE: Poprzednia strona
+  HINT_DMA_MODE: Tryb transferu HDD, wyższa wartość oznacza większą szybkość (wymaga
+    wyłączonego trybu 1)
+  HINT_DMA_SOURCE: Zastosuj globalnie albo tylko do bieżącej gry
+  HINT_CF_COUNT: Zmień liczbę okładek na ekranie. Jeśli działa wolno, zmniejsz tę
+    liczbę.
+  BGM_SEARCH: Szukaj pliku ogg
+  HINT_BGM_SEARCH: Szuka pliku ogg w katalogu głównym uruchomionych urządzeń i wypełnia
+    powyższą ścieżkę
+  BGM_NOT_FOUND: Nie znaleziono pliku ogg
+  ARTPACK: Obsługa paczki grafik OPLM (natychmiastowe okładki)
+  HINT_ARTPACK: Umieść paczkę zip OPLM_ART (bez rozpakowywania) bezpośrednio w ART2
+  HINT_ART_RANDOM: Tła i zrzuty ekranu zmieniają się losowo (tylko paczka grafik zip)
+  HINT_APAISO: Skopiuj pliki ISO do +OPL/DVD lub CD, aby czytać je bezpośrednio, bez
+    konwersji HDL
+  HINT_AUTODETECT_PS1APPS: Bezpośrednio wykrywa pliki ELF w folderze APPS oraz VCD
+    w folderze POPS
+  HINT_AUTO_MODE1: Tryb 1 (precyzyjny odczyt) rozwiązuje większość problemów ze zgodnością,
+    zalecany
+  HINT_CACHE_HDD_GAME_LIST: Pamięć podręczna listy jest używana przez format instalacji
+    HDL i nie jest potrzebna przy bezpośrednim odczycie ISO
+  HINT_LASTPLAYED: Po uruchomieniu OPL kursor pozostaje na ostatnio granej grze
+  HINT_COVERARTMODE: Tryb zgodności znacznie spowalnia wczytywanie obrazów, zalecany
+    jest tryb wydajności
+  HINT_AUTOREFRESH: OPL reaguje w czasie rzeczywistym, gdy urządzenia blokowe, na
+    przykład dyski USB, są podłączane w trakcie pracy
+  HINT_TXTRENAME: Tworzy plik txt służący do mapowania nazw gier na dowolny tekst
+  HINT_ENABLE_WRITE: Funkcja usuwania w OPL nie jest całkowicie bezpieczna, używaj
+    jej ostrożnie
+  HINT_THEME: Można przełączać dwie wbudowane motywy. Motywy innych autorów umieść
+    w folderze THM
+  HINT_LANGUAGE: Umieść pakiety językowe FGOPL w folderze LNG, aby obsługiwać więcej
+    języków
+  START_MODE_SETTINGS: Ustawienia trybu startu
+  DEVICE_SWITCH: Przełączniki urządzeń (wyłącz nieużywane, aby przyspieszyć start)
+  APAISO: Bezpośrednie ISO z HDD(APA)
+  AUTODETECT_PS1APPS: Automatyczne wykrywanie APPS i PS1
+  AUTO_MODE1: Automatycznie włącz tryb 1 (lepsza zgodność)
+  COVERART_BG_OFF: Tło wył.
+  COVERART_BG_ON: Tło wł.
+  COVERART_COV_OFF: Okładka wył.
+  COVERART_COV_ON: Okładka wł.
+  COVERART_ICO_OFF: Dysk wył.
+  COVERART_ICO_ON: Dysk wł.
+  COVERARTMODE_PERF: Wydajność (tylko PNG)
+  COVERARTMODE_COMPAT: Zgodność (JPG i PNG)
+  ART_RANDOM_OFF: Losowa grafika wył.
+  ART_RANDOM_ON: Losowa grafika wł.
+  CF_COVER_COUNT_1: 'Okładek na ekranie: 1'
+  CF_COVER_COUNT_3: 'Okładek na ekranie: 3'
+  CF_COVER_COUNT_5: 'Okładek na ekranie: 5'
+  CF_COVER_COUNT_7: 'Okładek na ekranie: 7'
+  CF_COVER_COUNT_9: 'Okładek na ekranie: 9'
+  GSM_VMODE_480I_NORMAL: 480i normalny (dla CRT)
+  GSM_VMODE_480I_SHRINK: 480i zwężony (na nowoczesnych telewizorach rozciągany do
+    4:3)
+  DMA_UDMA4_DEFAULT: UDMA 4 domyślny
+  DMA_UDMA5_HIGHEST: UDMA 5 bieżące maksimum HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 bieżące maksimum HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 bieżące maksimum HDD
+  DMA_UDMA7_EXTREME: UDMA 7 ekstremalny
+  DMA_HDD_ONLY: <tylko HDD>
+  CHEAT_TOGGLE_ALL: Zaznacz/odznacz wszystko
+  CHEAT_SAVE_AND_RUN: Zapisz i uruchom
+  THEME_COVERFLOW: Wbudowany motyw Coverflow
+  THEME_LIST: Wbudowany motyw listy
+  MSG_DEVICE_DETECT_TIMEOUT: Przekroczono limit czasu wykrywania %s. Problem ze zgodnością
+    urządzenia.
+  MSG_TXT_CREATED: Plik txt został utworzony!
+  MSG_TXT_REBUILT: Plik txt został odbudowany!
+  MSG_HDD_EXFAT_HINT: Wewnętrzny HDD jest w formacie exFAT. Włącz HDD(exFAT) w ustawieniach
+    BDM.
+  MSG_HDD_APA_HINT: Wewnętrzny HDD jest w formacie APA. Włącz tryb startu HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Twój HDD ma mieszane partycje. Włączyć ten tryb mimo to?
+  MSG_LIST_SEPARATOR: ', '

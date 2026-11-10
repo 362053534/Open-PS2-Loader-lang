@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM-Spiele
   HDD_GAMES: HDD-Spiele
   NET_GAMES: ETH-Spiele
-  APPS: Apps
+  APPS: APPS & PS1
   THEME: Theme
   LANGUAGE: Sprache
   CONFIRMATION_POFF: Das System wird nun heruntergefahren.
@@ -102,7 +102,8 @@ translations:
   ENABLE_WRITE: Schreibvorgänge
   LASTPLAYED: Letztes Spiel merken
   SELECTBUTTON: Select-Taste
-  ERR_FRAGMENTED: 'Fehler: Spiel fragmentiert!'
+  ERR_FRAGMENTED: Das aktuelle Spiel hat %d Fragmente. Defragmentiere es und versuche
+    es erneut.
   ERR_FILE_INVALID: 'Fehler: Objekt kann nicht ausgeführt werden!'
   TEST: Änderungen testen
   HINT_GUEST: Leer = Anmeldung als Gast
@@ -128,7 +129,7 @@ translations:
   VMC_FILE_ERROR: 'Ungültige VMC Datei: Größe nicht Korrekt.'
   VMC_FILE_NEW: VMC-Datei muss erstellt werden.
   ERR_VMC_CONTINUE: 'Fehler: Zugriff auf VMC %s. Weiter mit MC in Port %d?'
-  AUTOREFRESH: Auto. aktualisieren
+  AUTOREFRESH: Hotplug-Erkennung
   ABOUT: Über
   DEVS: Entwickler
   QANDA: Qualitätskontrolle
@@ -202,7 +203,8 @@ translations:
   AUTOSTARTLAST: Auto. Start
   HINT_AUTOSTARTLAST: Wert in Sekunden. 0 = Deaktiviert.
   PS2LOGO: PS2-Logo
-  HINT_PS2LOGO: Wird für ein gültiges Disc-Logo angezeigt, das der Region der Konsole entspricht.
+  HINT_PS2LOGO: Wird für ein gültiges Disc-Logo angezeigt, das der Region der Konsole
+    entspricht.
   PADEMUCONFIG: PADEMU Konfigurieren
   PADEMU_SETTINGS: Pad-Emulator-Einstellungen
   PADEMU_ENABLE: Pad-Emulator
@@ -258,18 +260,10 @@ translations:
   CFM_VMODE_CHG: Videoeinstellungen bestätigen?
   CACHE_HDD_GAME_LIST: Spieleliste-Cache (HDD)
   ENABLE_NOTIFICATIONS: Benachrichtigungen
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
+  CFG_NOTIFICATION: Konfiguration geladen von %s
+  THM_NOTIFICATION: Theme geladen von %s
+  LNG_NOTIFICATION: Sprache geladen von %s
+  PARTITION_NOTIFICATION: Partition %s eingebunden.
   OPTIONS: Optionen
   GAME_SETTINGS_SAVED: Spiel Einstellungen Gespeichert.
   GAME_SETTINGS_REMOVED: '%s Einstellungen Entfernt.'
@@ -292,25 +286,18 @@ translations:
   USB_GAMES: USB-Spiele
   ILINK_GAMES: iLink-Spiele
   MX4SIO_GAMES: MX4SIO-Spiele
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
+  PADMACROCONFIG: PADMACRO konfigurieren
+  PADMACRO_SETTINGS: Pad-Makro-Einstellungen
+  PADMACRO_ENABLE: Pad-Makros
+  PADMACRO_SLOWDOWN: 'Analoges Verlangsamen:'
   HINT_PADMACRO_SLOWDOWN_AXIS: Reichweite des Analogsticks bei Tastendruck verringern
   LEFT_ANALOG: Linker Stick
   RIGHT_ANALOG: Rechter Stick
   PADMACRO_INVERT_AXIS: 'Analoge Achse invertieren:'
   HINT_PADMACRO_INVERT_AXIS: Analogstick-Achse invertieren
   TURBO_SPEED: Tastengeschwindigkeit
-  HINT_TURBO_SPEED: Wie schnell Taste gedrückt werden muss, wenn der Turbo aktiviert ist
+  HINT_TURBO_SPEED: Wie schnell Taste gedrückt werden muss, wenn der Turbo aktiviert
+    ist
   ACT_WHILE_PRESSED: Während Taste gedrückt ist
   ACT_TOGGLED: Mit Taste wechseln
   LANGUAGE_JAPANESE: JAPANISCH
@@ -327,8 +314,101 @@ translations:
   LANGUAGE_SIMPL_CHINESE: VEREINFACHTES CHINESISCH
   OSD_SETTINGS: OSD-Einstellungen
   OSD_SETTINGS_LNG: OSD-Sprache
+  HINT_OSD_SETTINGS_LNG: Eine eigene Sprachkonfiguration erzwingen
   ENABLE_LNG: Sprache ändern
+  OSD_SETTINGS_TVASPECT: Bildschirmgröße
+  FULL_SCREEN: Vollbild
+  OSD_SETTINGS_VMODE: Videomodus
+  SYSTEM_DEFAULT: Systemstandard
   BGM: Hintergrundmusik
   BGM_VOLUME: Hintergrundmusik-Lautstärke
-  DEF_BGM_PATH: Standardmusik
-  DEF_BGM_PATH_HINT: Pfad zum Streamen von Musik für das interne Thema festlegen.
+  DEF_BGM_PATH: Eigene Hintergrundmusik
+  DEF_BGM_PATH_HINT: Pfad zu einer eigenen ogg-Datei; leer lassen, um die eingebaute
+    BGM des Themes zu spielen
+  HIGH: Hoch
+  LOW: Niedrig
+  XSENSITIVITY: Empfindlichkeit der analogen X-Achse
+  YSENSITIVITY: Empfindlichkeit der analogen Y-Achse
+  FILE_COUNT: 'Dateien gefunden: %i'
+  CHEAT_SELECTION: Cheat-Auswahl
+  HDD_HINT: Nur eine HDD zulässig; das Aktivieren sperrt APA oder GPT.
+  TXTRENAME: TXT-Zuordnungsliste
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL-Mitwirkende (Seite 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Namen noch zu bestätigen
+  ABOUT_ORIGINAL_CONTRIBUTORS: Offizielle OPL-Mitwirkende (Seite 2/2)
+  ABOUT_NEXT_PAGE: Nächste Seite
+  ABOUT_PREVIOUS_PAGE: Vorherige Seite
+  HINT_DMA_MODE: HDD-Übertragungsmodus, höher ist schneller (Modus 1 muss ausgeschaltet
+    sein)
+  HINT_DMA_SOURCE: Global anwenden, oder nur für das aktuelle Spiel
+  HINT_CF_COUNT: Ändere die Anzahl der Cover auf dem Bildschirm. Bei Ruckeln die Zahl
+    verringern.
+  BGM_SEARCH: ogg-Datei suchen
+  HINT_BGM_SEARCH: Sucht im Stammverzeichnis gestarteter Geräte nach einer ogg-Datei
+    und trägt den Pfad oben ein
+  BGM_NOT_FOUND: Keine ogg-Datei gefunden
+  ARTPACK: Unterstützung für OPLM-Artpack (sofortige Cover)
+  HINT_ARTPACK: Lege das OPLM_ART-Zip-Paket (nicht entpacken) direkt in ART2 ab
+  HINT_ART_RANDOM: Hintergründe und Screenshots wechseln zufällig (nur Zip-Artpack)
+  HINT_APAISO: Kopiere ISOs nach +OPL/DVD oder CD, um sie direkt zu lesen, ohne HDL-Konvertierung
+  HINT_AUTODETECT_PS1APPS: Erkennt ELF-Dateien im Ordner APPS und VCD-Dateien im Ordner
+    POPS direkt
+  HINT_AUTO_MODE1: Modus 1 (genaues Lesen) behebt die meisten Kompatibilitätsprobleme,
+    empfohlen
+  HINT_CACHE_HDD_GAME_LIST: Der Listen-Cache wird vom HDL-Installationsformat genutzt
+    und ist beim direkten Lesen von ISOs nicht nötig
+  HINT_LASTPLAYED: Beim Start von OPL bleibt der Cursor auf dem zuletzt gespielten
+    Spiel
+  HINT_COVERARTMODE: Der Kompatibilitätsmodus verlangsamt das Laden von Bildern stark,
+    der Leistungsmodus wird empfohlen
+  HINT_AUTOREFRESH: OPL reagiert in Echtzeit, wenn Blockgeräte wie USB-Laufwerke im
+    laufenden Betrieb angeschlossen werden
+  HINT_TXTRENAME: Erzeugt eine txt-Datei, mit der Spielnamen beliebigem Text zugeordnet
+    werden
+  HINT_ENABLE_WRITE: Die Löschfunktion von OPL ist nicht absolut sicher, bitte vorsichtig
+    verwenden
+  HINT_THEME: Zwei integrierte Themes können gewechselt werden. Themes von Dritten
+    in den Ordner THM legen
+  HINT_LANGUAGE: Lege FGOPL-Sprachpakete in den Ordner LNG, um weitere Sprachen zu
+    unterstützen
+  START_MODE_SETTINGS: Startmodus-Einstellungen
+  DEVICE_SWITCH: Geräteschalter (ungenutzte Geräte deaktivieren, um den Start zu beschleunigen)
+  APAISO: HDD(APA) Direct ISO
+  AUTODETECT_PS1APPS: APPS & PS1 automatisch erkennen
+  AUTO_MODE1: Modus 1 automatisch aktivieren (bessere Kompatibilität)
+  COVERART_BG_OFF: Hintergrund aus
+  COVERART_BG_ON: Hintergrund an
+  COVERART_COV_OFF: Cover aus
+  COVERART_COV_ON: Cover an
+  COVERART_ICO_OFF: Disc aus
+  COVERART_ICO_ON: Disc an
+  COVERARTMODE_PERF: Leistung (nur PNG)
+  COVERARTMODE_COMPAT: Kompatibilität (JPG und PNG)
+  ART_RANDOM_OFF: Zufällige Bilder aus
+  ART_RANDOM_ON: Zufällige Bilder an
+  CF_COVER_COUNT_1: 'Cover auf dem Bildschirm: 1'
+  CF_COVER_COUNT_3: 'Cover auf dem Bildschirm: 3'
+  CF_COVER_COUNT_5: 'Cover auf dem Bildschirm: 5'
+  CF_COVER_COUNT_7: 'Cover auf dem Bildschirm: 7'
+  CF_COVER_COUNT_9: 'Cover auf dem Bildschirm: 9'
+  GSM_VMODE_480I_NORMAL: 480i Normal (für CRT)
+  GSM_VMODE_480I_SHRINK: 480i verkleinert (auf modernen TVs auf 4:3 strecken)
+  DMA_UDMA4_DEFAULT: UDMA 4 Standard
+  DMA_UDMA5_HIGHEST: UDMA 5 aktuelles HDD-Maximum
+  DMA_UDMA6_HIGHEST: UDMA 6 aktuelles HDD-Maximum
+  DMA_UDMA7_HIGHEST: UDMA 7 aktuelles HDD-Maximum
+  DMA_UDMA7_EXTREME: UDMA 7 Extrem
+  DMA_HDD_ONLY: <nur HDD>
+  CHEAT_TOGGLE_ALL: Alle auswählen/abwählen
+  CHEAT_SAVE_AND_RUN: Speichern und starten
+  THEME_COVERFLOW: Integriertes Coverflow-Theme
+  THEME_LIST: Integriertes Listen-Theme
+  MSG_DEVICE_DETECT_TIMEOUT: Zeitüberschreitung bei der Erkennung von %s. Kompatibilitätsproblem
+    des Geräts.
+  MSG_TXT_CREATED: Die txt-Datei wurde erstellt!
+  MSG_TXT_REBUILT: Die txt-Datei wurde neu erstellt!
+  MSG_HDD_EXFAT_HINT: Die interne HDD ist exFAT. Aktiviere HDD(exFAT) in den BDM-Einstellungen.
+  MSG_HDD_APA_HINT: Die interne HDD ist APA. Aktiviere den Startmodus HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Deine HDD hat gemischte Partitionen. Diesen Modus trotzdem
+    aktivieren?
+  MSG_LIST_SEPARATOR: ', '

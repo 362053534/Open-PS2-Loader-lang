@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM-Игры
   HDD_GAMES: HDD-Игры
   NET_GAMES: Сетевые игры
-  APPS: Приложения
+  APPS: APPS & PS1
   THEME: Тема
   LANGUAGE: Язык
   CONFIRMATION_POFF: Выключить консоль.
@@ -81,9 +81,7 @@ translations:
   CAT_SMB_SERVER: '- Сервер SMB -'
   IP_ADDRESS_TYPE: Тип IP-адреса
   IP_ADDRESS_TYPE_STATIC: Статичный
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP-адрес
   ADDRESS: Адрес
   MASK: Маска подсети
@@ -95,12 +93,8 @@ translations:
   PASSWORD: Пароль
   NOT_SET: <не указано>
   ADDRESS_TYPE: Тип адреса
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Принять
   DELETE_WARNING: Объект будет безвозвратно удален. Продолжить?
   RENAME: Переим.
@@ -110,7 +104,7 @@ translations:
   ENABLE_WRITE: Операции записи
   LASTPLAYED: Запоминать последнюю игру
   SELECTBUTTON: Кнопка выбор
-  ERR_FRAGMENTED: Ошибка, игра фрагментирована
+  ERR_FRAGMENTED: У текущей игры %d фрагментов. Дефрагментируйте её и повторите попытку.
   ERR_FILE_INVALID: Ошибка, невозможно запустить объект!
   TEST: Проверка изменений
   HINT_GUEST: Оставьте пустым для гостевого доступа
@@ -136,7 +130,7 @@ translations:
   VMC_FILE_ERROR: Поврежденный VMC файл, неправильный размер
   VMC_FILE_NEW: Необходимо создать VMC файл
   ERR_VMC_CONTINUE: Ошибка с VMC %s, использовать физическую карту (слот %d)?
-  AUTOREFRESH: Автоматическое обновление
+  AUTOREFRESH: Обнаружение горячего подключения
   ABOUT: О программе
   DEVS: Кодеры
   QANDA: Гарантия качества
@@ -217,12 +211,8 @@ translations:
   HINT_PADEMU_ENABLE: Вкл/вык эмуляцию контроллеров для выбранной игры.
   PADEMU_MODE: Режим эмуляции контроллеров
   HINT_PADEMU_MODE: Выбрать режим эмуляции контроллеров.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Настройки для порта:'
   HINT_PAD_PORT: Выбрать настройки для порта Pad эмулятора.
   PADEMU_PORT: Эмуляция
@@ -295,108 +285,130 @@ translations:
   CONTROLLER_SETTINGS: Настройки контроллеров
   HINT_BDM_START: Вкл/выкл менеджер блочных устройств.
   HINT_BLOCK_DEVICES: Вкл/выкл блочные устройства (например USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  USB_GAMES: Игры USB
+  ILINK_GAMES: Игры iLink
+  MX4SIO_GAMES: Игры MX4SIO
+  PADMACROCONFIG: Настройка PADMACRO
+  PADMACRO_SETTINGS: Настройки макросов пада
+  PADMACRO_ENABLE: Макросы пада
+  PADMACRO_SLOWDOWN: 'Замедление аналога:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Уменьшает диапазон аналогового стика при нажатой кнопке.
+  LEFT_ANALOG: Левый стик
+  RIGHT_ANALOG: Правый стик
+  PADMACRO_INVERT_AXIS: 'Инверсия аналоговой оси:'
+  HINT_PADMACRO_INVERT_AXIS: Инвертирует ось выбранного аналогового стика.
+  TURBO_SPEED: Скорость турбо-кнопки
+  HINT_TURBO_SPEED: Как быстро нажимается кнопка при включённом турбо.
+  ACT_WHILE_PRESSED: Пока кнопка нажата
+  ACT_TOGGLED: Переключается кнопкой
+  LANGUAGE_JAPANESE: Японский
+  LANGUAGE_ENGLISH: Английский
+  LANGUAGE_FRENCH: Французский
+  LANGUAGE_SPANISH: Испанский
+  LANGUAGE_GERMAN: Немецкий
+  LANGUAGE_ITALIAN: Итальянский
+  LANGUAGE_DUTCH: Нидерландский
+  LANGUAGE_PORTUGUESE: Португальский
+  LANGUAGE_RUSSIAN: Русский
+  LANGUAGE_KOREAN: Корейский
+  LANGUAGE_TRAD_CHINESE: Традиционный китайский
+  LANGUAGE_SIMPL_CHINESE: Упрощённый китайский
+  OSD_SETTINGS: Настройки OSD
+  OSD_SETTINGS_LNG: Язык OSD
+  HINT_OSD_SETTINGS_LNG: Принудительно задать свой язык
+  ENABLE_LNG: Включить
+  OSD_SETTINGS_TVASPECT: Размер экрана
+  FULL_SCREEN: Полный экран
+  OSD_SETTINGS_VMODE: Режим видео
+  SYSTEM_DEFAULT: Системное значение по умолчанию
+  BGM: Фоновая музыка
+  BGM_VOLUME: Громкость фоновой музыки
+  DEF_BGM_PATH: Своя фоновая музыка
+  DEF_BGM_PATH_HINT: Путь к своему файлу ogg; оставьте пустым, чтобы воспроизводить
+    встроенную BGM темы
+  HIGH: Высокий
+  LOW: Низкий
+  XSENSITIVITY: Чувствительность аналоговой оси X
+  YSENSITIVITY: Чувствительность аналоговой оси Y
+  FILE_COUNT: 'Найдено файлов: %i'
+  CHEAT_SELECTION: Выбор читов
+  HDD_HINT: Разрешён только один HDD; включение блокирует APA или GPT.
+  TXTRENAME: Список сопоставления TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Участники FGOPL (стр. 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Имена ожидают подтверждения
+  ABOUT_ORIGINAL_CONTRIBUTORS: Официальные участники OPL (стр. 2/2)
+  ABOUT_NEXT_PAGE: Следующая страница
+  ABOUT_PREVIOUS_PAGE: Предыдущая страница
+  HINT_DMA_MODE: 'Режим передачи HDD: чем выше значение, тем быстрее (режим 1 должен
+    быть выключен)'
+  HINT_DMA_SOURCE: Применять глобально или только к текущей игре
+  HINT_CF_COUNT: Измените число обложек на экране. Если интерфейс тормозит, уменьшите
+    число.
+  BGM_SEARCH: Найти файл ogg
+  HINT_BGM_SEARCH: Ищет файл ogg в корне запущенных устройств и заполняет путь выше
+  BGM_NOT_FOUND: Файл ogg не найден
+  ARTPACK: Поддержка пакета изображений OPLM (мгновенные обложки)
+  HINT_ARTPACK: Поместите zip-пакет OPLM_ART (не распаковывайте) прямо в ART2
+  HINT_ART_RANDOM: Фоны и снимки экрана меняются случайно (только zip-пакет изображений)
+  HINT_APAISO: Скопируйте ISO в +OPL/DVD или CD, чтобы читать их напрямую, без преобразования
+    HDL
+  HINT_AUTODETECT_PS1APPS: Напрямую обнаруживает ELF в папке APPS и VCD в папке POPS
+  HINT_AUTO_MODE1: Режим 1 (точное чтение) решает большинство проблем совместимости,
+    рекомендуется
+  HINT_CACHE_HDD_GAME_LIST: Кэш списка используется форматом установки HDL и не нужен
+    при прямом чтении ISO
+  HINT_LASTPLAYED: При запуске OPL курсор остаётся на последней запущенной игре
+  HINT_COVERARTMODE: Режим совместимости сильно замедляет загрузку изображений, рекомендуется
+    режим производительности
+  HINT_AUTOREFRESH: OPL реагирует в реальном времени, когда блочные устройства, например
+    USB-накопители, подключаются на горячую
+  HINT_TXTRENAME: Создаёт файл txt для сопоставления названий игр с произвольным текстом
+  HINT_ENABLE_WRITE: Функция удаления в OPL не является абсолютно безопасной, используйте
+    её осторожно
+  HINT_THEME: Можно переключать две встроенные темы. Сторонние темы помещайте в папку
+    THM
+  HINT_LANGUAGE: Поместите языковые пакеты FGOPL в папку LNG, чтобы поддерживать больше
+    языков
+  START_MODE_SETTINGS: Настройки режима запуска
+  DEVICE_SWITCH: Переключатели устройств (отключите неиспользуемые, чтобы ускорить
+    запуск)
+  APAISO: Прямое ISO с HDD(APA)
+  AUTODETECT_PS1APPS: Автообнаружение APPS и PS1
+  AUTO_MODE1: Автоматически включать режим 1 (лучшая совместимость)
+  COVERART_BG_OFF: Фон выкл.
+  COVERART_BG_ON: Фон вкл.
+  COVERART_COV_OFF: Обложка выкл.
+  COVERART_COV_ON: Обложка вкл.
+  COVERART_ICO_OFF: Диск выкл.
+  COVERART_ICO_ON: Диск вкл.
+  COVERARTMODE_PERF: Производительность (только PNG)
+  COVERARTMODE_COMPAT: Совместимость (JPG и PNG)
+  ART_RANDOM_OFF: Случайные изображения выкл.
+  ART_RANDOM_ON: Случайные изображения вкл.
+  CF_COVER_COUNT_1: 'Обложек на экране: 1'
+  CF_COVER_COUNT_3: 'Обложек на экране: 3'
+  CF_COVER_COUNT_5: 'Обложек на экране: 5'
+  CF_COVER_COUNT_7: 'Обложек на экране: 7'
+  CF_COVER_COUNT_9: 'Обложек на экране: 9'
+  GSM_VMODE_480I_NORMAL: 480i обычный (для ЭЛТ)
+  GSM_VMODE_480I_SHRINK: 480i сжатый (на современных телевизорах растягивается до
+    4:3)
+  DMA_UDMA4_DEFAULT: UDMA 4 по умолчанию
+  DMA_UDMA5_HIGHEST: UDMA 5 текущий максимум HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 текущий максимум HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 текущий максимум HDD
+  DMA_UDMA7_EXTREME: UDMA 7 экстремальный
+  DMA_HDD_ONLY: <только HDD>
+  CHEAT_TOGGLE_ALL: Выбрать/снять все
+  CHEAT_SAVE_AND_RUN: Сохранить и запустить
+  THEME_COVERFLOW: Встроенная тема Coverflow
+  THEME_LIST: Встроенная тема списка
+  MSG_DEVICE_DETECT_TIMEOUT: Время ожидания обнаружения %s истекло. Проблема совместимости
+    устройства.
+  MSG_TXT_CREATED: Файл txt создан!
+  MSG_TXT_REBUILT: Файл txt пересоздан!
+  MSG_HDD_EXFAT_HINT: Внутренний HDD в формате exFAT. Включите HDD(exFAT) в настройках
+    BDM.
+  MSG_HDD_APA_HINT: Внутренний HDD в формате APA. Включите режим запуска HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: На вашем HDD смешанные разделы. Всё равно включить этот режим?
+  MSG_LIST_SEPARATOR: ', '

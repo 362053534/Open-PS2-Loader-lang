@@ -10,13 +10,11 @@ translations:
   ERROR_SAVING_SETTINGS: Gabim në shkruarjen e cilësimeve!
   EXIT: Dil
   SETTINGS: Cilësimet
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: Lojërat BDM
   HDD_GAMES: Lojërat HDD
   NET_GAMES: Lojërat ETH
-  APPS: Aplikacionet
+  APPS: APPS & PS1
   THEME: Temë
   LANGUAGE: Gjuha
   CONFIRMATION_POFF: Sistemi do të fiket.
@@ -35,9 +33,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Nuk ka lidhje me Rrjetin.'
   'ON': Ndezur
   'OFF': Fikur
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Zgjidhe
   CANCEL: Anulo
   CIRCLE: Rreth
@@ -75,46 +71,26 @@ translations:
   RUNNINGNBD: Serveri NBD duke punuar…
   STARTFAILNBD: Dështoi të nisi Serverin NBD.
   UNLOADNBD: Serveri NBD po shkarkohet…
-  EXITTO:
-  - untranslated
-  - original: IGR Path
+  EXITTO: Shtegu IGR
   BGCOLOR: Ngjyra e Sfondit
   TXTCOLOR: Ngjyra e Tekstit
   CAT_SMB_SERVER: '- Serveri SMB -'
   IP_ADDRESS_TYPE: Lloji i Adresës IP
   IP_ADDRESS_TYPE_STATIC: Statike
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: Adresa IP
   ADDRESS: Adresa
-  MASK:
-  - untranslated
-  - original: Mask
-  GATEWAY:
-  - untranslated
-  - original: Gateway
+  MASK: Maska
+  GATEWAY: Porta e daljes
   DNS_SERVER: Serveri DNS
-  PORT:
-  - untranslated
-  - original: Port
-  SHARE:
-  - untranslated
-  - original: Share
-  USER:
-  - untranslated
-  - original: User
-  PASSWORD:
-  - untranslated
-  - original: Password
+  PORT: Porta
+  SHARE: Ndarja
+  USER: Përdoruesi
+  PASSWORD: Fjalëkalimi
   NOT_SET: <nuk është vënë>
   ADDRESS_TYPE: Lloji i Adresës
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Prano
   DELETE_WARNING: Artikulli do të fshihet përfundimisht, vazhdo?
   RENAME: Riemërto
@@ -124,7 +100,7 @@ translations:
   ENABLE_WRITE: Operacionet e Shkrimit
   LASTPLAYED: Kujto lojën e luajtur së fundmi
   SELECTBUTTON: Zgjidh Butonin
-  ERR_FRAGMENTED: Gabim, loja është e fragmentuar.
+  ERR_FRAGMENTED: Loja aktuale ka %d fragmente. Defragmentojeni dhe provoni përsëri.
   ERR_FILE_INVALID: Gabim, nuk mund të hap këtë artikull.
   TEST: Testo Ndryshimet
   HINT_GUEST: Lëre bosh per vërtetimin e MYSAFIRIT.
@@ -151,13 +127,11 @@ translations:
   VMC_FILE_NEW: Dosja KMV duhet të krijohet.
   ERR_VMC_CONTINUE: Gabim në aksesimin e KMV %s. Vazhdo me Kartën e Memories ne vendin
     %d?
-  AUTOREFRESH: Rifreskim Automatik
+  AUTOREFRESH: Zbulimi i lidhjes së nxehtë
   ABOUT: Rreth
   DEVS: Koduesit
   QANDA: Kontroll Cilësie
-  BDM_PREFIX:
-  - untranslated
-  - original: BDM Prefix Path
+  BDM_PREFIX: Shtegu i prefiksit BDM
   HINT_EXITPATH: Nis një ELF te modifikuar pas një IGR.
   HINT_SPINDOWN: Vlera ne minuta, 0 për të çaktivizuar fikjen e rrotullimit.
   HDD_SPINDOWN: Fikja Automatike e Rrotullimit të HDD
@@ -165,33 +139,21 @@ translations:
   UICOLOR: Ngjyra e Dialogut
   SELCOLOR: Ngjyra e Zgjedhur
   RESETCOLOR: Rivendos Ngjyrat
-  INFO:
-  - untranslated
-  - original: Info
+  INFO: Informacioni
   ALTSTARTUP: ELF i modifikuar
   COLOR_SELECTION: Përzgjedhja e Ngjyrave
   RECONNECT: Rilidhu
   HINT_SHARENAME: Lëre bosh për te listuar te gjitha shpërndarjet.
-  ETH_PREFIX:
-  - untranslated
-  - original: ETH Prefix Path
-  BACKSPACE:
-  - untranslated
-  - original: Backspace
+  ETH_PREFIX: Shtegu i prefiksit ETH
+  BACKSPACE: Backspace
   SPACE: Hapësira
   ENTER: Hy
   MODE: Metoda
-  VMC_SLOT1:
-  - untranslated
-  - original: VMC Slot 1
-  VMC_SLOT2:
-  - untranslated
-  - original: VMC Slot 2
+  VMC_SLOT1: Vendndodhja VMC 1
+  VMC_SLOT2: Vendndodhja VMC 2
   GAME_ID: ID e Lojës
   DMA_MODE: Mënyra DMA
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Menyra 1
   MODE2: Menyra 2
   MODE3: Menyra 3
@@ -200,38 +162,24 @@ translations:
   MODE6: Menyra 6
   GSCONFIG: Konfiguro GSM
   ETH_OPMODE: Menyra e lidhjes me Ethernet
-  ETH_100MFDX:
-  - untranslated
-  - original: 100Mbit Full-duplex
-  ETH_100MHDX:
-  - untranslated
-  - original: 100Mbit Half-duplex
-  ETH_10MFDX:
-  - untranslated
-  - original: 10Mbit Full-duplex
-  ETH_10MHDX:
-  - untranslated
-  - original: 10Mbit Half-duplex
+  ETH_100MFDX: 100Mbit dupleks i plotë
+  ETH_100MHDX: 100Mbit gjysmë dupleks
+  ETH_10MFDX: 10Mbit dupleks i plotë
+  ETH_10MHDX: 10Mbit gjysmë dupleks
   GSM_SETTINGS: Cilësimet GSM
   ENABLEGSM: Zgjedhësi GSM
   HINT_ENABLEGSM: Ndërron GSM fikur/ndezur.
   HINT_GSMVMODE: Përforco Mënyrën e Paraqitjes së modifikuar.
-  XOFFSET:
-  - untranslated
-  - original: H-POS
+  XOFFSET: H-POS
   HINT_XOFFSET: Përshtatje Horizontale
-  YOFFSET:
-  - untranslated
-  - original: V-POS
+  YOFFSET: V-POS
   HINT_YOFFSET: Përshtatje Vertikale
   OVERSCAN: Skanim i gjerë
   HINT_OVERSCAN: Përshtatje e skanimit të gjerë
   GSMSKIPVIDEOS: Anashkalo FMV
   HINT_GSMSKIPVIDEOS: Anashkalon videot me lëvizje të plotë.
   CHEAT_SETTINGS: Cilësimet e Hileve
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: Motori i kodit PS2RD
   HINT_ENABLECHEAT: Lë PS2RD Cheat Engine të te ndryshoje lojën.
   CHEATMODE: Menyra e PS2RD Cheat Engine
   HINT_CHEATMODE: Zgjedhje Automatike apo zgjidh hilet e lojes.
@@ -256,18 +204,12 @@ translations:
   HINT_PS2LOGO: Paraqitet për një logo të vlefshme të bashkangjitur me rajonin e konsolit.
   PADEMUCONFIG: Konfiguro PADEMU
   PADEMU_SETTINGS: Cilësimet e Pad Emulator
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Emuluesi i padit
   HINT_PADEMU_ENABLE: Ndërron fikur/ndezur Pad Emulator për lojën e zgjedhur.
   PADEMU_MODE: Mënyra e Pad Emulator
   HINT_PADEMU_MODE: Mënyra e zgjedhjes së Pad Emulator.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Cilësimet Për Portën:'
   HINT_PAD_PORT: Zgjidh porten e Pad Emulator për cilësimet.
   PADEMU_PORT: Imitimi
@@ -282,15 +224,9 @@ translations:
   NOT_CONNECTED: Nuk është lidhur
   BTINFO: Bluetooth Adapter Informacion
   HINT_BTINFO: Tregon më shumë informacion dhe veçoritë e mbështetura.
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
-  MANUFACTURER:
-  - untranslated
-  - original: 'Manufacturer ID:'
+  HCIVER: 'Versioni HCI:'
+  LMPVER: 'Versioni LMP:'
+  MANUFACTURER: 'ID e prodhuesit:'
   SUPFEATURES: 'Veçoritë e Mbështetura:'
   'YES': Po
   'NO': Jo
@@ -350,99 +286,130 @@ translations:
   USB_GAMES: Lojërat USB
   ILINK_GAMES: Lojërat iLink
   MX4SIO_GAMES: Lojërat MX4SIO
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  PADMACROCONFIG: Konfiguro PADMACRO
+  PADMACRO_SETTINGS: Cilësimet e makrove të padit
+  PADMACRO_ENABLE: Makrot e padit
+  PADMACRO_SLOWDOWN: 'Ngadalësimi analog:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Zvogëlon diapazonin e shkopit analog kur shtypet butoni.
+  LEFT_ANALOG: Shkopi i majtë
+  RIGHT_ANALOG: Shkopi i djathtë
+  PADMACRO_INVERT_AXIS: 'Përmbysja e boshtit analog:'
+  HINT_PADMACRO_INVERT_AXIS: Përmbys boshtin e shkopit analog të zgjedhur.
+  TURBO_SPEED: Shpejtësia e butonit turbo
+  HINT_TURBO_SPEED: Sa shpejt shtypet butoni kur turboja është aktive.
+  ACT_WHILE_PRESSED: Ndërsa butoni është i shtypur
+  ACT_TOGGLED: Ndryshohet me buton
+  LANGUAGE_JAPANESE: Japoneze
+  LANGUAGE_ENGLISH: Angleze
+  LANGUAGE_FRENCH: Frënge
+  LANGUAGE_SPANISH: Spanjolle
+  LANGUAGE_GERMAN: Gjermane
+  LANGUAGE_ITALIAN: Italiane
+  LANGUAGE_DUTCH: Holandeze
+  LANGUAGE_PORTUGUESE: Portugeze
+  LANGUAGE_RUSSIAN: Ruse
+  LANGUAGE_KOREAN: Koreane
+  LANGUAGE_TRAD_CHINESE: Kineze tradicionale
+  LANGUAGE_SIMPL_CHINESE: Kineze e thjeshtuar
+  OSD_SETTINGS: Cilësimet OSD
+  OSD_SETTINGS_LNG: Gjuha OSD
+  HINT_OSD_SETTINGS_LNG: Detyro një konfigurim të personalizuar të gjuhës
+  ENABLE_LNG: Aktivizo
+  OSD_SETTINGS_TVASPECT: Madhësia e ekranit
+  FULL_SCREEN: Ekran i plotë
+  OSD_SETTINGS_VMODE: Mënyra e videos
+  SYSTEM_DEFAULT: Parazgjedhja e sistemit
+  BGM: Muzikë sfondi
+  BGM_VOLUME: Volumi i muzikës së sfondit
+  DEF_BGM_PATH: Muzikë sfondi e personalizuar
+  DEF_BGM_PATH_HINT: Rruga e skedarit ogg të personalizuar; lëreni bosh për të luajtur
+    BGM-në e brendshme të temës
+  HIGH: I lartë
+  LOW: I ulët
+  XSENSITIVITY: Ndjeshmëria e boshtit X analog
+  YSENSITIVITY: Ndjeshmëria e boshtit Y analog
+  FILE_COUNT: 'Skedarë të gjetur: %i'
+  CHEAT_SELECTION: Zgjedhja e kodit
+  HDD_HINT: Lejohet vetëm një HDD; aktivizimi kyç APA ose GPT.
+  TXTRENAME: Lista e mapimit TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Kontribuesit e FGOPL (Faqja 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Emrat në pritje të konfirmimit
+  ABOUT_ORIGINAL_CONTRIBUTORS: Kontribuesit zyrtarë të OPL (Faqja 2/2)
+  ABOUT_NEXT_PAGE: Faqja tjetër
+  ABOUT_PREVIOUS_PAGE: Faqja e mëparshme
+  HINT_DMA_MODE: Mënyra e transferimit të HDD, më e larta është më e shpejtë (kërkon
+    që mënyra 1 të jetë fikur)
+  HINT_DMA_SOURCE: Aplikohet globalisht, ose vetëm për lojën aktuale
+  HINT_CF_COUNT: Ndryshoni numrin e kopertinave në ekran. Nëse ndihet i ngadaltë,
+    uleni numrin.
+  BGM_SEARCH: Kërko skedarin ogg
+  HINT_BGM_SEARCH: Kërkoni në rrënjën e pajisjeve të nisura për një skedar ogg dhe
+    plotësoni shtegun më sipër
+  BGM_NOT_FOUND: Nuk u gjet asnjë skedar ogg
+  ARTPACK: Mbështetje për paketën e artit OPLM (art i menjëhershëm)
+  HINT_ARTPACK: Vendoseni paketën zip OPLM_ART (mos e nxirrni) drejtpërdrejt në ART2
+  HINT_ART_RANDOM: Sfondet dhe pamjet e ekranit ndryshojnë rastësisht (vetëm paketa
+    zip e artit)
+  HINT_APAISO: Kopjoni ISO-t në +OPL/DVD ose CD për t'i lexuar drejtpërdrejt, pa konvertim
+    HDL
+  HINT_AUTODETECT_PS1APPS: Zbulon drejtpërdrejt skedarët ELF në dosjen APPS dhe VCD-të
+    në dosjen POPS
+  HINT_AUTO_MODE1: Mënyra 1 (lexim i saktë) zgjidh shumicën e problemeve të përputhshmërisë,
+    rekomandohet
+  HINT_CACHE_HDD_GAME_LIST: Memoria e përkohshme e listës përdoret nga formati i instalimit
+    HDL, nuk nevojitet kur ISO-t lexohen drejtpërdrejt
+  HINT_LASTPLAYED: Kur niset OPL, kursori qëndron te loja e luajtur së fundi
+  HINT_COVERARTMODE: Mënyra e përputhshmërisë e ngadalëson shumë ngarkimin e imazheve,
+    rekomandohet mënyra e performancës
+  HINT_AUTOREFRESH: OPL reagon në kohë reale kur pajisjet bllok si disqet USB lidhen
+    ose shkëputen në nxehtësi
+  HINT_TXTRENAME: Krijon një skedar txt që përdoret për të lidhur emrat e lojërave
+    me çdo tekst
+  HINT_ENABLE_WRITE: Funksioni i fshirjes së OPL nuk është absolutisht i sigurt, ju
+    lutemi përdoreni me kujdes
+  HINT_THEME: Mund të ndërrohen dy tema të brendshme. Vendosini temat e palëve të
+    treta në dosjen THM
+  HINT_LANGUAGE: Vendosini paketat e gjuhës së FGOPL në dosjen LNG për të mbështetur
+    më shumë gjuhë
+  START_MODE_SETTINGS: Cilësimet e mënyrës së nisjes
+  DEVICE_SWITCH: Çelësat e pajisjeve (çaktivizoni pajisjet e papërdorura për nisje
+    më të shpejtë)
+  APAISO: ISO i drejtpërdrejtë HDD(APA)
+  AUTODETECT_PS1APPS: Zbulim automatik i APPS & PS1
+  AUTO_MODE1: Aktivizo automatikisht mënyrën 1 (përputhshmëri më e mirë)
+  COVERART_BG_OFF: Sfondi fikur
+  COVERART_BG_ON: Sfondi ndezur
+  COVERART_COV_OFF: Kopertina fikur
+  COVERART_COV_ON: Kopertina ndezur
+  COVERART_ICO_OFF: Disku fikur
+  COVERART_ICO_ON: Disku ndezur
+  COVERARTMODE_PERF: Performancë (vetëm PNG)
+  COVERARTMODE_COMPAT: Përputhshmëri (JPG & PNG)
+  ART_RANDOM_OFF: Arti i rastësishëm fikur
+  ART_RANDOM_ON: Arti i rastësishëm ndezur
+  CF_COVER_COUNT_1: 'Kopertina në ekran: 1'
+  CF_COVER_COUNT_3: 'Kopertina në ekran: 3'
+  CF_COVER_COUNT_5: 'Kopertina në ekran: 5'
+  CF_COVER_COUNT_7: 'Kopertina në ekran: 7'
+  CF_COVER_COUNT_9: 'Kopertina në ekran: 9'
+  GSM_VMODE_480I_NORMAL: 480i normale (për CRT)
+  GSM_VMODE_480I_SHRINK: 480i i tkurrur (shtrihet në 4:3 në TV moderne)
+  DMA_UDMA4_DEFAULT: UDMA 4 i paracaktuar
+  DMA_UDMA5_HIGHEST: UDMA 5 maksimumi aktual i HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 maksimumi aktual i HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 maksimumi aktual i HDD
+  DMA_UDMA7_EXTREME: UDMA 7 ekstrem
+  DMA_HDD_ONLY: <vetëm HDD>
+  CHEAT_TOGGLE_ALL: Zgjidh/hiq të gjitha
+  CHEAT_SAVE_AND_RUN: Ruaj dhe ekzekuto
+  THEME_COVERFLOW: Tema e brendshme Coverflow
+  THEME_LIST: Tema e brendshme e listës
+  MSG_DEVICE_DETECT_TIMEOUT: Zbulimi i %s skadoi. Problem përputhshmërie i pajisjes.
+  MSG_TXT_CREATED: Skedari txt u krijua!
+  MSG_TXT_REBUILT: Skedari txt u rindërtua!
+  MSG_HDD_EXFAT_HINT: HDD i brendshëm është exFAT. Aktivizoni HDD(exFAT) te cilësimet
+    BDM.
+  MSG_HDD_APA_HINT: HDD i brendshëm është APA. Aktivizoni mënyrën e nisjes HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: HDD-ja juaj ka ndarje të përziera. Ta aktivizoni gjithsesi
+    këtë mënyrë?
+  MSG_LIST_SEPARATOR: ', '

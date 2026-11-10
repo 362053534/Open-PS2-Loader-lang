@@ -12,13 +12,11 @@ translations:
   ERROR_SAVING_SETTINGS: Erro ao salvar as configurações!
   EXIT: Sair
   SETTINGS: Configurações
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: Jogos no BDM
   HDD_GAMES: Jogos no HDD
   NET_GAMES: Jogos no ETH
-  APPS: Aplicativos
+  APPS: APPS & PS1
   THEME: Temas
   LANGUAGE: Idioma
   CONFIRMATION_POFF: O sistema será desligado.
@@ -69,9 +67,7 @@ translations:
   ETHMODE: Modo de Início no ETH
   APPMODE: Modo de Início nos Aplicativos
   AUTO: Automático
-  MANUAL:
-  - untranslated
-  - original: Manual
+  MANUAL: Manual
   STARTNBD: Iniciar o Servidor NBD
   STARTINGNBD: O servidor NBD está iniciando…
   RUNNINGNBD: O servidor NBD está sendo executado…
@@ -83,9 +79,7 @@ translations:
   CAT_SMB_SERVER: '- Servidor SMB -'
   IP_ADDRESS_TYPE: Tipo de Endereço IP
   IP_ADDRESS_TYPE_STATIC: Estático
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: Endereço IP
   ADDRESS: Endereço
   MASK: Máscara
@@ -97,12 +91,8 @@ translations:
   PASSWORD: Senha
   NOT_SET: <sem definição>
   ADDRESS_TYPE: Tipo de Endereço
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Aceitar
   DELETE_WARNING: O item será apagado PERMANENTEMENTE, continuar?
   RENAME: Renomear
@@ -112,7 +102,7 @@ translations:
   ENABLE_WRITE: Opções de Escritas
   LASTPLAYED: Lembrar do Último Jogo Jogado
   SELECTBUTTON: Botão de Seleção
-  ERR_FRAGMENTED: Erro, o jogo está fragmentado.
+  ERR_FRAGMENTED: O jogo atual tem %d fragmentos. Desfragmente-o e tente novamente.
   ERR_FILE_INVALID: Erro, o item não pode ser iniciado.
   TEST: Testar Mudanças
   HINT_GUEST: Deixe em branco para não usar senhas.
@@ -138,7 +128,7 @@ translations:
   VMC_FILE_ERROR: Arquivo VMC inválido, o tamanho está incorreto.
   VMC_FILE_NEW: O arquivo do VMC precisa ser criado.
   ERR_VMC_CONTINUE: Error ao acessar o VMC %s, continuar com o MC físico (slot %d)?
-  AUTOREFRESH: Atualização Automática
+  AUTOREFRESH: Detecção de conexão a quente
   ABOUT: Créditos
   DEVS: Desenvolvedores
   QANDA: Controle de Qualidade
@@ -158,16 +148,10 @@ translations:
   ETH_PREFIX: Prefixo do Caminho ETH
   BACKSPACE: Apagar
   SPACE: Espaço
-  ENTER:
-  - untranslated
-  - original: Enter
+  ENTER: Enter
   MODE: Modo
-  VMC_SLOT1:
-  - untranslated
-  - original: VMC Slot 1
-  VMC_SLOT2:
-  - untranslated
-  - original: VMC Slot 2
+  VMC_SLOT1: Slot VMC 1
+  VMC_SLOT2: Slot VMC 2
   GAME_ID: ID do Jogo
   DMA_MODE: Modo de DMA
   VSYNC: Sincronização do Vídeo
@@ -191,16 +175,12 @@ translations:
   HINT_XOFFSET: Ajustes Horizontais.
   YOFFSET: Posição Vertical
   HINT_YOFFSET: Ajustes Verticais.
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Ajustes do Overscan.
   GSMSKIPVIDEOS: Pular FMV
   HINT_GSMSKIPVIDEOS: Pula os vídeos do jogo.
   CHEAT_SETTINGS: Configurações de Trapaças
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: Motor de trapaças PS2RD
   HINT_ENABLECHEAT: Deixar o PS2RD patchear seus jogos
   CHEATMODE: Modo do PS2RD Cheat Engine
   HINT_CHEATMODE: Auto-Selecionar ou Escolher as trapaças.
@@ -229,9 +209,7 @@ translations:
   HINT_PADEMU_ENABLE: Liga/Desliga a emulação de controle para o jogo selecionado.
   PADEMU_MODE: Modo de Emulação de Controle
   HINT_PADEMU_MODE: Escolha o modo de emulação de controle.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
+  DS34USB_MODE: DualShock3/4 USB
   DS34BT_MODE: DualShock3/4 Bluetooth
   PADPORT: 'Configurações da Porta:'
   HINT_PAD_PORT: Escolha a porta do controle emulado para aplicar os ajustes.
@@ -295,9 +273,7 @@ translations:
   NET_UPDATE_HINT: Substitui as configurações de compatibilidade de jogos existentes
     ao ativar.
   SETTINGS_SOURCE: Modo de Configuração
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
+  GLOBAL_SETTINGS: Global
   PERGAME_SETTINGS: Por Jogo
   ALL_SETTINGS: Tudo
   GAME_SETTINGS_PROMPT: Selecione um ajuste para remover.
@@ -316,9 +292,7 @@ translations:
   MX4SIO_GAMES: Jogos no MX4SIO
   PADMACROCONFIG: Configurações do PADMACRO
   PADMACRO_SETTINGS: Configurações do Pad macro
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
+  PADMACRO_ENABLE: Macros do controle
   PADMACRO_SLOWDOWN: 'Desaceleração Analógica:'
   HINT_PADMACRO_SLOWDOWN_AXIS: Reduz o alcance do analógico quando o botão é pressionado
   LEFT_ANALOG: Analógico Esquerdo
@@ -343,8 +317,101 @@ translations:
   LANGUAGE_SIMPL_CHINESE: CHINÊS (SIMPLIFICADO)
   OSD_SETTINGS: Configurações do OSD
   OSD_SETTINGS_LNG: Idioma do OSD
+  HINT_OSD_SETTINGS_LNG: Forçar uma configuração de idioma personalizada
   ENABLE_LNG: Mudar Idioma
+  OSD_SETTINGS_TVASPECT: Tamanho da tela
+  FULL_SCREEN: Tela cheia
+  OSD_SETTINGS_VMODE: Modo de vídeo
+  SYSTEM_DEFAULT: Padrão do sistema
   BGM: Música de Fundo
   BGM_VOLUME: Volume da Música de Fundo
-  DEF_BGM_PATH: Música do Tema Padrão
-  DEF_BGM_PATH_HINT: Defina um caminho para transmitir a música para o tema interno.
+  DEF_BGM_PATH: Música de fundo personalizada
+  DEF_BGM_PATH_HINT: Caminho de um arquivo ogg personalizado; deixe vazio para reproduzir
+    a BGM embutida do tema
+  HIGH: Alto
+  LOW: Baixo
+  XSENSITIVITY: Sensibilidade do eixo X analógico
+  YSENSITIVITY: Sensibilidade do eixo Y analógico
+  FILE_COUNT: 'Arquivos encontrados: %i'
+  CHEAT_SELECTION: Seleção de trapaças
+  HDD_HINT: Só é permitido um HDD; ao ativar, o APA ou o GPT fica bloqueado.
+  TXTRENAME: Lista de mapeamento TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Colaboradores do FGOPL (página 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Nomes aguardam confirmação
+  ABOUT_ORIGINAL_CONTRIBUTORS: Colaboradores oficiais do OPL (página 2/2)
+  ABOUT_NEXT_PAGE: Próxima página
+  ABOUT_PREVIOUS_PAGE: Página anterior
+  HINT_DMA_MODE: Modo de transferência do HDD, quanto mais alto mais rápido (é necessário
+    o modo 1 desligado)
+  HINT_DMA_SOURCE: Aplicar globalmente, ou apenas ao jogo atual
+  HINT_CF_COUNT: Altere o número de capas na tela. Se estiver lento, diminua o número.
+  BGM_SEARCH: Procurar arquivo ogg
+  HINT_BGM_SEARCH: Procura um arquivo ogg na raiz dos dispositivos iniciados e preenche
+    o caminho acima
+  BGM_NOT_FOUND: Nenhum arquivo ogg encontrado
+  ARTPACK: Suporte ao pacote de arte OPLM (capas instantâneas)
+  HINT_ARTPACK: Coloque o pacote zip OPLM_ART (não o extraia) diretamente em ART2
+  HINT_ART_RANDOM: Fundos e capturas de tela mudam aleatoriamente (apenas pacote de
+    arte zip)
+  HINT_APAISO: Copie os ISOs para +OPL/DVD ou CD para lê-los diretamente, sem conversão
+    HDL
+  HINT_AUTODETECT_PS1APPS: Detecta diretamente os ELF na pasta APPS e os VCD na pasta
+    POPS
+  HINT_AUTO_MODE1: O modo 1 (leitura precisa) resolve a maioria dos problemas de compatibilidade,
+    recomendado
+  HINT_CACHE_HDD_GAME_LIST: O cache da lista é usado pelo formato de instalação HDL
+    e não é necessário ao ler ISOs diretamente
+  HINT_LASTPLAYED: Quando o OPL inicia, o cursor fica no último jogo que você jogou
+  HINT_COVERARTMODE: O modo de compatibilidade atrasa bastante o carregamento das
+    imagens; recomenda-se o modo de desempenho
+  HINT_AUTOREFRESH: O OPL reage em tempo real quando dispositivos de bloco, como unidades
+    USB, são conectados a quente
+  HINT_TXTRENAME: Gera um arquivo txt usado para associar os nomes dos jogos a qualquer
+    texto
+  HINT_ENABLE_WRITE: A função de exclusão do OPL não é absolutamente segura, use-a
+    com cuidado
+  HINT_THEME: Podem ser escolhidos dois temas embutidos. Coloque temas de terceiros
+    na pasta THM
+  HINT_LANGUAGE: Coloque os pacotes de idioma do FGOPL na pasta LNG para oferecer
+    suporte a mais idiomas
+  START_MODE_SETTINGS: Configurações do modo de inicialização
+  DEVICE_SWITCH: Interruptores de dispositivos (desative os não usados para inicialização
+    mais rápida)
+  APAISO: ISO direto HDD(APA)
+  AUTODETECT_PS1APPS: Detecção automática de APPS e PS1
+  AUTO_MODE1: Ativar automaticamente o modo 1 (melhor compatibilidade)
+  COVERART_BG_OFF: Fundo desligado
+  COVERART_BG_ON: Fundo ligado
+  COVERART_COV_OFF: Capa desligada
+  COVERART_COV_ON: Capa ligada
+  COVERART_ICO_OFF: Disco desligado
+  COVERART_ICO_ON: Disco ligado
+  COVERARTMODE_PERF: Desempenho (somente PNG)
+  COVERARTMODE_COMPAT: Compatibilidade (JPG e PNG)
+  ART_RANDOM_OFF: Arte aleatória desligada
+  ART_RANDOM_ON: Arte aleatória ligada
+  CF_COVER_COUNT_1: 'Capas na tela: 1'
+  CF_COVER_COUNT_3: 'Capas na tela: 3'
+  CF_COVER_COUNT_5: 'Capas na tela: 5'
+  CF_COVER_COUNT_7: 'Capas na tela: 7'
+  CF_COVER_COUNT_9: 'Capas na tela: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (para CRT)
+  GSM_VMODE_480I_SHRINK: 480i reduzido (esticado para 4:3 em TVs modernas)
+  DMA_UDMA4_DEFAULT: UDMA 4 padrão
+  DMA_UDMA5_HIGHEST: UDMA 5 máximo atual do HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 máximo atual do HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 máximo atual do HDD
+  DMA_UDMA7_EXTREME: UDMA 7 extremo
+  DMA_HDD_ONLY: <somente HDD>
+  CHEAT_TOGGLE_ALL: Selecionar/desmarcar tudo
+  CHEAT_SAVE_AND_RUN: Salvar e executar
+  THEME_COVERFLOW: Tema Coverflow embutido
+  THEME_LIST: Tema de lista embutido
+  MSG_DEVICE_DETECT_TIMEOUT: A detecção de %s expirou. Problema de compatibilidade
+    do dispositivo.
+  MSG_TXT_CREATED: O arquivo txt foi criado!
+  MSG_TXT_REBUILT: O arquivo txt foi reconstruído!
+  MSG_HDD_EXFAT_HINT: O HDD interno é exFAT. Ative HDD(exFAT) nas configurações BDM.
+  MSG_HDD_APA_HINT: O HDD interno é APA. Ative o modo de inicialização HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Seu HDD tem partições mistas. Ativar este modo mesmo assim?
+  MSG_LIST_SEPARATOR: ', '

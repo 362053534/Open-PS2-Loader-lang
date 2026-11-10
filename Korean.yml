@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM 게임
   HDD_GAMES: HDD 게임
   NET_GAMES: ETH 게임
-  APPS: 응용프로그램
+  APPS: APPS & PS1
   THEME: 테마
   LANGUAGE: 언어
   CONFIRMATION_POFF: 시스템 전원이 꺼집니다.
@@ -78,12 +78,8 @@ translations:
   TXTCOLOR: 문자 색상
   CAT_SMB_SERVER: '- SMB 서버 -'
   IP_ADDRESS_TYPE: IP 주소 형식
-  IP_ADDRESS_TYPE_STATIC:
-  - untranslated
-  - original: Static
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_STATIC: 정적
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP 주소
   ADDRESS: 주소
   MASK: 마스크
@@ -95,12 +91,8 @@ translations:
   PASSWORD: 비밀번호
   NOT_SET: <설정 안됨>
   ADDRESS_TYPE: 주소 형식
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: 허용
   DELETE_WARNING: 항목은 영구적으로 삭제됩니다, 계속합니까?
   RENAME: 이름변경
@@ -110,7 +102,7 @@ translations:
   ENABLE_WRITE: 쓰기 작업
   LASTPLAYED: 마지막에 실행한 게임 기억
   SELECTBUTTON: 버튼 선택
-  ERR_FRAGMENTED: 오류, 게임이 손상 되었습니다.
+  ERR_FRAGMENTED: 현재 게임에 %d개의 조각이 있습니다. 조각 모음을 한 뒤 다시 시도하세요.
   ERR_FILE_INVALID: 오류, 항목을 실행할 수 없습니다
   TEST: 테스트 변경
   HINT_GUEST: 게스트 권한을 위해 지움
@@ -136,7 +128,7 @@ translations:
   VMC_FILE_ERROR: 잘못된 VMC 파일, 크기가 다릅니다.
   VMC_FILE_NEW: VMC 파일이 생성되야 합니다.
   ERR_VMC_CONTINUE: VMC %s 오류, 메모리카드(슬롯 %d)에서 계속합니까?
-  AUTOREFRESH: 자동 새로 고침
+  AUTOREFRESH: 핫플러그 감지
   ABOUT: 오픈 PS2 로더 정보
   DEVS: 개발자
   QANDA: 품질 보증
@@ -319,8 +311,85 @@ translations:
   LANGUAGE_SIMPL_CHINESE: 중국어(간체)
   OSD_SETTINGS: OSD 설정
   OSD_SETTINGS_LNG: OSD 언어
+  HINT_OSD_SETTINGS_LNG: 사용자 지정 언어 구성을 강제로 적용합니다
   ENABLE_LNG: 언어 변경
+  OSD_SETTINGS_TVASPECT: 화면 크기
+  FULL_SCREEN: 전체 화면
+  OSD_SETTINGS_VMODE: 비디오 모드
+  SYSTEM_DEFAULT: 시스템 기본값
   BGM: 배경 음악
   BGM_VOLUME: 배경 음악 볼륨
-  DEF_BGM_PATH: 기본 테마 음악
-  DEF_BGM_PATH_HINT: 내부 테마의 음악 스트리밍 경로를 설정합니다.
+  DEF_BGM_PATH: 사용자 지정 배경 음악
+  DEF_BGM_PATH_HINT: 사용자 지정 ogg 파일 경로. 비워 두면 테마 내장 BGM을 재생합니다
+  HIGH: 높음
+  LOW: 낮음
+  XSENSITIVITY: 아날로그 X축 감도
+  YSENSITIVITY: 아날로그 Y축 감도
+  FILE_COUNT: '찾은 파일: %i'
+  CHEAT_SELECTION: 치트 선택
+  HDD_HINT: HDD는 하나만 사용할 수 있으며, 켜면 APA 또는 GPT가 잠깁니다.
+  TXTRENAME: TXT 매핑 목록
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL 기여자 (1/2페이지)
+  ABOUT_CONTRIBUTORS_PENDING: 이름은 확인 대기 중입니다
+  ABOUT_ORIGINAL_CONTRIBUTORS: 공식 OPL 기여자 (2/2페이지)
+  ABOUT_NEXT_PAGE: 다음 페이지
+  ABOUT_PREVIOUS_PAGE: 이전 페이지
+  HINT_DMA_MODE: HDD 전송 모드입니다. 값이 높을수록 빠릅니다(모드 1을 꺼야 합니다).
+  HINT_DMA_SOURCE: 전체에 적용하거나, 현재 게임에만 적용합니다
+  HINT_CF_COUNT: 화면에 표시할 커버 수를 바꿉니다. 버벅이면 수를 낮추세요.
+  BGM_SEARCH: ogg 파일 검색
+  HINT_BGM_SEARCH: 시작된 장치의 루트에서 ogg 파일을 찾아 위 경로에 채웁니다
+  BGM_NOT_FOUND: ogg 파일을 찾을 수 없습니다
+  ARTPACK: OPLM 아트팩 지원 (즉시 표시)
+  HINT_ARTPACK: OPLM_ART zip 팩을(압축을 풀지 말고) ART2에 그대로 넣으세요
+  HINT_ART_RANDOM: 배경과 스크린샷이 무작위로 바뀝니다(zip 아트팩 전용).
+  HINT_APAISO: ISO를 +OPL/DVD 또는 CD에 복사하면 바로 읽을 수 있으며, HDL 변환은 필요 없습니다
+  HINT_AUTODETECT_PS1APPS: APPS 폴더의 ELF와 POPS 폴더의 VCD를 바로 인식합니다
+  HINT_AUTO_MODE1: 모드 1(정밀 읽기)은 대부분의 호환성 문제를 해결하므로 권장됩니다
+  HINT_CACHE_HDD_GAME_LIST: 목록 캐시는 HDL 설치 형식에서 쓰이며, ISO를 직접 읽을 때는 필요 없습니다
+  HINT_LASTPLAYED: OPL이 시작되면 커서가 마지막으로 플레이한 게임에 머뭅니다
+  HINT_COVERARTMODE: 호환 모드는 이미지 로딩을 크게 늦추므로 성능 모드를 권장합니다
+  HINT_AUTOREFRESH: USB 드라이브 같은 블록 장치를 핫플러그하면 OPL이 실시간으로 반응합니다
+  HINT_TXTRENAME: 게임 이름을 원하는 텍스트에 대응할 txt 파일을 만듭니다
+  HINT_ENABLE_WRITE: OPL의 삭제 기능은 완전히 안전하지 않으니 주의해서 사용하세요
+  HINT_THEME: 내장 테마 두 가지를 전환할 수 있습니다. 외부 테마는 THM 폴더에 넣으세요
+  HINT_LANGUAGE: 더 많은 언어를 쓰려면 FGOPL 언어 팩을 LNG 폴더에 넣으세요
+  START_MODE_SETTINGS: 시작 모드 설정
+  DEVICE_SWITCH: 장치 스위치 (사용하지 않는 장치를 끄면 부팅이 빨라집니다)
+  APAISO: HDD(APA) ISO 직접 읽기
+  AUTODETECT_PS1APPS: APPS & PS1 자동 인식
+  AUTO_MODE1: 모드 1 자동 사용 (호환성 향상)
+  COVERART_BG_OFF: 배경 끄기
+  COVERART_BG_ON: 배경 켜기
+  COVERART_COV_OFF: 커버 끄기
+  COVERART_COV_ON: 커버 켜기
+  COVERART_ICO_OFF: 디스크 끄기
+  COVERART_ICO_ON: 디스크 켜기
+  COVERARTMODE_PERF: 성능 (PNG만)
+  COVERARTMODE_COMPAT: 호환성 (JPG 및 PNG)
+  ART_RANDOM_OFF: 랜덤 이미지 끄기
+  ART_RANDOM_ON: 랜덤 이미지 켜기
+  CF_COVER_COUNT_1: '화면의 커버 수: 1'
+  CF_COVER_COUNT_3: '화면의 커버 수: 3'
+  CF_COVER_COUNT_5: '화면의 커버 수: 5'
+  CF_COVER_COUNT_7: '화면의 커버 수: 7'
+  CF_COVER_COUNT_9: '화면의 커버 수: 9'
+  GSM_VMODE_480I_NORMAL: 480i 일반 (CRT용)
+  GSM_VMODE_480I_SHRINK: 480i 축소 (최신 TV에서는 4:3으로 늘릴 수 있음)
+  DMA_UDMA4_DEFAULT: UDMA 4 기본값
+  DMA_UDMA5_HIGHEST: UDMA 5 현재 HDD 최대
+  DMA_UDMA6_HIGHEST: UDMA 6 현재 HDD 최대
+  DMA_UDMA7_HIGHEST: UDMA 7 현재 HDD 최대
+  DMA_UDMA7_EXTREME: UDMA 7 익스트림
+  DMA_HDD_ONLY: <HDD 전용>
+  CHEAT_TOGGLE_ALL: 모두 선택/해제
+  CHEAT_SAVE_AND_RUN: 저장 후 실행
+  THEME_COVERFLOW: 내장 커버플로 테마
+  THEME_LIST: 내장 목록 테마
+  MSG_DEVICE_DETECT_TIMEOUT: '%s 감지 시간이 초과되었습니다. 장치 호환성 문제입니다.'
+  MSG_TXT_CREATED: txt 파일이 생성되었습니다!
+  MSG_TXT_REBUILT: txt 파일이 다시 만들어졌습니다!
+  MSG_HDD_EXFAT_HINT: 내장 HDD가 exFAT입니다. BDM 설정에서 HDD(exFAT)를 켜세요.
+  MSG_HDD_APA_HINT: 내장 HDD가 APA입니다. HDD(APA) 시작 모드를 켜세요.
+  MSG_HDD_MIXED_CONFIRM: HDD에 혼합 파티션이 있습니다. 이 모드를 그래도 사용하시겠습니까?
+  MSG_LIST_SEPARATOR: ', '

@@ -12,15 +12,11 @@ translations:
   ERROR_SAVING_SETTINGS: Erreur lors de la sauvegarde de la configuration
   EXIT: Quitter
   SETTINGS: Configuration
-  MENU:
-  - untranslated
-  - original: Menu
+  MENU: Menu
   BDM_GAMES: Périphérique BDM
   HDD_GAMES: Disque dur interne
   NET_GAMES: Serveur SMB
-  APPS:
-  - untranslated
-  - original: Apps
+  APPS: APPS & PS1
   THEME: Thème
   LANGUAGE: Langue
   CONFIRMATION_POFF: Le système va être éteint
@@ -57,13 +53,9 @@ translations:
   ERROR_LOADING_ID: Erreur lors du chargement de l'ID du jeu
   AUTOSORT: Tri alphabétique
   ERR_LOADING_LANGFILE: Erreur lors du chargement du fichier langue
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Couleurs de débogage
   NO_CONTROLLER: La manette PS2 a été déconnectée…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Jaquettes
   WIDE_SCREEN: Écran large
   POWEROFF: Éteindre le système
   LOADING_SETTINGS: Chargement…
@@ -87,40 +79,30 @@ translations:
   CAT_SMB_SERVER: '- Serveur SMB -'
   IP_ADDRESS_TYPE: Type d'adresse IP
   IP_ADDRESS_TYPE_STATIC: Statique
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: Adresse IP
   ADDRESS: Adresse
   MASK: Masque de sous-réseau
   GATEWAY: Passerelle par défaut
   DNS_SERVER: Serveur DNS
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Nom du dossier partagé
   USER: Nom de session
   PASSWORD: Mot de passe
   NOT_SET: <non renseigné>
   ADDRESS_TYPE: Type d'adresse
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Valider
   DELETE_WARNING: L'item sera définitivement supprimé, continuer ?
   RENAME: Renommer
   DELETE: Suppr.
   RUN: Lancer
   GFX_SETTINGS: Configuration de l'affichage
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: Opérations d'écriture
   LASTPLAYED: Dernier jeu joué
   SELECTBUTTON: Touche de validation
-  ERR_FRAGMENTED: '"Erreur, le jeu est fragmenté"'
+  ERR_FRAGMENTED: Le jeu actuel comporte %d fragments. Défragmentez-le puis réessayez.
   ERR_FILE_INVALID: '"Erreur, impossible de lancer l''item"'
   TEST: Tester Les Changements
   HINT_GUEST: Laisser le champ vide pour utiliser la session Invité
@@ -146,7 +128,7 @@ translations:
   VMC_FILE_ERROR: Fichier VMC non valide, taille incorrecte
   VMC_FILE_NEW: La VMC doit d'abord être créée
   ERR_VMC_CONTINUE: Erreur sur VMC %s. Continuer sur la carte mém. physique %d ?
-  AUTOREFRESH: Rafraîchissement automatique
+  AUTOREFRESH: Détection du branchement à chaud
   ABOUT: Crédits
   DEVS: Développeurs
   QANDA: Beta-testeurs
@@ -174,24 +156,12 @@ translations:
   GAME_ID: ID
   DMA_MODE: Mode DMA
   VSYNC: Synchronisation verticale
-  MODE1:
-  - untranslated
-  - original: Mode 1
-  MODE2:
-  - untranslated
-  - original: Mode 2
-  MODE3:
-  - untranslated
-  - original: Mode 3
-  MODE4:
-  - untranslated
-  - original: Mode 4
-  MODE5:
-  - untranslated
-  - original: Mode 5
-  MODE6:
-  - untranslated
-  - original: Mode 6
+  MODE1: Mode 1
+  MODE2: Mode 2
+  MODE3: Mode 3
+  MODE4: Mode 4
+  MODE5: Mode 5
+  MODE6: Mode 6
   GSCONFIG: GSM
   ETH_OPMODE: Vitesse Ethernet
   ETH_100MFDX: 100Mbit full-duplex
@@ -199,25 +169,19 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: Configuration de GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: Sélecteur GSM
   HINT_ENABLEGSM: Activer/Désactiver GSM
   HINT_GSMVMODE: 'Modes vidéo disponibles : NTSC/PAL/60Hz/PS1/HDTV/VGA'
   XOFFSET: Ajustement horizontal de l'écran
   HINT_XOFFSET: Ajouter/Soustraire
   YOFFSET: Ajustement vertical de l'écran
   HINT_YOFFSET: Ajouter/Soustraire
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Ajustement de l'Overscan
   GSMSKIPVIDEOS: Avance rapide
   HINT_GSMSKIPVIDEOS: Passer les vidéos au format FMV
   CHEAT_SETTINGS: PS2RD
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: Moteur de codes PS2RD
   HINT_ENABLECHEAT: Activer/Désactiver PS2RD
   CHEATMODE: Activation des codes
   HINT_CHEATMODE: Automatique/Manuel
@@ -235,32 +199,24 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: Télécharger les régl. prédéfinis depuis Internet ?
   CUSTOMIZED_SETTINGS: Réglages personnalisés
   DOWNLOADED_DEFAULTS: Réglages prédéfinis
-  AUTO_START_IN_N_SECS: Lancement automatique dans %s…
+  AUTO_START_IN_N_SECS: Lancement automatique dans %i s…
   AUTOSTARTLAST: Lancement auto.
   HINT_AUTOSTARTLAST: En seconde(s), 0 pour désactiver le lancement automatique
   PS2LOGO: Logo PS2
   HINT_PS2LOGO: Affiche le logo de disque valide correspondant à la région de la console.
   PADEMUCONFIG: PADEMU
   PADEMU_SETTINGS: Configuration émulateur manette
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Émulateur de manette
   HINT_PADEMU_ENABLE: Activer/Désactiver émulateur manette pour ce jeu
   PADEMU_MODE: Mode
   HINT_PADEMU_MODE: USB/Bluetooth
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
+  DS34USB_MODE: DualShock3/4 USB
   DS34BT_MODE: DualShock3/4 Bluetooth
   PADPORT: Port
   HINT_PAD_PORT: 1-Feb
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Émulation
   HINT_PADEMU_PORT: Activer/Désactiver émulateur manette pour le port sélectionné
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Vibration
   HINT_PADEMU_VIB: Activer/Désactiver support vibration pour le port sélectionné
   USBDG_MAC: Adresse MAC du récepteur Bluetooth
   PAD_MAC: DualShock3 connectée à l'adresse MAC
@@ -283,9 +239,7 @@ translations:
   HINT_MTAP_ENABLE: Activer/Désactiver l'émulation du Multitap pour ce jeu
   MTAP_PORT: 'Émulation du Multitap sur le port:'
   HINT_MTAP_PORT: Port 1/Port 2
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
+  PADEMU_WORKAROUND: Contournement pour faux DS3
   HINT_PADEMU_WORKAROUND: Some fake DS3s need a workaround, this option will enable
     it
   GSM_FIELD_FIX: Émuler FIELD Flipping
@@ -301,163 +255,169 @@ translations:
   ERR_VMC_FRAGMENTED_CONTINUE: Le fichier VMC %s est fragmenté. Continuer avec la
     carte mémoire dans l'emplacement %d?
   AUDIO_SETTINGS: Paramètres Audio
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
+  SFX: Effets sonores
+  BOOT_SND: Son de démarrage
   SFX_VOLUME: Volume des effets sonores
   BOOT_SND_VOLUME: Volume du son de démarrage
   CFM_VMODE_CHG: Confirmer le changement de mode vidéo?
   CACHE_HDD_GAME_LIST: Masquer la liste des jeux (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
+  ENABLE_NOTIFICATIONS: Notifications
   CFG_NOTIFICATION: Configuration chargée depuis %s
   THM_NOTIFICATION: Theme chargé depuis %s
   LNG_NOTIFICATION: Langue chargée depuis %s
   PARTITION_NOTIFICATION: Partition %s montée
-  OPTIONS:
-  - untranslated
-  - original: Options
+  OPTIONS: Options
   GAME_SETTINGS_SAVED: Paramètres sauvegardés.
   GAME_SETTINGS_REMOVED: '%s paramètres supprimés.'
   NET_UPDATE_HINT: Remplace les paramètres de compatibilité des jeux existants lorsqu'ils
     sont activés.
   SETTINGS_SOURCE: Mode réglages
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
+  GLOBAL_SETTINGS: Global
   PERGAME_SETTINGS: Par Jeux
   ALL_SETTINGS: Tous
   GAME_SETTINGS_PROMPT: Sélectionnez les paramètres à supprimer.
   FORUM_DETAILS: 'Support des Forums:'
   INFO_TITLE: Titre
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
+  INFO_GENRE: Genre
+  INFO_RELEASE: Éditeur
   INFO_DEVELOPER: Développeurs
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  INFO_DESCRIPTION: Description
+  BLOCKDEVICE_SETTINGS: Périphériques BDM
+  CONTROLLER_SETTINGS: Paramètres de la manette
+  HINT_BDM_START: Activer/désactiver le gestionnaire de périphériques de bloc.
+  HINT_BLOCK_DEVICES: Activer/désactiver les périphériques BDM (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: Jeux USB
+  ILINK_GAMES: Jeux iLink
+  MX4SIO_GAMES: Jeux MX4SIO
+  PADMACROCONFIG: Configurer PADMACRO
+  PADMACRO_SETTINGS: Paramètres des macros de manette
+  PADMACRO_ENABLE: Macros de manette
+  PADMACRO_SLOWDOWN: 'Ralentissement analogique:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Réduit la plage du stick analogique lorsque le bouton
+    est enfoncé.
+  LEFT_ANALOG: Stick gauche
+  RIGHT_ANALOG: Stick droit
+  PADMACRO_INVERT_AXIS: 'Inversion de l''axe analogique:'
+  HINT_PADMACRO_INVERT_AXIS: Inverse l'axe du stick analogique sélectionné.
+  TURBO_SPEED: Vitesse du bouton turbo
+  HINT_TURBO_SPEED: Vitesse à laquelle le bouton est pressé lorsque le turbo est actif.
+  ACT_WHILE_PRESSED: Tant que le bouton est enfoncé
+  ACT_TOGGLED: Activé/désactivé par bouton
+  LANGUAGE_JAPANESE: Japonais
+  LANGUAGE_ENGLISH: Anglais
+  LANGUAGE_FRENCH: Français
+  LANGUAGE_SPANISH: Espagnol
+  LANGUAGE_GERMAN: Allemand
+  LANGUAGE_ITALIAN: Italien
+  LANGUAGE_DUTCH: Néerlandais
+  LANGUAGE_PORTUGUESE: Portugais
+  LANGUAGE_RUSSIAN: Russe
+  LANGUAGE_KOREAN: Coréen
+  LANGUAGE_TRAD_CHINESE: Chinois traditionnel
+  LANGUAGE_SIMPL_CHINESE: Chinois simplifié
+  OSD_SETTINGS: Paramètres OSD
+  OSD_SETTINGS_LNG: Langue OSD
+  HINT_OSD_SETTINGS_LNG: Forcer une configuration de langue personnalisée
+  ENABLE_LNG: Activer
+  OSD_SETTINGS_TVASPECT: Taille de l'écran
+  FULL_SCREEN: Plein écran
+  OSD_SETTINGS_VMODE: Mode vidéo
+  SYSTEM_DEFAULT: Valeur par défaut du système
+  BGM: Musique de fond
+  BGM_VOLUME: Volume de la musique de fond
+  DEF_BGM_PATH: Musique de fond personnalisée
+  DEF_BGM_PATH_HINT: Chemin d'un fichier ogg personnalisé ; laissez vide pour lire
+    la BGM intégrée du thème
+  HIGH: Élevé
+  LOW: Faible
+  XSENSITIVITY: Sensibilité de l'axe X analogique
+  YSENSITIVITY: Sensibilité de l'axe Y analogique
+  FILE_COUNT: 'Fichiers trouvés : %i'
+  CHEAT_SELECTION: Sélection des codes
+  HDD_HINT: Un seul disque dur est autorisé ; l'activation verrouille APA ou GPT.
+  TXTRENAME: Liste de correspondance TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Contributeurs FGOPL (page 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Noms en attente de confirmation
+  ABOUT_ORIGINAL_CONTRIBUTORS: Contributeurs officiels d'OPL (page 2/2)
+  ABOUT_NEXT_PAGE: Page suivante
+  ABOUT_PREVIOUS_PAGE: Page précédente
+  HINT_DMA_MODE: Mode de transfert du disque dur, plus il est élevé, plus c'est rapide
+    (le mode 1 doit être désactivé)
+  HINT_DMA_SOURCE: Appliquer globalement, ou uniquement au jeu en cours
+  HINT_CF_COUNT: Modifiez le nombre de pochettes à l'écran. En cas de ralentissement,
+    diminuez ce nombre.
+  BGM_SEARCH: Rechercher un fichier ogg
+  HINT_BGM_SEARCH: Recherche un fichier ogg à la racine des périphériques démarrés
+    et renseigne le chemin ci-dessus
+  BGM_NOT_FOUND: Aucun fichier ogg trouvé
+  ARTPACK: Prise en charge du pack d'images OPLM (jaquettes instantanées)
+  HINT_ARTPACK: Placez le pack zip OPLM_ART (sans le décompresser) directement dans
+    ART2
+  HINT_ART_RANDOM: Les fonds et captures d'écran changent aléatoirement (pack d'images
+    zip uniquement)
+  HINT_APAISO: Copiez les ISO dans +OPL/DVD ou CD pour les lire directement, sans
+    conversion HDL
+  HINT_AUTODETECT_PS1APPS: Détecte directement les ELF dans le dossier APPS et les
+    VCD dans le dossier POPS
+  HINT_AUTO_MODE1: Le mode 1 (lecture précise) résout la plupart des problèmes de
+    compatibilité, recommandé
+  HINT_CACHE_HDD_GAME_LIST: Le cache de la liste est utilisé par le format d'installation
+    HDL, inutile lors de la lecture directe des ISO
+  HINT_LASTPLAYED: Au démarrage d'OPL, le curseur reste sur le dernier jeu auquel
+    vous avez joué
+  HINT_COVERARTMODE: Le mode compatibilité ralentit fortement le chargement des images,
+    le mode performances est recommandé
+  HINT_AUTOREFRESH: OPL réagit en temps réel lorsqu'un périphérique de bloc tel qu'une
+    clé USB est branché à chaud
+  HINT_TXTRENAME: Génère un fichier txt servant à associer les noms des jeux à n'importe
+    quel texte
+  HINT_ENABLE_WRITE: La fonction de suppression d'OPL n'est pas totalement sûre, utilisez-la
+    avec prudence
+  HINT_THEME: Deux thèmes intégrés peuvent être sélectionnés. Placez les thèmes tiers
+    dans le dossier THM
+  HINT_LANGUAGE: Placez les packs de langue FGOPL dans le dossier LNG pour prendre
+    en charge davantage de langues
+  START_MODE_SETTINGS: Paramètres du mode de démarrage
+  DEVICE_SWITCH: Interrupteurs des périphériques (désactivez ceux inutilisés pour
+    un démarrage plus rapide)
+  APAISO: ISO direct HDD(APA)
+  AUTODETECT_PS1APPS: Détection automatique APPS et PS1
+  AUTO_MODE1: Activer automatiquement le mode 1 (meilleure compatibilité)
+  COVERART_BG_OFF: Fond désactivé
+  COVERART_BG_ON: Fond activé
+  COVERART_COV_OFF: Jaquette désactivée
+  COVERART_COV_ON: Jaquette activée
+  COVERART_ICO_OFF: Disque désactivé
+  COVERART_ICO_ON: Disque activé
+  COVERARTMODE_PERF: Performances (PNG uniquement)
+  COVERARTMODE_COMPAT: Compatibilité (JPG et PNG)
+  ART_RANDOM_OFF: Images aléatoires désactivées
+  ART_RANDOM_ON: Images aléatoires activées
+  CF_COVER_COUNT_1: 'Pochettes à l''écran : 1'
+  CF_COVER_COUNT_3: 'Pochettes à l''écran : 3'
+  CF_COVER_COUNT_5: 'Pochettes à l''écran : 5'
+  CF_COVER_COUNT_7: 'Pochettes à l''écran : 7'
+  CF_COVER_COUNT_9: 'Pochettes à l''écran : 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (pour CRT)
+  GSM_VMODE_480I_SHRINK: 480i réduit (étiré en 4:3 sur les téléviseurs modernes)
+  DMA_UDMA4_DEFAULT: UDMA 4 par défaut
+  DMA_UDMA5_HIGHEST: UDMA 5 maximum actuel du disque dur
+  DMA_UDMA6_HIGHEST: UDMA 6 maximum actuel du disque dur
+  DMA_UDMA7_HIGHEST: UDMA 7 maximum actuel du disque dur
+  DMA_UDMA7_EXTREME: UDMA 7 extrême
+  DMA_HDD_ONLY: <HDD uniquement>
+  CHEAT_TOGGLE_ALL: Tout sélectionner/désélectionner
+  CHEAT_SAVE_AND_RUN: Enregistrer et lancer
+  THEME_COVERFLOW: Thème Coverflow intégré
+  THEME_LIST: Thème liste intégré
+  MSG_DEVICE_DETECT_TIMEOUT: Délai d'attente dépassé pour la détection de %s. Problème
+    de compatibilité du périphérique.
+  MSG_TXT_CREATED: Le fichier txt a été créé !
+  MSG_TXT_REBUILT: Le fichier txt a été recréé !
+  MSG_HDD_EXFAT_HINT: Le disque dur interne est en exFAT. Activez HDD(exFAT) dans
+    les paramètres BDM.
+  MSG_HDD_APA_HINT: Le disque dur interne est en APA. Activez le mode de démarrage
+    HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Votre disque dur contient des partitions mixtes. Activer
+    ce mode quand même ?
+  MSG_LIST_SEPARATOR: ', '

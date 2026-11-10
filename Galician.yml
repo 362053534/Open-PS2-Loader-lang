@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: Xogos BDM
   HDD_GAMES: Xogos Disco duro
   NET_GAMES: Xogos Rede
-  APPS: Aplicacións
+  APPS: APPS & PS1
   THEME: Tema
   LANGUAGE: Idioma
   CONFIRMATION_POFF: O sistema apagarase
@@ -56,7 +56,7 @@ translations:
   DEBUG: Cores para depuración
   NO_CONTROLLER: Mando non atopado, esperando...
   COVERART: Imaxes da carátula
-  WIDE_SCREEN: 'Relación de aspecto 16:9'
+  WIDE_SCREEN: Relación de aspecto 16:9
   POWEROFF: Apagar PS2
   LOADING_SETTINGS: Cargando configuración...
   SAVING_SETTINGS: Gardando configuración...
@@ -102,7 +102,7 @@ translations:
   ENABLE_WRITE: Operacións de escritura
   LASTPLAYED: Recordar último xogo en uso
   SELECTBUTTON: Botón de selección
-  ERR_FRAGMENTED: Erro, o xogo está fragmentado
+  ERR_FRAGMENTED: O xogo actual ten %d fragmentos. Desfragméntao e téntao de novo.
   ERR_FILE_INVALID: Erro, non se puido iniciar o ficheiro
   TEST: Probar cambios
   HINT_GUEST: Deixar en branco para autenticar como GUEST
@@ -127,8 +127,9 @@ translations:
   VMC_FILE_EXISTS: Ficheiro VMC creado
   VMC_FILE_ERROR: Ficheiro VMC inválido, o tamaño é incorrecto
   VMC_FILE_NEW: O ficheiro VMC debe crearse
-  ERR_VMC_CONTINUE: Erro ao acceder á VMC %s, continuar coa tarxeta de memoria na rañura %d?
-  AUTOREFRESH: Refresco automático das listas
+  ERR_VMC_CONTINUE: Erro ao acceder á VMC %s, continuar coa tarxeta de memoria na
+    rañura %d?
+  AUTOREFRESH: Detección de conexión en quente
   ABOUT: Acerca de OPL
   DEVS: Desenvolvedores
   QANDA: Testadores
@@ -230,17 +231,16 @@ translations:
   MANUFACTURER: 'ID fabricante:'
   SUPFEATURES: 'Funcións soportadas:'
   'YES': Si
-  'NO': 'Non'
-  BT_SUPPORTED: O adaptador Bluetooth debe ser totalmente compatible cos mandos
+  'NO': Non
+  BT_SUPPORTED: O adaptador Bluetooth debe ser totalmente compatible cos mandos DS3/DS4
+  BT_NOTSUPPORTED: O adaptador Bluetooth pode non funcionar correctamente cos mandos
     DS3/DS4
-  BT_NOTSUPPORTED: O adaptador Bluetooth pode non funcionar correctamente cos
-    mandos DS3/DS4
   MTAP_ENABLE: Emulación Multitap
   HINT_MTAP_ENABLE: Activa/Desactiva a emulación Multitap para o xogo seleccionado
   MTAP_PORT: 'Emulación Multitap no porto:'
   HINT_MTAP_PORT: Selecciona porto para a emulación Multitap
   PADEMU_WORKAROUND: Solución alternativa para os DS3 falsos
-  HINT_PADEMU_WORKAROUND: Algúns DS3 falsos necesitan unha solución alternativa, esta 
+  HINT_PADEMU_WORKAROUND: Algúns DS3 falsos necesitan unha solución alternativa, esta
     opción actíva tal solución
   GSM_FIELD_FIX: Emular alternancia de valores do CAMPO
   HINT_GSM_FIELD_FIX: Solución para xogos que fallan baixo resolucións progresivas
@@ -252,8 +252,8 @@ translations:
   PARENLOCK_DISABLE_WARNING: Control parental desactivado
   BUILD_DETAILS: 'Opcións de compilación:'
   PARENLOCK_INVALID_PASSWORD: Erro - non se pode usar este contrasinal
-  ERR_VMC_FRAGMENTED_CONTINUE: O ficheiro VMC %s está fragmentado. Continuar coa
-    tarxeta de memoria na rañura %d?
+  ERR_VMC_FRAGMENTED_CONTINUE: O ficheiro VMC %s está fragmentado. Continuar coa tarxeta
+    de memoria na rañura %d?
   AUDIO_SETTINGS: Configuración de son
   SFX: Efectos de son
   BOOT_SND: Son de inicio
@@ -294,7 +294,8 @@ translations:
   PADMACRO_SETTINGS: Opcións para as funcións do mando
   PADMACRO_ENABLE: Funcións do mando
   PADMACRO_SLOWDOWN: 'Ralentización do analóxico:'
-  HINT_PADMACRO_SLOWDOWN_AXIS: Reduce o rango da panca analóxica cando se pulsa o botón
+  HINT_PADMACRO_SLOWDOWN_AXIS: Reduce o rango da panca analóxica cando se pulsa o
+    botón
   LEFT_ANALOG: Panca analóxica esquerda
   RIGHT_ANALOG: Panca analóxica dereita
   PADMACRO_INVERT_AXIS: 'Inverter eixe analóxico:'
@@ -317,8 +318,102 @@ translations:
   LANGUAGE_SIMPL_CHINESE: Chino simplificado
   OSD_SETTINGS: Configuración OSD
   OSD_SETTINGS_LNG: Idioma OSD
+  HINT_OSD_SETTINGS_LNG: Forzar unha configuración de idioma personalizada
   ENABLE_LNG: Cambiar Idioma
+  OSD_SETTINGS_TVASPECT: Tamaño da pantalla
+  FULL_SCREEN: Pantalla completa
+  OSD_SETTINGS_VMODE: Modo de vídeo
+  SYSTEM_DEFAULT: Predeterminado do sistema
   BGM: Música
   BGM_VOLUME: Volume música
-  DEF_BGM_PATH: Ruta da canción
-  DEF_BGM_PATH_HINT: Indica onde está localizada a canción a usar para o tema
+  DEF_BGM_PATH: Música de fondo personalizada
+  DEF_BGM_PATH_HINT: Ruta dun ficheiro ogg personalizado; déixao baleiro para reproducir
+    a BGM integrada do tema
+  HIGH: Alto
+  LOW: Baixo
+  XSENSITIVITY: Sensibilidade do eixe X analóxico
+  YSENSITIVITY: Sensibilidade do eixe Y analóxico
+  FILE_COUNT: 'Ficheiros atopados: %i'
+  CHEAT_SELECTION: Selección de trucos
+  HDD_HINT: Só se permite un HDD; ao activalo bloquéase APA ou GPT.
+  TXTRENAME: Lista de asignación TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Colaboradores de FGOPL (páxina 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Nomes pendentes de confirmación
+  ABOUT_ORIGINAL_CONTRIBUTORS: Colaboradores oficiais de OPL (páxina 2/2)
+  ABOUT_NEXT_PAGE: Páxina seguinte
+  ABOUT_PREVIOUS_PAGE: Páxina anterior
+  HINT_DMA_MODE: Modo de transferencia do HDD, canto máis alto máis rápido (require
+    o modo 1 desactivado)
+  HINT_DMA_SOURCE: Aplicar de forma global, ou só ao xogo actual
+  HINT_CF_COUNT: Cambia o número de portadas en pantalla. Se vai a saltos, baixa o
+    número.
+  BGM_SEARCH: Buscar ficheiro ogg
+  HINT_BGM_SEARCH: Busca un ficheiro ogg na raíz dos dispositivos iniciados e enche
+    a ruta de enriba
+  BGM_NOT_FOUND: Non se atopou ningún ficheiro ogg
+  ARTPACK: Compatibilidade co paquete de arte OPLM (imaxes instantáneas)
+  HINT_ARTPACK: Pon o paquete zip OPLM_ART (sen extraelo) directamente en ART2
+  HINT_ART_RANDOM: Os fondos e as capturas cambian ao chou (só co paquete de arte
+    zip)
+  HINT_APAISO: Copia os ISO en +OPL/DVD ou CD para lelos directamente, sen conversión
+    HDL
+  HINT_AUTODETECT_PS1APPS: Detecta directamente os ELF no cartafol APPS e os VCD no
+    cartafol POPS
+  HINT_AUTO_MODE1: O modo 1 (lectura precisa) resolve a maioría dos problemas de compatibilidade,
+    recomendado
+  HINT_CACHE_HDD_GAME_LIST: A caché da lista úsaa o formato de instalación HDL; non
+    fai falta ao ler ISO de forma directa
+  HINT_LASTPLAYED: Cando se inicia OPL, o cursor queda no último xogo ao que xogaches
+  HINT_COVERARTMODE: O modo de compatibilidade atrasaa moito a carga das imaxes; recomendase
+    o modo de rendemento
+  HINT_AUTOREFRESH: OPL responde en tempo real cando se conectan en quente dispositivos
+    de bloque como unidades USB
+  HINT_TXTRENAME: Xera un ficheiro txt usado para asignar os nomes dos xogos a calquera
+    texto
+  HINT_ENABLE_WRITE: A función de eliminación de OPL non é totalmente segura, úsaa
+    con precaución
+  HINT_THEME: Pódense cambiar dous temas integrados. Coloca os temas de terceiros
+    no cartafol THM
+  HINT_LANGUAGE: Coloca os paquetes de idioma de FGOPL no cartafol LNG para admitir
+    máis idiomas
+  START_MODE_SETTINGS: Axustes do modo de inicio
+  DEVICE_SWITCH: Interruptores de dispositivos (desactive os non usados para arrancar
+    máis rápido)
+  APAISO: ISO directo HDD(APA)
+  AUTODETECT_PS1APPS: Detección automática de APPS e PS1
+  AUTO_MODE1: Activar automaticamente o modo 1 (mellor compatibilidade)
+  COVERART_BG_OFF: Fondo desactivado
+  COVERART_BG_ON: Fondo activado
+  COVERART_COV_OFF: Portada desactivada
+  COVERART_COV_ON: Portada activada
+  COVERART_ICO_OFF: Disco desactivado
+  COVERART_ICO_ON: Disco activado
+  COVERARTMODE_PERF: Rendemento (só PNG)
+  COVERARTMODE_COMPAT: Compatibilidade (JPG e PNG)
+  ART_RANDOM_OFF: Imaxe aleatoria desactivada
+  ART_RANDOM_ON: Imaxe aleatoria activada
+  CF_COVER_COUNT_1: 'Portadas en pantalla: 1'
+  CF_COVER_COUNT_3: 'Portadas en pantalla: 3'
+  CF_COVER_COUNT_5: 'Portadas en pantalla: 5'
+  CF_COVER_COUNT_7: 'Portadas en pantalla: 7'
+  CF_COVER_COUNT_9: 'Portadas en pantalla: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (para CRT)
+  GSM_VMODE_480I_SHRINK: 480i contraído (estírese a 4:3 nos televisores modernos)
+  DMA_UDMA4_DEFAULT: UDMA 4 predeterminado
+  DMA_UDMA5_HIGHEST: UDMA 5 máximo actual do HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 máximo actual do HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 máximo actual do HDD
+  DMA_UDMA7_EXTREME: UDMA 7 extremo
+  DMA_HDD_ONLY: <só HDD>
+  CHEAT_TOGGLE_ALL: Seleccionar/deseleccionar todo
+  CHEAT_SAVE_AND_RUN: Gardar e executar
+  THEME_COVERFLOW: Tema Coverflow integrado
+  THEME_LIST: Tema de lista integrado
+  MSG_DEVICE_DETECT_TIMEOUT: Esgotouse o tempo de detección de %s. Problema de compatibilidade
+    do dispositivo.
+  MSG_TXT_CREATED: Creouse o ficheiro txt!
+  MSG_TXT_REBUILT: Reconstruíuse o ficheiro txt!
+  MSG_HDD_EXFAT_HINT: O HDD interno é exFAT. Activa HDD(exFAT) nos axustes de BDM.
+  MSG_HDD_APA_HINT: O HDD interno é APA. Activa o modo de inicio HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: O teu HDD ten particións mesturadas. Activar este modo igualmente?
+  MSG_LIST_SEPARATOR: ', '

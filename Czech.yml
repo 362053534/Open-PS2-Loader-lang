@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM Hry
   HDD_GAMES: HDD Hry
   NET_GAMES: ETH Hry
-  APPS: Aplikace
+  APPS: APPS & PS1
   THEME: Skin
   LANGUAGE: Jazyk
   CONFIRMATION_POFF: Systém bude vypnut.
@@ -102,7 +102,7 @@ translations:
   ENABLE_WRITE: Zápisové operace
   LASTPLAYED: Pamatovat posledně hranou hru
   SELECTBUTTON: Tlačítko Select
-  ERR_FRAGMENTED: Chyba, hra je fragmentovaná
+  ERR_FRAGMENTED: Aktuální hra má %d fragmentů. Defragmentujte ji a zkuste to znovu.
   ERR_FILE_INVALID: Chyba, nemůžu spustit hru
   TEST: Otestovat změny
   HINT_GUEST: Nechte prázdné pro přihlášení GUEST účtu
@@ -127,8 +127,9 @@ translations:
   VMC_FILE_EXISTS: VMC soubor existuje
   VMC_FILE_ERROR: Vadný VMC soubor, nesprávná velikost
   VMC_FILE_NEW: Je potřeba vytvořit VMC soubor
-  ERR_VMC_CONTINUE: Chyba při přístupu k VMC %s. Pokračovat s paměťovou kartou ve slotu %d?
-  AUTOREFRESH: Automatické obnovení
+  ERR_VMC_CONTINUE: Chyba při přístupu k VMC %s. Pokračovat s paměťovou kartou ve
+    slotu %d?
+  AUTOREFRESH: Detekce připojení za chodu
   ABOUT: O aplikaci
   DEVS: Kodéři
   QANDA: Kontrola kvality
@@ -202,7 +203,8 @@ translations:
   AUTOSTARTLAST: Auto start
   HINT_AUTOSTARTLAST: Hodnota v sekundách, zadej 0 pro vypnutí auto startu
   PS2LOGO: PS2 Logo
-  HINT_PS2LOGO: Zobrazováno pouze u validního loga disku, který má stejný region jako konzole
+  HINT_PS2LOGO: Zobrazováno pouze u validního loga disku, který má stejný region jako
+    konzole
   PADEMUCONFIG: Nastavení PADEMU
   PADEMU_SETTINGS: Nastavení emulátoru ovladače
   PADEMU_ENABLE: Emulátor ovladače
@@ -248,8 +250,9 @@ translations:
   PARENLOCK_PASSWORD_INCORRECT: Heslo rodičovského zámku je nesprávné
   PARENLOCK_DISABLE_WARNING: Rodičovský zámek byl vypnut
   BUILD_DETAILS: Možnosti sestavení
-  PARENLOCK_INVALID_PASSWORD: 'Chyba – toto heslo nelze použít'
-  ERR_VMC_FRAGMENTED_CONTINUE: Soubor VMC %s je fragmentovaný. Pokračovat s paměťovou kartou ve slotu %d?
+  PARENLOCK_INVALID_PASSWORD: Chyba – toto heslo nelze použít
+  ERR_VMC_FRAGMENTED_CONTINUE: Soubor VMC %s je fragmentovaný. Pokračovat s paměťovou
+    kartou ve slotu %d?
   AUDIO_SETTINGS: Nastavení zvuku
   SFX: Zvukové efekty
   BOOT_SND: Zvuk při spuštění
@@ -311,8 +314,97 @@ translations:
   LANGUAGE_SIMPL_CHINESE: Zjednodušená čínština
   OSD_SETTINGS: Nastavení OSD
   OSD_SETTINGS_LNG: Jazyk OSD
+  HINT_OSD_SETTINGS_LNG: Vynutit vlastní jazykové nastavení
   ENABLE_LNG: Změnit jazyk
+  OSD_SETTINGS_TVASPECT: Velikost obrazovky
+  FULL_SCREEN: Celá obrazovka
+  OSD_SETTINGS_VMODE: Režim obrazu
+  SYSTEM_DEFAULT: Výchozí nastavení systému
   BGM: Hudba na pozadí
   BGM_VOLUME: Hlasitost hudby na pozadí
-  DEF_BGM_PATH: Výchozí hudba motivu
-  DEF_BGM_PATH_HINT: Nastaví cestu ke streamované hudbě pro interní motiv
+  DEF_BGM_PATH: Vlastní hudba na pozadí
+  DEF_BGM_PATH_HINT: Cesta k vlastnímu souboru ogg; ponechte prázdné pro přehrání
+    vestavěné BGM motivu
+  HIGH: Vysoká
+  LOW: Nízká
+  XSENSITIVITY: Citlivost analogové osy X
+  YSENSITIVITY: Citlivost analogové osy Y
+  FILE_COUNT: 'Nalezené soubory: %i'
+  CHEAT_SELECTION: Výběr cheatů
+  HDD_HINT: Je povolen pouze jeden HDD, zapnutí uzamkne APA nebo GPT.
+  TXTRENAME: Seznam mapování TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Přispěvatelé FGOPL (strana 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Jména čekají na potvrzení
+  ABOUT_ORIGINAL_CONTRIBUTORS: Oficiální přispěvatelé OPL (strana 2/2)
+  ABOUT_NEXT_PAGE: Další strana
+  ABOUT_PREVIOUS_PAGE: Předchozí strana
+  HINT_DMA_MODE: Režim přenosu HDD, vyšší hodnota je rychlejší (vyžaduje vypnutý režim
+    1)
+  HINT_DMA_SOURCE: Použít globálně, nebo pouze na aktuální hru
+  HINT_CF_COUNT: Změňte počet obalů na obrazovce. Pokud se zdá pomalé, snižte počet.
+  BGM_SEARCH: Hledat soubor ogg
+  HINT_BGM_SEARCH: Vyhledá soubor ogg v kořeni spuštěných zařízení a vyplní výše uvedenou
+    cestu
+  BGM_NOT_FOUND: Soubor ogg nebyl nalezen
+  ARTPACK: Podpora balíčku obrázků OPLM (okamžité obaly)
+  HINT_ARTPACK: Vložte zip balíček OPLM_ART (nerozbalujte jej) přímo do ART2
+  HINT_ART_RANDOM: Pozadí a snímky obrazovky se mění náhodně (pouze zip balíček obrázků)
+  HINT_APAISO: Zkopírujte ISO do +OPL/DVD nebo CD a čtěte je přímo, bez převodu HDL
+  HINT_AUTODETECT_PS1APPS: Přímo rozpozná soubory ELF ve složce APPS a soubory VCD
+    ve složce POPS
+  HINT_AUTO_MODE1: Režim 1 (přesné čtení) řeší většinu problémů s kompatibilitou,
+    doporučeno
+  HINT_CACHE_HDD_GAME_LIST: Mezipaměť seznamu slouží formátu instalace HDL, při přímém
+    čtení ISO není potřeba
+  HINT_LASTPLAYED: Po spuštění OPL zůstane kurzor na naposledy hrané hře
+  HINT_COVERARTMODE: Režim kompatibility výrazně zpomaluje načítání obrázků, doporučuje
+    se výkonnostní režim
+  HINT_AUTOREFRESH: OPL reaguje v reálném čase, když jsou bloková zařízení, například
+    disky USB, připojena za běhu
+  HINT_TXTRENAME: Vytvoří soubor txt sloužící k přiřazení názvů her k libovolnému
+    textu
+  HINT_ENABLE_WRITE: Funkce mazání v OPL není zcela bezpečná, používejte ji opatrně
+  HINT_THEME: Lze přepínat mezi dvěma vestavěnými motivy. Motivy třetích stran umístěte
+    do složky THM
+  HINT_LANGUAGE: Umístěte jazykové balíčky FGOPL do složky LNG, aby bylo možné používat
+    další jazyky
+  START_MODE_SETTINGS: Nastavení režimu spuštění
+  DEVICE_SWITCH: Přepínače zařízení (vypněte nepoužívaná zařízení pro rychlejší start)
+  APAISO: Přímé ISO z HDD(APA)
+  AUTODETECT_PS1APPS: Automatická detekce APPS a PS1
+  AUTO_MODE1: Automaticky zapnout režim 1 (lepší kompatibilita)
+  COVERART_BG_OFF: Pozadí vypnuto
+  COVERART_BG_ON: Pozadí zapnuto
+  COVERART_COV_OFF: Obal vypnut
+  COVERART_COV_ON: Obal zapnut
+  COVERART_ICO_OFF: Disk vypnut
+  COVERART_ICO_ON: Disk zapnut
+  COVERARTMODE_PERF: Výkon (pouze PNG)
+  COVERARTMODE_COMPAT: Kompatibilita (JPG a PNG)
+  ART_RANDOM_OFF: Náhodný obrázek vypnut
+  ART_RANDOM_ON: Náhodný obrázek zapnut
+  CF_COVER_COUNT_1: 'Obalů na obrazovce: 1'
+  CF_COVER_COUNT_3: 'Obalů na obrazovce: 3'
+  CF_COVER_COUNT_5: 'Obalů na obrazovce: 5'
+  CF_COVER_COUNT_7: 'Obalů na obrazovce: 7'
+  CF_COVER_COUNT_9: 'Obalů na obrazovce: 9'
+  GSM_VMODE_480I_NORMAL: 480i běžný (pro CRT)
+  GSM_VMODE_480I_SHRINK: 480i zúžený (na moderních televizorech se roztáhne na 4:3)
+  DMA_UDMA4_DEFAULT: UDMA 4 výchozí
+  DMA_UDMA5_HIGHEST: UDMA 5 aktuální maximum HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 aktuální maximum HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 aktuální maximum HDD
+  DMA_UDMA7_EXTREME: UDMA 7 extrémní
+  DMA_HDD_ONLY: <pouze HDD>
+  CHEAT_TOGGLE_ALL: Vybrat/zrušit vše
+  CHEAT_SAVE_AND_RUN: Uložit a spustit
+  THEME_COVERFLOW: Vestavěný motiv Coverflow
+  THEME_LIST: Vestavěný motiv seznamu
+  MSG_DEVICE_DETECT_TIMEOUT: Vypršel časový limit detekce %s. Problém s kompatibilitou
+    zařízení.
+  MSG_TXT_CREATED: Soubor txt byl vytvořen!
+  MSG_TXT_REBUILT: Soubor txt byl znovu sestaven!
+  MSG_HDD_EXFAT_HINT: Vnitřní HDD je exFAT. Povolte HDD(exFAT) v nastavení BDM.
+  MSG_HDD_APA_HINT: Vnitřní HDD je APA. Povolte režim spuštění HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Váš HDD má smíšené oddíly. Přesto povolit tento režim?
+  MSG_LIST_SEPARATOR: ', '

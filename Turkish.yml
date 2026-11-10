@@ -17,7 +17,7 @@ translations:
   BDM_GAMES: BDM Oyunlar
   HDD_GAMES: HDD Oyunlar
   NET_GAMES: ETH Oyunlar
-  APPS: Uygulamalar
+  APPS: APPS & PS1
   THEME: Tema
   LANGUAGE: Dil
   CONFIRMATION_POFF: Sistem kapatılsın mı?
@@ -80,28 +80,20 @@ translations:
   CAT_SMB_SERVER: '- SMB Sunucu -'
   IP_ADDRESS_TYPE: IP Adresi Türü
   IP_ADDRESS_TYPE_STATIC: Statik
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP Adresi
   ADDRESS: Adres
   MASK: Maske
   GATEWAY: Ağ Geçidi
   DNS_SERVER: DNS Sunucu
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Bağlantı noktası
   SHARE: Paylaşım
   USER: Kullanıcı
   PASSWORD: Parola
   NOT_SET: <ayarlanmadı>
   ADDRESS_TYPE: Adres Türü
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Onayla
   DELETE_WARNING: Öge kalıcı olarak silinecek, devam edilsin mi?
   RENAME: Adlandır
@@ -111,7 +103,7 @@ translations:
   ENABLE_WRITE: İşlemleri Yaz
   LASTPLAYED: Son Oynanan Oyunu Hatırla
   SELECTBUTTON: Seç Düğmesi
-  ERR_FRAGMENTED: Hata, oyun çöktü.
+  ERR_FRAGMENTED: Geçerli oyunda %d parça var. Birleştirme yapıp tekrar deneyin.
   ERR_FILE_INVALID: Hata, öge çalıştırılamadı.
   TEST: Değişiklikleri Dene
   HINT_GUEST: Misafir yetkilendirmesi için boş bırakın.
@@ -138,7 +130,7 @@ translations:
   VMC_FILE_NEW: VMC dosyasının oluşturulması gerekiyor.
   ERR_VMC_CONTINUE: VMC erişim hatası %s. Yuvadaki bellek kartı ile devam edilsin
     mi %d?
-  AUTOREFRESH: Otomatik Yenile
+  AUTOREFRESH: Çalışırken takma algılama
   ABOUT: Hakkında
   DEVS: Kodlayıcılar
   QANDA: Kalite Güvencesi
@@ -173,18 +165,10 @@ translations:
   MODE6: Kip 6
   GSCONFIG: GSM Yapılandırması
   ETH_OPMODE: Ethernet Link Kipi
-  ETH_100MFDX:
-  - untranslated
-  - original: 100Mbit Full-duplex
-  ETH_100MHDX:
-  - untranslated
-  - original: 100Mbit Half-duplex
-  ETH_10MFDX:
-  - untranslated
-  - original: 10Mbit Full-duplex
-  ETH_10MHDX:
-  - untranslated
-  - original: 10Mbit Half-duplex
+  ETH_100MFDX: 100Mbit tam çift yönlü
+  ETH_100MHDX: 100Mbit yarı çift yönlü
+  ETH_10MFDX: 10Mbit tam çift yönlü
+  ETH_10MHDX: 10Mbit yarı çift yönlü
   GSM_SETTINGS: GSM Ayarları
   ENABLEGSM: GSM Seçici
   HINT_ENABLEGSM: GSM aç/kapat.
@@ -219,9 +203,7 @@ translations:
   AUTO_START_IN_N_SECS: '%i içinde otomatik başlat…'
   AUTOSTARTLAST: Otomatik Başlat
   HINT_AUTOSTARTLAST: Otomatik başlatmayı kapatmak için saniye cinsinden değer, 0.
-  PS2LOGO:
-  - untranslated
-  - original: PS2 Logo
+  PS2LOGO: PS2 logosu
   HINT_PS2LOGO: Konsol bölgesiyle eşleşen mevcut disk logosu görüntülenir.
   PADEMUCONFIG: Denetleyici Emülatörü Yapılandırması
   PADEMU_SETTINGS: Denetleyici Emülatör Ayarları
@@ -229,12 +211,8 @@ translations:
   HINT_PADEMU_ENABLE: Seçili oyun için Denetleyici Emülatörü aç/kapat.
   PADEMU_MODE: Denetleyici Emülatör Kipi
   HINT_PADEMU_MODE: Denetleyici Emülatör kipini seçin.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Port Ayarları:'
   HINT_PAD_PORT: Ayarlar için Denetleyici Emülatör portunu seçin.
   PADEMU_PORT: Emülatör
@@ -339,8 +317,96 @@ translations:
   LANGUAGE_SIMPL_CHINESE: BASİT ÇİNCE
   OSD_SETTINGS: OSD AYARLARI
   OSD_SETTINGS_LNG: OSD Dili
+  HINT_OSD_SETTINGS_LNG: Özel bir dil yapılandırmasını zorla
   ENABLE_LNG: Dili değiştir
+  OSD_SETTINGS_TVASPECT: Ekran boyutu
+  FULL_SCREEN: Tam ekran
+  OSD_SETTINGS_VMODE: Görüntü kipi
+  SYSTEM_DEFAULT: Sistem varsayılanı
   BGM: Fon Müziği
   BGM_VOLUME: Fon Müziği Seviyesi
-  DEF_BGM_PATH: Varsayılan Tema Müziği
-  DEF_BGM_PATH_HINT: Dahili tema için müzik akışı yolunu ayarlayın.
+  DEF_BGM_PATH: Özel arka plan müziği
+  DEF_BGM_PATH_HINT: Özel ogg dosyası yolu; temanın yerleşik BGM müziğini çalmak için
+    boş bırakın
+  HIGH: Yüksek
+  LOW: Düşük
+  XSENSITIVITY: Analog X ekseni duyarlılığı
+  YSENSITIVITY: Analog Y ekseni duyarlılığı
+  FILE_COUNT: 'Bulunan dosya: %i'
+  CHEAT_SELECTION: Hile seçimi
+  HDD_HINT: Yalnızca bir HDD'ye izin verilir; açmak APA veya GPT'yi kilitler.
+  TXTRENAME: TXT eşleme listesi
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL katkıda bulunanlar (Sayfa 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: İsimler onay bekliyor
+  ABOUT_ORIGINAL_CONTRIBUTORS: Resmi OPL katkıda bulunanlar (Sayfa 2/2)
+  ABOUT_NEXT_PAGE: Sonraki sayfa
+  ABOUT_PREVIOUS_PAGE: Önceki sayfa
+  HINT_DMA_MODE: HDD aktarım kipi, daha yüksek daha hızlıdır (kip 1 kapalı olmalıdır)
+  HINT_DMA_SOURCE: Genel olarak veya yalnızca geçerli oyuna uygulanır
+  HINT_CF_COUNT: Ekrandaki kapak sayısını değiştirin. Takılma olursa sayıyı düşürün.
+  BGM_SEARCH: ogg dosyası ara
+  HINT_BGM_SEARCH: Başlatılmış aygıtların kökünde ogg dosyası arar ve yukarıdaki yolu
+    doldurur
+  BGM_NOT_FOUND: ogg dosyası bulunamadı
+  ARTPACK: OPLM görsel paketi desteği (anında kapak)
+  HINT_ARTPACK: OPLM_ART zip paketini (çıkarmadan) doğrudan ART2 klasörüne koyun
+  HINT_ART_RANDOM: Arka planlar ve ekran görüntüleri rastgele değişir (yalnızca zip
+    görsel paketi)
+  HINT_APAISO: ISO dosyalarını doğrudan okumak için +OPL/DVD veya CD klasörüne kopyalayın,
+    HDL dönüştürme gerekmez
+  HINT_AUTODETECT_PS1APPS: APPS klasöründeki ELF ve POPS klasöründeki VCD dosyalarını
+    doğrudan algılar
+  HINT_AUTO_MODE1: Kip 1 (hassas okuma) çoğu uyumluluk sorununu çözer, önerilir
+  HINT_CACHE_HDD_GAME_LIST: Liste önbelleği HDL kurulum biçimi içindir; ISO doğrudan
+    okunurken gerekmez
+  HINT_LASTPLAYED: OPL başladığında imleç son oynadığınız oyunda kalır
+  HINT_COVERARTMODE: Uyumluluk kipi görüntü yüklemeyi oldukça yavaşlatır, performans
+    kipi önerilir
+  HINT_AUTOREFRESH: USB sürücü gibi blok aygıtlar çalışırken takıldığında OPL anında
+    yanıt verir
+  HINT_TXTRENAME: Oyun adlarını herhangi bir metne eşlemek için bir txt dosyası oluşturur
+  HINT_ENABLE_WRITE: OPL'nin silme işlevi tamamen güvenli değildir, lütfen dikkatli
+    kullanın
+  HINT_THEME: İki yerleşik tema arasında geçiş yapılabilir. Üçüncü taraf temaları
+    THM klasörüne koyun
+  HINT_LANGUAGE: Daha fazla dili desteklemek için FGOPL dil paketlerini LNG klasörüne
+    koyun
+  START_MODE_SETTINGS: Başlatma kipi ayarları
+  DEVICE_SWITCH: Aygıt anahtarları (kullanılmayanları kapatarak açılışı hızlandırın)
+  APAISO: HDD(APA) doğrudan ISO
+  AUTODETECT_PS1APPS: APPS ve PS1 otomatik algılama
+  AUTO_MODE1: Kip 1'i otomatik aç (daha iyi uyumluluk)
+  COVERART_BG_OFF: Arka plan kapalı
+  COVERART_BG_ON: Arka plan açık
+  COVERART_COV_OFF: Kapak kapalı
+  COVERART_COV_ON: Kapak açık
+  COVERART_ICO_OFF: Disk kapalı
+  COVERART_ICO_ON: Disk açık
+  COVERARTMODE_PERF: Performans (yalnızca PNG)
+  COVERARTMODE_COMPAT: Uyumluluk (JPG ve PNG)
+  ART_RANDOM_OFF: Rastgele görsel kapalı
+  ART_RANDOM_ON: Rastgele görsel açık
+  CF_COVER_COUNT_1: 'Ekrandaki kapak sayısı: 1'
+  CF_COVER_COUNT_3: 'Ekrandaki kapak sayısı: 3'
+  CF_COVER_COUNT_5: 'Ekrandaki kapak sayısı: 5'
+  CF_COVER_COUNT_7: 'Ekrandaki kapak sayısı: 7'
+  CF_COVER_COUNT_9: 'Ekrandaki kapak sayısı: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (CRT için)
+  GSM_VMODE_480I_SHRINK: 480i daraltılmış (modern televizyonlarda 4:3'e yayılır)
+  DMA_UDMA4_DEFAULT: UDMA 4 varsayılan
+  DMA_UDMA5_HIGHEST: UDMA 5 mevcut HDD maksimumu
+  DMA_UDMA6_HIGHEST: UDMA 6 mevcut HDD maksimumu
+  DMA_UDMA7_HIGHEST: UDMA 7 mevcut HDD maksimumu
+  DMA_UDMA7_EXTREME: UDMA 7 aşırı
+  DMA_HDD_ONLY: <yalnızca HDD>
+  CHEAT_TOGGLE_ALL: Tümünü seç/kaldır
+  CHEAT_SAVE_AND_RUN: Kaydet ve çalıştır
+  THEME_COVERFLOW: Yerleşik Coverflow teması
+  THEME_LIST: Yerleşik liste teması
+  MSG_DEVICE_DETECT_TIMEOUT: '%s algılama zaman aşımına uğradı. Aygıt uyumluluk sorunu.'
+  MSG_TXT_CREATED: txt dosyası oluşturuldu!
+  MSG_TXT_REBUILT: txt dosyası yeniden oluşturuldu!
+  MSG_HDD_EXFAT_HINT: Dahili HDD exFAT. BDM ayarlarında HDD(exFAT) öğesini açın.
+  MSG_HDD_APA_HINT: Dahili HDD APA. HDD(APA) başlatma kipini açın.
+  MSG_HDD_MIXED_CONFIRM: HDD'nizde karışık bölümler var. Bu kip yine de açılsın mı?
+  MSG_LIST_SEPARATOR: ', '

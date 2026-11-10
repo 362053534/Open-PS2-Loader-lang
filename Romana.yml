@@ -8,9 +8,7 @@ translations:
   NETCONFIG: Config. retea
   SHOW_ADVANCED_OPTS: Optiuni avansate
   NO_ITEMS: <nici-o valoare>
-  SETTINGS_SAVED:
-  - untranslated
-  - original: Settings saved to %s
+  SETTINGS_SAVED: Setarile au fost salvate in %s
   ERROR_SAVING_SETTINGS: Eroare in scrierea setarilor!
   EXIT: Iesire
   SETTINGS: Setari
@@ -18,7 +16,7 @@ translations:
   BDM_GAMES: Jocuri pe BDM
   HDD_GAMES: Jocuri pe HDD
   NET_GAMES: Jocuri cu cablu LAN
-  APPS: Aplicatii
+  APPS: APPS & PS1
   THEME: Teme
   LANGUAGE: Limba
   CONFIRMATION_POFF: Sistemul va fi oprit.
@@ -44,14 +42,10 @@ translations:
   CROSS: Cruce
   GAMES_LIST: Lista jocuri
   COMPAT_SETTINGS: Setari joc
-  REMOVE_ALL_SETTINGS:
-  - untranslated
-  - original: Remove Settings
+  REMOVE_ALL_SETTINGS: Elimina setarile
   SCROLLING: Miscare
   SLOW: Incet
-  MEDIUM:
-  - untranslated
-  - original: Medium
+  MEDIUM: Mediu
   FAST: Rapid
   DEFDEVICE: Meniu implicit
   LOAD_FROM_DISC: Incarcati de pe disc
@@ -59,35 +53,25 @@ translations:
   ERROR_LOADING_ID: Eroare in incarcarea Id-ului al jocului
   AUTOSORT: Sortare automata
   ERR_LOADING_LANGFILE: Eroare in incarcarea fisierlui limba
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Culori de depanare
   NO_CONTROLLER: Nici-o maneta gasita, se asteapta…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Coperte
   WIDE_SCREEN: Ecran Lat
   POWEROFF: Oprire
   LOADING_SETTINGS: Se incarca configurare
   SAVING_SETTINGS: Se salveaza configurarea
   START_DEVICE: Pornire dispozitiv
   REFRESH: Reimprospatare
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: Mod de pornire BDM
   HDDMODE: Modul de pornire al dispozitivului HDD
   ETHMODE: Modul de pornire al dispozitivului Retea
   APPMODE: Modul de pornire aplicatii
   AUTO: Automat
-  MANUAL:
-  - untranslated
-  - original: Manual
+  MANUAL: Manual
   STARTNBD: Pornire server NBD
   STARTINGNBD: Se porneste serverul NBD…
   RUNNINGNBD: Serverul NBD ruleaza…
-  STARTFAILNBD:
-  - untranslated
-  - original: Failed to start NBD Server.
+  STARTFAILNBD: Pornirea serverului NBD a esuat.
   UNLOADNBD: Serverul NBD se descarca…
   EXITTO: cale IGR
   BGCOLOR: Culoare fundal
@@ -95,44 +79,33 @@ translations:
   CAT_SMB_SERVER: '- Server SMB -'
   IP_ADDRESS_TYPE: Tip adresa IP
   IP_ADDRESS_TYPE_STATIC: Statica
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: adresa IP
   ADDRESS: Addresa
   MASK: Masca
   GATEWAY: Portal
   DNS_SERVER: Server DNS
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Impartasire
   USER: Utilizator
   PASSWORD: Parola
   NOT_SET: <nesetat>
   ADDRESS_TYPE: Tip de adresa
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Accepta
   DELETE_WARNING: Elemetul va fi sters definitiv, continuati?
   RENAME: Redenumire
   DELETE: Stergere
   RUN: Ruleaza
   GFX_SETTINGS: Setari Imagine
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: Operatiuni de scriere
   LASTPLAYED: Aminteste ultimul joc jucat
   SELECTBUTTON: Butonul Select
-  ERR_FRAGMENTED: '"Eroare, jocul este fragmentat"'
+  ERR_FRAGMENTED: Jocul curent are %d fragmente. Defragmentati-l si incercati din
+    nou.
   ERR_FILE_INVALID: '"Eroare, nu a putut rula elementul"'
-  TEST:
-  - untranslated
-  - original: Test Changes
+  TEST: Testeaza modificarile
   HINT_GUEST: Lasati goala pentru autentificarea GUEST.
   HINT_MODE1: Citeste exact
   HINT_MODE2: Modul sincron
@@ -142,9 +115,7 @@ translations:
   HINT_MODE6: Dezactivare IGR
   HINT_VMC_SIZE: Schimbarea dimensiunii va reformata VMC
   CREATE: Creeaza
-  START:
-  - untranslated
-  - original: Start
+  START: Start
   MODIFY: Modificare
   ABORT: Anuleaza
   RESET: Resetare
@@ -158,7 +129,7 @@ translations:
   VMC_FILE_ERROR: Fisier VMC invalid, dimensiunea este incorecta
   VMC_FILE_NEW: Fisier VMC trebuie creat
   ERR_VMC_CONTINUE: Eroare la VMC %s, continuati cu cardul memorie fizic (slot %d)?
-  AUTOREFRESH: Reimprospatare Automata
+  AUTOREFRESH: Detectare conectare la cald
   ABOUT: Despre
   DEVS: Ingineri
   QANDA: Asigurarea calitatii
@@ -169,9 +140,7 @@ translations:
   VMODE: Mod video
   UICOLOR: Culoare Dialog
   SELCOLOR: Culoare selectata
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
+  RESETCOLOR: Reseteaza culorile
   INFO: Informatii
   ALTSTARTUP: ELF personalizat
   COLOR_SELECTION: Selectie culoare
@@ -186,9 +155,7 @@ translations:
   VMC_SLOT2: Slot VMC 2
   GAME_ID: ID Joc
   DMA_MODE: Mod DMA
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Mod 1
   MODE2: Mod 2
   MODE3: Mod 3
@@ -202,25 +169,19 @@ translations:
   ETH_10MFDX: 10Mbit ful-dublu
   ETH_10MHDX: 10Mbit jumatate-dublu
   GSM_SETTINGS: Setari GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: Selector GSM
   HINT_ENABLEGSM: Comuta GSM Pornit sau Oprit
   HINT_GSMVMODE: Modul de afișare personalizat fortat
   XOFFSET: Pozitie-H
   HINT_XOFFSET: Pozitie Orizontala
   YOFFSET: Pozitie-V
   HINT_YOFFSET: Pozitie Verticala
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan Adjustment
   GSMSKIPVIDEOS: Salta FMV
   HINT_GSMSKIPVIDEOS: Omite Cutscenes
   CHEAT_SETTINGS: Setari coduri
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: Motor de cheat-uri PS2RD
   HINT_ENABLECHEAT: Lasa PS2RD Cheat Engine sa-ti patchuiasca jocurile
   CHEATMODE: Mod PS2RD Cheat Engine
   HINT_CHEATMODE: Selectati automat sau Selectati Codurile
@@ -230,9 +191,7 @@ translations:
   NO_CHEATS_FOUND: Nici un cod gasit
   DL_DEFAULTS: Descarca implicit
   NET_UPDATE: Actualizare Retea
-  NET_UPDATE_ALL:
-  - untranslated
-  - original: Overwrite Existing Records
+  NET_UPDATE_ALL: Suprascrie inregistrarile existente
   NET_UPDATE_FAILED: Actualizare esuata.
   NET_UPDATE_CONN_FAILED: Nu sa putut conecta serverul de actualizare.
   NET_UPDATE_DONE: Actualizare finalizata.
@@ -243,314 +202,219 @@ translations:
   AUTO_START_IN_N_SECS: Pornire autpmata in %i secunde…
   AUTOSTARTLAST: Pornire automata
   HINT_AUTOSTARTLAST: Valoare in secunde, 0 pentru a opri pornirea automata
-  PS2LOGO:
-  - untranslated
-  - original: PS2 Logo
+  PS2LOGO: Logo PS2
   HINT_PS2LOGO: Only displayed for a valid disc logo which matches the console's region
-  PADEMUCONFIG:
-  - untranslated
-  - original: Configure PADEMU
-  PADEMU_SETTINGS:
-  - untranslated
-  - original: Pad Emulator Settings
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMUCONFIG: Configureaza PADEMU
+  PADEMU_SETTINGS: Setari emulator de pad
+  PADEMU_ENABLE: Emulator de pad
   HINT_PADEMU_ENABLE: Turns on/off PadEmulator for selected game.
   PADEMU_MODE: Pad Emulator mode
-  HINT_PADEMU_MODE:
-  - untranslated
-  - original: Select Pad Emulator mode.
+  HINT_PADEMU_MODE: Selectati modul emulatorului de pad.
   DS34USB_MODE: DualShock3 USB
   DS34BT_MODE: DualShock3 BT
   PADPORT: 'Settings for port:'
-  HINT_PAD_PORT:
-  - untranslated
-  - original: Select Pad Emulator port for settings.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
-  HINT_PADEMU_PORT:
-  - untranslated
-  - original: Turns on/off Pad Emulator for selected port.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
-  HINT_PADEMU_VIB:
-  - untranslated
-  - original: Turns on/off vibration for Pad Emulator selected port.
+  HINT_PAD_PORT: Selectati portul emulatorului de pad pentru setari.
+  PADEMU_PORT: Emulare
+  HINT_PADEMU_PORT: Porneste/opreste emulatorul de pad pentru portul selectat.
+  PADEMU_VIB: Vibratie
+  HINT_PADEMU_VIB: Porneste/opreste vibratia emulatorului de pad pentru portul selectat.
   USBDG_MAC: 'Usb bluetooth adapter mac address:'
   PAD_MAC: 'DS3 Controller paired to mac address:'
-  PAIR:
-  - untranslated
-  - original: Pair
+  PAIR: Asociere
   PAIR_PAD: Pair DS3 Controller
   HINT_PAIRPAD: Pair DS3 Controller with bluetooth adapter mac address.
   NOT_CONNECTED: Not connected
   BTINFO: Bluetooth adapter information
   HINT_BTINFO: Shows more information and supported features
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
-  MANUFACTURER:
-  - untranslated
-  - original: 'Manufacturer ID:'
+  HCIVER: 'Versiune HCI:'
+  LMPVER: 'Versiune LMP:'
+  MANUFACTURER: 'ID producator:'
   SUPFEATURES: 'Support features:'
-  'YES':
-  - untranslated
-  - original: 'Yes'
-  'NO':
-  - untranslated
-  - original: 'No'
-  BT_SUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter should be fully compatible with DS3/DS4 controllers.
-  BT_NOTSUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter may not work correctly with DS3/DS4 controllers.
+  'YES': Da
+  'NO': Nu
+  BT_SUPPORTED: Adaptorul Bluetooth ar trebui sa fie pe deplin compatibil cu controllerele
+    DS3/DS4.
+  BT_NOTSUPPORTED: Adaptorul Bluetooth s-ar putea sa nu functioneze corect cu controllerele
+    DS3/DS4.
   MTAP_ENABLE: Multitap emulation
-  HINT_MTAP_ENABLE:
-  - untranslated
-  - original: Turns on/off Multitap emulation for selected game.
+  HINT_MTAP_ENABLE: Porneste/opreste emularea Multitap pentru jocul selectat.
   MTAP_PORT: Multitap emulator on port
-  HINT_MTAP_PORT:
-  - untranslated
-  - original: Select port for Multitap emulation.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  HINT_MTAP_PORT: Selectati portul pentru emularea Multitap.
+  PADEMU_WORKAROUND: Solutie pentru DS3-uri contrafacute
+  HINT_PADEMU_WORKAROUND: Unele DS3-uri contrafacute necesita o solutie, aceasta optiune
+    o va activa.
   GSM_FIELD_FIX: Emulate FIELD flipping
-  HINT_GSM_FIELD_FIX:
-  - untranslated
-  - original: Fix for games that glitch under progressive video modes.
-  PARENLOCKCONFIG:
-  - untranslated
-  - original: Parental Lock Settings
-  PARENLOCK_PASSWORD:
-  - untranslated
-  - original: Parental Lock Password
-  PARENLOCK_PASSWORD_HINT:
-  - untranslated
-  - original: Leave blank to disable the parental lock.
-  PARENLOCK_ENTER_PASSWORD_TITLE:
-  - untranslated
-  - original: Enter Parental Lock Password
-  PARENLOCK_PASSWORD_INCORRECT:
-  - untranslated
-  - original: Parental lock password incorrect.
-  PARENLOCK_DISABLE_WARNING:
-  - untranslated
-  - original: Parental lock disabled.
-  BUILD_DETAILS:
-  - untranslated
-  - original: 'Build Options:'
-  PARENLOCK_INVALID_PASSWORD:
-  - untranslated
-  - original: Error - this password cannot be used.
-  ERR_VMC_FRAGMENTED_CONTINUE:
-  - untranslated
-  - original: VMC %s file is fragmented. Continue with Memory Card in slot %d?
-  AUDIO_SETTINGS:
-  - untranslated
-  - original: Audio Settings
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
-  SFX_VOLUME:
-  - untranslated
-  - original: Sound Effects Volume
-  BOOT_SND_VOLUME:
-  - untranslated
-  - original: Boot Sound Volume
-  CFM_VMODE_CHG:
-  - untranslated
-  - original: Confirm video mode change?
-  CACHE_HDD_GAME_LIST:
-  - untranslated
-  - original: Cache Game List (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
-  GAME_SETTINGS_SAVED:
-  - untranslated
-  - original: Game settings saved.
-  GAME_SETTINGS_REMOVED:
-  - untranslated
-  - original: '%s settings removed.'
-  NET_UPDATE_HINT:
-  - untranslated
-  - original: Overwrites existing game compatibility settings when enabled.
-  SETTINGS_SOURCE:
-  - untranslated
-  - original: Settings Mode
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
-  PERGAME_SETTINGS:
-  - untranslated
-  - original: Per Game
-  ALL_SETTINGS:
-  - untranslated
-  - original: All
-  GAME_SETTINGS_PROMPT:
-  - untranslated
-  - original: Select settings to remove.
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  HINT_GSM_FIELD_FIX: Corectie pentru jocurile care au probleme in modurile video
+    progresive.
+  PARENLOCKCONFIG: Setari blocare parentala
+  PARENLOCK_PASSWORD: Parola blocarii parentale
+  PARENLOCK_PASSWORD_HINT: Lasati necompletat pentru a dezactiva blocarea parentala.
+  PARENLOCK_ENTER_PASSWORD_TITLE: Introduceti parola blocarii parentale
+  PARENLOCK_PASSWORD_INCORRECT: Parola blocarii parentale este incorecta.
+  PARENLOCK_DISABLE_WARNING: Blocarea parentala a fost dezactivata.
+  BUILD_DETAILS: 'Optiuni de build:'
+  PARENLOCK_INVALID_PASSWORD: Eroare - aceasta parola nu poate fi folosita.
+  ERR_VMC_FRAGMENTED_CONTINUE: Fisierul VMC %s este fragmentat. Continuati cu Memory
+    Card-ul din slotul %d?
+  AUDIO_SETTINGS: Setari audio
+  SFX: Efecte sonore
+  BOOT_SND: Sunet de pornire
+  SFX_VOLUME: Volum efecte sonore
+  BOOT_SND_VOLUME: Volum sunet de pornire
+  CFM_VMODE_CHG: Confirmati schimbarea modului video?
+  CACHE_HDD_GAME_LIST: Cache lista de jocuri (HDD)
+  ENABLE_NOTIFICATIONS: Notificari
+  CFG_NOTIFICATION: Configuratia a fost incarcata din %s
+  THM_NOTIFICATION: Tema a fost incarcata din %s
+  LNG_NOTIFICATION: Limba a fost incarcata din %s
+  PARTITION_NOTIFICATION: Partitia %s a fost montata.
+  OPTIONS: Optiuni
+  GAME_SETTINGS_SAVED: Setarile jocului au fost salvate.
+  GAME_SETTINGS_REMOVED: Setarile %s au fost eliminate.
+  NET_UPDATE_HINT: Suprascrie setarile existente de compatibilitate ale jocurilor
+    cand este activat.
+  SETTINGS_SOURCE: Mod setari
+  GLOBAL_SETTINGS: Global
+  PERGAME_SETTINGS: Per joc
+  ALL_SETTINGS: Toate
+  GAME_SETTINGS_PROMPT: Selectati setarile de eliminat.
+  FORUM_DETAILS: 'Forumuri de suport:'
+  INFO_TITLE: Titlu
+  INFO_GENRE: Gen
+  INFO_RELEASE: Lansare
+  INFO_DEVELOPER: Dezvoltator
+  INFO_DESCRIPTION: Descriere
+  BLOCKDEVICE_SETTINGS: Dispozitive BDM
+  CONTROLLER_SETTINGS: Setari controller
+  HINT_BDM_START: Porniti/opriti Block Device Manager.
+  HINT_BLOCK_DEVICES: Porniti/opriti dispozitivele BDM (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: Jocuri USB
+  ILINK_GAMES: Jocuri iLink
+  MX4SIO_GAMES: Jocuri MX4SIO
+  PADMACROCONFIG: Configureaza PADMACRO
+  PADMACRO_SETTINGS: Setari macro pad
+  PADMACRO_ENABLE: Macro-uri pad
+  PADMACRO_SLOWDOWN: 'Incetinire analogica:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Reduce intervalul stick-ului analogic cand butonul
+    este apasat.
+  LEFT_ANALOG: Stick stang
+  RIGHT_ANALOG: Stick drept
+  PADMACRO_INVERT_AXIS: 'Inversare axa analogica:'
+  HINT_PADMACRO_INVERT_AXIS: Inverseaza axa stick-ului analogic selectat.
+  TURBO_SPEED: Viteza butonului turbo
+  HINT_TURBO_SPEED: Cat de repede este apasat butonul cand turbo este activ.
+  ACT_WHILE_PRESSED: Cat timp butonul este apasat
+  ACT_TOGGLED: Comutat prin buton
+  LANGUAGE_JAPANESE: Japoneza
+  LANGUAGE_ENGLISH: Engleza
+  LANGUAGE_FRENCH: Franceza
+  LANGUAGE_SPANISH: Spaniola
+  LANGUAGE_GERMAN: Germana
+  LANGUAGE_ITALIAN: Italiana
+  LANGUAGE_DUTCH: Olandeza
+  LANGUAGE_PORTUGUESE: Portugheza
+  LANGUAGE_RUSSIAN: Rusa
+  LANGUAGE_KOREAN: Coreeana
+  LANGUAGE_TRAD_CHINESE: Chineza traditionala
+  LANGUAGE_SIMPL_CHINESE: Chineza simplificata
+  OSD_SETTINGS: Setari OSD
+  OSD_SETTINGS_LNG: Limba OSD
+  HINT_OSD_SETTINGS_LNG: Forteaza o configurare personalizata a limbii
+  ENABLE_LNG: Activeaza
+  OSD_SETTINGS_TVASPECT: Dimensiunea ecranului
+  FULL_SCREEN: Ecran complet
+  OSD_SETTINGS_VMODE: Mod video
+  SYSTEM_DEFAULT: Implicit al sistemului
+  BGM: Muzica de fundal
+  BGM_VOLUME: Volumul muzicii de fundal
+  DEF_BGM_PATH: Muzica de fundal personalizata
+  DEF_BGM_PATH_HINT: Calea unui fisier ogg personalizat; lasati gol pentru a reda
+    BGM-ul incorporat al temei
+  HIGH: Ridicat
+  LOW: Scazut
+  XSENSITIVITY: Sensibilitatea axei X analogice
+  YSENSITIVITY: Sensibilitatea axei Y analogice
+  FILE_COUNT: 'Fisiere gasite: %i'
+  CHEAT_SELECTION: Selectie cheat-uri
+  HDD_HINT: Este permis un singur HDD, activarea blocheaza APA sau GPT.
+  TXTRENAME: Lista de mapare TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Contribuitori FGOPL (Pagina 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Numele asteapta confirmarea
+  ABOUT_ORIGINAL_CONTRIBUTORS: Contribuitori oficiali OPL (Pagina 2/2)
+  ABOUT_NEXT_PAGE: Pagina urmatoare
+  ABOUT_PREVIOUS_PAGE: Pagina anterioara
+  HINT_DMA_MODE: Mod de transfer HDD, valoarea mai mare este mai rapida (necesita
+    modul 1 dezactivat)
+  HINT_DMA_SOURCE: Se aplica global, sau doar jocului curent
+  HINT_CF_COUNT: Schimbati numarul de coperte de pe ecran. Daca merge greu, reduceti
+    numarul.
+  BGM_SEARCH: Cauta fisier ogg
+  HINT_BGM_SEARCH: Cauta un fisier ogg in radacina dispozitivelor pornite si completeaza
+    calea de mai sus
+  BGM_NOT_FOUND: Nu s-a gasit niciun fisier ogg
+  ARTPACK: Suport pachet de imagini OPLM (coperte instantanee)
+  HINT_ARTPACK: Puneti pachetul zip OPLM_ART (fara a-l dezarhiva) direct in ART2
+  HINT_ART_RANDOM: Fundalurile si capturile de ecran se schimba aleator (doar pachetul
+    zip de imagini)
+  HINT_APAISO: Copiati ISO-urile in +OPL/DVD sau CD pentru a le citi direct, fara
+    conversie HDL
+  HINT_AUTODETECT_PS1APPS: Detecteaza direct fisierele ELF din folderul APPS si VCD-urile
+    din folderul POPS
+  HINT_AUTO_MODE1: Modul 1 (citire precisa) rezolva majoritatea problemelor de compatibilitate,
+    recomandat
+  HINT_CACHE_HDD_GAME_LIST: Cache-ul listei este folosit de formatul de instalare
+    HDL, nu este necesar la citirea directa a ISO-urilor
+  HINT_LASTPLAYED: La pornirea OPL, cursorul ramane pe ultimul joc jucat
+  HINT_COVERARTMODE: Modul de compatibilitate incetineste puternic incarcarea imaginilor,
+    este recomandat modul de performanta
+  HINT_AUTOREFRESH: OPL reactioneaza in timp real cand dispozitivele bloc, cum ar
+    fi unitatile USB, sunt conectate la cald
+  HINT_TXTRENAME: Genereaza un fisier txt folosit pentru a mapa numele jocurilor la
+    orice text
+  HINT_ENABLE_WRITE: Functia de stergere a OPL nu este absolut sigura, folositi-o
+    cu atentie
+  HINT_THEME: Se pot comuta doua teme incorporate. Puneti temele tertilor in folderul
+    THM
+  HINT_LANGUAGE: Puneti pachetele de limba FGOPL in folderul LNG pentru a suporta
+    mai multe limbi
+  START_MODE_SETTINGS: Setari mod de pornire
+  DEVICE_SWITCH: Comutatoare dispozitive (dezactivati-le pe cele nefolosite pentru
+    pornire mai rapida)
+  APAISO: ISO direct HDD(APA)
+  AUTODETECT_PS1APPS: Detectare automata APPS si PS1
+  AUTO_MODE1: Activeaza automat modul 1 (compatibilitate mai buna)
+  COVERART_BG_OFF: Fundal oprit
+  COVERART_BG_ON: Fundal pornit
+  COVERART_COV_OFF: Coperta oprita
+  COVERART_COV_ON: Coperta pornita
+  COVERART_ICO_OFF: Disc oprit
+  COVERART_ICO_ON: Disc pornit
+  COVERARTMODE_PERF: Performanta (doar PNG)
+  COVERARTMODE_COMPAT: Compatibilitate (JPG si PNG)
+  ART_RANDOM_OFF: Imagini aleatorii oprite
+  ART_RANDOM_ON: Imagini aleatorii pornite
+  CF_COVER_COUNT_1: 'Coperti pe ecran: 1'
+  CF_COVER_COUNT_3: 'Coperti pe ecran: 3'
+  CF_COVER_COUNT_5: 'Coperti pe ecran: 5'
+  CF_COVER_COUNT_7: 'Coperti pe ecran: 7'
+  CF_COVER_COUNT_9: 'Coperti pe ecran: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (pentru CRT)
+  GSM_VMODE_480I_SHRINK: 480i restrans (se intinde la 4:3 pe televizoarele moderne)
+  DMA_UDMA4_DEFAULT: UDMA 4 implicit
+  DMA_UDMA5_HIGHEST: UDMA 5 maximul actual al HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 maximul actual al HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 maximul actual al HDD
+  DMA_UDMA7_EXTREME: UDMA 7 extrem
+  DMA_HDD_ONLY: <doar HDD>
+  CHEAT_TOGGLE_ALL: Selecteaza/deselecteaza tot
+  CHEAT_SAVE_AND_RUN: Salveaza si ruleaza
+  THEME_COVERFLOW: Tema Coverflow incorporata
+  THEME_LIST: Tema lista incorporata
+  MSG_DEVICE_DETECT_TIMEOUT: Detectarea %s a expirat. Problema de compatibilitate
+    a dispozitivului.
+  MSG_TXT_CREATED: Fisierul txt a fost creat!
+  MSG_TXT_REBUILT: Fisierul txt a fost reconstruit!
+  MSG_HDD_EXFAT_HINT: HDD-ul intern este exFAT. Activati HDD(exFAT) in setarile BDM.
+  MSG_HDD_APA_HINT: HDD-ul intern este APA. Activati modul de pornire HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: HDD-ul are partitii mixte. Activati acest mod oricum?
+  MSG_LIST_SEPARATOR: ', '

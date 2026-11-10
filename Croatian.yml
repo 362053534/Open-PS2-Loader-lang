@@ -5,9 +5,7 @@ translations:
   LOCALE: Croatian
   SAVE_CHANGES: Spremi Promjene
   BACK: Natrag
-  NETCONFIG:
-  - untranslated
-  - original: Network Settings
+  NETCONFIG: Mrežne postavke
   SHOW_ADVANCED_OPTS: Napredne Postavke
   NO_ITEMS: <nema vrijednosti>
   SETTINGS_SAVED: Postavke spremljene u %s
@@ -18,7 +16,7 @@ translations:
   BDM_GAMES: BDM Igre
   HDD_GAMES: HDD Igre
   NET_GAMES: ETH Igre
-  APPS: Aplikacije
+  APPS: APPS & PS1
   THEME: Teme
   LANGUAGE: Jezik
   CONFIRMATION_POFF: Sistem ce se ugasiti.
@@ -55,22 +53,16 @@ translations:
   ERROR_LOADING_ID: Greska tijekom ucitavanja ID-a igre.
   AUTOSORT: Automatsko Sortiranje
   ERR_LOADING_LANGFILE: Greska ucitavanja jezicne datoteke.
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Debug boje
   NO_CONTROLLER: Kontroler nije primijecen, cekanje…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: Naslovnice
   WIDE_SCREEN: Siroki Zaslon
   POWEROFF: Ugasi
   LOADING_SETTINGS: Ucitavanje konfiguracije…
   SAVING_SETTINGS: Spremanje konfiguracije…
   START_DEVICE: Zapocni Uredaj
   REFRESH: Osvjezi
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: Način pokretanja BDM
   HDDMODE: Pocetni Nacin HDD Uredaja
   ETHMODE: Pocetni Nacin ETH Uredaja
   APPMODE: Nacin Prikaza Aplikacijskog Izbornika
@@ -84,47 +76,34 @@ translations:
   EXITTO: IGR Putanja
   BGCOLOR: Boja Pozadine
   TXTCOLOR: Boja Teksta
-  CAT_SMB_SERVER:
-  - untranslated
-  - original: '- SMB Server -'
+  CAT_SMB_SERVER: '- SMB poslužitelj -'
   IP_ADDRESS_TYPE: Vrsta IP Adrese
   IP_ADDRESS_TYPE_STATIC: Staticna
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP Adresa
   ADDRESS: Adresa
   MASK: Maska
   GATEWAY: Propusnica
-  DNS_SERVER:
-  - untranslated
-  - original: DNS Server
-  PORT:
-  - untranslated
-  - original: Port
+  DNS_SERVER: DNS poslužitelj
+  PORT: Priključak
   SHARE: Dijeli
   USER: Korisnik
   PASSWORD: Lozinka
   NOT_SET: <nije postavljeno>
   ADDRESS_TYPE: Vrsta Adrese
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Prihvati
   DELETE_WARNING: Stavka ce biti trajno obrisana, nastaviti?
   RENAME: Preimenuj
   DELETE: Obrisi
   RUN: Pokreni
   GFX_SETTINGS: Postavke Zaslona
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: Operacije pisanja
   LASTPLAYED: Zapamti Zadnju Upaljenu Igru
   SELECTBUTTON: Tipka za Odabir
-  ERR_FRAGMENTED: Greska, igra je fragmentirana.
+  ERR_FRAGMENTED: Trenutna igra ima %d fragmenata. Defragmentirajte je i pokušajte
+    ponovo.
   ERR_FILE_INVALID: Greska, nije moguce pokrenuti ovu stavku.
   TEST: Testiraj Promjene
   HINT_GUEST: Ostavi prazno za autent. GOSTA
@@ -144,16 +123,14 @@ translations:
   VMC_SCREEN: Konfiguriraj VMC
   VMC_NAME: Ime
   SIZE: Velicina
-  VMC_STATUS:
-  - untranslated
-  - original: Status
+  VMC_STATUS: Status
   VMC_PROGRESS: Napredak
   VMC_FILE_EXISTS: VMC datoteka vec postoji.
   VMC_FILE_ERROR: Nevazeca VMC datoteka, velicina nije tocna.
   VMC_FILE_NEW: VMC datoteka treba biti stvorena.
   ERR_VMC_CONTINUE: Greska pristupanja VMC %s. Nastaviti sa Memory Cardom u slotu
     %d?
-  AUTOREFRESH: Automatsko Osvjezavanje
+  AUTOREFRESH: Otkrivanje vrućeg spajanja
   ABOUT: O
   DEVS: Koderi
   QANDA: Osiguranje Kvalitete
@@ -164,12 +141,8 @@ translations:
   VMODE: Video Nacin
   UICOLOR: Boja Dijaloga
   SELCOLOR: Odabrana Boja
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
-  INFO:
-  - untranslated
-  - original: Info
+  RESETCOLOR: Ponovno postavi boje
+  INFO: Informacije
   ALTSTARTUP: Prilagodeni ELF
   COLOR_SELECTION: Odabir Boje
   RECONNECT: Ponovno spoji
@@ -179,17 +152,11 @@ translations:
   SPACE: Razmak
   ENTER: Unesi
   MODE: Nacin
-  VMC_SLOT1:
-  - untranslated
-  - original: VMC Slot 1
-  VMC_SLOT2:
-  - untranslated
-  - original: VMC Slot 2
+  VMC_SLOT1: VMC utor 1
+  VMC_SLOT2: VMC utor 2
   GAME_ID: ID Igre
   DMA_MODE: DMA Nacin
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Nacin 1
   MODE2: Nacin 2
   MODE3: Nacin 3
@@ -203,9 +170,7 @@ translations:
   ETH_10MFDX: 10Mbit Puni-dupleks
   ETH_10MHDX: 10Mbit Pola-dupleksa
   GSM_SETTINGS: GSM Postavke
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM izbornik
   HINT_ENABLEGSM: Uklj./Isklj. GSM
   HINT_GSMVMODE: Forsirani prilagodeni nacin ekrana.
   XOFFSET: H-POZ
@@ -217,9 +182,7 @@ translations:
   GSMSKIPVIDEOS: Preskoci FMV
   HINT_GSMSKIPVIDEOS: Preskakanje FMV-a
   CHEAT_SETTINGS: Postavke Varanja
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD mehanizam za varanje
   HINT_ENABLECHEAT: Dopusti PS2RD Cheat Engine da zakrpa tvoju igru.
   CHEATMODE: Nacin PS2RD Cheat Engine
   HINT_CHEATMODE: Automatski odabir ili odaberi varanja za igru.
@@ -240,35 +203,21 @@ translations:
   AUTO_START_IN_N_SECS: Automatski zapocni za %i s…
   AUTOSTARTLAST: Automatski zapocni
   HINT_AUTOSTARTLAST: Vrijednost u sekundama, 0 za onemogucavanje automatskog pocetka.
-  PS2LOGO:
-  - untranslated
-  - original: PS2 Logo
-  HINT_PS2LOGO:
-  - untranslated
-  - original: Displayed for a valid disc logo matching the console's region.
+  PS2LOGO: PS2 logo
+  HINT_PS2LOGO: Prikazuje se za valjani logo diska koji odgovara regiji konzole.
   PADEMUCONFIG: Konfiguriraj PADEMU
   PADEMU_SETTINGS: Postavke Pad Emulatora
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Emulator pada
   HINT_PADEMU_ENABLE: Uklj./Isklj. Pad Emulator za odabranu igru.
   PADEMU_MODE: Nacin Pad Emulatora
   HINT_PADEMU_MODE: Odabire nacin Pad Emulatora.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Postavke Za Port:'
   HINT_PAD_PORT: Odaberi port za postavke Pad Emulatora.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Emulacija
   HINT_PADEMU_PORT: Uklj./Isklj. Pad Emulator za odabrani port.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Vibracija
   HINT_PADEMU_VIB: Uklj./Isklj. vibraciju za odabrani port Pad Emulatora.
   USBDG_MAC: 'MAC Adresa USB Bluetooth Adaptera:'
   PAD_MAC: 'DS Kontroler uparen na MAC Adresu:'
@@ -286,18 +235,13 @@ translations:
   'NO': Ne
   BT_SUPPORTED: Bluetooth adapter bi trebao biti potpuno kompatibilan sa DS3/DS4 kontrolerom.
   BT_NOTSUPPORTED: Bluetooth adapter mozda nece raditi ispravno sa DS3/DS4 kontrolerom.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Emulacija Multitapa
   HINT_MTAP_ENABLE: Uklj./Isklj. emulaciju Multitapa za odabranu igru.
   MTAP_PORT: 'Emulator Multitapa na Portu:'
   HINT_MTAP_PORT: Odaberi port za emulaciju Multitapa.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: Zaobilazno rješenje za lažne DS3
+  HINT_PADEMU_WORKAROUND: Neki lažni DS3 kontroleri trebaju zaobilazno rješenje, ova
+    opcija će ga omogućiti.
   GSM_FIELD_FIX: Emuliraj preklapanje FIELD-a
   HINT_GSM_FIELD_FIX: Zakrpe za igre koje se kvare pod progresivnim video nacinom.
   PARENLOCKCONFIG: Postavke Roditeljskog Zakljucavanja
@@ -311,34 +255,18 @@ translations:
   ERR_VMC_FRAGMENTED_CONTINUE: VMC %s datoteka je fragmentirana. Nastaviti sa Memory
     Cardom u slotu %d?
   AUDIO_SETTINGS: Postavke Zvuka
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
+  SFX: Zvučni efekti
+  BOOT_SND: Zvuk pokretanja
   SFX_VOLUME: Glasnoca Zvucnih Efekata
   BOOT_SND_VOLUME: Glasnoca Zvuka Pokretanja
   CFM_VMODE_CHG: Potvrdi promjenu video nacina?
   CACHE_HDD_GAME_LIST: Predmemorija Liste Igara (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
+  ENABLE_NOTIFICATIONS: Obavijesti
+  CFG_NOTIFICATION: Konfiguracija učitana s %s
+  THM_NOTIFICATION: Tema učitana s %s
+  LNG_NOTIFICATION: Jezik učitan s %s
+  PARTITION_NOTIFICATION: Particija %s je montirana.
+  OPTIONS: Mogućnosti
   GAME_SETTINGS_SAVED: Postavke igre su spremljene.
   GAME_SETTINGS_REMOVED: '%s postavke su uklonjene.'
   NET_UPDATE_HINT: Prepisivanje postojecih postavki kompatibilnosti igre kada je omoguceno.
@@ -347,138 +275,140 @@ translations:
   PERGAME_SETTINGS: Po Igri
   ALL_SETTINGS: Sve
   GAME_SETTINGS_PROMPT: Odaberi postavke za ukloniti.
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  FORUM_DETAILS: 'Forumi za podršku:'
+  INFO_TITLE: Naslov
+  INFO_GENRE: Žanr
+  INFO_RELEASE: Izdanje
+  INFO_DEVELOPER: Razvijatelj
+  INFO_DESCRIPTION: Opis
+  BLOCKDEVICE_SETTINGS: BDM uređaji
+  CONTROLLER_SETTINGS: Postavke kontrolera
+  HINT_BDM_START: Uključivanje/isključivanje upravitelja blokovskih uređaja.
+  HINT_BLOCK_DEVICES: Uključivanje/isključivanje BDM uređaja (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: USB igre
+  ILINK_GAMES: iLink igre
+  MX4SIO_GAMES: MX4SIO igre
+  PADMACROCONFIG: Konfiguriraj PADMACRO
+  PADMACRO_SETTINGS: Postavke makroa pada
+  PADMACRO_ENABLE: Makroi pada
+  PADMACRO_SLOWDOWN: 'Usporavanje analognog:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Smanjuje raspon analogne palice dok je gumb pritisnut.
+  LEFT_ANALOG: Lijeva palica
+  RIGHT_ANALOG: Desna palica
+  PADMACRO_INVERT_AXIS: 'Invertiranje analogne osi:'
+  HINT_PADMACRO_INVERT_AXIS: Invertira os odabrane analogne palice.
+  TURBO_SPEED: Brzina turbo gumba
+  HINT_TURBO_SPEED: Koliko brzo se gumb pritišće dok je turbo aktivan.
+  ACT_WHILE_PRESSED: Dok je gumb pritisnut
+  ACT_TOGGLED: Uključuje/isključuje se gumbom
+  LANGUAGE_JAPANESE: Japanski
+  LANGUAGE_ENGLISH: Engleski
+  LANGUAGE_FRENCH: Francuski
+  LANGUAGE_SPANISH: Španjolski
+  LANGUAGE_GERMAN: Njemački
+  LANGUAGE_ITALIAN: Talijanski
+  LANGUAGE_DUTCH: Nizozemski
+  LANGUAGE_PORTUGUESE: Portugalski
+  LANGUAGE_RUSSIAN: Ruski
+  LANGUAGE_KOREAN: Korejski
+  LANGUAGE_TRAD_CHINESE: Tradicionalni kineski
+  LANGUAGE_SIMPL_CHINESE: Pojednostavljeni kineski
+  OSD_SETTINGS: OSD postavke
+  OSD_SETTINGS_LNG: OSD jezik
+  HINT_OSD_SETTINGS_LNG: Forsiraj prilagođenu jezičnu konfiguraciju
+  ENABLE_LNG: Omogući
+  OSD_SETTINGS_TVASPECT: Veličina zaslona
+  FULL_SCREEN: Cijeli zaslon
+  OSD_SETTINGS_VMODE: Video način
+  SYSTEM_DEFAULT: Zadano sustava
+  BGM: Pozadinska glazba
+  BGM_VOLUME: Glasnoća pozadinske glazbe
+  DEF_BGM_PATH: Prilagođena pozadinska glazba
+  DEF_BGM_PATH_HINT: Putanja prilagođene ogg datoteke; ostavite prazno za reprodukciju
+    ugrađene BGM glazbe teme
+  HIGH: Visoko
+  LOW: Nisko
+  XSENSITIVITY: Osjetljivost analogne X-osi
+  YSENSITIVITY: Osjetljivost analogne Y-osi
+  FILE_COUNT: 'Pronađene datoteke: %i'
+  CHEAT_SELECTION: Odabir varanja
+  HDD_HINT: Dopušten je samo jedan HDD, omogućavanje zaključava APA ili GPT.
+  TXTRENAME: TXT popis mapiranja
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL suradnici (stranica 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Imena čekaju potvrdu
+  ABOUT_ORIGINAL_CONTRIBUTORS: Službeni OPL suradnici (stranica 2/2)
+  ABOUT_NEXT_PAGE: Sljedeća stranica
+  ABOUT_PREVIOUS_PAGE: Prethodna stranica
+  HINT_DMA_MODE: Način prijenosa HDD-a, viša vrijednost je brža (zahtijeva isključen
+    način 1)
+  HINT_DMA_SOURCE: Primijeni globalno ili samo na trenutnu igru
+  HINT_CF_COUNT: Promijenite broj naslovnica na zaslonu. Ako usporava, smanjite broj.
+  BGM_SEARCH: Traži ogg datoteku
+  HINT_BGM_SEARCH: Pretražite korijen pokrenutih uređaja za ogg datoteku i ispunite
+    gornju putanju
+  BGM_NOT_FOUND: ogg datoteka nije pronađena
+  ARTPACK: Podrška za OPLM paket slika (trenutne naslovnice)
+  HINT_ARTPACK: Stavite zip paket OPLM_ART (nemojte ga raspakiravati) izravno u ART2
+  HINT_ART_RANDOM: Pozadine i snimke zaslona mijenjaju se nasumično (samo zip paket
+    slika)
+  HINT_APAISO: Kopirajte ISO datoteke u +OPL/DVD ili CD za izravno čitanje, bez HDL
+    pretvorbe
+  HINT_AUTODETECT_PS1APPS: Izravno otkriva ELF datoteke u mapi APPS i VCD datoteke
+    u mapi POPS
+  HINT_AUTO_MODE1: Način 1 (precizno čitanje) rješava većinu problema kompatibilnosti,
+    preporučuje se
+  HINT_CACHE_HDD_GAME_LIST: Predmemorija popisa koristi se za HDL format instalacije,
+    nije potrebna pri izravnom čitanju ISO datoteka
+  HINT_LASTPLAYED: Kad se OPL pokrene, kursor ostaje na posljednjoj odigranoj igri
+  HINT_COVERARTMODE: Način kompatibilnosti znatno usporava učitavanje slika, preporučuje
+    se način performansi
+  HINT_AUTOREFRESH: OPL reagira u stvarnom vremenu kada se blokovski uređaji poput
+    USB diskova spoje u hodu
+  HINT_TXTRENAME: Stvara txt datoteku koja se koristi za mapiranje naziva igara na
+    bilo koji tekst
+  HINT_ENABLE_WRITE: Funkcija brisanja u OPL-u nije potpuno sigurna, koristite je
+    oprezno
+  HINT_THEME: Mogu se prebacivati dvije ugrađene teme. Tematike trećih strana stavite
+    u mapu THM
+  HINT_LANGUAGE: Stavite jezične pakete FGOPL-a u mapu LNG za podršku dodatnim jezicima
+  START_MODE_SETTINGS: Postavke načina pokretanja
+  DEVICE_SWITCH: Prekidači uređaja (isključite neiskorištene uređaje radi bržeg pokretanja)
+  APAISO: Izravni ISO s HDD(APA)
+  AUTODETECT_PS1APPS: Automatsko otkrivanje APPS i PS1
+  AUTO_MODE1: Automatski uključi način 1 (bolja kompatibilnost)
+  COVERART_BG_OFF: Pozadina isključena
+  COVERART_BG_ON: Pozadina uključena
+  COVERART_COV_OFF: Naslovnica isključena
+  COVERART_COV_ON: Naslovnica uključena
+  COVERART_ICO_OFF: Disk isključen
+  COVERART_ICO_ON: Disk uključen
+  COVERARTMODE_PERF: Performanse (samo PNG)
+  COVERARTMODE_COMPAT: Kompatibilnost (JPG i PNG)
+  ART_RANDOM_OFF: Nasumična slika isključena
+  ART_RANDOM_ON: Nasumična slika uključena
+  CF_COVER_COUNT_1: 'Naslovnica na zaslonu: 1'
+  CF_COVER_COUNT_3: 'Naslovnica na zaslonu: 3'
+  CF_COVER_COUNT_5: 'Naslovnica na zaslonu: 5'
+  CF_COVER_COUNT_7: 'Naslovnica na zaslonu: 7'
+  CF_COVER_COUNT_9: 'Naslovnica na zaslonu: 9'
+  GSM_VMODE_480I_NORMAL: 480i normalno (za CRT)
+  GSM_VMODE_480I_SHRINK: 480i suženo (rasteže se na 4:3 na modernim televizorima)
+  DMA_UDMA4_DEFAULT: UDMA 4 zadano
+  DMA_UDMA5_HIGHEST: UDMA 5 trenutni maksimum HDD-a
+  DMA_UDMA6_HIGHEST: UDMA 6 trenutni maksimum HDD-a
+  DMA_UDMA7_HIGHEST: UDMA 7 trenutni maksimum HDD-a
+  DMA_UDMA7_EXTREME: UDMA 7 ekstremno
+  DMA_HDD_ONLY: <samo HDD>
+  CHEAT_TOGGLE_ALL: Odaberi/poništi sve
+  CHEAT_SAVE_AND_RUN: Spremi i pokreni
+  THEME_COVERFLOW: Ugrađena tema Coverflow
+  THEME_LIST: Ugrađena tema popisa
+  MSG_DEVICE_DETECT_TIMEOUT: Isteklo je vrijeme otkrivanja za %s. Problem kompatibilnosti
+    uređaja.
+  MSG_TXT_CREATED: txt datoteka je stvorena!
+  MSG_TXT_REBUILT: txt datoteka je ponovno izgrađena!
+  MSG_HDD_EXFAT_HINT: Unutarnji HDD je exFAT. Omogućite HDD(exFAT) u BDM postavkama.
+  MSG_HDD_APA_HINT: Unutarnji HDD je APA. Omogućite način pokretanja HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Vaš HDD ima mješovite particije. Svejedno omogućiti ovaj
+    način?
+  MSG_LIST_SEPARATOR: ', '

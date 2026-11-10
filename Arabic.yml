@@ -8,9 +8,7 @@ translations:
   NETCONFIG: تثبيت و اعداد الشبكة
   SHOW_ADVANCED_OPTS: اعدادات متقدمة
   NO_ITEMS: <لا يوجد قيم>
-  SETTINGS_SAVED:
-  - untranslated
-  - original: Settings saved to %s
+  SETTINGS_SAVED: تم حفظ الإعدادات في %s
   ERROR_SAVING_SETTINGS: هناك مشكلة في حفظ التغييرات
   EXIT: الخروج
   SETTINGS: الاعدادات
@@ -18,13 +16,11 @@ translations:
   BDM_GAMES: العاب BDM
   HDD_GAMES: العاب HDD
   NET_GAMES: لعاب ETH
-  APPS: برامج
+  APPS: APPS & PS1
   THEME: تيمات
   LANGUAGE: لغات
   CONFIRMATION_POFF: سيتم ايقاف تشغيل النظام
-  CONFIRMATION_EXIT:
-  - untranslated
-  - original: Exit to Browser?
+  CONFIRMATION_EXIT: الخروج إلى المتصفح؟
   CONFIRMATION_CANCEL_UPDATE: الغاء التحديث ?
   HDD_NOT_CONNECTED_ERROR: '%d: لم يتم العثور على القرص الصلب'
   HDD_NOT_FORMATTED_ERROR: '%d: القرص المضغوط غير منسق'
@@ -46,9 +42,7 @@ translations:
   CROSS: ضرب
   GAMES_LIST: قائمة الالعاب
   COMPAT_SETTINGS: اعدادات اللعبة
-  REMOVE_ALL_SETTINGS:
-  - untranslated
-  - original: Remove Settings
+  REMOVE_ALL_SETTINGS: إزالة الإعدادات
   SCROLLING: التمرير
   SLOW: ثقيل
   MEDIUM: متوسط
@@ -59,22 +53,16 @@ translations:
   ERROR_LOADING_ID: هناك مشكل في شحن هوية اللعبة
   AUTOSORT: الفرز الاوتوماتيكي
   ERR_LOADING_LANGFILE: هناك مشكل  في شحن ملف اللغات
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: ألوان التصحيح
   NO_CONTROLLER: لم يتم وجود على وحدة التحكم
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: صور الأغلفة
   WIDE_SCREEN: شاشة واسعة
   POWEROFF: ايقاف
   LOADING_SETTINGS: شحن الاعدادات
   SAVING_SETTINGS: حفظ الاعدادات
   START_DEVICE: تشغيل الجهاز
   REFRESH: اعادة تنشيط
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: وضع بدء BDM
   HDDMODE: طريقة تشغيل الجهاز HDD
   ETHMODE: طريقة تشغيل الجهاز ETH
   APPMODE: طريقة تشغيل الجهاز البرامج
@@ -91,9 +79,7 @@ translations:
   CAT_SMB_SERVER: '- السيرفر SMB -'
   IP_ADDRESS_TYPE: نوع عنوان الي بي
   IP_ADDRESS_TYPE_STATIC: ساكن
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: عنوان الاي بي
   ADDRESS: العنوان
   MASK: القناع
@@ -106,25 +92,20 @@ translations:
   NOT_SET: <غير مضبوط>
   ADDRESS_TYPE: نوع العنوان
   ADDR_TYPE_IP: اي بي
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: قبول
   DELETE_WARNING: سيتم حذفه نهائيا ةهل ستكمل?
   RENAME: تغيير الاسم
   DELETE: حذف
   RUN: تشغيل
   GFX_SETTINGS: اعدادات العرض
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: عمليات الكتابة
   LASTPLAYED: التذكير باخر لعبة
   SELECTBUTTON: زر الاختيار
-  ERR_FRAGMENTED: اللعبة مجزئة
+  ERR_FRAGMENTED: اللعبة الحالية تحتوي على %d أجزاء. قم بإلغاء التجزئة ثم حاول مرة
+    أخرى.
   ERR_FILE_INVALID: غير ممكن تشغيل العنوان
-  TEST:
-  - untranslated
-  - original: Test Changes
+  TEST: اختبار التغييرات
   HINT_GUEST: ترك الفراغ لGUEST
   HINT_MODE1: قراءة دقيقة
   HINT_MODE2: الطريقة المتزامنة
@@ -147,10 +128,9 @@ translations:
   VMC_FILE_EXISTS: ملف VMC موجود
   VMC_FILE_ERROR: ملف فاسد , حجمه غير صحيح
   VMC_FILE_NEW: يجب صنع ملف VMC
-  ERR_VMC_CONTINUE:
-  - untranslated
-  - original: Error accessing VMC %s. Continue with the Memory Card in slot %d?
-  AUTOREFRESH: تحديث اوتوماتيكي
+  ERR_VMC_CONTINUE: خطأ في الوصول إلى VMC %s. هل تريد المتابعة ببطاقة الذاكرة في الفتحة
+    %d؟
+  AUTOREFRESH: اكتشاف التوصيل السريع
   ABOUT: معلومات حول …
   DEVS: المبرمجون
   QANDA: ضمان الجودة
@@ -161,9 +141,7 @@ translations:
   VMODE: طريقة الفيديو
   UICOLOR: لون الكتابة
   SELCOLOR: اللون المختار
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
+  RESETCOLOR: إعادة تعيين الألوان
   INFO: المعلومات
   ALTSTARTUP: تخصيص ELF
   COLOR_SELECTION: اختيار الالوان
@@ -192,25 +170,19 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: اعداداتGSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: محدد GSM
   HINT_ENABLEGSM: تبديل GSM ON او OFF
   HINT_GSMVMODE: اجبار طريقة الشاشة المستبدلة
   XOFFSET: موضع افقي
   HINT_XOFFSET: تعديل افقي
   YOFFSET: موضع عمودي
   HINT_YOFFSET: تعديل عمودي
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan Adjustment
   GSMSKIPVIDEOS: تخطي FMV
   HINT_GSMSKIPVIDEOS: بتخطى FMV
   CHEAT_SETTINGS: اعدادات قائمة الغش
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: محرك الغش PS2RD
   HINT_ENABLECHEAT: تدع PS2RD لتصحيح الالعاب
   CHEATMODE: PS2RD
   HINT_CHEATMODE: اختيار اوتوماتيكي او اختيار قائمة الغش
@@ -220,9 +192,7 @@ translations:
   NO_CHEATS_FOUND: لا يوجد قائمة الغش لهذه اللعبة
   DL_DEFAULTS: تحميل الافتراضيات
   NET_UPDATE: التحديث عن طريق الشبكة
-  NET_UPDATE_ALL:
-  - untranslated
-  - original: Overwrite Existing Records
+  NET_UPDATE_ALL: الكتابة فوق السجلات الحالية
   NET_UPDATE_FAILED: فشل التحديث
   NET_UPDATE_CONN_FAILED: فشل في الاتصال بسيرفر التحديث
   NET_UPDATE_DONE: انتهى التحديث
@@ -233,321 +203,203 @@ translations:
   AUTO_START_IN_N_SECS: البدء%i الاوتوماتيكي في  ثانية…
   AUTOSTARTLAST: البدء الاوتوماتيكي
   HINT_AUTOSTARTLAST: النسبة في الدقيقة, 0 للالغاء التدوير باستمرار
-  PS2LOGO:
-  - untranslated
-  - original: PS2 Logo
+  PS2LOGO: شعار PS2
   HINT_PS2LOGO: (Only displayed for a valid disc logo which matches the console's
     region)
-  PADEMUCONFIG:
-  - untranslated
-  - original: Configure PADEMU
-  PADEMU_SETTINGS:
-  - untranslated
-  - original: Pad Emulator Settings
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMUCONFIG: إعداد محاكي اليد
+  PADEMU_SETTINGS: إعدادات محاكي اليد
+  PADEMU_ENABLE: محاكي اليد
   HINT_PADEMU_ENABLE: Turns on/off PadEmulator for selected game.
   PADEMU_MODE: Pad Emulator mode
-  HINT_PADEMU_MODE:
-  - untranslated
-  - original: Select Pad Emulator mode.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  HINT_PADEMU_MODE: اختر وضع محاكي اليد.
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Settings for port:'
-  HINT_PAD_PORT:
-  - untranslated
-  - original: Select Pad Emulator port for settings.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
-  HINT_PADEMU_PORT:
-  - untranslated
-  - original: Turns on/off Pad Emulator for selected port.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
-  HINT_PADEMU_VIB:
-  - untranslated
-  - original: Turns on/off vibration for Pad Emulator selected port.
+  HINT_PAD_PORT: اختر منفذ محاكي اليد للإعدادات.
+  PADEMU_PORT: المحاكاة
+  HINT_PADEMU_PORT: يشغّل أو يوقف محاكي اليد للمنفذ المحدد.
+  PADEMU_VIB: الاهتزاز
+  HINT_PADEMU_VIB: يشغّل أو يوقف الاهتزاز لمحاكي اليد في المنفذ المحدد.
   USBDG_MAC: 'Usb bluetooth adapter mac address:'
   PAD_MAC: 'DS Controller paired to mac address:'
-  PAIR:
-  - untranslated
-  - original: Pair
-  PAIR_PAD:
-  - untranslated
-  - original: Pair DS Controller
+  PAIR: اقتران
+  PAIR_PAD: اقتران وحدة تحكم DS
   HINT_PAIRPAD: Pair DS Controller with bluetooth adapter mac address.
   NOT_CONNECTED: Not connected
   BTINFO: Bluetooth adapter information
   HINT_BTINFO: Shows more information and supported features
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
-  MANUFACTURER:
-  - untranslated
-  - original: 'Manufacturer ID:'
+  HCIVER: 'إصدار HCI:'
+  LMPVER: 'إصدار LMP:'
+  MANUFACTURER: 'معرّف الشركة المصنعة:'
   SUPFEATURES: 'Support features:'
-  'YES':
-  - untranslated
-  - original: 'Yes'
-  'NO':
-  - untranslated
-  - original: 'No'
-  BT_SUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter should be fully compatible with DS3/DS4 controllers.
-  BT_NOTSUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter may not work correctly with DS3/DS4 controllers.
+  'YES': نعم
+  'NO': لا
+  BT_SUPPORTED: ينبغي أن يكون محول البلوتوث متوافقًا تمامًا مع وحدات التحكم DS3/DS4.
+  BT_NOTSUPPORTED: قد لا يعمل محول البلوتوث بشكل صحيح مع وحدات التحكم DS3/DS4.
   MTAP_ENABLE: Multitap emulation
-  HINT_MTAP_ENABLE:
-  - untranslated
-  - original: Turns on/off Multitap emulation for selected game.
+  HINT_MTAP_ENABLE: يشغّل أو يوقف محاكاة Multitap للعبة المحددة.
   MTAP_PORT: Multitap emulator on port
-  HINT_MTAP_PORT:
-  - untranslated
-  - original: Select port for Multitap emulation.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  HINT_MTAP_PORT: اختر المنفذ لمحاكاة Multitap.
+  PADEMU_WORKAROUND: حل بديل لأجهزة DS3 المزيّفة
+  HINT_PADEMU_WORKAROUND: تحتاج بعض أجهزة DS3 المزيّفة إلى حل بديل، وسيفعّل هذا الخيار
+    ذلك.
   GSM_FIELD_FIX: Emulate FIELD flipping
-  HINT_GSM_FIELD_FIX:
-  - untranslated
-  - original: Fix for games that glitch under progressive video modes.
-  PARENLOCKCONFIG:
-  - untranslated
-  - original: Parental Lock Settings
-  PARENLOCK_PASSWORD:
-  - untranslated
-  - original: Parental Lock Password
-  PARENLOCK_PASSWORD_HINT:
-  - untranslated
-  - original: Leave blank to disable the parental lock.
-  PARENLOCK_ENTER_PASSWORD_TITLE:
-  - untranslated
-  - original: Enter Parental Lock Password
-  PARENLOCK_PASSWORD_INCORRECT:
-  - untranslated
-  - original: Parental lock password incorrect.
-  PARENLOCK_DISABLE_WARNING:
-  - untranslated
-  - original: Parental lock disabled.
-  BUILD_DETAILS:
-  - untranslated
-  - original: 'Build Options:'
-  PARENLOCK_INVALID_PASSWORD:
-  - untranslated
-  - original: Error - this password cannot be used.
-  ERR_VMC_FRAGMENTED_CONTINUE:
-  - untranslated
-  - original: VMC %s file is fragmented. Continue with Memory Card in slot %d?
-  AUDIO_SETTINGS:
-  - untranslated
-  - original: Audio Settings
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
-  SFX_VOLUME:
-  - untranslated
-  - original: Sound Effects Volume
-  BOOT_SND_VOLUME:
-  - untranslated
-  - original: Boot Sound Volume
-  CFM_VMODE_CHG:
-  - untranslated
-  - original: Confirm video mode change?
-  CACHE_HDD_GAME_LIST:
-  - untranslated
-  - original: Cache Game List (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
-  GAME_SETTINGS_SAVED:
-  - untranslated
-  - original: Game settings saved.
-  GAME_SETTINGS_REMOVED:
-  - untranslated
-  - original: '%s settings removed.'
-  NET_UPDATE_HINT:
-  - untranslated
-  - original: Overwrites existing game compatibility settings when enabled.
-  SETTINGS_SOURCE:
-  - untranslated
-  - original: Settings Mode
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
-  PERGAME_SETTINGS:
-  - untranslated
-  - original: Per Game
-  ALL_SETTINGS:
-  - untranslated
-  - original: All
-  GAME_SETTINGS_PROMPT:
-  - untranslated
-  - original: Select settings to remove.
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  HINT_GSM_FIELD_FIX: إصلاح للألعاب التي تضطرب تحت أوضاع الفيديو المتدرجة.
+  PARENLOCKCONFIG: إعدادات القفل الأبوي
+  PARENLOCK_PASSWORD: كلمة مرور القفل الأبوي
+  PARENLOCK_PASSWORD_HINT: اترك الحقل فارغًا لتعطيل القفل الأبوي.
+  PARENLOCK_ENTER_PASSWORD_TITLE: أدخل كلمة مرور القفل الأبوي
+  PARENLOCK_PASSWORD_INCORRECT: كلمة مرور القفل الأبوي غير صحيحة.
+  PARENLOCK_DISABLE_WARNING: تم تعطيل القفل الأبوي.
+  BUILD_DETAILS: 'خيارات البناء:'
+  PARENLOCK_INVALID_PASSWORD: 'خطأ: لا يمكن استخدام كلمة المرور هذه.'
+  ERR_VMC_FRAGMENTED_CONTINUE: ملف VMC %s مجزأ. هل تريد المتابعة ببطاقة الذاكرة في
+    الفتحة %d؟
+  AUDIO_SETTINGS: إعدادات الصوت
+  SFX: المؤثرات الصوتية
+  BOOT_SND: صوت الإقلاع
+  SFX_VOLUME: مستوى صوت المؤثرات
+  BOOT_SND_VOLUME: مستوى صوت الإقلاع
+  CFM_VMODE_CHG: تأكيد تغيير وضع الفيديو؟
+  CACHE_HDD_GAME_LIST: ذاكرة قائمة الألعاب المؤقتة (HDD)
+  ENABLE_NOTIFICATIONS: الإشعارات
+  CFG_NOTIFICATION: تم تحميل الإعدادات من %s
+  THM_NOTIFICATION: تم تحميل السمة من %s
+  LNG_NOTIFICATION: تم تحميل اللغة من %s
+  PARTITION_NOTIFICATION: تم تركيب القسم %s.
+  OPTIONS: خيارات
+  GAME_SETTINGS_SAVED: تم حفظ إعدادات اللعبة.
+  GAME_SETTINGS_REMOVED: تمت إزالة إعدادات %s.
+  NET_UPDATE_HINT: عند التفعيل تُستبدل إعدادات توافق اللعبة الحالية.
+  SETTINGS_SOURCE: وضع الإعدادات
+  GLOBAL_SETTINGS: عام
+  PERGAME_SETTINGS: لكل لعبة
+  ALL_SETTINGS: الكل
+  GAME_SETTINGS_PROMPT: اختر الإعدادات المراد إزالتها.
+  FORUM_DETAILS: 'منتديات الدعم:'
+  INFO_TITLE: العنوان
+  INFO_GENRE: النوع
+  INFO_RELEASE: الإصدار
+  INFO_DEVELOPER: المطوّر
+  INFO_DESCRIPTION: الوصف
+  BLOCKDEVICE_SETTINGS: أجهزة BDM
+  CONTROLLER_SETTINGS: إعدادات المتحكم
+  HINT_BDM_START: تشغيل أو إيقاف مدير أجهزة الكتل.
+  HINT_BLOCK_DEVICES: تشغيل أو إيقاف أجهزة BDM ‏(USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: ألعاب USB
+  ILINK_GAMES: ألعاب iLink
+  MX4SIO_GAMES: ألعاب MX4SIO
+  PADMACROCONFIG: إعداد PADMACRO
+  PADMACRO_SETTINGS: إعدادات وحدات ماكرو اليد
+  PADMACRO_ENABLE: وحدات ماكرو اليد
+  PADMACRO_SLOWDOWN: 'إبطاء التناظري:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: يقلّل نطاق العصا التناظرية عند الضغط على الزر.
+  LEFT_ANALOG: العصا اليسرى
+  RIGHT_ANALOG: العصا اليمنى
+  PADMACRO_INVERT_AXIS: 'عكس المحور التناظري:'
+  HINT_PADMACRO_INVERT_AXIS: يعكس محور العصا التناظرية المحددة.
+  TURBO_SPEED: سرعة زر التيربو
+  HINT_TURBO_SPEED: مدى سرعة ضغط الزر عند تفعيل التيربو.
+  ACT_WHILE_PRESSED: أثناء الضغط على الزر
+  ACT_TOGGLED: يُبدَّل بالزر
+  LANGUAGE_JAPANESE: اليابانية
+  LANGUAGE_ENGLISH: الإنجليزية
+  LANGUAGE_FRENCH: الفرنسية
+  LANGUAGE_SPANISH: الإسبانية
+  LANGUAGE_GERMAN: الألمانية
+  LANGUAGE_ITALIAN: الإيطالية
+  LANGUAGE_DUTCH: الهولندية
+  LANGUAGE_PORTUGUESE: البرتغالية
+  LANGUAGE_RUSSIAN: الروسية
+  LANGUAGE_KOREAN: الكورية
+  LANGUAGE_TRAD_CHINESE: الصينية التقليدية
+  LANGUAGE_SIMPL_CHINESE: الصينية المبسطة
+  OSD_SETTINGS: إعدادات OSD
+  OSD_SETTINGS_LNG: لغة OSD
+  HINT_OSD_SETTINGS_LNG: فرض إعداد لغة مخصص
+  ENABLE_LNG: تفعيل
+  OSD_SETTINGS_TVASPECT: حجم الشاشة
+  FULL_SCREEN: ملء الشاشة
+  OSD_SETTINGS_VMODE: وضع الفيديو
+  SYSTEM_DEFAULT: افتراضي النظام
+  BGM: موسيقى خلفية
+  BGM_VOLUME: مستوى صوت الموسيقى الخلفية
+  DEF_BGM_PATH: موسيقى خلفية مخصصة
+  DEF_BGM_PATH_HINT: مسار ملف ogg مخصص؛ اتركه فارغًا لتشغيل الموسيقى المدمجة في السمة
+  HIGH: مرتفع
+  LOW: منخفض
+  XSENSITIVITY: حساسية المحور الأفقي للأسلوب التناظري
+  YSENSITIVITY: حساسية المحور العمودي للأسلوب التناظري
+  FILE_COUNT: 'الملفات الموجودة: %i'
+  CHEAT_SELECTION: اختيار الغش
+  HDD_HINT: يُسمح بقرص صلب واحد فقط، والتفعيل يقفل APA أو GPT.
+  TXTRENAME: قائمة تعيين TXT
+  ABOUT_CHINESE_CONTRIBUTORS: مساهمو FGOPL (صفحة 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: الأسماء بانتظار التأكيد
+  ABOUT_ORIGINAL_CONTRIBUTORS: مساهمو OPL الرسميون (صفحة 2/2)
+  ABOUT_NEXT_PAGE: الصفحة التالية
+  ABOUT_PREVIOUS_PAGE: الصفحة السابقة
+  HINT_DMA_MODE: وضع نقل القرص الصلب، الأعلى أسرع (يتطلب إيقاف الوضع 1)
+  HINT_DMA_SOURCE: يُطبَّق عمومًا، أو على اللعبة الحالية فقط
+  HINT_CF_COUNT: غيّر عدد الأغلفة على الشاشة. إذا شعرت بالبطء، خفّض العدد.
+  BGM_SEARCH: البحث عن ملف ogg
+  HINT_BGM_SEARCH: ابحث في جذر الأجهزة التي شُغِّلت عن ملف ogg واملأ المسار أعلاه
+  BGM_NOT_FOUND: لم يُعثر على ملف ogg
+  ARTPACK: دعم حزمة صور OPLM (ظهور فوري للصور)
+  HINT_ARTPACK: ضع حزمة zip المسماة OPLM_ART (بدون استخراج) مباشرة في ART2
+  HINT_ART_RANDOM: تتغيّر الخلفيات ولقطات الشاشة عشوائيًا (حزمة الصور المضغوطة فقط)
+  HINT_APAISO: انسخ ملفات ISO إلى +OPL/DVD أو CD لقراءتها مباشرة دون تحويل HDL
+  HINT_AUTODETECT_PS1APPS: يكتشف مباشرة ملفات ELF في مجلد APPS وملفات VCD في مجلد
+    POPS
+  HINT_AUTO_MODE1: الوضع 1 (قراءة دقيقة) يحل معظم مشكلات التوافق، ويُفضَّل تفعيله
+  HINT_CACHE_HDD_GAME_LIST: ذاكرة قائمة الألعاب المؤقتة تُستخدم مع تنسيق تثبيت HDL،
+    ولا تلزم عند قراءة ISO مباشرة
+  HINT_LASTPLAYED: عند تشغيل OPL يبقى المؤشر على آخر لعبة لعبتها
+  HINT_COVERARTMODE: وضع التوافق يبطئ تحميل الصور كثيرًا، ويُفضَّل وضع الأداء
+  HINT_AUTOREFRESH: يستجيب OPL في الوقت الحقيقي عند توصيل أو فصل أجهزة الكتل مثل أقراص
+    USB أثناء التشغيل
+  HINT_TXTRENAME: ينشئ ملف txt يُستخدم لربط أسماء الألعاب بأي نص
+  HINT_ENABLE_WRITE: وظيفة الحذف في OPL ليست آمنة تمامًا، يُرجى استخدامها بحذر
+  HINT_THEME: يمكن التبديل بين سمتين مدمجتين. ضع السمات الخارجية في مجلد THM
+  HINT_LANGUAGE: ضع حزم لغات FGOPL في مجلد LNG لدعم المزيد من اللغات
+  START_MODE_SETTINGS: إعدادات وضع البدء
+  DEVICE_SWITCH: مفاتيح الأجهزة (عطّل الأجهزة غير المستخدمة لتسريع الإقلاع)
+  APAISO: ISO مباشر عبر HDD(APA)
+  AUTODETECT_PS1APPS: اكتشاف تلقائي لـ APPS و PS1
+  AUTO_MODE1: تفعيل الوضع 1 تلقائيًا (توافق أفضل)
+  COVERART_BG_OFF: الخلفية متوقفة
+  COVERART_BG_ON: الخلفية مفعلة
+  COVERART_COV_OFF: الغلاف متوقف
+  COVERART_COV_ON: الغلاف مفعل
+  COVERART_ICO_OFF: القرص متوقف
+  COVERART_ICO_ON: القرص مفعل
+  COVERARTMODE_PERF: الأداء (PNG فقط)
+  COVERARTMODE_COMPAT: التوافق (JPG و PNG)
+  ART_RANDOM_OFF: صور عشوائية متوقفة
+  ART_RANDOM_ON: صور عشوائية مفعلة
+  CF_COVER_COUNT_1: 'الأغلفة على الشاشة: 1'
+  CF_COVER_COUNT_3: 'الأغلفة على الشاشة: 3'
+  CF_COVER_COUNT_5: 'الأغلفة على الشاشة: 5'
+  CF_COVER_COUNT_7: 'الأغلفة على الشاشة: 7'
+  CF_COVER_COUNT_9: 'الأغلفة على الشاشة: 9'
+  GSM_VMODE_480I_NORMAL: 480i عادي (لشاشات CRT)
+  GSM_VMODE_480I_SHRINK: 480i مضغوط (يُمدَّد إلى 4:3 على التلفزيونات الحديثة)
+  DMA_UDMA4_DEFAULT: UDMA 4 الافتراضي
+  DMA_UDMA5_HIGHEST: UDMA 5 أقصى وضع حالي للقرص الصلب
+  DMA_UDMA6_HIGHEST: UDMA 6 أقصى وضع حالي للقرص الصلب
+  DMA_UDMA7_HIGHEST: UDMA 7 أقصى وضع حالي للقرص الصلب
+  DMA_UDMA7_EXTREME: UDMA 7 أقصى سرعة
+  DMA_HDD_ONLY: <HDD فقط>
+  CHEAT_TOGGLE_ALL: تحديد/إلغاء تحديد الكل
+  CHEAT_SAVE_AND_RUN: حفظ وتشغيل
+  THEME_COVERFLOW: سمة Coverflow المدمجة
+  THEME_LIST: سمة القائمة المدمجة
+  MSG_DEVICE_DETECT_TIMEOUT: انتهت مهلة اكتشاف %s. مشكلة توافق في الجهاز.
+  MSG_TXT_CREATED: تم إنشاء ملف txt!
+  MSG_TXT_REBUILT: أُعيد بناء ملف txt!
+  MSG_HDD_EXFAT_HINT: القرص الصلب الداخلي بنظام exFAT. فعّل HDD(exFAT) في إعدادات
+    BDM.
+  MSG_HDD_APA_HINT: القرص الصلب الداخلي بنظام APA. فعّل وضع بدء HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: يحتوي قرصك الصلب على أقسام مختلطة. هل تريد تفعيل هذا الوضع
+    على أي حال؟
+  MSG_LIST_SEPARATOR: '، '

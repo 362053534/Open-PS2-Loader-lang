@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM Igre
   HDD_GAMES: HDD Igre
   NET_GAMES: ETH Igre
-  APPS: Aplikacije
+  APPS: APPS & PS1
   THEME: Teme
   LANGUAGE: Jezik
   CONFIRMATION_POFF: Sistem će se ugasiti.
@@ -102,7 +102,8 @@ translations:
   ENABLE_WRITE: Operacije Pisanja
   LASTPLAYED: Zapamti Poslednju Uključenu Igru
   SELECTBUTTON: Taster za Odabir
-  ERR_FRAGMENTED: Greška, igra je fragmentirana.
+  ERR_FRAGMENTED: Trenutna igra ima %d fragmenata. Defragmentirajte je i pokušajte
+    ponovo.
   ERR_FILE_INVALID: Greška, nije moguće pokrenuti ovu stavku.
   TEST: Testiraj Promene
   HINT_GUEST: Ostavi prazno za autent. GOSTA
@@ -129,7 +130,7 @@ translations:
   VMC_FILE_NEW: VMC datoteka treba biti stvorena.
   ERR_VMC_CONTINUE: Greška pristupanja VMC %s. Nastaviti sa Memory Cardom u slotu
     %d?
-  AUTOREFRESH: Automatsko Osvežavanje
+  AUTOREFRESH: Otkrivanje vrućeg priključivanja
   ABOUT: O
   DEVS: Programeri
   QANDA: Osiguranje Kvaliteta
@@ -186,7 +187,7 @@ translations:
   CHEATMODE: Način PS2RD Cheat Engine
   HINT_CHEATMODE: Automatski odabir ili odaberi Cheat za igru.
   CHEATMODEAUTO: Automatski Odaberi Cheat
-  CHEATMODESELECT: Odaberi Cheat 
+  CHEATMODESELECT: Odaberi Cheat
   ERR_CHEATS_LOAD_FAILED: 'Greška: neuspešno učitavanje Cheat datoteke.'
   NO_CHEATS_FOUND: Cheatovi nisu pronađeni.
   DL_DEFAULTS: Preuzmi Podrazumevano
@@ -239,7 +240,8 @@ translations:
   MTAP_PORT: 'Emulator Multitapa na Portu:'
   HINT_MTAP_PORT: Odaberi port za emulaciju Multitapa.
   PADEMU_WORKAROUND: Zaobilazno Rešenje za Lažni DS3
-  HINT_PADEMU_WORKAROUND: Neki lažni DS3 zahtevaju zaobilazno rešenje, ova opcija će ga omogućiti.
+  HINT_PADEMU_WORKAROUND: Neki lažni DS3 zahtevaju zaobilazno rešenje, ova opcija
+    će ga omogućiti.
   GSM_FIELD_FIX: Emuliraj preklapanje FIELD-a
   HINT_GSM_FIELD_FIX: Zakrpe za igre koje se kvare pod progresivnim video načinom.
   PARENLOCKCONFIG: Postavke Roditeljskog Zaključavanja
@@ -321,8 +323,9 @@ translations:
   SYSTEM_DEFAULT: Sistemsko Podrazumevano
   BGM: Pozadinska Muzika
   BGM_VOLUME: Glasnoća Pozadinske Muzike
-  DEF_BGM_PATH: Podrazumevana Muzika Teme
-  DEF_BGM_PATH_HINT: Postavi putanju za strimovanje muzike za internu temu.
+  DEF_BGM_PATH: Prilagođena pozadinska muzika
+  DEF_BGM_PATH_HINT: Putanja prilagođene ogg datoteke; ostavite prazno da bi se reprodukovala
+    ugrađena BGM muzika teme
   HIGH: Visoko
   LOW: Nisko
   XSENSITIVITY: Osetljivost Analogne X-Ose
@@ -330,3 +333,81 @@ translations:
   FILE_COUNT: 'Pronađeno fajlova: %i'
   CHEAT_SELECTION: Odabir Varanja
   HDD_HINT: Dozvoljen je samo jedan HDD, omogućavanje zaključava APA ili GPT.
+  TXTRENAME: TXT lista mapiranja
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL saradnici (strana 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Imena čekaju potvrdu
+  ABOUT_ORIGINAL_CONTRIBUTORS: Zvanični OPL saradnici (strana 2/2)
+  ABOUT_NEXT_PAGE: Sledeća strana
+  ABOUT_PREVIOUS_PAGE: Prethodna strana
+  HINT_DMA_MODE: Režim prenosa HDD-a, viša vrednost je brža (zahteva isključen režim
+    1)
+  HINT_DMA_SOURCE: Primeni globalno ili samo na trenutnu igru
+  HINT_CF_COUNT: Promenite broj omota na ekranu. Ako usporava, smanjite broj.
+  BGM_SEARCH: Traži ogg datoteku
+  HINT_BGM_SEARCH: Pretražite koren pokrenutih uređaja za ogg datoteku i popunite
+    gornju putanju
+  BGM_NOT_FOUND: ogg datoteka nije pronađena
+  ARTPACK: Podrška za OPLM paket slika (trenutni omoti)
+  HINT_ARTPACK: Stavite zip paket OPLM_ART (ne raspakujte ga) direktno u ART2
+  HINT_ART_RANDOM: Pozadine i snimci ekrana menjaju se nasumično (samo zip paket slika)
+  HINT_APAISO: Kopirajte ISO datoteke u +OPL/DVD ili CD za direktno čitanje, bez HDL
+    konverzije
+  HINT_AUTODETECT_PS1APPS: Direktno otkriva ELF datoteke u folderu APPS i VCD datoteke
+    u folderu POPS
+  HINT_AUTO_MODE1: Režim 1 (precizno čitanje) rešava većinu problema kompatibilnosti,
+    preporučuje se
+  HINT_CACHE_HDD_GAME_LIST: Keš liste koristi se za HDL format instalacije, nije potreban
+    pri direktnom čitanju ISO datoteka
+  HINT_LASTPLAYED: Kad se OPL pokrene, kursor ostaje na poslednjoj odigranoj igri
+  HINT_COVERARTMODE: Režim kompatibilnosti znatno usporava učitavanje slika, preporučuje
+    se režim performansi
+  HINT_AUTOREFRESH: OPL reaguje u realnom vremenu kada se blokovski uređaji poput
+    USB diskova priključe u hodu
+  HINT_TXTRENAME: Pravi txt datoteku koja se koristi za mapiranje naziva igara na
+    bilo koji tekst
+  HINT_ENABLE_WRITE: Funkcija brisanja u OPL-u nije potpuno bezbedna, koristite je
+    pažljivo
+  HINT_THEME: Mogu se menjati dve ugrađene teme. Teme trećih strana stavite u folder
+    THM
+  HINT_LANGUAGE: Stavite jezičke pakete FGOPL-a u folder LNG da bi se podržalo više
+    jezika
+  START_MODE_SETTINGS: Podešavanja režima pokretanja
+  DEVICE_SWITCH: Prekidači uređaja (isključite neiskorišćene uređaje radi bržeg pokretanja)
+  APAISO: Direktni ISO sa HDD(APA)
+  AUTODETECT_PS1APPS: Automatsko otkrivanje APPS i PS1
+  AUTO_MODE1: Automatski uključi režim 1 (bolja kompatibilnost)
+  COVERART_BG_OFF: Pozadina isključena
+  COVERART_BG_ON: Pozadina uključena
+  COVERART_COV_OFF: Omot isključen
+  COVERART_COV_ON: Omot uključen
+  COVERART_ICO_OFF: Disk isključen
+  COVERART_ICO_ON: Disk uključen
+  COVERARTMODE_PERF: Performanse (samo PNG)
+  COVERARTMODE_COMPAT: Kompatibilnost (JPG i PNG)
+  ART_RANDOM_OFF: Nasumična slika isključena
+  ART_RANDOM_ON: Nasumična slika uključena
+  CF_COVER_COUNT_1: 'Omota na ekranu: 1'
+  CF_COVER_COUNT_3: 'Omota na ekranu: 3'
+  CF_COVER_COUNT_5: 'Omota na ekranu: 5'
+  CF_COVER_COUNT_7: 'Omota na ekranu: 7'
+  CF_COVER_COUNT_9: 'Omota na ekranu: 9'
+  GSM_VMODE_480I_NORMAL: 480i normalno (za CRT)
+  GSM_VMODE_480I_SHRINK: 480i suženo (rasteže se na 4:3 na modernim televizorima)
+  DMA_UDMA4_DEFAULT: UDMA 4 podrazumevano
+  DMA_UDMA5_HIGHEST: UDMA 5 trenutni maksimum HDD-a
+  DMA_UDMA6_HIGHEST: UDMA 6 trenutni maksimum HDD-a
+  DMA_UDMA7_HIGHEST: UDMA 7 trenutni maksimum HDD-a
+  DMA_UDMA7_EXTREME: UDMA 7 ekstremno
+  DMA_HDD_ONLY: <samo HDD>
+  CHEAT_TOGGLE_ALL: Izaberi/poništi sve
+  CHEAT_SAVE_AND_RUN: Sačuvaj i pokreni
+  THEME_COVERFLOW: Ugrađena tema Coverflow
+  THEME_LIST: Ugrađena tema liste
+  MSG_DEVICE_DETECT_TIMEOUT: Isteklo je vreme otkrivanja za %s. Problem kompatibilnosti
+    uređaja.
+  MSG_TXT_CREATED: txt datoteka je napravljena!
+  MSG_TXT_REBUILT: txt datoteka je ponovo izgrađena!
+  MSG_HDD_EXFAT_HINT: Unutrašnji HDD je exFAT. Omogućite HDD(exFAT) u BDM podešavanjima.
+  MSG_HDD_APA_HINT: Unutrašnji HDD je APA. Omogućite režim pokretanja HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Vaš HDD ima mešovite particije. Ipak omogućiti ovaj režim?
+  MSG_LIST_SEPARATOR: ', '

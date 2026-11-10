@@ -8,9 +8,7 @@ translations:
   NETCONFIG: ກຳນົດຄ່າທາງດ້ານ Network
   SHOW_ADVANCED_OPTS: ທາງເລືອກສຳລັບການຕັ້ງຄ່າຂັ້ນສູງ
   NO_ITEMS: <ບໍ່ມີຄ່າໃດໆ>
-  SETTINGS_SAVED:
-  - untranslated
-  - original: Settings saved to %s
+  SETTINGS_SAVED: ບັນທຶກການຕັ້ງຄ່າລົງໃນ %s ແລ້ວ
   ERROR_SAVING_SETTINGS: ການຂຽນການຕັ້ງຄ່າມີຂໍ້ຜິດພາດ!
   EXIT: ອອກຈາກໂປຣແກຣມ
   SETTINGS: ການຕັ້ງຄ່າ
@@ -18,7 +16,7 @@ translations:
   BDM_GAMES: ຫຼິ້ນເກມຜ່ານ BDM
   HDD_GAMES: ຫຼິ້ນເກມຜ່ານ Hard Disk
   NET_GAMES: ຫຼິ້ນເກມຜ່ານ Network
-  APPS: ໂປຣແກຣມຕ່າງໆ
+  APPS: APPS & PS1
   THEME: ຄຸນລັກສະນະຮູບຮ່າງ
   LANGUAGE: ພາສາ
   CONFIRMATION_POFF: ລະບົບຈະຖືກປິດການໃຊ້ງານ
@@ -44,9 +42,7 @@ translations:
   CROSS: ຄູນ
   GAMES_LIST: ໄປທີ່ລາຍຊື່ເກມ
   COMPAT_SETTINGS: ຕັ້ງຄ່າໃຫ້ເກມນີ້
-  REMOVE_ALL_SETTINGS:
-  - untranslated
-  - original: Remove Settings
+  REMOVE_ALL_SETTINGS: ລຶບການຕັ້ງຄ່າ
   SCROLLING: ການເລື່ອນ
   SLOW: ຊ້າໆ
   MEDIUM: ປານກາງ
@@ -57,22 +53,16 @@ translations:
   ERROR_LOADING_ID: ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ໂຫຼດເກມ ID
   AUTOSORT: ລຽງລຳດັບລາຍຊື່ເກມແບບອັດຕະໂນມັດ
   ERR_LOADING_LANGFILE: ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ໂຫຼດ File ພາສາ
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: ສີດີບັກ
   NO_CONTROLLER: ບໍ່ສາມາດກວດພົບມືເກມ, ກະລຸນາລໍຖ້າ…
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: ຮູບປົກ
   WIDE_SCREEN: ຈໍໍກວ້າງ
   POWEROFF: ປິດເຄື່ອງ
   LOADING_SETTINGS: ກຳລັງໂຫຼດການຕັ້ງຄ່າ
   SAVING_SETTINGS: ກຳລັງບັນທຶກການຕັ້ງຄ່າ
   START_DEVICE: ເປີດໃຊ້ອຸປະກອນເຊື່ອມຕໍ່
   REFRESH: ເອີ້ນຄືນໃໝ່
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: ໂໝດເລີ່ມຕົ້ນ BDM
   HDDMODE: ໂໝດ ເຊື່ອມຕໍ່ອຸປະກອນ Hard Disk
   ETHMODE: ໂໝດ ເຊື່ອມຕໍ່ອຸປະກອນ Network
   APPMODE: ໂໝດ ຕ່າງໆສຳລັບໂປຣແກຣມ
@@ -81,78 +71,50 @@ translations:
   STARTNBD: ເປີດໃຊ້ NBD Server
   STARTINGNBD: NBD Server ກຳລັງເລີ່ມໃຊ້ງານ…
   RUNNINGNBD: NBD Server ກໍາລັງດໍາເນີນການ…
-  STARTFAILNBD:
-  - untranslated
-  - original: Failed to start NBD Server.
+  STARTFAILNBD: ເປີດເຄື່ອງແມ່ຂ່າຍ NBD ບໍ່ສຳເລັດ.
   UNLOADNBD: NBD Server ກໍາລັງຢຸດການໃຊ້ງານ…
   EXITTO: IGR path
   BGCOLOR: ສີຂອງພື້ນຫຼັງ
   TXTCOLOR: ສີຂອງຂໍ້ຄວາມ
-  CAT_SMB_SERVER:
-  - untranslated
-  - original: '- SMB Server -'
+  CAT_SMB_SERVER: '- ເຄື່ອງແມ່ຂ່າຍ SMB -'
   IP_ADDRESS_TYPE: ປະເພດຂອງ IP address
   IP_ADDRESS_TYPE_STATIC: ຄ່າຄົງທີ່
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: ເລກ IP address
   ADDRESS: ທີ່ຢູ່
-  MASK:
-  - untranslated
-  - original: Mask
-  GATEWAY:
-  - untranslated
-  - original: Gateway
-  DNS_SERVER:
-  - untranslated
-  - original: DNS Server
-  PORT:
-  - untranslated
-  - original: Port
-  SHARE:
-  - untranslated
-  - original: Share
+  MASK: ມາສກ
+  GATEWAY: ຜ່ານທາງ
+  DNS_SERVER: ເຄື່ອງແມ່ຂ່າຍ DNS
+  PORT: ພອດ
+  SHARE: ແບ່ງປັນ
   USER: ຜູ້ໃຊ້
   PASSWORD: ລະຫັດຜ່ານ
   NOT_SET: <ບໍ່ມີຄ່າທີ່ຖືກຕັ້ງ>
   ADDRESS_TYPE: ປະເພດຂອງທີ່ຢູ່
   ADDR_TYPE_IP: ເລກ IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: ຍອມຮັບ
   DELETE_WARNING: ສິ່ງທີ່ເລືອກຈະຖືກລຶບຈາກລະບົບແບບຖາວອນ, ດຳເນີນການຕໍ່ຫຼືບໍ່?
   RENAME: ປ່ຽນຊື່
   DELETE: ລົບ
   RUN: ຫຼິ້ນເກມນີ້
   GFX_SETTINGS: ຕັ້ງຄ່າການສະແດງຜົນ
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: ການຂຽນຂໍ້ມູນ
   LASTPLAYED: ໃຫ້ລະບົບຈື່ເກມທີ່ຫຼິ້ນໄປຄັ້ງສຸດທ້າຍ
   SELECTBUTTON: ເລືອກປຸ່ມ
-  ERR_FRAGMENTED: ເກີດຂໍ້ຜິດພາດ, ເກມນີ້ມີ fragmentation. ກະລຸນາ Defragment ເກມນີ້ກ່ອນ
+  ERR_FRAGMENTED: ເກມປັດຈຸບັນມີ %d ຊິ້ນສ່ວນ. ກະລຸນາເຮັດ Defragment ແລ້ວລອງໃໝ່.
   ERR_FILE_INVALID: ເກີດຂໍ້ຜິດພາດ, ບໍ່ສາມາດເປີດໃຊ້ງານໄດ້
-  TEST:
-  - untranslated
-  - original: Test Changes
+  TEST: ທົດສອບການປ່ຽນແປງ
   HINT_GUEST: ບໍ່ມີຄ່າກຳນົດໃດໆສຳລັບການເຂົ້າເຖິງຂອງ GUEST
   HINT_MODE1: ອ່ານແບບຖືກຕ້ອງແມ່ນຍຳ
   HINT_MODE2: ວິທີການອ່ານຂໍ້ມູນທີ່ມີທາງເລືອກ
-  HINT_MODE3:
-  - untranslated
-  - original: Unhook Syscalls
+  HINT_MODE3: ປົດການເອີ້ນລະບົບ (Syscalls)
   HINT_MODE4: ຂ້າມການຫຼິ້ນວິດິໂອ
   HINT_MODE5: ປະມວນຜົນ DVD-DL
-  HINT_MODE6:
-  - untranslated
-  - original: Disable IGR
+  HINT_MODE6: ປິດ IGR
   HINT_VMC_SIZE: ການປ່ຽນຂະໜາດຈະເຮັດໃຫ້ VMC(ກ້ອນເຊບສະເໝືອນຈິງ) ຖືກ format ໃໝ່
   CREATE: ສ້າງ
-  START:
-  - untranslated
-  - original: Start
+  START: ເລີ່ມ
   MODIFY: ແກ້ໄຂ
   ABORT: ຢຸດ
   RESET: ຕັ້ງຄ່າໃໝ່
@@ -165,10 +127,9 @@ translations:
   VMC_FILE_EXISTS: ມີ File ຂອງ VMC ຢູ່ແລ້ວ
   VMC_FILE_ERROR: ຂະໜາດຂອງ File VMC ບໍ່ຖືກຕ້ອງ
   VMC_FILE_NEW: File VMC(ກ້ອນເຊບສະເໝືອນຈິງ) ຈະຕ້ອງຖືກສ້າງຂຶ້ນ
-  ERR_VMC_CONTINUE:
-  - untranslated
-  - original: Error accessing VMC %s. Continue with the Memory Card in slot %d?
-  AUTOREFRESH: ເອີ້ນຄືນໃໝ່ແບບອັດຕະໂນມັດ
+  ERR_VMC_CONTINUE: ເກີດຂໍ້ຜິດພາດໃນການເຂົ້າເຖິງ VMC %s. ຈະສືບຕໍ່ດ້ວຍບັດຄວາມຈຳໃນສະລັອດ
+    %d ບໍ?
+  AUTOREFRESH: ກວດຈັບການປລັກອຸປະກອນຂະນະໃຊ້ງານ
   ABOUT: ກ່ຽວກັບໂປຣແກຣມ
   DEVS: ກຸ່ມນັກພັດທະນາໂປຣແກຣມ
   QANDA: ການປະກັນໃນຄຸນະພາບ
@@ -179,36 +140,22 @@ translations:
   VMODE: ໂໝດວິດິໂອ
   UICOLOR: ສີ Dialog
   SELCOLOR: ສີທີ່ຖືກເລືອກ
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
+  RESETCOLOR: ຣີເຊັດສີ
   INFO: ຂໍ້ມູນ
   ALTSTARTUP: ELF ທີ່ຖືກປັບແຕ່ງເອງ
   COLOR_SELECTION: ເລືອກສີ
   RECONNECT: ເຊື່ອມຕໍ່ອີກຄັ້ງ
   HINT_SHARENAME: ບໍ່ມີຄ່າກຳນົດໃດໆຕໍ່ການສະແດງລາຍການທີ່ເປີດ share
   ETH_PREFIX: ETH prefix path
-  BACKSPACE:
-  - untranslated
-  - original: Backspace
-  SPACE:
-  - untranslated
-  - original: Space
-  ENTER:
-  - untranslated
-  - original: Enter
+  BACKSPACE: ລຶບຖອຍຫຼັງ
+  SPACE: ຍະຫວ່າງ
+  ENTER: Enter
   MODE: ໂໝດ
   VMC_SLOT1: VMC(ກ້ອນເຊບສະເໝືອນຈິງ) ຊ່ອງ 1
   VMC_SLOT2: VMC(ກ້ອນເຊບສະເໝືອນຈິງ) ຊ່ອງ 2
-  GAME_ID:
-  - untranslated
-  - original: Game ID
-  DMA_MODE:
-  - untranslated
-  - original: DMA Mode
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  GAME_ID: ລະຫັດເກມ
+  DMA_MODE: ໂໝດ DMA
+  VSYNC: V-Sync
   MODE1: ໂໝດ  1
   MODE2: ໂໝດ  2
   MODE3: ໂໝດ  3
@@ -222,29 +169,19 @@ translations:
   ETH_10MFDX: ສົ່ງຂໍ້ມູນ 10Mbit ແບບ full-duplex
   ETH_10MHDX: ສົ່ງຂໍ້ມູນ 10Mbit ແບບ half-duplex
   GSM_SETTINGS: ການຕັ້ງຄ່າ GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: ຕົວເລືອກ GSM
   HINT_ENABLEGSM: Toggles GSM ເປີດ ຫຼື ປິດ
   HINT_GSMVMODE: ບັງຄັບໃຊ້ໂໝດການສະແດງຜົນທີ່ປັບແຕ່ງເອງ
-  XOFFSET:
-  - untranslated
-  - original: H-POS
+  XOFFSET: H-POS
   HINT_XOFFSET: ການປັບແຕ່ງຄ່າສະແດງຜົນຕາມແນວນອນ
-  YOFFSET:
-  - untranslated
-  - original: V-POS
+  YOFFSET: V-POS
   HINT_YOFFSET: ການປັບແຕ່ງຄ່າສະແດງຜົນຕາມແນວຕັ້ງ
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan Adjustment
   GSMSKIPVIDEOS: ຂ້າມຂັ້ນຕອນ FMV
   HINT_GSMSKIPVIDEOS: ຂ້າມຂັ້ນຕອນສະແດງພາບເຄື່ອນໄຫວ Full Video
   CHEAT_SETTINGS: ຕັ້ງຄ່າການໂກງເກມ
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: ເຄື່ອງຈັກສູດສໍ້ PS2RD
   HINT_ENABLECHEAT: ອະນຸຍາດໃຫ້ ຄຳສັ່ງໂກງເກມ PS2RD ເຂົ້າເຖິງເກມຂອງເຈົ້າ
   CHEATMODE: ໂໝດຂອງ ຄຳສັ່ງໂກງເກມ PS2RD
   HINT_CHEATMODE: ເລືອກການໂກງແບບອັດຕະໂນມັດ ຫຼື ເລືອກເອງ
@@ -254,9 +191,7 @@ translations:
   NO_CHEATS_FOUND: ບໍ່ພົບ File ໂກງເກມໃດໆ
   DL_DEFAULTS: ດາວໂຫຼດຄ່າມາດຕະຖານ
   NET_UPDATE: ອັບເດດ Network
-  NET_UPDATE_ALL:
-  - untranslated
-  - original: Overwrite Existing Records
+  NET_UPDATE_ALL: ຂຽນທັບບັນທຶກທີ່ມີຢູ່
   NET_UPDATE_FAILED: ການອັບເດດເກີດຂໍ້ຜິດພາດ.
   NET_UPDATE_CONN_FAILED: ການເຊື່ອມຕໍ່ເພື່ອອັບເດດ Server ບໍ່ສົມບູນ.
   NET_UPDATE_DONE: ການອັບເດດສົມບູນ.
@@ -267,320 +202,198 @@ translations:
   AUTO_START_IN_N_SECS: ເລີ່ມຕົ້ນອັດຕະໂນມັດ ພາຍໃນ %i ວິນາທີ…
   AUTOSTARTLAST: ເປີດໃຊ້ແບບໂອໂຕ
   HINT_AUTOSTARTLAST: ຕັ້ງຄ່າຫົວໜ່ວຍ ວິນາທີ, ໃສ່ 0 ເພື່ອປິດການເປີດໃຊ້ແບບໂອໂຕ
-  PS2LOGO:
-  - untranslated
-  - original: PS2 Logo
+  PS2LOGO: ໂລໂກ້ PS2
   HINT_PS2LOGO: ຈະຖືກສະແດງຜົນ ກໍຕໍ່ເມື່ອໂລໂກ້ຂອງແຜ່ນຖືກຕ້ອງ ແລະ ສອດຄ່ອງຕາມໂຊນຂອງເຄື່ອງ
-  PADEMUCONFIG:
-  - untranslated
-  - original: Configure PADEMU
-  PADEMU_SETTINGS:
-  - untranslated
-  - original: Pad Emulator Settings
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMUCONFIG: ຕັ້ງຄ່າ PADEMU
+  PADEMU_SETTINGS: ຕັ້ງຄ່າຕົວຈຳລອງແປດ
+  PADEMU_ENABLE: ຕົວຈຳລອງແປດ
   HINT_PADEMU_ENABLE: Turns on/off PadEmulator for selected game.
   PADEMU_MODE: Pad Emulator mode
-  HINT_PADEMU_MODE:
-  - untranslated
-  - original: Select Pad Emulator mode.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  HINT_PADEMU_MODE: ເລືອກໂໝດຕົວຈຳລອງແປດ.
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Settings for port:'
-  HINT_PAD_PORT:
-  - untranslated
-  - original: Select Pad Emulator port for settings.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
-  HINT_PADEMU_PORT:
-  - untranslated
-  - original: Turns on/off Pad Emulator for selected port.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
-  HINT_PADEMU_VIB:
-  - untranslated
-  - original: Turns on/off vibration for Pad Emulator selected port.
+  HINT_PAD_PORT: ເລືອກພອດຕົວຈຳລອງແປດສຳລັບການຕັ້ງຄ່າ.
+  PADEMU_PORT: ການຈຳລອງ
+  HINT_PADEMU_PORT: ເປີດ/ປິດຕົວຈຳລອງແປດສຳລັບພອດທີ່ເລືອກ.
+  PADEMU_VIB: ການສັ່ນ
+  HINT_PADEMU_VIB: ເປີດ/ປິດການສັ່ນຂອງຕົວຈຳລອງແປດສຳລັບພອດທີ່ເລືອກ.
   USBDG_MAC: 'Usb bluetooth adapter mac address:'
   PAD_MAC: 'DS Controller paired to mac address:'
-  PAIR:
-  - untranslated
-  - original: Pair
-  PAIR_PAD:
-  - untranslated
-  - original: Pair DS Controller
+  PAIR: ຈັບຄູ່
+  PAIR_PAD: ຈັບຄູ່ດາດຄອນໂທຣນເລີ DS
   HINT_PAIRPAD: Pair DS Controller with bluetooth adapter mac address.
   NOT_CONNECTED: Not connected
   BTINFO: Bluetooth adapter information
   HINT_BTINFO: Shows more information and supported features
-  HCIVER:
-  - untranslated
-  - original: 'HCI Version:'
-  LMPVER:
-  - untranslated
-  - original: 'LMP Version:'
-  MANUFACTURER:
-  - untranslated
-  - original: 'Manufacturer ID:'
+  HCIVER: 'ເວີຊັນ HCI:'
+  LMPVER: 'ເວີຊັນ LMP:'
+  MANUFACTURER: 'ລະຫັດຜູ້ຜະລິດ:'
   SUPFEATURES: 'Support features:'
-  'YES':
-  - untranslated
-  - original: 'Yes'
-  'NO':
-  - untranslated
-  - original: 'No'
-  BT_SUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter should be fully compatible with DS3/DS4 controllers.
-  BT_NOTSUPPORTED:
-  - untranslated
-  - original: Bluetooth adapter may not work correctly with DS3/DS4 controllers.
+  'YES': ແມ່ນ
+  'NO': ບໍ່
+  BT_SUPPORTED: ອະແດບເຕີ Bluetooth ຄວນເຂົ້າກັນໄດ້ຢ່າງສົມບູນກັບດາດຄອນໂທຣນເລີ DS3/DS4.
+  BT_NOTSUPPORTED: ອະແດບເຕີ Bluetooth ອາດເຮັດວຽກບໍ່ຖືກກັບດາດຄອນໂທຣນເລີ DS3/DS4.
   MTAP_ENABLE: Multitap emulation
-  HINT_MTAP_ENABLE:
-  - untranslated
-  - original: Turns on/off Multitap emulation for selected game.
+  HINT_MTAP_ENABLE: ເປີດ/ປິດການຈຳລອງ Multitap ສຳລັບເກມທີ່ເລືອກ.
   MTAP_PORT: Multitap emulator on port
-  HINT_MTAP_PORT:
-  - untranslated
-  - original: Select port for Multitap emulation.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  HINT_MTAP_PORT: ເລືອກພອດສຳລັບການຈຳລອງ Multitap.
+  PADEMU_WORKAROUND: ວິທີແກ້ສຳລັບ DS3 ປອມ
+  HINT_PADEMU_WORKAROUND: DS3 ປອມບາງຕົວຕ້ອງໃຊ້ວິທີແກ້, ຕົວເລືອກນີ້ຈະເປີດມັນ.
   GSM_FIELD_FIX: Emulate FIELD flipping
-  HINT_GSM_FIELD_FIX:
-  - untranslated
-  - original: Fix for games that glitch under progressive video modes.
-  PARENLOCKCONFIG:
-  - untranslated
-  - original: Parental Lock Settings
-  PARENLOCK_PASSWORD:
-  - untranslated
-  - original: Parental Lock Password
-  PARENLOCK_PASSWORD_HINT:
-  - untranslated
-  - original: Leave blank to disable the parental lock.
-  PARENLOCK_ENTER_PASSWORD_TITLE:
-  - untranslated
-  - original: Enter Parental Lock Password
-  PARENLOCK_PASSWORD_INCORRECT:
-  - untranslated
-  - original: Parental lock password incorrect.
-  PARENLOCK_DISABLE_WARNING:
-  - untranslated
-  - original: Parental lock disabled.
-  BUILD_DETAILS:
-  - untranslated
-  - original: 'Build Options:'
-  PARENLOCK_INVALID_PASSWORD:
-  - untranslated
-  - original: Error - this password cannot be used.
-  ERR_VMC_FRAGMENTED_CONTINUE:
-  - untranslated
-  - original: VMC %s file is fragmented. Continue with Memory Card in slot %d?
-  AUDIO_SETTINGS:
-  - untranslated
-  - original: Audio Settings
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
-  SFX_VOLUME:
-  - untranslated
-  - original: Sound Effects Volume
-  BOOT_SND_VOLUME:
-  - untranslated
-  - original: Boot Sound Volume
-  CFM_VMODE_CHG:
-  - untranslated
-  - original: Confirm video mode change?
-  CACHE_HDD_GAME_LIST:
-  - untranslated
-  - original: Cache Game List (HDD)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
-  GAME_SETTINGS_SAVED:
-  - untranslated
-  - original: Game settings saved.
-  GAME_SETTINGS_REMOVED:
-  - untranslated
-  - original: '%s settings removed.'
-  NET_UPDATE_HINT:
-  - untranslated
-  - original: Overwrites existing game compatibility settings when enabled.
-  SETTINGS_SOURCE:
-  - untranslated
-  - original: Settings Mode
-  GLOBAL_SETTINGS:
-  - untranslated
-  - original: Global
-  PERGAME_SETTINGS:
-  - untranslated
-  - original: Per Game
-  ALL_SETTINGS:
-  - untranslated
-  - original: All
-  GAME_SETTINGS_PROMPT:
-  - untranslated
-  - original: Select settings to remove.
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  HINT_GSM_FIELD_FIX: ແກ້ໄຂເກມທີ່ຜິດປົກກະຕິໃນໂໝດວິດີໂອແບບລາກເສັ້ນ.
+  PARENLOCKCONFIG: ຕັ້ງຄ່າລ็อกຜູ້ປົກຄອງ
+  PARENLOCK_PASSWORD: ລະຫັດຜ່ານລ็อกຜູ້ປົກຄອງ
+  PARENLOCK_PASSWORD_HINT: ປ່ອຍວ່າງໄວ້ເພື່ອປິດລ็อกຜູ້ປົກຄອງ.
+  PARENLOCK_ENTER_PASSWORD_TITLE: ປ້ອນລະຫັດຜ່ານລ็อกຜູ້ປົກຄອງ
+  PARENLOCK_PASSWORD_INCORRECT: ລະຫັດຜ່ານລ็อกຜູ້ປົກຄອງບໍ່ຖືກ.
+  PARENLOCK_DISABLE_WARNING: ປິດລ็อกຜູ້ປົກຄອງແລ້ວ.
+  BUILD_DETAILS: 'ຕົວເລືອກການສ້າງ:'
+  PARENLOCK_INVALID_PASSWORD: ຜິດພາດ - ລະຫັດຜ່ານນີ້ໃຊ້ບໍ່ໄດ້.
+  ERR_VMC_FRAGMENTED_CONTINUE: ໄຟລ໌ VMC %s ມີການແຍກຊິ້ນ. ຈະສືບຕໍ່ດ້ວຍບັດຄວາມຈຳໃນສະລັອດ
+    %d ບໍ?
+  AUDIO_SETTINGS: ຕັ້ງຄ່າສຽງ
+  SFX: ສຽງປະກອບ
+  BOOT_SND: ສຽງເລີ່ມຕົ້ນ
+  SFX_VOLUME: ລະດັບສຽງປະກອບ
+  BOOT_SND_VOLUME: ລະດັບສຽງເລີ່ມຕົ້ນ
+  CFM_VMODE_CHG: ຢືນຢັນການປ່ຽນໂໝດວິດີໂອ?
+  CACHE_HDD_GAME_LIST: ແຄຊລາຍການເກມ (HDD)
+  ENABLE_NOTIFICATIONS: ການແຈ້ງເຕືອນ
+  CFG_NOTIFICATION: ໂຫຼດການຕັ້ງຄ່າຈາກ %s
+  THM_NOTIFICATION: ໂຫຼດຊຸດຮູບແບບຈາກ %s
+  LNG_NOTIFICATION: ໂຫຼດພາສາຈາກ %s
+  PARTITION_NOTIFICATION: ມາວທ໌ພາທິຊັນ %s ແລ້ວ.
+  OPTIONS: ຕົວເລືອກ
+  GAME_SETTINGS_SAVED: ບັນທຶກການຕັ້ງຄ່າເກມແລ້ວ.
+  GAME_SETTINGS_REMOVED: ລຶບການຕັ້ງຄ່າ %s ແລ້ວ.
+  NET_UPDATE_HINT: ເມື່ອເປີດຈະຂຽນທັບການຕັ້ງຄ່າຄວາມເຂົ້າກັນໄດ້ຂອງເກມທີ່ມີຢູ່.
+  SETTINGS_SOURCE: ໂໝດການຕັ້ງຄ່າ
+  GLOBAL_SETTINGS: ທົ່ວໄປ
+  PERGAME_SETTINGS: ຕໍ່ເກມ
+  ALL_SETTINGS: ທັງໝົດ
+  GAME_SETTINGS_PROMPT: ເລືອກການຕັ້ງຄ່າທີ່ຈະລຶບ.
+  FORUM_DETAILS: 'ຟໍລັມສະໜັບສະໜູນ:'
+  INFO_TITLE: ຊື່ເລື່ອງ
+  INFO_GENRE: ປະເພດ
+  INFO_RELEASE: ຜູ້ຈັດຈຳໜ່າຍ
+  INFO_DEVELOPER: ຜູ້ພັດທະນາ
+  INFO_DESCRIPTION: ຄຳອະທິບາຍ
+  BLOCKDEVICE_SETTINGS: ອຸປະກອນ BDM
+  CONTROLLER_SETTINGS: ຕັ້ງຄ່າຕົວຄວບຄຸມ
+  HINT_BDM_START: ເປີດ/ປິດຕົວຈັດການອຸປະກອນແບບບລັອກ.
+  HINT_BLOCK_DEVICES: ເປີດ/ປິດອຸປະກອນ BDM (USB/MX4SIO/ILINK/HDD).
+  USB_GAMES: ເກມ USB
+  ILINK_GAMES: ເກມ iLink
+  MX4SIO_GAMES: ເກມ MX4SIO
+  PADMACROCONFIG: ຕັ້ງຄ່າ PADMACRO
+  PADMACRO_SETTINGS: ຕັ້ງຄ່າແມັກໂຣແປດ
+  PADMACRO_ENABLE: ແມັກໂຣແປດ
+  PADMACRO_SLOWDOWN: 'ຊ້າລົງແບບອະນາລັອກ:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: ຫຼຸດຂອບເຂດຂອງສະຕິກອະນາລັອກເມື່ອກົດປຸ່ມ.
+  LEFT_ANALOG: ສະຕິກຊ້າຍ
+  RIGHT_ANALOG: ສະຕິກຂວາ
+  PADMACRO_INVERT_AXIS: 'ປີ້ນແກນອະນາລັອກ:'
+  HINT_PADMACRO_INVERT_AXIS: ປີ້ນແກນຂອງສະຕິກອະນາລັອກທີ່ເລືອກ.
+  TURBO_SPEED: ຄວາມໄວປຸ່ມທວຣໂບ
+  HINT_TURBO_SPEED: ປຸ່ມຖືກກົດໄວປານໃດເມື່ອເປີດທວຣໂບ.
+  ACT_WHILE_PRESSED: ໃນຂະນະກົດປຸ່ມ
+  ACT_TOGGLED: ສັບປ່ຽນດ້ວຍປຸ່ມ
+  LANGUAGE_JAPANESE: ພາສາຍີ່ປຸ່ນ
+  LANGUAGE_ENGLISH: ພາສາອັງກິດ
+  LANGUAGE_FRENCH: ພາສາຝຣັ່ງ
+  LANGUAGE_SPANISH: ພາສາສະເປນ
+  LANGUAGE_GERMAN: ພາສາເຢຍລະມັນ
+  LANGUAGE_ITALIAN: ພາສາອິຕາລີ
+  LANGUAGE_DUTCH: ພາສາໂຮນລັງ
+  LANGUAGE_PORTUGUESE: ພາສາປອກຕຸຍການ
+  LANGUAGE_RUSSIAN: ພາສາລັດເຊຍ
+  LANGUAGE_KOREAN: ພາສາເກົາຫຼີ
+  LANGUAGE_TRAD_CHINESE: ພາສາຈີນດັ້ງເດີມ
+  LANGUAGE_SIMPL_CHINESE: ພາສາຈີນຕົວຍໍ່
+  OSD_SETTINGS: ຕັ້ງຄ່າ OSD
+  OSD_SETTINGS_LNG: ພາສາ OSD
+  HINT_OSD_SETTINGS_LNG: ບັງຄັບໃຊ້ການຕັ້ງຄ່າພາສາທີ່ກຳນົດເອງ
+  ENABLE_LNG: ເປີດໃຊ້
+  OSD_SETTINGS_TVASPECT: ຂະໜາດໜ້າຈໍ
+  FULL_SCREEN: ເຕັມໜ້າຈໍ
+  OSD_SETTINGS_VMODE: ໂໝດວິດີໂອ
+  SYSTEM_DEFAULT: ຄ່າເລີ່ມຕົ້ນຂອງລະບົບ
+  BGM: ດົນຕີພື້ນຫຼັງ
+  BGM_VOLUME: ລະດັບສຽງດົນຕີພື້ນຫຼັງ
+  DEF_BGM_PATH: ດົນຕີພື້ນຫຼັງກຳນົດເອງ
+  DEF_BGM_PATH_HINT: ເສັ້ນທາງໄຟລ໌ ogg ກຳນົດເອງ; ປ່ອຍວ່າງໄວ້ເພື່ອຫຼິ້ນ BGM ທີ່ຕິດມາກັບຊຸດຮູບແບບ
+  HIGH: ສູງ
+  LOW: ຕ່ຳ
+  XSENSITIVITY: ຄວາມໄວຮັບແກນ X ແບບອະນາລັອກ
+  YSENSITIVITY: ຄວາມໄວຮັບແກນ Y ແບບອະນາລັອກ
+  FILE_COUNT: 'ພົບໄຟລ໌: %i'
+  CHEAT_SELECTION: ເລືອກສູດສໍ້
+  HDD_HINT: ອະນຸຍາດ HDD ໄດ້ພຽງໜຶ່ງຕົວ, ການເປີດຈະລ็อก APA ຫຼື GPT.
+  TXTRENAME: ລາຍການການແຜງ TXT
+  ABOUT_CHINESE_CONTRIBUTORS: ຜູ້ປະກອບສ່ວນ FGOPL (ໜ້າ 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: ຊື່ຍັງລໍຖ້າການຢືນຢັນ
+  ABOUT_ORIGINAL_CONTRIBUTORS: ຜູ້ປະກອບສ່ວນທາງການ OPL (ໜ້າ 2/2)
+  ABOUT_NEXT_PAGE: ໜ້າຕໍ່ໄປ
+  ABOUT_PREVIOUS_PAGE: ໜ້າກ່ອນ
+  HINT_DMA_MODE: ໂໝດການໂອນຂໍ້ມູນ HDD, ຄ່າສູງຈະໄວກວ່າ (ຕ້ອງປິດໂໝດ 1)
+  HINT_DMA_SOURCE: ນຳໃຊ້ທົ່ວໄປ ຫຼື ສະເພາະເກມປັດຈຸບັນ
+  HINT_CF_COUNT: ປ່ຽນຈຳນວນປົກທີ່ສະແດງໃນໜ້າຈໍ. ຖ້າຮູ້ສຶກຄ້າງ, ໃຫ້ຫຼຸດຈຳນວນລົງ.
+  BGM_SEARCH: ຄົ້ນຫາໄຟລ໌ ogg
+  HINT_BGM_SEARCH: ຄົ້ນຫາໄຟລ໌ ogg ໃນ root ຂອງອຸປະກອນທີ່ເປີດຢູ່ ແລ້ວຕື່ມເສັ້ນທາງຂ້າງເທິງ
+  BGM_NOT_FOUND: ບໍ່ພົບໄຟລ໌ ogg
+  ARTPACK: ຮອງຮັບຊຸດຮູບ OPLM (ສະແດງຮູບທັນທີ)
+  HINT_ARTPACK: ວາງຊຸດ zip OPLM_ART (ຢ່າບີບອອກ) ລົງໃນ ART2 ໂດຍກົງ
+  HINT_ART_RANDOM: ພື້ນຫຼັງ ແລະຮູບໜ້າຈໍຈະປ່ຽນແບບສຸ່ມ (ສະເພາະຊຸດຮູບ zip)
+  HINT_APAISO: ສຳເນົາ ISO ໄປໃສ່ +OPL/DVD ຫຼື CD ເພື່ອອ່ານໂດຍກົງ ບໍ່ຕ້ອງແປງເປັນ HDL
+  HINT_AUTODETECT_PS1APPS: ກວດຫາ ELF ໃນໂຟລເດີ APPS ແລະ VCD ໃນໂຟລເດີ POPS ໂດຍກົງ
+  HINT_AUTO_MODE1: ໂໝດ 1 (ການອ່ານທີ່ຊັດເຈນ) ແກ້ບັນຫາຄວາມເຂົ້າກັນໄດ້ສ່ວນໃຫຍ່, ແນະນຳໃຫ້ເປີດ
+  HINT_CACHE_HDD_GAME_LIST: ແຄຊລາຍການໃຊ້ກັບຮູບແບບຕິດຕັ້ງ HDL, ບໍ່ຈຳເປັນເມື່ອອ່ານ ISO
+    ໂດຍກົງ
+  HINT_LASTPLAYED: ເມື່ອເປີດ OPL, ຕົວຊີ້ຈະຢູ່ທີ່ເກມທີ່ຫຼິ້ນຄັ້ງສຸດທ້າຍ
+  HINT_COVERARTMODE: ໂໝດຄວາມເຂົ້າກັນໄດ້ຈະເຮັດໃຫ້ໂຫຼດຮູບຊ້າຫຼາຍ, ແນະນຳໂໝດປະສິດທິພາບ
+  HINT_AUTOREFRESH: ເມື່ອປລັກອຸປະກອນແບບບລັອກເຊັ່ນ USB ໃນຂະນະໃຊ້ງານ, OPL ຈະຕອບສະໜອງທັນທີ
+  HINT_TXTRENAME: ສ້າງໄຟລ໌ txt ສຳລັບແຜງຊື່ເກມເປັນຂໍ້ຄວາມໃດກໍໄດ້
+  HINT_ENABLE_WRITE: ຟັງຊັນລຶບຂອງ OPL ບໍ່ປອດໄພຢ່າງສົມບູນ, ກະລຸນາໃຊ້ດ້ວຍຄວາມລະມັດລະວັງ
+  HINT_THEME: ສາມາດສັບປ່ຽນຊຸດຮູບແບບໃນຕົວໄດ້ສອງແບບ. ໃຫ້ວາງຊຸດຮູບແບບພາກສ່ວນທີສາມໃນໂຟລເດີ
+    THM
+  HINT_LANGUAGE: ວາງຊຸດພາສາ FGOPL ໃນໂຟລເດີ LNG ເພື່ອຮອງຮັບພາສາເພີ່ມເຕີມ
+  START_MODE_SETTINGS: ຕັ້ງຄ່າໂໝດເລີ່ມຕົ້ນ
+  DEVICE_SWITCH: ສະວິດອຸປະກອນ (ປິດອຸປະກອນທີ່ບໍ່ໃຊ້ເພື່ອໃຫ້ເລີ່ມຕົ້ນໄວຂຶ້ນ)
+  APAISO: HDD(APA) ອ່ານ ISO ກົງ
+  AUTODETECT_PS1APPS: ກວດຫາ APPS & PS1 ອັດຕະໂນມັດ
+  AUTO_MODE1: ເປີດໂໝດ 1 ອັດຕະໂນມັດ (ເພີ່ມຄວາມເຂົ້າກັນໄດ້)
+  COVERART_BG_OFF: ພື້ນຫຼັງປິດ
+  COVERART_BG_ON: ພື້ນຫຼັງເປີດ
+  COVERART_COV_OFF: ປົກປິດ
+  COVERART_COV_ON: ປົກເປີດ
+  COVERART_ICO_OFF: ແຜ່ນປິດ
+  COVERART_ICO_ON: ແຜ່ນເປີດ
+  COVERARTMODE_PERF: ປະສິດທິພາບ (PNG ເທົ່ານັ້ນ)
+  COVERARTMODE_COMPAT: ຄວາມເຂົ້າກັນໄດ້ (JPG ແລະ PNG)
+  ART_RANDOM_OFF: ຮູບແບບສຸ່ມປິດ
+  ART_RANDOM_ON: ຮູບແບບສຸ່ມເປີດ
+  CF_COVER_COUNT_1: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 1'
+  CF_COVER_COUNT_3: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 3'
+  CF_COVER_COUNT_5: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 5'
+  CF_COVER_COUNT_7: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 7'
+  CF_COVER_COUNT_9: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 9'
+  GSM_VMODE_480I_NORMAL: 480i ປົກກະຕິ (ສຳລັບ CRT)
+  GSM_VMODE_480I_SHRINK: 480i ຫຍໍ້ (ສາມາດຍືດເປັນ 4:3 ໃນໂທລະທັດທັນສະໄໝ)
+  DMA_UDMA4_DEFAULT: UDMA 4 ຄ່າເລີ່ມຕົ້ນ
+  DMA_UDMA5_HIGHEST: UDMA 5 ສູງສຸດຂອງ HDD ປັດຈຸບັນ
+  DMA_UDMA6_HIGHEST: UDMA 6 ສູງສຸດຂອງ HDD ປັດຈຸບັນ
+  DMA_UDMA7_HIGHEST: UDMA 7 ສູງສຸດຂອງ HDD ປັດຈຸບັນ
+  DMA_UDMA7_EXTREME: UDMA 7 ຄວາມໄວສູງສຸດ
+  DMA_HDD_ONLY: <HDD ເທົ່ານັ້ນ>
+  CHEAT_TOGGLE_ALL: ເລືອກ/ຍົກເລີກທັງໝົດ
+  CHEAT_SAVE_AND_RUN: ບັນທຶກແລ້ວເປີດໃຊ້
+  THEME_COVERFLOW: ຊຸດຮູບແບບ Coverflow ໃນຕົວ
+  THEME_LIST: ຊຸດຮູບແບບລາຍການໃນຕົວ
+  MSG_DEVICE_DETECT_TIMEOUT: ການກວດຫາ %s ໝົດເວລາ. ມີບັນຫາຄວາມເຂົ້າກັນໄດ້ຂອງອຸປະກອນ.
+  MSG_TXT_CREATED: ສ້າງໄຟລ໌ txt ແລ້ວ!
+  MSG_TXT_REBUILT: ສ້າງໄຟລ໌ txt ຄືນໃໝ່ແລ້ວ!
+  MSG_HDD_EXFAT_HINT: HDD ພາຍໃນເປັນ exFAT. ເປີດ HDD(exFAT) ໃນການຕັ້ງຄ່າ BDM.
+  MSG_HDD_APA_HINT: HDD ພາຍໃນເປັນ APA. ເປີດໂໝດເລີ່ມຕົ້ນ HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: HDD ຂອງທ່ານມີພາທິຊັນປະສົມ. ຈະເປີດໂໝດນີ້ຢູ່ດີບໍ?
+  MSG_LIST_SEPARATOR: ', '

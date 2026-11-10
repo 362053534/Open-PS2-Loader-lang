@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: Juegos BDM
   HDD_GAMES: Juegos Disco duro
   NET_GAMES: Juegos Red
-  APPS: Aplicaciones
+  APPS: APPS & PS1
   THEME: Tema
   LANGUAGE: Idioma
   CONFIRMATION_POFF: Se apagará el sistema
@@ -56,7 +56,7 @@ translations:
   DEBUG: Colores para depuración
   NO_CONTROLLER: Mando no encontrado, esperando...
   COVERART: Imágenes diseño gráfico
-  WIDE_SCREEN: 'Relación de aspecto 16:9'
+  WIDE_SCREEN: Relación de aspecto 16:9
   POWEROFF: Apagar PS2
   LOADING_SETTINGS: Cargando configuración...
   SAVING_SETTINGS: Guardando configuración...
@@ -102,7 +102,8 @@ translations:
   ENABLE_WRITE: Operaciones de escritura
   LASTPLAYED: Recordar último juego en uso
   SELECTBUTTON: Botón de selección
-  ERR_FRAGMENTED: Error, el juego está fragmentado
+  ERR_FRAGMENTED: El juego actual tiene %d fragmentos. Desfragméntalo e inténtalo
+    de nuevo.
   ERR_FILE_INVALID: Error, no se pudo iniciar el archivo
   TEST: Testear cambios
   HINT_GUEST: Dejar en blanco para autentificar como GUEST
@@ -129,7 +130,7 @@ translations:
   VMC_FILE_NEW: El archivo VMC debe ser creado
   ERR_VMC_CONTINUE: Error accediendo a la VMC %s, ¿continuar con la tarjeta de memoria
     en ranura %d)?
-  AUTOREFRESH: Refresco automático de las listas
+  AUTOREFRESH: Detección de conexión en caliente
   ABOUT: Acerca del OPL
   DEVS: Desarrolladores
   QANDA: Testeadores
@@ -177,7 +178,8 @@ translations:
   YOFFSET: Posición vertical
   HINT_YOFFSET: Mueve la posición vertical de la pantalla
   OVERSCAN: Márgenes de pantalla
-  HINT_OVERSCAN: Permite variar el zoom para ajustar los márgenes de la imagen con la pantalla
+  HINT_OVERSCAN: Permite variar el zoom para ajustar los márgenes de la imagen con
+    la pantalla
   GSMSKIPVIDEOS: Omitir vídeos FMV
   HINT_GSMSKIPVIDEOS: Omite escenas Full Motion Vídeos
   CHEAT_SETTINGS: Configuración PS2RD
@@ -296,7 +298,8 @@ translations:
   PADMACRO_SETTINGS: Opciones para las funciones del mando
   PADMACRO_ENABLE: Funciones del mando
   PADMACRO_SLOWDOWN: 'Ralentización del analógico:'
-  HINT_PADMACRO_SLOWDOWN_AXIS: Reduce el rango del joystick analógico cuando se pulsa el botón
+  HINT_PADMACRO_SLOWDOWN_AXIS: Reduce el rango del joystick analógico cuando se pulsa
+    el botón
   LEFT_ANALOG: Joystick analógico izquierdo
   RIGHT_ANALOG: Joystick analógico derecho
   PADMACRO_INVERT_AXIS: 'Invertir eje analógico:'
@@ -319,8 +322,104 @@ translations:
   LANGUAGE_SIMPL_CHINESE: Chino simplificado
   OSD_SETTINGS: Configuración OSD
   OSD_SETTINGS_LNG: Idioma OSD
+  HINT_OSD_SETTINGS_LNG: Forzar una configuración de idioma personalizada
   ENABLE_LNG: Cambiar Idioma
+  OSD_SETTINGS_TVASPECT: Tamaño de la pantalla
+  FULL_SCREEN: Pantalla completa
+  OSD_SETTINGS_VMODE: Modo de vídeo
+  SYSTEM_DEFAULT: Predeterminado del sistema
   BGM: Música
   BGM_VOLUME: Volumen música
-  DEF_BGM_PATH: Ruta de la canción
-  DEF_BGM_PATH_HINT: Indica donde está ubicada la canción a usar para el tema
+  DEF_BGM_PATH: Música de fondo personalizada
+  DEF_BGM_PATH_HINT: Ruta de un archivo ogg personalizado; déjalo vacío para reproducir
+    la BGM integrada del tema
+  HIGH: Alto
+  LOW: Bajo
+  XSENSITIVITY: Sensibilidad del eje X analógico
+  YSENSITIVITY: Sensibilidad del eje Y analógico
+  FILE_COUNT: 'Archivos encontrados: %i'
+  CHEAT_SELECTION: Selección de trucos
+  HDD_HINT: Solo se permite un HDD; al activarlo se bloquea APA o GPT.
+  TXTRENAME: Lista de asignación TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Colaboradores de FGOPL (página 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Nombres pendientes de confirmación
+  ABOUT_ORIGINAL_CONTRIBUTORS: Colaboradores oficiales de OPL (página 2/2)
+  ABOUT_NEXT_PAGE: Página siguiente
+  ABOUT_PREVIOUS_PAGE: Página anterior
+  HINT_DMA_MODE: Modo de transferencia del HDD; cuanto más alto, más rápido (requiere
+    el modo 1 desactivado)
+  HINT_DMA_SOURCE: Aplicar de forma global, o solo al juego actual
+  HINT_CF_COUNT: Cambia el número de carátulas en pantalla. Si va a tirones, baja
+    el número.
+  BGM_SEARCH: Buscar archivo ogg
+  HINT_BGM_SEARCH: Busca un archivo ogg en la raíz de los dispositivos iniciados y
+    rellena la ruta de arriba
+  BGM_NOT_FOUND: No se ha encontrado ningún archivo ogg
+  ARTPACK: Compatibilidad con el paquete de arte OPLM (carátulas instantáneas)
+  HINT_ARTPACK: Coloca el paquete zip OPLM_ART (sin extraerlo) directamente en ART2
+  HINT_ART_RANDOM: Los fondos y las capturas cambian aleatoriamente (solo con el paquete
+    de arte zip)
+  HINT_APAISO: Copia los ISO en +OPL/DVD o CD para leerlos directamente, sin conversión
+    HDL
+  HINT_AUTODETECT_PS1APPS: Detecta directamente los ELF en la carpeta APPS y los VCD
+    en la carpeta POPS
+  HINT_AUTO_MODE1: El modo 1 (lectura precisa) resuelve la mayoría de los problemas
+    de compatibilidad; se recomienda
+  HINT_CACHE_HDD_GAME_LIST: La caché de la lista la usa el formato de instalación
+    HDL; no hace falta al leer ISO de forma directa
+  HINT_LASTPLAYED: Al iniciar OPL, el cursor se queda en el último juego al que jugaste
+  HINT_COVERARTMODE: El modo de compatibilidad ralentiza mucho la carga de imágenes;
+    se recomienda el modo de rendimiento
+  HINT_AUTOREFRESH: OPL responde en tiempo real cuando se conectan en caliente dispositivos
+    de bloque como unidades USB
+  HINT_TXTRENAME: Genera un archivo txt usado para asignar los nombres de los juegos
+    a cualquier texto
+  HINT_ENABLE_WRITE: La función de borrado de OPL no es totalmente segura; úsala con
+    precaución
+  HINT_THEME: Se pueden cambiar dos temas integrados. Coloca los temas de terceros
+    en la carpeta THM
+  HINT_LANGUAGE: Coloca los paquetes de idioma de FGOPL en la carpeta LNG para admitir
+    más idiomas
+  START_MODE_SETTINGS: Ajustes del modo de inicio
+  DEVICE_SWITCH: Interruptores de dispositivos (desactiva los no usados para un arranque
+    más rápido)
+  APAISO: ISO directo HDD(APA)
+  AUTODETECT_PS1APPS: Detección automática de APPS y PS1
+  AUTO_MODE1: Activar automáticamente el modo 1 (mejor compatibilidad)
+  COVERART_BG_OFF: Fondo desactivado
+  COVERART_BG_ON: Fondo activado
+  COVERART_COV_OFF: Carátula desactivada
+  COVERART_COV_ON: Carátula activada
+  COVERART_ICO_OFF: Disco desactivado
+  COVERART_ICO_ON: Disco activado
+  COVERARTMODE_PERF: Rendimiento (solo PNG)
+  COVERARTMODE_COMPAT: Compatibilidad (JPG y PNG)
+  ART_RANDOM_OFF: Imagen aleatoria desactivada
+  ART_RANDOM_ON: Imagen aleatoria activada
+  CF_COVER_COUNT_1: 'Carátulas en pantalla: 1'
+  CF_COVER_COUNT_3: 'Carátulas en pantalla: 3'
+  CF_COVER_COUNT_5: 'Carátulas en pantalla: 5'
+  CF_COVER_COUNT_7: 'Carátulas en pantalla: 7'
+  CF_COVER_COUNT_9: 'Carátulas en pantalla: 9'
+  GSM_VMODE_480I_NORMAL: 480i normal (para CRT)
+  GSM_VMODE_480I_SHRINK: 480i reducido (se estira a 4:3 en televisores modernos)
+  DMA_UDMA4_DEFAULT: UDMA 4 predeterminado
+  DMA_UDMA5_HIGHEST: UDMA 5 máximo actual del HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 máximo actual del HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 máximo actual del HDD
+  DMA_UDMA7_EXTREME: UDMA 7 extremo
+  DMA_HDD_ONLY: <solo HDD>
+  CHEAT_TOGGLE_ALL: Seleccionar/deseleccionar todo
+  CHEAT_SAVE_AND_RUN: Guardar y ejecutar
+  THEME_COVERFLOW: Tema Coverflow integrado
+  THEME_LIST: Tema de lista integrado
+  MSG_DEVICE_DETECT_TIMEOUT: Se agotó el tiempo de detección de %s. Problema de compatibilidad
+    del dispositivo.
+  MSG_TXT_CREATED: ¡Se ha creado el archivo txt!
+  MSG_TXT_REBUILT: ¡Se ha reconstruido el archivo txt!
+  MSG_HDD_EXFAT_HINT: El HDD interno es exFAT. Activa HDD(exFAT) en los ajustes de
+    BDM.
+  MSG_HDD_APA_HINT: El HDD interno es APA. Activa el modo de inicio HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Tu HDD tiene particiones mixtas. ¿Activar este modo de todos
+    modos?
+  MSG_LIST_SEPARATOR: ', '

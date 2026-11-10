@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: Παιχνίδια BDM
   HDD_GAMES: Παιχνίδια HDD
   NET_GAMES: Παιχνίδια ETH
-  APPS: Εφαρμογές
+  APPS: APPS & PS1
   THEME: Θέμα
   LANGUAGE: Γλώσσα
   CONFIRMATION_POFF: Το σύστημα θα απενεργοποιηθεί.
@@ -35,9 +35,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Δεν υπάρχει σύνδεση δικτύου.'
   'ON': Ναι
   'OFF': Όχι
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Επιλογή
   CANCEL: Άκυρο
   CIRCLE: Ο
@@ -55,14 +53,10 @@ translations:
   ERROR_LOADING_ID: Σφάλμα κατά τη φόρτωση του ID του παιχνιδιού.
   AUTOSORT: Αυτόματη Ταξινόμηση
   ERR_LOADING_LANGFILE: Σφάλμα κατά τη φόρτωση του αρχείου γλώσσας.
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: Χρώματα εντοπισμού σφαλμάτων
   NO_CONTROLLER: Δεν εντοπίστηκε χειριστήριο, αναμονή…
   COVERART: Εξώφυλλα
-  WIDE_SCREEN:
-  - untranslated
-  - original: Widescreen
+  WIDE_SCREEN: Ευρεία οθόνη
   POWEROFF: Απενεργοποίηση
   LOADING_SETTINGS: Φόρτωση ρυθμίσεων…
   SAVING_SETTINGS: Αποθήκευση ρυθμίσεων…
@@ -82,20 +76,14 @@ translations:
   EXITTO: Προορισμός Μετά Από IGR
   BGCOLOR: Χρώμα στο Φόντο
   TXTCOLOR: Χρώμα Γραμματοσειράς
-  CAT_SMB_SERVER:
-  - untranslated
-  - original: '- SMB Server -'
+  CAT_SMB_SERVER: '- Διακομιστής SMB -'
   IP_ADDRESS_TYPE: Τύπος Διεύθυνσης IP
   IP_ADDRESS_TYPE_STATIC: Στατική
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: Διεύθυνση IP
   ADDRESS: Διεύθυνση
   MASK: Μάσκα Υποδικτύου
-  GATEWAY:
-  - untranslated
-  - original: Gateway
+  GATEWAY: Πύλη
   DNS_SERVER: Εξυπηρετητής DNS
   PORT: Θύρα
   SHARE: Κοινόχρηστο Στοιχείο
@@ -103,12 +91,8 @@ translations:
   PASSWORD: Κωδικός
   NOT_SET: <κενό>
   ADDRESS_TYPE: Τύπος Διεύθυνσης
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Αποδοχή
   DELETE_WARNING: Το αρχείο θα διαγραφεί οριστικά, συνέχεια;
   RENAME: Μετονομασία
@@ -118,7 +102,8 @@ translations:
   ENABLE_WRITE: Λειτουργίες εγγραφής
   LASTPLAYED: Απομνημόνευση Τελευταίου Παιχνιδιού
   SELECTBUTTON: Πλήκτρο Επιλογής
-  ERR_FRAGMENTED: Σφάλμα, το παιχνίδι είναι κατακερματισμένο.
+  ERR_FRAGMENTED: Το τρέχον παιχνίδι έχει %d τμήματα κατακερματισμού. Κάντε ανασυγκρότηση
+    και δοκιμάστε ξανά.
   ERR_FILE_INVALID: Σφάλμα, αδυναμία εκτέλεσης του αρχείου.
   TEST: Δοκιμή Αλλαγών
   HINT_GUEST: Αφήστε το κενό για δικαιώματα GUEST.
@@ -145,7 +130,7 @@ translations:
   VMC_FILE_NEW: Πρέπει να δημιουργηθεί αρχείο VMC.
   ERR_VMC_CONTINUE: Σφάλμα κατά την πρόσβαση σε VMC %s. Συνέχεια με την Κάρτα Μνήμης
     στη θύρα %d;
-  AUTOREFRESH: Αυτόματη ανανέωση
+  AUTOREFRESH: Ανίχνευση σύνδεσης εν λειτουργία
   ABOUT: Σχετικά
   DEVS: Προγραμματιστές
   QANDA: Διασφάλιση Ποιότητας
@@ -171,63 +156,33 @@ translations:
   VMC_SLOT2: VMC Θέση 2
   GAME_ID: ID Παιχνιδιού
   DMA_MODE: Λειτουργία DMA
-  VSYNC:
-  - untranslated
-  - original: V-Sync
-  MODE1:
-  - untranslated
-  - original: Mode 1
-  MODE2:
-  - untranslated
-  - original: Mode 2
-  MODE3:
-  - untranslated
-  - original: Mode 3
-  MODE4:
-  - untranslated
-  - original: Mode 4
-  MODE5:
-  - untranslated
-  - original: Mode 5
-  MODE6:
-  - untranslated
-  - original: Mode 6
+  VSYNC: V-Sync
+  MODE1: Λειτουργία 1
+  MODE2: Λειτουργία 2
+  MODE3: Λειτουργία 3
+  MODE4: Λειτουργία 4
+  MODE5: Λειτουργία 5
+  MODE6: Λειτουργία 6
   GSCONFIG: Ρύθμιση GSM
   ETH_OPMODE: Λειτουργία Σύνδεσης Ethernet
-  ETH_100MFDX:
-  - untranslated
-  - original: 100Mbit Full-duplex
-  ETH_100MHDX:
-  - untranslated
-  - original: 100Mbit Half-duplex
-  ETH_10MFDX:
-  - untranslated
-  - original: 10Mbit Full-duplex
-  ETH_10MHDX:
-  - untranslated
-  - original: 10Mbit Half-duplex
+  ETH_100MFDX: 100Mbit πλήρες duplex
+  ETH_100MHDX: 100Mbit ημί-duplex
+  ETH_10MFDX: 10Mbit πλήρες duplex
+  ETH_10MHDX: 10Mbit ημί-duplex
   GSM_SETTINGS: Ρυθμίσεις GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: Επιλογέας GSM
   HINT_ENABLEGSM: Ενεργοποιεί/απενεργοποιεί το GSM.
   HINT_GSMVMODE: Εξαναγκασμένη προσαρμογή λειτουργίας οθόνης.
-  XOFFSET:
-  - untranslated
-  - original: H-POS
+  XOFFSET: H-POS
   HINT_XOFFSET: Οριζόντια ρύθμιση οθόνης.
-  YOFFSET:
-  - untranslated
-  - original: V-POS
+  YOFFSET: V-POS
   HINT_YOFFSET: Κάθετη ρύθμιση οθόνης.
   OVERSCAN: Περιθώρια
   HINT_OVERSCAN: Προσαρμογή των περιθωρίων
   GSMSKIPVIDEOS: Παράλειψη FMV
   HINT_GSMSKIPVIDEOS: Παράλειψη των βίντεο πλήρους κίνησης.
   CHEAT_SETTINGS: Ρυθμίσεις Cheats
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: Μηχανή κωδικών PS2RD
   HINT_ENABLECHEAT: Patchάρισμα των παιχνιδιών από το PS2RD.
   CHEATMODE: Λειτουργία PS2RD
   HINT_CHEATMODE: Αυτόματη/μη αυτόματη επιλογή cheats των παιχνιδιών.
@@ -253,28 +208,18 @@ translations:
     region.
   PADEMUCONFIG: Ρυθμίσεις PadEmu
   PADEMU_SETTINGS: Ρυθμίσεις Προσομοιωτή Χειριστηρίου
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: Εξομοιωτής χειριστηρίου
   HINT_PADEMU_ENABLE: Ενεργοποιεί/απενεργοποιεί τον Προσομοιωτή Χειριστηρίου.
   PADEMU_MODE: Τύπος Προσομοίωσης
   HINT_PADEMU_MODE: Επιλέξτε τον τύπο προσομοίωσης του χειριστηρίου.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Ρυθμίσεις για Θύρα:'
   HINT_PAD_PORT: Επιλέξτε τη θύρα προσομοιωτή προς ρύθμιση.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Εξομοίωση
   HINT_PADEMU_PORT: Ενεργοποιεί/απενεργοποιεί την προσομοίωση για τη συγκεκριμένη
     θύρα.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Δόνηση
   HINT_PADEMU_VIB: Ενεργοποιεί/απενεργοποιεί τη δόνηση για τη συγκεκριμένη θύρα.
   USBDG_MAC: 'Διεύθυνση MAC του Προσαρμογέα BT:'
   PAD_MAC: 'Διεύθυνση MAC του Χειριστηρίου DS:'
@@ -294,9 +239,7 @@ translations:
     DS3/DS4.
   BT_NOTSUPPORTED: Ο προσαρμογέας Bluetooth ενδέχεται να μη λειτουργεί σωστά με τα
     χειριστήρια DS3/DS4.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Εξομοίωση Multitap
   HINT_MTAP_ENABLE: Ενεργοποιεί/απενεργοποιεί την εξομοίωση Multitap.
   MTAP_PORT: 'Εξομοιωτής Multitap στη Θύρα:'
   HINT_MTAP_PORT: Επιλέξτε θύρα για εξομοίωση Multitap.
@@ -343,108 +286,143 @@ translations:
   INFO_RELEASE: Κυκλοφορία
   INFO_DEVELOPER: Προγραμματιστής
   INFO_DESCRIPTION: Περιγραφή
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
+  BLOCKDEVICE_SETTINGS: Συσκευές BDM
   CONTROLLER_SETTINGS: Ρυθμίσεις Χειριστηρίου
   HINT_BDM_START: Ενεργοποιεί/απενεργοποιεί το Block Device Manager.
   HINT_BLOCK_DEVICES: Ενεργοποιεί/απενεργοποιεί το Block Devices (π.χ. USB).
   USB_GAMES: Παιχνίδια USB
   ILINK_GAMES: Παιχνίδια iLink
   MX4SIO_GAMES: Παιχνίδια MX4SIO
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  PADMACROCONFIG: Ρύθμιση PADMACRO
+  PADMACRO_SETTINGS: Ρυθμίσεις μακροεντολών χειριστηρίου
+  PADMACRO_ENABLE: Μακροεντολές χειριστηρίου
+  PADMACRO_SLOWDOWN: 'Επιβράδυνση αναλογικού:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Μειώνει το εύρος του αναλογικού μοχλού όταν πατιέται
+    το κουμπί.
+  LEFT_ANALOG: Αριστερός μοχλός
+  RIGHT_ANALOG: Δεξιός μοχλός
+  PADMACRO_INVERT_AXIS: 'Αντιστροφή αναλογικού άξονα:'
+  HINT_PADMACRO_INVERT_AXIS: Αντιστρέφει τον άξονα του επιλεγμένου αναλογικού μοχλού.
+  TURBO_SPEED: Ταχύτητα κουμπιού turbo
+  HINT_TURBO_SPEED: Πόσο γρήγορα πατιέται το κουμπί όταν είναι ενεργό το turbo.
+  ACT_WHILE_PRESSED: Όσο το κουμπί είναι πατημένο
+  ACT_TOGGLED: Εναλλαγή με κουμπί
+  LANGUAGE_JAPANESE: Ιαπωνικά
+  LANGUAGE_ENGLISH: Αγγλικά
+  LANGUAGE_FRENCH: Γαλλικά
+  LANGUAGE_SPANISH: Ισπανικά
+  LANGUAGE_GERMAN: Γερμανικά
+  LANGUAGE_ITALIAN: Ιταλικά
+  LANGUAGE_DUTCH: Ολλανδικά
+  LANGUAGE_PORTUGUESE: Πορτογαλικά
+  LANGUAGE_RUSSIAN: Ρωσικά
+  LANGUAGE_KOREAN: Κορεατικά
+  LANGUAGE_TRAD_CHINESE: Παραδοσιακά κινεζικά
+  LANGUAGE_SIMPL_CHINESE: Απλοποιημένα κινεζικά
+  OSD_SETTINGS: Ρυθμίσεις OSD
+  OSD_SETTINGS_LNG: Γλώσσα OSD
+  HINT_OSD_SETTINGS_LNG: Επιβολή προσαρμοσμένης ρύθμισης γλώσσας
+  ENABLE_LNG: Ενεργοποίηση
+  OSD_SETTINGS_TVASPECT: Μέγεθος οθόνης
+  FULL_SCREEN: Πλήρης οθόνη
+  OSD_SETTINGS_VMODE: Λειτουργία βίντεο
+  SYSTEM_DEFAULT: Προεπιλογή συστήματος
+  BGM: Μουσική υπόκρουση
+  BGM_VOLUME: Ένταση μουσικής υπόκρουσης
+  DEF_BGM_PATH: Προσαρμοσμένη μουσική υπόκρουση
+  DEF_BGM_PATH_HINT: Διαδρομή προσαρμοσμένου αρχείου ogg· αφήστε κενό για αναπαραγωγή
+    της ενσωματωμένης BGM του θέματος
+  HIGH: Υψηλή
+  LOW: Χαμηλή
+  XSENSITIVITY: Ευαισθησία αναλογικού άξονα X
+  YSENSITIVITY: Ευαισθησία αναλογικού άξονα Y
+  FILE_COUNT: 'Αρχεία που βρέθηκαν: %i'
+  CHEAT_SELECTION: Επιλογή κωδικών
+  HDD_HINT: Επιτρέπεται μόνο ένας σκληρός δίσκος· η ενεργοποίηση κλειδώνει το APA
+    ή το GPT.
+  TXTRENAME: Λίστα αντιστοίχισης TXT
+  ABOUT_CHINESE_CONTRIBUTORS: Συντελεστές FGOPL (σελίδα 1/2)
+  ABOUT_CONTRIBUTORS_PENDING: Ονόματα σε αναμονή επιβεβαίωσης
+  ABOUT_ORIGINAL_CONTRIBUTORS: Επίσημοι συντελεστές OPL (σελίδα 2/2)
+  ABOUT_NEXT_PAGE: Επόμενη σελίδα
+  ABOUT_PREVIOUS_PAGE: Προηγούμενη σελίδα
+  HINT_DMA_MODE: Λειτουργία μεταφοράς HDD, όσο υψηλότερη τόσο ταχύτερη (απαιτείται
+    απενεργοποιημένη η λειτουργία 1)
+  HINT_DMA_SOURCE: Εφαρμογή συνολικά, ή μόνο στο τρέχον παιχνίδι
+  HINT_CF_COUNT: Αλλάξτε τον αριθμό εξωφύλλων στην οθόνη. Αν παρατηρείτε καθυστέρηση,
+    μειώστε τον αριθμό.
+  BGM_SEARCH: Αναζήτηση αρχείου ogg
+  HINT_BGM_SEARCH: Αναζητά αρχείο ogg στη ρίζα των εκκινημένων συσκευών και συμπληρώνει
+    τη διαδρομή παραπάνω
+  BGM_NOT_FOUND: Δεν βρέθηκε αρχείο ogg
+  ARTPACK: Υποστήριξη πακέτου εικόνων OPLM (άμεσα εξώφυλλα)
+  HINT_ARTPACK: Τοποθετήστε το πακέτο zip OPLM_ART (χωρίς αποσυμπίεση) απευθείας στο
+    ART2
+  HINT_ART_RANDOM: Τα φόντα και τα στιγμιότυπα αλλάζουν τυχαία (μόνο πακέτο εικόνων
+    zip)
+  HINT_APAISO: Αντιγράψτε τα ISO στα +OPL/DVD ή CD για απευθείας ανάγνωση, χωρίς μετατροπή
+    HDL
+  HINT_AUTODETECT_PS1APPS: Εντοπίζει απευθείας τα ELF στον φάκελο APPS και τα VCD
+    στον φάκελο POPS
+  HINT_AUTO_MODE1: Η λειτουργία 1 (ακριβής ανάγνωση) επιλύει τα περισσότερα προβλήματα
+    συμβατότητας, συνιστάται
+  HINT_CACHE_HDD_GAME_LIST: Η προσωρινή μνήμη λίστας χρησιμοποιείται από τη μορφή
+    εγκατάστασης HDL και δεν χρειάζεται κατά την απευθείας ανάγνωση ISO
+  HINT_LASTPLAYED: Όταν ξεκινά το OPL, ο δρομέας μένει στο τελευταίο παιχνίδι που
+    παίξατε
+  HINT_COVERARTMODE: Η λειτουργία συμβατότητας επιβραδύνει πολύ τη φόρτωση εικόνων,
+    συνιστάται η λειτουργία απόδοσης
+  HINT_AUTOREFRESH: Το OPL αποκρίνεται σε πραγματικό χρόνο όταν συσκευές μπλοκ όπως
+    μονάδες USB συνδέονται εν λειτουργία
+  HINT_TXTRENAME: Δημιουργεί ένα αρχείο txt που αντιστοιχίζει τα ονόματα των παιχνιδιών
+    σε οποιοδήποτε κείμενο
+  HINT_ENABLE_WRITE: Η λειτουργία διαγραφής του OPL δεν είναι απόλυτα ασφαλής, χρησιμοποιήστε
+    την με προσοχή
+  HINT_THEME: Μπορείτε να εναλλάσσετε δύο ενσωματωμένα θέματα. Τοποθετήστε θέματα
+    τρίτων στον φάκελο THM
+  HINT_LANGUAGE: Τοποθετήστε τα πακέτα γλωσσών FGOPL στον φάκελο LNG για υποστήριξη
+    περισσότερων γλωσσών
+  START_MODE_SETTINGS: Ρυθμίσεις λειτουργίας εκκίνησης
+  DEVICE_SWITCH: Διακόπτες συσκευών (απενεργοποιήστε τις αχρησιμοποίητες για ταχύτερη
+    εκκίνηση)
+  APAISO: Απευθείας ISO από HDD(APA)
+  AUTODETECT_PS1APPS: Αυτόματος εντοπισμός APPS και PS1
+  AUTO_MODE1: Αυτόματη ενεργοποίηση λειτουργίας 1 (καλύτερη συμβατότητα)
+  COVERART_BG_OFF: Φόντο ανενεργό
+  COVERART_BG_ON: Φόντο ενεργό
+  COVERART_COV_OFF: Εξώφυλλο ανενεργό
+  COVERART_COV_ON: Εξώφυλλο ενεργό
+  COVERART_ICO_OFF: Δίσκος ανενεργός
+  COVERART_ICO_ON: Δίσκος ενεργός
+  COVERARTMODE_PERF: Απόδοση (μόνο PNG)
+  COVERARTMODE_COMPAT: Συμβατότητα (JPG και PNG)
+  ART_RANDOM_OFF: Τυχαίες εικόνες ανενεργές
+  ART_RANDOM_ON: Τυχαίες εικόνες ενεργές
+  CF_COVER_COUNT_1: 'Εξώφυλλα στην οθόνη: 1'
+  CF_COVER_COUNT_3: 'Εξώφυλλα στην οθόνη: 3'
+  CF_COVER_COUNT_5: 'Εξώφυλλα στην οθόνη: 5'
+  CF_COVER_COUNT_7: 'Εξώφυλλα στην οθόνη: 7'
+  CF_COVER_COUNT_9: 'Εξώφυλλα στην οθόνη: 9'
+  GSM_VMODE_480I_NORMAL: 480i κανονικό (για CRT)
+  GSM_VMODE_480I_SHRINK: 480i συρρίκνωση (επεκτείνεται σε 4:3 στις σύγχρονες τηλεοράσεις)
+  DMA_UDMA4_DEFAULT: UDMA 4 προεπιλογή
+  DMA_UDMA5_HIGHEST: UDMA 5 τρέχον μέγιστο HDD
+  DMA_UDMA6_HIGHEST: UDMA 6 τρέχον μέγιστο HDD
+  DMA_UDMA7_HIGHEST: UDMA 7 τρέχον μέγιστο HDD
+  DMA_UDMA7_EXTREME: UDMA 7 ακραίο
+  DMA_HDD_ONLY: <μόνο HDD>
+  CHEAT_TOGGLE_ALL: Επιλογή/αποεπιλογή όλων
+  CHEAT_SAVE_AND_RUN: Αποθήκευση και εκτέλεση
+  THEME_COVERFLOW: Ενσωματωμένο θέμα Coverflow
+  THEME_LIST: Ενσωματωμένο θέμα λίστας
+  MSG_DEVICE_DETECT_TIMEOUT: Λήξη χρονικού ορίου εντοπισμού %s. Πρόβλημα συμβατότητας
+    συσκευής.
+  MSG_TXT_CREATED: Το αρχείο txt δημιουργήθηκε!
+  MSG_TXT_REBUILT: Το αρχείο txt αναδημιουργήθηκε!
+  MSG_HDD_EXFAT_HINT: Ο εσωτερικός σκληρός δίσκος είναι exFAT. Ενεργοποιήστε το HDD(exFAT)
+    στις ρυθμίσεις BDM.
+  MSG_HDD_APA_HINT: Ο εσωτερικός σκληρός δίσκος είναι APA. Ενεργοποιήστε τη λειτουργία
+    εκκίνησης HDD(APA).
+  MSG_HDD_MIXED_CONFIRM: Ο σκληρός σας δίσκος έχει μικτά διαμερίσματα. Να ενεργοποιηθεί
+    αυτή η λειτουργία ούτως ή άλλως;
+  MSG_LIST_SEPARATOR: ', '

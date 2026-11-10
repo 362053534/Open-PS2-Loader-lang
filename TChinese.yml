@@ -16,7 +16,7 @@ translations:
   BDM_GAMES: BDM 遊戲
   HDD_GAMES: HDD 遊戲
   NET_GAMES: ETH 遊戲
-  APPS: 應用程式
+  APPS: APPS & PS1
   THEME: 主題
   LANGUAGE: 語言
   CONFIRMATION_POFF: 系統電源將會關閉.
@@ -53,22 +53,16 @@ translations:
   ERROR_LOADING_ID: 讀取 Game ID 時出錯
   AUTOSORT: 自動滾動
   ERR_LOADING_LANGFILE: 讀取語言文件時出錯
-  DEBUG:
-  - untranslated
-  - original: Debug Colors
+  DEBUG: 偵錯顏色
   NO_CONTROLLER: '"無偵測到搖桿, 等待中…"'
-  COVERART:
-  - untranslated
-  - original: Cover Art
+  COVERART: 遊戲圖集
   WIDE_SCREEN: 寬螢幕
   POWEROFF: 關機
   LOADING_SETTINGS: 設置讀取中
   SAVING_SETTINGS: 設置儲存中
   START_DEVICE: 啟動裝置
   REFRESH: 重新整理
-  BDMMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMMODE: BDM 啟動模式
   HDDMODE: HDD 裝置啟動模式
   ETHMODE: ETH 裝置啟動模式
   APPMODE: 應用程式啟動模式
@@ -85,9 +79,7 @@ translations:
   CAT_SMB_SERVER: '- SMB 伺服器 -'
   IP_ADDRESS_TYPE: IP 位置模式
   IP_ADDRESS_TYPE_STATIC: 靜態
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP 位置
   ADDRESS: 位置
   MASK: 子網路遮罩
@@ -99,24 +91,18 @@ translations:
   PASSWORD: 密碼
   NOT_SET: <無設置>
   ADDRESS_TYPE: 位置格式
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: 允許
   DELETE_WARNING: '"項目將被永久刪除, 繼續嗎?"'
   RENAME: 重新命名
   DELETE: 刪除
   RUN: 運行
   GFX_SETTINGS: 顯示設置
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: 寫入操作
   LASTPLAYED: 記住最後一個玩的遊戲
   SELECTBUTTON: 選定鍵
-  ERR_FRAGMENTED: '"錯誤, 遊戲有碎片"'
+  ERR_FRAGMENTED: 目前遊戲有%d個碎片，請整理碎片後重試。
   ERR_FILE_INVALID: '"錯誤, 無法運行該項目"'
   TEST: 測試修改
   HINT_GUEST: GUEST驗證留空.
@@ -141,8 +127,8 @@ translations:
   VMC_FILE_EXISTS: VMC 檔案已存在
   VMC_FILE_ERROR: '"無效的 VMC 檔案, 大小有誤"'
   VMC_FILE_NEW: 需要建立VMC 檔案
-  ERR_VMC_CONTINUE: 訪問VMC %s 出錯。繼續使用插槽%d中的記憶卡 %d?
-  AUTOREFRESH: 自動重新整理
+  ERR_VMC_CONTINUE: 訪問 VMC %s 出錯。繼續使用插槽 %d 中的記憶卡？
+  AUTOREFRESH: 熱插拔偵測
   ABOUT: 關於
   DEVS: 程序
   QANDA: 測試
@@ -153,9 +139,7 @@ translations:
   VMODE: 影片模式
   UICOLOR: 對話框顏色
   SELCOLOR: 被選定顏色
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
+  RESETCOLOR: 重設顏色
   INFO: 資訊
   ALTSTARTUP: 自定義 ELF
   COLOR_SELECTION: 顏色選項
@@ -184,9 +168,7 @@ translations:
   ETH_10MFDX: 10Mbit 全雙工
   ETH_10MHDX: 10Mbit 半雙工
   GSM_SETTINGS: GSM 設置
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM 選擇器
   HINT_ENABLEGSM: 切換 GSM 開或關
   HINT_GSMVMODE: 強制自定義顯示模式
   XOFFSET: 水平調整
@@ -198,9 +180,7 @@ translations:
   GSMSKIPVIDEOS: 跳過 FMV
   HINT_GSMSKIPVIDEOS: 跳過全動態視頻
   CHEAT_SETTINGS: 金手指設置
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: PS2RD 金手指引擎
   HINT_ENABLECHEAT: 允許 PS2RD 金手指引擎對你的遊戲進行補丁
   CHEATMODE: PS2RD 金手指引擎模式
   HINT_CHEATMODE: 自動選擇或選擇遊戲金手指
@@ -225,9 +205,7 @@ translations:
   HINT_PS2LOGO: Only displayed for a valid disc logo which matches the console's region
   PADEMUCONFIG: 配置PADEMU
   PADEMU_SETTINGS: PADEMU設置
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_ENABLE: 手把模擬器
   HINT_PADEMU_ENABLE: 為選定遊戲開啟/關閉PADEMU調節.
   PADEMU_MODE: 連接模式
   HINT_PADEMU_MODE: 選擇PADEMU連接模式.
@@ -235,13 +213,9 @@ translations:
   DS34BT_MODE: 藍牙連接
   PADPORT: '設置埠:'
   HINT_PAD_PORT: 選擇應用PADEMU埠
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: 模擬
   HINT_PADEMU_PORT: 打開/關閉選定埠的模擬
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: 震動
   HINT_PADEMU_VIB: 打開/關閉選定埠的振動.
   USBDG_MAC: '藍牙適配器MAC地址:'
   PAD_MAC: 'D   S  手 柄MAC地址:'
@@ -259,18 +233,12 @@ translations:
   'NO': 否
   BT_SUPPORTED: 藍牙適配器完全兼容DS3/DS4手柄
   BT_NOTSUPPORTED: 藍牙適配器與DS3/DS4手柄不匹配
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Multitap 模擬
   HINT_MTAP_ENABLE: 打開/關閉分插模擬.
   MTAP_PORT: 模擬分插埠
   HINT_MTAP_PORT: 選擇模擬的分插埠
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: 假 DS3 變通方案
+  HINT_PADEMU_WORKAROUND: 部分假 DS3 需要變通方案，此選項會將其啟用。
   GSM_FIELD_FIX: 模擬播片掃描方式切換
   HINT_GSM_FIELD_FIX: 修正逐行模式下視頻播放有問題的遊戲.
   PARENLOCKCONFIG: 家長鎖設置
@@ -283,34 +251,18 @@ translations:
   PARENLOCK_INVALID_PASSWORD: 錯誤-無法使用此密碼.
   ERR_VMC_FRAGMENTED_CONTINUE: vmc %s 文件碎片化.是否繼續使用插槽 %d 中的記憶卡？
   AUDIO_SETTINGS: 音頻設置
-  SFX:
-  - untranslated
-  - original: Sound Effects
-  BOOT_SND:
-  - untranslated
-  - original: Boot Sound
+  SFX: 音效
+  BOOT_SND: 啟動音
   SFX_VOLUME: 音效音量
   BOOT_SND_VOLUME: 啟動音量
   CFM_VMODE_CHG: 確認視頻模式更改？
   CACHE_HDD_GAME_LIST: 緩存遊戲列表 (硬碟)
-  ENABLE_NOTIFICATIONS:
-  - untranslated
-  - original: Notifications
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partition mounted.'
-  OPTIONS:
-  - untranslated
-  - original: Options
+  ENABLE_NOTIFICATIONS: 通知
+  CFG_NOTIFICATION: 設定已從 %s 載入
+  THM_NOTIFICATION: 主題已從 %s 載入
+  LNG_NOTIFICATION: 語言已從 %s 載入
+  PARTITION_NOTIFICATION: 已掛載分割區 %s。
+  OPTIONS: 選項
   GAME_SETTINGS_SAVED: 遊戲設置已保存。
   GAME_SETTINGS_REMOVED: '%s 設置已刪除。'
   NET_UPDATE_HINT: 啟用時覆蓋現有的遊戲兼容性設置。
@@ -319,138 +271,125 @@ translations:
   PERGAME_SETTINGS: 當前遊戲
   ALL_SETTINGS: 全部
   GAME_SETTINGS_PROMPT: 選擇要刪除的設置。
-  FORUM_DETAILS:
-  - untranslated
-  - original: 'Support Forums:'
-  INFO_TITLE:
-  - untranslated
-  - original: Title
-  INFO_GENRE:
-  - untranslated
-  - original: Genre
-  INFO_RELEASE:
-  - untranslated
-  - original: Release
-  INFO_DEVELOPER:
-  - untranslated
-  - original: Developer
-  INFO_DESCRIPTION:
-  - untranslated
-  - original: Description
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS:
-  - untranslated
-  - original: Controller Settings
-  HINT_BDM_START:
-  - untranslated
-  - original: Turn on/off Block Device Manager.
-  HINT_BLOCK_DEVICES:
-  - untranslated
-  - original: Turn on/off Block Devices (e.g. USB).
-  USB_GAMES:
-  - untranslated
-  - original: USB Games
-  ILINK_GAMES:
-  - untranslated
-  - original: iLink Games
-  MX4SIO_GAMES:
-  - untranslated
-  - original: MX4SIO Games
-  PADMACROCONFIG:
-  - untranslated
-  - original: Configure PADMACRO
-  PADMACRO_SETTINGS:
-  - untranslated
-  - original: Pad macro Settings
-  PADMACRO_ENABLE:
-  - untranslated
-  - original: Pad macros
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
-  LEFT_ANALOG:
-  - untranslated
-  - original: Left stick
-  RIGHT_ANALOG:
-  - untranslated
-  - original: Right stick
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
-  TURBO_SPEED:
-  - untranslated
-  - original: Turbo button speed
-  HINT_TURBO_SPEED:
-  - untranslated
-  - original: How fast to press the button when turbo is active
-  ACT_WHILE_PRESSED:
-  - untranslated
-  - original: While button pressed
-  ACT_TOGGLED:
-  - untranslated
-  - original: Toggled by button
-  LANGUAGE_JAPANESE:
-  - untranslated
-  - original: JAPANESE
-  LANGUAGE_ENGLISH:
-  - untranslated
-  - original: ENGLISH
-  LANGUAGE_FRENCH:
-  - untranslated
-  - original: FRENCH
-  LANGUAGE_SPANISH:
-  - untranslated
-  - original: SPANISH
-  LANGUAGE_GERMAN:
-  - untranslated
-  - original: GERMAN
-  LANGUAGE_ITALIAN:
-  - untranslated
-  - original: ITALIAN
-  LANGUAGE_DUTCH:
-  - untranslated
-  - original: DUTCH
-  LANGUAGE_PORTUGUESE:
-  - untranslated
-  - original: PORTUGUESE
-  LANGUAGE_RUSSIAN:
-  - untranslated
-  - original: RUSSIAN
-  LANGUAGE_KOREAN:
-  - untranslated
-  - original: KOREAN
-  LANGUAGE_TRAD_CHINESE:
-  - untranslated
-  - original: TRADITIONAL CHINESE
-  LANGUAGE_SIMPL_CHINESE:
-  - untranslated
-  - original: SIMPLIFIED CHINESE
-  OSD_SETTINGS:
-  - untranslated
-  - original: OSD settings
-  OSD_SETTINGS_LNG:
-  - untranslated
-  - original: OSD Language
-  ENABLE_LNG:
-  - untranslated
-  - original: Change language
-  BGM:
-  - untranslated
-  - original: Background Music
-  BGM_VOLUME:
-  - untranslated
-  - original: Background Music Volume
-  DEF_BGM_PATH:
-  - untranslated
-  - original: Default Theme Music
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  FORUM_DETAILS: 支援論壇：
+  INFO_TITLE: 標題
+  INFO_GENRE: 類型
+  INFO_RELEASE: 發行商
+  INFO_DEVELOPER: 開發商
+  INFO_DESCRIPTION: 描述
+  BLOCKDEVICE_SETTINGS: BDM 裝置
+  CONTROLLER_SETTINGS: 控制器設定
+  HINT_BDM_START: 開啟或關閉區塊裝置管理員。
+  HINT_BLOCK_DEVICES: 開啟或關閉 BDM 裝置（USB/MX4SIO/ILINK/HDD）。
+  USB_GAMES: USB 遊戲
+  ILINK_GAMES: iLink 遊戲
+  MX4SIO_GAMES: MX4SIO 遊戲
+  PADMACROCONFIG: 設定手把巨集
+  PADMACRO_SETTINGS: 手把巨集設定
+  PADMACRO_ENABLE: 手把巨集
+  PADMACRO_SLOWDOWN: 類比減速：
+  HINT_PADMACRO_SLOWDOWN_AXIS: 按下按鍵時縮小類比搖桿的行程。
+  LEFT_ANALOG: 左搖桿
+  RIGHT_ANALOG: 右搖桿
+  PADMACRO_INVERT_AXIS: 類比軸反轉：
+  HINT_PADMACRO_INVERT_AXIS: 反轉所選類比搖桿的軸向。
+  TURBO_SPEED: 連發鍵速度
+  HINT_TURBO_SPEED: 啟用連發時按鍵被按下的速度。
+  ACT_WHILE_PRESSED: 按住按鍵時
+  ACT_TOGGLED: 以按鍵切換
+  LANGUAGE_JAPANESE: 日文
+  LANGUAGE_ENGLISH: 英文
+  LANGUAGE_FRENCH: 法文
+  LANGUAGE_SPANISH: 西班牙文
+  LANGUAGE_GERMAN: 德文
+  LANGUAGE_ITALIAN: 意大利文
+  LANGUAGE_DUTCH: 荷蘭文
+  LANGUAGE_PORTUGUESE: 葡萄牙文
+  LANGUAGE_RUSSIAN: 俄文
+  LANGUAGE_KOREAN: 韓文
+  LANGUAGE_TRAD_CHINESE: 繁體中文
+  LANGUAGE_SIMPL_CHINESE: 簡體中文
+  OSD_SETTINGS: 螢幕選單設定
+  OSD_SETTINGS_LNG: 螢幕選單語言
+  HINT_OSD_SETTINGS_LNG: 強制使用自訂語言設定
+  ENABLE_LNG: 啟用
+  OSD_SETTINGS_TVASPECT: 螢幕大小
+  FULL_SCREEN: 全螢幕
+  OSD_SETTINGS_VMODE: 視訊模式
+  SYSTEM_DEFAULT: 系統預設
+  BGM: 背景音樂
+  BGM_VOLUME: 背景音樂音量
+  DEF_BGM_PATH: 自訂背景音樂
+  DEF_BGM_PATH_HINT: 自訂 ogg 檔案路徑；留空則播放主題內建背景音樂
+  HIGH: 高
+  LOW: 低
+  XSENSITIVITY: 類比 X 軸靈敏度
+  YSENSITIVITY: 類比 Y 軸靈敏度
+  FILE_COUNT: 找到的檔案：%i
+  CHEAT_SELECTION: 金手指選擇
+  HDD_HINT: 只能使用一個硬碟；啟用後會鎖定 APA 或 GPT。
+  TXTRENAME: TXT 對應列表
+  ABOUT_CHINESE_CONTRIBUTORS: FGOPL 貢獻者名單（第 1/2 頁）
+  ABOUT_CONTRIBUTORS_PENDING: 名單待確認
+  ABOUT_ORIGINAL_CONTRIBUTORS: 官方 OPL 貢獻者名單（第 2/2 頁）
+  ABOUT_NEXT_PAGE: 下一頁
+  ABOUT_PREVIOUS_PAGE: 上一頁
+  HINT_DMA_MODE: 硬碟傳輸模式，數值越高讀取越快（需關閉模式 1 才生效）
+  HINT_DMA_SOURCE: 全域生效，或只對目前遊戲生效
+  HINT_CF_COUNT: 可修改同屏封面數。若覺得卡頓，請降低數量。
+  BGM_SEARCH: 搜尋 ogg 檔案
+  HINT_BGM_SEARCH: 在已啟動裝置的根目錄搜尋 ogg 檔案，並自動填入上方路徑
+  BGM_NOT_FOUND: 未找到 ogg 檔案
+  ARTPACK: zip 圖包支援（封面秒出）
+  HINT_ARTPACK: 請將 OPLM_ART 的 zip 圖包（不要解壓）直接放到 ART2
+  HINT_ART_RANDOM: 背景圖與遊戲截圖會隨機變化（僅限 zip 圖包）
+  HINT_APAISO: 將 ISO 複製到 +OPL/DVD 或 CD 即可直接讀取，無需轉成 HDL
+  HINT_AUTODETECT_PS1APPS: 直接識別 APPS 目錄中的 ELF，以及 POPS 目錄中的 VCD
+  HINT_AUTO_MODE1: 模式 1（精準讀取）可解決大部分相容問題，建議開啟
+  HINT_CACHE_HDD_GAME_LIST: 列表快取供 HDL 安裝格式使用；若以 APA 直讀 ISO，請關閉此選項
+  HINT_LASTPLAYED: 啟動 OPL 時，游標會停在上次遊玩的遊戲上
+  HINT_COVERARTMODE: 相容模式會大幅拖慢圖片載入，建議使用效能模式
+  HINT_AUTOREFRESH: 熱插拔 USB 等區塊裝置時，OPL 能即時作出回應
+  HINT_TXTRENAME: 產生 txt 檔，用來將遊戲名稱對應成任意文字
+  HINT_ENABLE_WRITE: OPL 的刪除功能並非絕對安全，請謹慎使用
+  HINT_THEME: 內建兩套主題可供切換，第三方主題請放到 THM 資料夾
+  HINT_LANGUAGE: 請將 FGOPL 語言包放到 LNG 資料夾，以支援更多語言
+  START_MODE_SETTINGS: 啟動模式設定
+  DEVICE_SWITCH: 裝置開關（關閉未使用的裝置可加快啟動）
+  APAISO: HDD(APA) 直讀 ISO
+  AUTODETECT_PS1APPS: APPS & PS1 自動識別
+  AUTO_MODE1: 自動開啟模式 1（提高相容性）
+  COVERART_BG_OFF: 背景關
+  COVERART_BG_ON: 背景開
+  COVERART_COV_OFF: 封面關
+  COVERART_COV_ON: 封面開
+  COVERART_ICO_OFF: 光碟關
+  COVERART_ICO_ON: 光碟開
+  COVERARTMODE_PERF: 效能模式（僅支援 PNG）
+  COVERARTMODE_COMPAT: 相容模式（JPG 與 PNG）
+  ART_RANDOM_OFF: 隨機取圖關
+  ART_RANDOM_ON: 隨機取圖開
+  CF_COVER_COUNT_1: 同屏封面數：1
+  CF_COVER_COUNT_3: 同屏封面數：3
+  CF_COVER_COUNT_5: 同屏封面數：5
+  CF_COVER_COUNT_7: 同屏封面數：7
+  CF_COVER_COUNT_9: 同屏封面數：9
+  GSM_VMODE_480I_NORMAL: 480i 常規模式（適用 CRT）
+  GSM_VMODE_480I_SHRINK: 480i 收縮模式（現代電視可橫向拉伸到 4:3）
+  DMA_UDMA4_DEFAULT: UDMA 4 預設模式
+  DMA_UDMA5_HIGHEST: UDMA 5 目前硬碟最高模式
+  DMA_UDMA6_HIGHEST: UDMA 6 目前硬碟最高模式
+  DMA_UDMA7_HIGHEST: UDMA 7 目前硬碟最高模式
+  DMA_UDMA7_EXTREME: UDMA 7 極速模式
+  DMA_HDD_ONLY: <僅限 HDD>
+  CHEAT_TOGGLE_ALL: 全選/全不選
+  CHEAT_SAVE_AND_RUN: 儲存並執行
+  THEME_COVERFLOW: 內建封面流主題
+  THEME_LIST: 內建列表主題
+  MSG_DEVICE_DETECT_TIMEOUT: '%s 偵測逾時。裝置相容性問題。'
+  MSG_TXT_CREATED: 已建立 txt 檔案！
+  MSG_TXT_REBUILT: 已重建 txt 檔案！
+  MSG_HDD_EXFAT_HINT: 內建硬碟為 exFAT。請在 BDM 設定中啟用 HDD(exFAT)。
+  MSG_HDD_APA_HINT: 內建硬碟為 APA。請啟用 HDD(APA) 啟動模式。
+  MSG_HDD_MIXED_CONFIRM: 你的硬碟是混合分割區，確定仍要啟用目前模式嗎？
+  MSG_LIST_SEPARATOR: 、

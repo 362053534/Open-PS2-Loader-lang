@@ -54,7 +54,7 @@ translations:
   AUTOSORT: ﺗﺮﺗﻴﺐ دادن ﺧﻮدﻛﺎر
   ERR_LOADING_LANGFILE: درﻫﻨﮕﺎم ﺑﺎرﮔﺬاری ﻓﺎﻴﻞ زﺑﺎن ﻣﺸﻜﻠﻲ ﭘﻴﺶ آﻣﺪ
   DEBUG: رنگ‌های اشکال‌زدایی
-  NO_CONTROLLER: …ﻫﻴﭻ ﻛﻨﺘﺮﻟﺮی ﭘﻴﺪا ﻧﺸﺪ ﻣﻨﺘﻈﺮ ﺑﻤﺎﻧﻴﺪ
+  NO_CONTROLLER: ...ﻫﻴﭻ ﻛﻨﺘﺮﻟﺮی ﭘﻴﺪا ﻧﺸﺪ ﻣﻨﺘﻈﺮ ﺑﻤﺎﻧﻴﺪ
   COVERART: تصویر جلد
   WIDE_SCREEN: ﺻﻔﺤﻪ ﻛﺸﻴﺪه
   POWEROFF: ﺧﺎﻣﻮش ﻛﺮدن
@@ -69,10 +69,10 @@ translations:
   AUTO: ﺧﻮدﻛﺎر
   MANUAL: دﺳﺘﻲ
   STARTNBD: NBD ﺷﺮوع ﺳﺮور
-  STARTINGNBD: …درﺣﺎل راه اﻧﺪازی ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
-  RUNNINGNBD: …درﺣﺎل اﺟﺮا ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
+  STARTINGNBD: ...درﺣﺎل راه اﻧﺪازی ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
+  RUNNINGNBD: ...درﺣﺎل اﺟﺮا ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
   STARTFAILNBD: ﺷﻜﺴﺖ ﺧﻮرد NBD راه اﻧﺪازی ﺳﺮور
-  UNLOADNBD: …درﺣﺎل ﺗﺨﻠﻴﻪ ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
+  UNLOADNBD: ...درﺣﺎل ﺗﺨﻠﻴﻪ ﻣﻴﺒﺎﺷﺪ NBD ﺳﺮور
   EXITTO: IGR ﻣﺴﻴﺮ
   BGCOLOR: رﻧﮓ ﭘﺲ زﻣﻴﻨﻪ
   TXTCOLOR: رﻧﮓ ﻣﺘﻮن
@@ -199,7 +199,7 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: ﺗﻨﻈﻴﻤﺎت از ﺷﺒﻜﻪ داﻧﻠﻮد ﺷﻮد؟
   CUSTOMIZED_SETTINGS: ﺗﻨﻈﻴﻤﺎت ﺷﺨﺼﻲ ﺳﺎزی ﺷﺪه
   DOWNLOADED_DEFAULTS: ﭘﻴﺶ ﻓﺮض ﻫﺎ داﻧﻠﻮد ﺷﺪ
-  AUTO_START_IN_N_SECS: …ﺛﺎﻧﻴﻪ %i ﺷﺮوع ﺧﻮدﻛﺎر در
+  AUTO_START_IN_N_SECS: ...ﺛﺎﻧﻴﻪ %i ﺷﺮوع ﺧﻮدﻛﺎر در
   AUTOSTARTLAST: ﺷﺮوع ﺧﻮدﻛﺎر
   HINT_AUTOSTARTLAST: ﻣﻘﺪار در ﺛﺎﻧﻴﻪ, 0 ﺑﺮای ﻏﻴﺮﻓﻌﺎل ﻛﺮدن ﺷﺮوع ﺧﻮدﻛﺎر
   PS2LOGO: ﻟﻮﮔﻮ ﭘﻠﻲ اﺳﺘﻴﺸﻦ 2

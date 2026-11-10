@@ -54,7 +54,7 @@ translations:
   AUTOSORT: 자동 정렬
   ERR_LOADING_LANGFILE: 언어 파일 불러오는 중 오류
   DEBUG: 디버그 색상
-  NO_CONTROLLER: 컨트롤러가 없습니다. 대기 중…
+  NO_CONTROLLER: 컨트롤러가 없습니다. 대기 중...
   COVERART: 표지
   WIDE_SCREEN: 와이드화면
   POWEROFF: 전원 끄기
@@ -69,10 +69,10 @@ translations:
   AUTO: 자동
   MANUAL: 수동
   STARTNBD: NBD 서버 시작
-  STARTINGNBD: NBD 서버 시작 중…
-  RUNNINGNBD: NBD 서버 가동 중…
+  STARTINGNBD: NBD 서버 시작 중...
+  RUNNINGNBD: NBD 서버 가동 중...
   STARTFAILNBD: NBD 서버 시작 실패
-  UNLOADNBD: NBD 서버 업로딩 중…
+  UNLOADNBD: NBD 서버 업로딩 중...
   EXITTO: IGR 경로
   BGCOLOR: 배경 색상
   TXTCOLOR: 문자 색상
@@ -198,7 +198,7 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: 네트워크에서 설정을 다운로드 합니까?
   CUSTOMIZED_SETTINGS: 사용자 정의 설정
   DOWNLOADED_DEFAULTS: 다운로드 받은 기본값
-  AUTO_START_IN_N_SECS: '%i 자동 시작…'
+  AUTO_START_IN_N_SECS: '%i 자동 시작...'
   AUTOSTARTLAST: 자동 시작
   HINT_AUTOSTARTLAST: 초 입력, 자동 시작하지 않으려면 0으로 설정
   PS2LOGO: PS2 로고

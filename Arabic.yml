@@ -69,10 +69,10 @@ translations:
   AUTO: تلقائي
   MANUAL: يدوي
   STARTNBD: تشغيل الخادم NBD
-  STARTINGNBD: بداية تشغسل الخادم NBD …
-  RUNNINGNBD: الخادم NBD في حالة تشغيل …
+  STARTINGNBD: بداية تشغسل الخادم NBD ...
+  RUNNINGNBD: الخادم NBD في حالة تشغيل ...
   STARTFAILNBD: لم يتم تشغسل الخادم NBD
-  UNLOADNBD: تفريغ الخادم NBD …
+  UNLOADNBD: تفريغ الخادم NBD ...
   EXITTO: مكان IGR
   BGCOLOR: لون الخلفية
   TXTCOLOR: لون الكتابة
@@ -131,7 +131,7 @@ translations:
   ERR_VMC_CONTINUE: خطأ في الوصول إلى VMC %s. هل تريد المتابعة ببطاقة الذاكرة في الفتحة
     %d؟
   AUTOREFRESH: اكتشاف التوصيل السريع
-  ABOUT: معلومات حول …
+  ABOUT: معلومات حول ...
   DEVS: المبرمجون
   QANDA: ضمان الجودة
   BDM_PREFIX: مكان بادئة BDM
@@ -200,7 +200,7 @@ translations:
   CONFIRMATION_SETTINGS_UPDATE: تحميل الاعدادات من الانترنيت ?
   CUSTOMIZED_SETTINGS: اعدادات مغيرة
   DOWNLOADED_DEFAULTS: تحميل الافتراضيات
-  AUTO_START_IN_N_SECS: البدء%i الاوتوماتيكي في  ثانية…
+  AUTO_START_IN_N_SECS: البدء%i الاوتوماتيكي في  ثانية...
   AUTOSTARTLAST: البدء الاوتوماتيكي
   HINT_AUTOSTARTLAST: النسبة في الدقيقة, 0 للالغاء التدوير باستمرار
   PS2LOGO: شعار PS2
@@ -285,7 +285,7 @@ translations:
   BLOCKDEVICE_SETTINGS: أجهزة BDM
   CONTROLLER_SETTINGS: إعدادات المتحكم
   HINT_BDM_START: تشغيل أو إيقاف مدير أجهزة الكتل.
-  HINT_BLOCK_DEVICES: تشغيل أو إيقاف أجهزة BDM ‏(USB/MX4SIO/ILINK/HDD).
+  HINT_BLOCK_DEVICES: تشغيل أو إيقاف أجهزة BDM (USB/MX4SIO/ILINK/HDD).
   USB_GAMES: ألعاب USB
   ILINK_GAMES: ألعاب iLink
   MX4SIO_GAMES: ألعاب MX4SIO

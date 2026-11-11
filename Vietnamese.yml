@@ -378,11 +378,11 @@ translations:
   COVERARTMODE_COMPAT: Tương thích (JPG và PNG)
   ART_RANDOM_OFF: Tắt ảnh ngẫu nhiên
   ART_RANDOM_ON: Bật ảnh ngẫu nhiên
-  CF_COVER_COUNT_1: 'Số bìa trên màn hình: 1'
-  CF_COVER_COUNT_3: 'Số bìa trên màn hình: 3'
-  CF_COVER_COUNT_5: 'Số bìa trên màn hình: 5'
-  CF_COVER_COUNT_7: 'Số bìa trên màn hình: 7'
-  CF_COVER_COUNT_9: 'Số bìa trên màn hình: 9'
+  CF_COVER_COUNT_1: 1 bìa
+  CF_COVER_COUNT_3: 3 bìa
+  CF_COVER_COUNT_5: 5 bìa
+  CF_COVER_COUNT_7: 7 bìa
+  CF_COVER_COUNT_9: 9 bìa
   GSM_VMODE_480I_NORMAL: 480i thường (cho CRT)
   GSM_VMODE_480I_SHRINK: 480i thu nhỏ (kéo giãn 4:3 trên TV hiện đại)
   DMA_UDMA4_DEFAULT: UDMA 4 mặc định
@@ -393,8 +393,8 @@ translations:
   DMA_HDD_ONLY: <chỉ HDD>
   CHEAT_TOGGLE_ALL: Chọn/bỏ chọn tất cả
   CHEAT_SAVE_AND_RUN: Lưu và chạy
-  THEME_COVERFLOW: Chủ đề Coverflow có sẵn
-  THEME_LIST: Chủ đề danh sách có sẵn
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Danh sách
   MSG_DEVICE_DETECT_TIMEOUT: Hết thời gian phát hiện %s. Sự cố tương thích thiết bị.
   MSG_TXT_CREATED: Đã tạo tệp txt!
   MSG_TXT_REBUILT: Đã dựng lại tệp txt!

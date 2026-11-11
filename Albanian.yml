@@ -387,11 +387,11 @@ translations:
   COVERARTMODE_COMPAT: Përputhshmëri (JPG & PNG)
   ART_RANDOM_OFF: Arti i rastësishëm fikur
   ART_RANDOM_ON: Arti i rastësishëm ndezur
-  CF_COVER_COUNT_1: 'Kopertina në ekran: 1'
-  CF_COVER_COUNT_3: 'Kopertina në ekran: 3'
-  CF_COVER_COUNT_5: 'Kopertina në ekran: 5'
-  CF_COVER_COUNT_7: 'Kopertina në ekran: 7'
-  CF_COVER_COUNT_9: 'Kopertina në ekran: 9'
+  CF_COVER_COUNT_1: 1 kopertinë
+  CF_COVER_COUNT_3: 3 kopertina
+  CF_COVER_COUNT_5: 5 kopertina
+  CF_COVER_COUNT_7: 7 kopertina
+  CF_COVER_COUNT_9: 9 kopertina
   GSM_VMODE_480I_NORMAL: 480i normale (për CRT)
   GSM_VMODE_480I_SHRINK: 480i i tkurrur (shtrihet në 4:3 në TV moderne)
   DMA_UDMA4_DEFAULT: UDMA 4 i paracaktuar
@@ -402,8 +402,8 @@ translations:
   DMA_HDD_ONLY: <vetëm HDD>
   CHEAT_TOGGLE_ALL: Zgjidh/hiq të gjitha
   CHEAT_SAVE_AND_RUN: Ruaj dhe ekzekuto
-  THEME_COVERFLOW: Tema e brendshme Coverflow
-  THEME_LIST: Tema e brendshme e listës
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Listë
   MSG_DEVICE_DETECT_TIMEOUT: Zbulimi i %s skadoi. Problem përputhshmërie i pajisjes.
   MSG_TXT_CREATED: Skedari txt u krijua!
   MSG_TXT_REBUILT: Skedari txt u rindërtua!

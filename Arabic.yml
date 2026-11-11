@@ -377,11 +377,11 @@ translations:
   COVERARTMODE_COMPAT: التوافق (JPG و PNG)
   ART_RANDOM_OFF: صور عشوائية متوقفة
   ART_RANDOM_ON: صور عشوائية مفعلة
-  CF_COVER_COUNT_1: 'الأغلفة على الشاشة: 1'
-  CF_COVER_COUNT_3: 'الأغلفة على الشاشة: 3'
-  CF_COVER_COUNT_5: 'الأغلفة على الشاشة: 5'
-  CF_COVER_COUNT_7: 'الأغلفة على الشاشة: 7'
-  CF_COVER_COUNT_9: 'الأغلفة على الشاشة: 9'
+  CF_COVER_COUNT_1: 1 غلاف
+  CF_COVER_COUNT_3: 3 أغلفة
+  CF_COVER_COUNT_5: 5 أغلفة
+  CF_COVER_COUNT_7: 7 أغلفة
+  CF_COVER_COUNT_9: 9 أغلفة
   GSM_VMODE_480I_NORMAL: 480i عادي (لشاشات CRT)
   GSM_VMODE_480I_SHRINK: 480i مضغوط (يُمدَّد إلى 4:3 على التلفزيونات الحديثة)
   DMA_UDMA4_DEFAULT: UDMA 4 الافتراضي
@@ -392,8 +392,8 @@ translations:
   DMA_HDD_ONLY: <HDD فقط>
   CHEAT_TOGGLE_ALL: تحديد/إلغاء تحديد الكل
   CHEAT_SAVE_AND_RUN: حفظ وتشغيل
-  THEME_COVERFLOW: سمة Coverflow المدمجة
-  THEME_LIST: سمة القائمة المدمجة
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: القائمة
   MSG_DEVICE_DETECT_TIMEOUT: انتهت مهلة اكتشاف %s. مشكلة توافق في الجهاز.
   MSG_TXT_CREATED: تم إنشاء ملف txt!
   MSG_TXT_REBUILT: أُعيد بناء ملف txt!

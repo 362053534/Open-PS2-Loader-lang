@@ -383,11 +383,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilitet (JPG och PNG)
   ART_RANDOM_OFF: Slumpmässig bild av
   ART_RANDOM_ON: Slumpmässig bild på
-  CF_COVER_COUNT_1: 'Omslag på skärmen: 1'
-  CF_COVER_COUNT_3: 'Omslag på skärmen: 3'
-  CF_COVER_COUNT_5: 'Omslag på skärmen: 5'
-  CF_COVER_COUNT_7: 'Omslag på skärmen: 7'
-  CF_COVER_COUNT_9: 'Omslag på skärmen: 9'
+  CF_COVER_COUNT_1: 1 omslag
+  CF_COVER_COUNT_3: 3 omslag
+  CF_COVER_COUNT_5: 5 omslag
+  CF_COVER_COUNT_7: 7 omslag
+  CF_COVER_COUNT_9: 9 omslag
   GSM_VMODE_480I_NORMAL: 480i normal (för CRT)
   GSM_VMODE_480I_SHRINK: 480i förminskad (töjs till 4:3 på moderna tv-apparater)
   DMA_UDMA4_DEFAULT: UDMA 4 standard
@@ -398,8 +398,8 @@ translations:
   DMA_HDD_ONLY: <endast HDD>
   CHEAT_TOGGLE_ALL: Markera/avmarkera alla
   CHEAT_SAVE_AND_RUN: Spara och kör
-  THEME_COVERFLOW: Inbyggt Coverflow-tema
-  THEME_LIST: Inbyggt listtema
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lista
   MSG_DEVICE_DETECT_TIMEOUT: Tidsgränsen för identifiering av %s överskreds. Kompatibilitetsproblem
     med enheten.
   MSG_TXT_CREATED: txt-filen har skapats!

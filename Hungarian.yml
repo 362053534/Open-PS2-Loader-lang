@@ -393,11 +393,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilitás (JPG és PNG)
   ART_RANDOM_OFF: Véletlen kép ki
   ART_RANDOM_ON: Véletlen kép be
-  CF_COVER_COUNT_1: 'Borítók a képernyőn: 1'
-  CF_COVER_COUNT_3: 'Borítók a képernyőn: 3'
-  CF_COVER_COUNT_5: 'Borítók a képernyőn: 5'
-  CF_COVER_COUNT_7: 'Borítók a képernyőn: 7'
-  CF_COVER_COUNT_9: 'Borítók a képernyőn: 9'
+  CF_COVER_COUNT_1: 1 borító
+  CF_COVER_COUNT_3: 3 borító
+  CF_COVER_COUNT_5: 5 borító
+  CF_COVER_COUNT_7: 7 borító
+  CF_COVER_COUNT_9: 9 borító
   GSM_VMODE_480I_NORMAL: 480i normál (CRT-hez)
   GSM_VMODE_480I_SHRINK: 480i zsugorított (modern tévén 4:3-ra nyújtható)
   DMA_UDMA4_DEFAULT: UDMA 4 alapértelmezett
@@ -408,8 +408,8 @@ translations:
   DMA_HDD_ONLY: <csak HDD>
   CHEAT_TOGGLE_ALL: Összes kijelölése/törlése
   CHEAT_SAVE_AND_RUN: Mentés és indítás
-  THEME_COVERFLOW: Beépített Coverflow téma
-  THEME_LIST: Beépített lista téma
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lista
   MSG_DEVICE_DETECT_TIMEOUT: A(z) %s felismerése időtúllépésbe ütközött. Eszközkompatibilitási
     probléma.
   MSG_TXT_CREATED: A txt fájl létrejött!

@@ -386,11 +386,11 @@ translations:
   COVERARTMODE_COMPAT: Uyumluluk (JPG ve PNG)
   ART_RANDOM_OFF: Rastgele görsel kapalı
   ART_RANDOM_ON: Rastgele görsel açık
-  CF_COVER_COUNT_1: 'Ekrandaki kapak sayısı: 1'
-  CF_COVER_COUNT_3: 'Ekrandaki kapak sayısı: 3'
-  CF_COVER_COUNT_5: 'Ekrandaki kapak sayısı: 5'
-  CF_COVER_COUNT_7: 'Ekrandaki kapak sayısı: 7'
-  CF_COVER_COUNT_9: 'Ekrandaki kapak sayısı: 9'
+  CF_COVER_COUNT_1: 1 kapak
+  CF_COVER_COUNT_3: 3 kapak
+  CF_COVER_COUNT_5: 5 kapak
+  CF_COVER_COUNT_7: 7 kapak
+  CF_COVER_COUNT_9: 9 kapak
   GSM_VMODE_480I_NORMAL: 480i normal (CRT için)
   GSM_VMODE_480I_SHRINK: 480i daraltılmış (modern televizyonlarda 4:3'e yayılır)
   DMA_UDMA4_DEFAULT: UDMA 4 varsayılan
@@ -401,8 +401,8 @@ translations:
   DMA_HDD_ONLY: <yalnızca HDD>
   CHEAT_TOGGLE_ALL: Tümünü seç/kaldır
   CHEAT_SAVE_AND_RUN: Kaydet ve çalıştır
-  THEME_COVERFLOW: Yerleşik Coverflow teması
-  THEME_LIST: Yerleşik liste teması
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Liste
   MSG_DEVICE_DETECT_TIMEOUT: '%s algılama zaman aşımına uğradı. Aygıt uyumluluk sorunu.'
   MSG_TXT_CREATED: txt dosyası oluşturuldu!
   MSG_TXT_REBUILT: txt dosyası yeniden oluşturuldu!

@@ -398,11 +398,11 @@ translations:
   COVERARTMODE_COMPAT: Συμβατότητα (JPG και PNG)
   ART_RANDOM_OFF: Τυχαίες εικόνες ανενεργές
   ART_RANDOM_ON: Τυχαίες εικόνες ενεργές
-  CF_COVER_COUNT_1: 'Εξώφυλλα στην οθόνη: 1'
-  CF_COVER_COUNT_3: 'Εξώφυλλα στην οθόνη: 3'
-  CF_COVER_COUNT_5: 'Εξώφυλλα στην οθόνη: 5'
-  CF_COVER_COUNT_7: 'Εξώφυλλα στην οθόνη: 7'
-  CF_COVER_COUNT_9: 'Εξώφυλλα στην οθόνη: 9'
+  CF_COVER_COUNT_1: 1 εξώφυλλο
+  CF_COVER_COUNT_3: 3 εξώφυλλα
+  CF_COVER_COUNT_5: 5 εξώφυλλα
+  CF_COVER_COUNT_7: 7 εξώφυλλα
+  CF_COVER_COUNT_9: 9 εξώφυλλα
   GSM_VMODE_480I_NORMAL: 480i κανονικό (για CRT)
   GSM_VMODE_480I_SHRINK: 480i συρρίκνωση (επεκτείνεται σε 4:3 στις σύγχρονες τηλεοράσεις)
   DMA_UDMA4_DEFAULT: UDMA 4 προεπιλογή
@@ -413,8 +413,8 @@ translations:
   DMA_HDD_ONLY: <μόνο HDD>
   CHEAT_TOGGLE_ALL: Επιλογή/αποεπιλογή όλων
   CHEAT_SAVE_AND_RUN: Αποθήκευση και εκτέλεση
-  THEME_COVERFLOW: Ενσωματωμένο θέμα Coverflow
-  THEME_LIST: Ενσωματωμένο θέμα λίστας
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Λίστα
   MSG_DEVICE_DETECT_TIMEOUT: Λήξη χρονικού ορίου εντοπισμού %s. Πρόβλημα συμβατότητας
     συσκευής.
   MSG_TXT_CREATED: Το αρχείο txt δημιουργήθηκε!

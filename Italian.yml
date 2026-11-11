@@ -392,11 +392,11 @@ translations:
   COVERARTMODE_COMPAT: Compatibilità (JPG e PNG)
   ART_RANDOM_OFF: Immagini casuali disattivate
   ART_RANDOM_ON: Immagini casuali attivate
-  CF_COVER_COUNT_1: 'Copertine sullo schermo: 1'
-  CF_COVER_COUNT_3: 'Copertine sullo schermo: 3'
-  CF_COVER_COUNT_5: 'Copertine sullo schermo: 5'
-  CF_COVER_COUNT_7: 'Copertine sullo schermo: 7'
-  CF_COVER_COUNT_9: 'Copertine sullo schermo: 9'
+  CF_COVER_COUNT_1: 1 copertina
+  CF_COVER_COUNT_3: 3 copertine
+  CF_COVER_COUNT_5: 5 copertine
+  CF_COVER_COUNT_7: 7 copertine
+  CF_COVER_COUNT_9: 9 copertine
   GSM_VMODE_480I_NORMAL: 480i normale (per CRT)
   GSM_VMODE_480I_SHRINK: 480i ridotto (si allunga a 4:3 sui TV moderni)
   DMA_UDMA4_DEFAULT: UDMA 4 predefinito
@@ -407,8 +407,8 @@ translations:
   DMA_HDD_ONLY: <solo HDD>
   CHEAT_TOGGLE_ALL: Seleziona/deseleziona tutto
   CHEAT_SAVE_AND_RUN: Salva ed esegui
-  THEME_COVERFLOW: Tema Coverflow integrato
-  THEME_LIST: Tema elenco integrato
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Elenco
   MSG_DEVICE_DETECT_TIMEOUT: Rilevamento di %s scaduto. Problema di compatibilità
     del dispositivo.
   MSG_TXT_CREATED: Il file txt è stato creato!

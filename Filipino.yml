@@ -396,11 +396,11 @@ translations:
   COVERARTMODE_COMPAT: Compatibility (JPG & PNG)
   ART_RANDOM_OFF: Random Art Off
   ART_RANDOM_ON: Random Art On
-  CF_COVER_COUNT_1: 'Mga cover sa screen: 1'
-  CF_COVER_COUNT_3: 'Mga cover sa screen: 3'
-  CF_COVER_COUNT_5: 'Mga cover sa screen: 5'
-  CF_COVER_COUNT_7: 'Mga cover sa screen: 7'
-  CF_COVER_COUNT_9: 'Mga cover sa screen: 9'
+  CF_COVER_COUNT_1: 1 cover
+  CF_COVER_COUNT_3: 3 cover
+  CF_COVER_COUNT_5: 5 cover
+  CF_COVER_COUNT_7: 7 cover
+  CF_COVER_COUNT_9: 9 cover
   GSM_VMODE_480I_NORMAL: 480i Normal (para sa CRT)
   GSM_VMODE_480I_SHRINK: 480i Shrink (i-stretch sa 4:3 sa modernong TV)
   DMA_UDMA4_DEFAULT: UDMA 4 Default
@@ -411,8 +411,8 @@ translations:
   DMA_HDD_ONLY: <HDD only>
   CHEAT_TOGGLE_ALL: Piliin/Alisin ang lahat
   CHEAT_SAVE_AND_RUN: I-save at Patakbuhin
-  THEME_COVERFLOW: Built-in Coverflow Theme
-  THEME_LIST: Built-in List Theme
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Listahan
   MSG_DEVICE_DETECT_TIMEOUT: Nag-timeout ang pag-detect ng %s. Isyu sa compatibility
     ng device.
   MSG_TXT_CREATED: Nagawa na ang txt file!

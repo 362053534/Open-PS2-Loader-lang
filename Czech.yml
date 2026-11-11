@@ -383,11 +383,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilita (JPG a PNG)
   ART_RANDOM_OFF: Náhodný obrázek vypnut
   ART_RANDOM_ON: Náhodný obrázek zapnut
-  CF_COVER_COUNT_1: 'Obalů na obrazovce: 1'
-  CF_COVER_COUNT_3: 'Obalů na obrazovce: 3'
-  CF_COVER_COUNT_5: 'Obalů na obrazovce: 5'
-  CF_COVER_COUNT_7: 'Obalů na obrazovce: 7'
-  CF_COVER_COUNT_9: 'Obalů na obrazovce: 9'
+  CF_COVER_COUNT_1: 1 obal
+  CF_COVER_COUNT_3: 3 obaly
+  CF_COVER_COUNT_5: 5 obalů
+  CF_COVER_COUNT_7: 7 obalů
+  CF_COVER_COUNT_9: 9 obalů
   GSM_VMODE_480I_NORMAL: 480i běžný (pro CRT)
   GSM_VMODE_480I_SHRINK: 480i zúžený (na moderních televizorech se roztáhne na 4:3)
   DMA_UDMA4_DEFAULT: UDMA 4 výchozí
@@ -398,8 +398,8 @@ translations:
   DMA_HDD_ONLY: <pouze HDD>
   CHEAT_TOGGLE_ALL: Vybrat/zrušit vše
   CHEAT_SAVE_AND_RUN: Uložit a spustit
-  THEME_COVERFLOW: Vestavěný motiv Coverflow
-  THEME_LIST: Vestavěný motiv seznamu
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Seznam
   MSG_DEVICE_DETECT_TIMEOUT: Vypršel časový limit detekce %s. Problém s kompatibilitou
     zařízení.
   MSG_TXT_CREATED: Soubor txt byl vytvořen!

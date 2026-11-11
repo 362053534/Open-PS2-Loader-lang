@@ -386,11 +386,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilitet (JPG og PNG)
   ART_RANDOM_OFF: Tilfældigt billede fra
   ART_RANDOM_ON: Tilfældigt billede til
-  CF_COVER_COUNT_1: 'Cover på skærmen: 1'
-  CF_COVER_COUNT_3: 'Cover på skærmen: 3'
-  CF_COVER_COUNT_5: 'Cover på skærmen: 5'
-  CF_COVER_COUNT_7: 'Cover på skærmen: 7'
-  CF_COVER_COUNT_9: 'Cover på skærmen: 9'
+  CF_COVER_COUNT_1: 1 cover
+  CF_COVER_COUNT_3: 3 covers
+  CF_COVER_COUNT_5: 5 covers
+  CF_COVER_COUNT_7: 7 covers
+  CF_COVER_COUNT_9: 9 covers
   GSM_VMODE_480I_NORMAL: 480i normal (til CRT)
   GSM_VMODE_480I_SHRINK: 480i indskrænket (strækkes til 4:3 på moderne tv)
   DMA_UDMA4_DEFAULT: UDMA 4 standard
@@ -401,8 +401,8 @@ translations:
   DMA_HDD_ONLY: <kun HDD>
   CHEAT_TOGGLE_ALL: Vælg/fravælg alle
   CHEAT_SAVE_AND_RUN: Gem og kør
-  THEME_COVERFLOW: Indbygget Coverflow-tema
-  THEME_LIST: Indbygget listetema
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Liste
   MSG_DEVICE_DETECT_TIMEOUT: Registreringen af %s fik timeout. Enhedskompatibilitetsproblem.
   MSG_TXT_CREATED: txt-filen er blevet oprettet!
   MSG_TXT_REBUILT: txt-filen er blevet genopbygget!

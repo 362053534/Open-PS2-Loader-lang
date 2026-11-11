@@ -386,11 +386,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilnost (JPG i PNG)
   ART_RANDOM_OFF: Nasumična slika isključena
   ART_RANDOM_ON: Nasumična slika uključena
-  CF_COVER_COUNT_1: 'Omota na ekranu: 1'
-  CF_COVER_COUNT_3: 'Omota na ekranu: 3'
-  CF_COVER_COUNT_5: 'Omota na ekranu: 5'
-  CF_COVER_COUNT_7: 'Omota na ekranu: 7'
-  CF_COVER_COUNT_9: 'Omota na ekranu: 9'
+  CF_COVER_COUNT_1: 1 omot
+  CF_COVER_COUNT_3: 3 omota
+  CF_COVER_COUNT_5: 5 omota
+  CF_COVER_COUNT_7: 7 omota
+  CF_COVER_COUNT_9: 9 omota
   GSM_VMODE_480I_NORMAL: 480i normalno (za CRT)
   GSM_VMODE_480I_SHRINK: 480i suženo (rasteže se na 4:3 na modernim televizorima)
   DMA_UDMA4_DEFAULT: UDMA 4 podrazumevano
@@ -401,8 +401,8 @@ translations:
   DMA_HDD_ONLY: <samo HDD>
   CHEAT_TOGGLE_ALL: Izaberi/poništi sve
   CHEAT_SAVE_AND_RUN: Sačuvaj i pokreni
-  THEME_COVERFLOW: Ugrađena tema Coverflow
-  THEME_LIST: Ugrađena tema liste
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lista
   MSG_DEVICE_DETECT_TIMEOUT: Isteklo je vreme otkrivanja za %s. Problem kompatibilnosti
     uređaja.
   MSG_TXT_CREATED: txt datoteka je napravljena!

@@ -393,11 +393,11 @@ translations:
   COVERARTMODE_COMPAT: Compatibilitate (JPG si PNG)
   ART_RANDOM_OFF: Imagini aleatorii oprite
   ART_RANDOM_ON: Imagini aleatorii pornite
-  CF_COVER_COUNT_1: 'Coperti pe ecran: 1'
-  CF_COVER_COUNT_3: 'Coperti pe ecran: 3'
-  CF_COVER_COUNT_5: 'Coperti pe ecran: 5'
-  CF_COVER_COUNT_7: 'Coperti pe ecran: 7'
-  CF_COVER_COUNT_9: 'Coperti pe ecran: 9'
+  CF_COVER_COUNT_1: 1 coperta
+  CF_COVER_COUNT_3: 3 coperti
+  CF_COVER_COUNT_5: 5 coperti
+  CF_COVER_COUNT_7: 7 coperti
+  CF_COVER_COUNT_9: 9 coperti
   GSM_VMODE_480I_NORMAL: 480i normal (pentru CRT)
   GSM_VMODE_480I_SHRINK: 480i restrans (se intinde la 4:3 pe televizoarele moderne)
   DMA_UDMA4_DEFAULT: UDMA 4 implicit
@@ -408,8 +408,8 @@ translations:
   DMA_HDD_ONLY: <doar HDD>
   CHEAT_TOGGLE_ALL: Selecteaza/deselecteaza tot
   CHEAT_SAVE_AND_RUN: Salveaza si ruleaza
-  THEME_COVERFLOW: Tema Coverflow incorporata
-  THEME_LIST: Tema lista incorporata
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lista
   MSG_DEVICE_DETECT_TIMEOUT: Detectarea %s a expirat. Problema de compatibilitate
     a dispozitivului.
   MSG_TXT_CREATED: Fisierul txt a fost creat!

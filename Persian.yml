@@ -390,11 +390,11 @@ translations:
   COVERARTMODE_COMPAT: سازگاری (JPG و PNG)
   ART_RANDOM_OFF: تصویر تصادفی خاموش
   ART_RANDOM_ON: تصویر تصادفی روشن
-  CF_COVER_COUNT_1: 'تعداد جلد روی صفحه: 1'
-  CF_COVER_COUNT_3: 'تعداد جلد روی صفحه: 3'
-  CF_COVER_COUNT_5: 'تعداد جلد روی صفحه: 5'
-  CF_COVER_COUNT_7: 'تعداد جلد روی صفحه: 7'
-  CF_COVER_COUNT_9: 'تعداد جلد روی صفحه: 9'
+  CF_COVER_COUNT_1: 1 جلد
+  CF_COVER_COUNT_3: 3 جلد
+  CF_COVER_COUNT_5: 5 جلد
+  CF_COVER_COUNT_7: 7 جلد
+  CF_COVER_COUNT_9: 9 جلد
   GSM_VMODE_480I_NORMAL: 480i معمولی (برای CRT)
   GSM_VMODE_480I_SHRINK: 480i فشرده (در تلویزیون‌های امروزی تا ۴:۳ کشیده می‌شود)
   DMA_UDMA4_DEFAULT: UDMA 4 پیش‌فرض
@@ -405,8 +405,8 @@ translations:
   DMA_HDD_ONLY: <فقط HDD>
   CHEAT_TOGGLE_ALL: انتخاب/لغو انتخاب همه
   CHEAT_SAVE_AND_RUN: ذخیره و اجرا
-  THEME_COVERFLOW: پوسته داخلی Coverflow
-  THEME_LIST: پوسته داخلی فهرستی
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: فهرست
   MSG_DEVICE_DETECT_TIMEOUT: مهلت شناسایی %s تمام شد. مشکل سازگاری دستگاه.
   MSG_TXT_CREATED: پرونده txt ایجاد شد!
   MSG_TXT_REBUILT: پرونده txt بازسازی شد!

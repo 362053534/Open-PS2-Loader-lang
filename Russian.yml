@@ -385,11 +385,11 @@ translations:
   COVERARTMODE_COMPAT: Совместимость (JPG и PNG)
   ART_RANDOM_OFF: Случайные изображения выкл.
   ART_RANDOM_ON: Случайные изображения вкл.
-  CF_COVER_COUNT_1: 'Обложек на экране: 1'
-  CF_COVER_COUNT_3: 'Обложек на экране: 3'
-  CF_COVER_COUNT_5: 'Обложек на экране: 5'
-  CF_COVER_COUNT_7: 'Обложек на экране: 7'
-  CF_COVER_COUNT_9: 'Обложек на экране: 9'
+  CF_COVER_COUNT_1: 1 обложка
+  CF_COVER_COUNT_3: 3 обложки
+  CF_COVER_COUNT_5: 5 обложек
+  CF_COVER_COUNT_7: 7 обложек
+  CF_COVER_COUNT_9: 9 обложек
   GSM_VMODE_480I_NORMAL: 480i обычный (для ЭЛТ)
   GSM_VMODE_480I_SHRINK: 480i сжатый (на современных телевизорах растягивается до
     4:3)
@@ -401,8 +401,8 @@ translations:
   DMA_HDD_ONLY: <только HDD>
   CHEAT_TOGGLE_ALL: Выбрать/снять все
   CHEAT_SAVE_AND_RUN: Сохранить и запустить
-  THEME_COVERFLOW: Встроенная тема Coverflow
-  THEME_LIST: Встроенная тема списка
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Список
   MSG_DEVICE_DETECT_TIMEOUT: Время ожидания обнаружения %s истекло. Проблема совместимости
     устройства.
   MSG_TXT_CREATED: Файл txt создан!

@@ -373,11 +373,11 @@ translations:
   COVERARTMODE_COMPAT: ຄວາມເຂົ້າກັນໄດ້ (JPG ແລະ PNG)
   ART_RANDOM_OFF: ຮູບແບບສຸ່ມປິດ
   ART_RANDOM_ON: ຮູບແບບສຸ່ມເປີດ
-  CF_COVER_COUNT_1: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 1'
-  CF_COVER_COUNT_3: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 3'
-  CF_COVER_COUNT_5: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 5'
-  CF_COVER_COUNT_7: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 7'
-  CF_COVER_COUNT_9: 'ປົກທີ່ຢູ່ໃນໜ້າຈໍ: 9'
+  CF_COVER_COUNT_1: ປົກ 1
+  CF_COVER_COUNT_3: ປົກ 3
+  CF_COVER_COUNT_5: ປົກ 5
+  CF_COVER_COUNT_7: ປົກ 7
+  CF_COVER_COUNT_9: ປົກ 9
   GSM_VMODE_480I_NORMAL: 480i ປົກກະຕິ (ສຳລັບ CRT)
   GSM_VMODE_480I_SHRINK: 480i ຫຍໍ້ (ສາມາດຍືດເປັນ 4:3 ໃນໂທລະທັດທັນສະໄໝ)
   DMA_UDMA4_DEFAULT: UDMA 4 ຄ່າເລີ່ມຕົ້ນ
@@ -388,8 +388,8 @@ translations:
   DMA_HDD_ONLY: <HDD ເທົ່ານັ້ນ>
   CHEAT_TOGGLE_ALL: ເລືອກ/ຍົກເລີກທັງໝົດ
   CHEAT_SAVE_AND_RUN: ບັນທຶກແລ້ວເປີດໃຊ້
-  THEME_COVERFLOW: ຊຸດຮູບແບບ Coverflow ໃນຕົວ
-  THEME_LIST: ຊຸດຮູບແບບລາຍການໃນຕົວ
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: ລາຍການ
   MSG_DEVICE_DETECT_TIMEOUT: ການກວດຫາ %s ໝົດເວລາ. ມີບັນຫາຄວາມເຂົ້າກັນໄດ້ຂອງອຸປະກອນ.
   MSG_TXT_CREATED: ສ້າງໄຟລ໌ txt ແລ້ວ!
   MSG_TXT_REBUILT: ສ້າງໄຟລ໌ txt ຄືນໃໝ່ແລ້ວ!

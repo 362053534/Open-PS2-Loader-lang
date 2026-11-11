@@ -384,11 +384,11 @@ translations:
   COVERARTMODE_COMPAT: Kompatibilitas (JPG & PNG)
   ART_RANDOM_OFF: Gambar acak off
   ART_RANDOM_ON: Gambar acak on
-  CF_COVER_COUNT_1: 'Sampul di layar: 1'
-  CF_COVER_COUNT_3: 'Sampul di layar: 3'
-  CF_COVER_COUNT_5: 'Sampul di layar: 5'
-  CF_COVER_COUNT_7: 'Sampul di layar: 7'
-  CF_COVER_COUNT_9: 'Sampul di layar: 9'
+  CF_COVER_COUNT_1: 1 sampul
+  CF_COVER_COUNT_3: 3 sampul
+  CF_COVER_COUNT_5: 5 sampul
+  CF_COVER_COUNT_7: 7 sampul
+  CF_COVER_COUNT_9: 9 sampul
   GSM_VMODE_480I_NORMAL: 480i normal (untuk CRT)
   GSM_VMODE_480I_SHRINK: 480i diperkecil (direntangkan ke 4:3 di TV modern)
   DMA_UDMA4_DEFAULT: UDMA 4 default
@@ -399,8 +399,8 @@ translations:
   DMA_HDD_ONLY: <hanya HDD>
   CHEAT_TOGGLE_ALL: Pilih/batal pilih semua
   CHEAT_SAVE_AND_RUN: Simpan dan jalankan
-  THEME_COVERFLOW: Tema Coverflow bawaan
-  THEME_LIST: Tema daftar bawaan
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Daftar
   MSG_DEVICE_DETECT_TIMEOUT: Deteksi %s habis waktu. Masalah kompatibilitas perangkat.
   MSG_TXT_CREATED: File txt telah dibuat!
   MSG_TXT_REBUILT: File txt telah dibangun ulang!

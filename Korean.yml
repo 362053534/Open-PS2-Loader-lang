@@ -369,11 +369,11 @@ translations:
   COVERARTMODE_COMPAT: 호환성 (JPG 및 PNG)
   ART_RANDOM_OFF: 랜덤 이미지 끄기
   ART_RANDOM_ON: 랜덤 이미지 켜기
-  CF_COVER_COUNT_1: '화면의 커버 수: 1'
-  CF_COVER_COUNT_3: '화면의 커버 수: 3'
-  CF_COVER_COUNT_5: '화면의 커버 수: 5'
-  CF_COVER_COUNT_7: '화면의 커버 수: 7'
-  CF_COVER_COUNT_9: '화면의 커버 수: 9'
+  CF_COVER_COUNT_1: 커버 1개
+  CF_COVER_COUNT_3: 커버 3개
+  CF_COVER_COUNT_5: 커버 5개
+  CF_COVER_COUNT_7: 커버 7개
+  CF_COVER_COUNT_9: 커버 9개
   GSM_VMODE_480I_NORMAL: 480i 일반 (CRT용)
   GSM_VMODE_480I_SHRINK: 480i 축소 (최신 TV에서는 4:3으로 늘릴 수 있음)
   DMA_UDMA4_DEFAULT: UDMA 4 기본값
@@ -384,8 +384,8 @@ translations:
   DMA_HDD_ONLY: <HDD 전용>
   CHEAT_TOGGLE_ALL: 모두 선택/해제
   CHEAT_SAVE_AND_RUN: 저장 후 실행
-  THEME_COVERFLOW: 내장 커버플로 테마
-  THEME_LIST: 내장 목록 테마
+  THEME_COVERFLOW: 커버플로
+  THEME_LIST: 목록
   MSG_DEVICE_DETECT_TIMEOUT: '%s 감지 시간이 초과되었습니다. 장치 호환성 문제입니다.'
   MSG_TXT_CREATED: txt 파일이 생성되었습니다!
   MSG_TXT_REBUILT: txt 파일이 다시 만들어졌습니다!

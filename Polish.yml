@@ -390,11 +390,11 @@ translations:
   COVERARTMODE_COMPAT: Zgodność (JPG i PNG)
   ART_RANDOM_OFF: Losowa grafika wył.
   ART_RANDOM_ON: Losowa grafika wł.
-  CF_COVER_COUNT_1: 'Okładek na ekranie: 1'
-  CF_COVER_COUNT_3: 'Okładek na ekranie: 3'
-  CF_COVER_COUNT_5: 'Okładek na ekranie: 5'
-  CF_COVER_COUNT_7: 'Okładek na ekranie: 7'
-  CF_COVER_COUNT_9: 'Okładek na ekranie: 9'
+  CF_COVER_COUNT_1: 1 okładka
+  CF_COVER_COUNT_3: 3 okładki
+  CF_COVER_COUNT_5: 5 okładek
+  CF_COVER_COUNT_7: 7 okładek
+  CF_COVER_COUNT_9: 9 okładek
   GSM_VMODE_480I_NORMAL: 480i normalny (dla CRT)
   GSM_VMODE_480I_SHRINK: 480i zwężony (na nowoczesnych telewizorach rozciągany do
     4:3)
@@ -406,8 +406,8 @@ translations:
   DMA_HDD_ONLY: <tylko HDD>
   CHEAT_TOGGLE_ALL: Zaznacz/odznacz wszystko
   CHEAT_SAVE_AND_RUN: Zapisz i uruchom
-  THEME_COVERFLOW: Wbudowany motyw Coverflow
-  THEME_LIST: Wbudowany motyw listy
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lista
   MSG_DEVICE_DETECT_TIMEOUT: Przekroczono limit czasu wykrywania %s. Problem ze zgodnością
     urządzenia.
   MSG_TXT_CREATED: Plik txt został utworzony!

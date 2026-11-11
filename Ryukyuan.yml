@@ -367,11 +367,11 @@ translations:
   COVERARTMODE_COMPAT: 互換性（JPGとPNG）
   ART_RANDOM_OFF: ランダム画像オフ
   ART_RANDOM_ON: ランダム画像オン
-  CF_COVER_COUNT_1: '画面上ぬカバー数: 1'
-  CF_COVER_COUNT_3: '画面上ぬカバー数: 3'
-  CF_COVER_COUNT_5: '画面上ぬカバー数: 5'
-  CF_COVER_COUNT_7: '画面上ぬカバー数: 7'
-  CF_COVER_COUNT_9: '画面上ぬカバー数: 9'
+  CF_COVER_COUNT_1: カバー1枚
+  CF_COVER_COUNT_3: カバー3枚
+  CF_COVER_COUNT_5: カバー5枚
+  CF_COVER_COUNT_7: カバー7枚
+  CF_COVER_COUNT_9: カバー9枚
   GSM_VMODE_480I_NORMAL: 480i 通常（CRT向け）
   GSM_VMODE_480I_SHRINK: 480i 縮小（今のテレビでは4:3に横伸ばしなやびん）
   DMA_UDMA4_DEFAULT: UDMA 4 デフォルト
@@ -382,8 +382,8 @@ translations:
   DMA_HDD_ONLY: <HDDのみ>
   CHEAT_TOGGLE_ALL: すべて選択/解除
   CHEAT_SAVE_AND_RUN: 保存して実行
-  THEME_COVERFLOW: 内蔵カバーフローテーマ
-  THEME_LIST: 内蔵リストテーマ
+  THEME_COVERFLOW: カバーフロー
+  THEME_LIST: リスト
   MSG_DEVICE_DETECT_TIMEOUT: '%sぬ検出がタイムアウトしやびたん。デバイスぬ互換性に問題ありやびん。'
   MSG_TXT_CREATED: txtファイル作成さびたん！
   MSG_TXT_REBUILT: txtファイル再構築さびたん！

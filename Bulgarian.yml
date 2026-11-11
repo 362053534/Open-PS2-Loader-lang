@@ -392,11 +392,11 @@ translations:
   COVERARTMODE_COMPAT: Съвместимост (JPG и PNG)
   ART_RANDOM_OFF: Случайно изображение изкл.
   ART_RANDOM_ON: Случайно изображение вкл.
-  CF_COVER_COUNT_1: 'Корици на екрана: 1'
-  CF_COVER_COUNT_3: 'Корици на екрана: 3'
-  CF_COVER_COUNT_5: 'Корици на екрана: 5'
-  CF_COVER_COUNT_7: 'Корици на екрана: 7'
-  CF_COVER_COUNT_9: 'Корици на екрана: 9'
+  CF_COVER_COUNT_1: 1 корица
+  CF_COVER_COUNT_3: 3 корици
+  CF_COVER_COUNT_5: 5 корици
+  CF_COVER_COUNT_7: 7 корици
+  CF_COVER_COUNT_9: 9 корици
   GSM_VMODE_480I_NORMAL: 480i нормален (за CRT)
   GSM_VMODE_480I_SHRINK: 480i свит (разтяга се до 4:3 на съвременни телевизори)
   DMA_UDMA4_DEFAULT: UDMA 4 по подразбиране
@@ -407,8 +407,8 @@ translations:
   DMA_HDD_ONLY: <само HDD>
   CHEAT_TOGGLE_ALL: Избор/отмяна на всички
   CHEAT_SAVE_AND_RUN: Запазване и стартиране
-  THEME_COVERFLOW: Вградена тема Coverflow
-  THEME_LIST: Вградена тема списък
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Списък
   MSG_DEVICE_DETECT_TIMEOUT: Времето за откриване на %s изтече. Проблем със съвместимостта
     на устройството.
   MSG_TXT_CREATED: txt файлът е създаден!

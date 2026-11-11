@@ -388,11 +388,11 @@ translations:
   COVERARTMODE_COMPAT: Compatibiliteit (JPG en PNG)
   ART_RANDOM_OFF: Willekeurige art uit
   ART_RANDOM_ON: Willekeurige art aan
-  CF_COVER_COUNT_1: 'Covers op het scherm: 1'
-  CF_COVER_COUNT_3: 'Covers op het scherm: 3'
-  CF_COVER_COUNT_5: 'Covers op het scherm: 5'
-  CF_COVER_COUNT_7: 'Covers op het scherm: 7'
-  CF_COVER_COUNT_9: 'Covers op het scherm: 9'
+  CF_COVER_COUNT_1: 1 cover
+  CF_COVER_COUNT_3: 3 covers
+  CF_COVER_COUNT_5: 5 covers
+  CF_COVER_COUNT_7: 7 covers
+  CF_COVER_COUNT_9: 9 covers
   GSM_VMODE_480I_NORMAL: 480i normaal (voor CRT)
   GSM_VMODE_480I_SHRINK: 480i verkleind (wordt naar 4:3 uitgerekt op moderne tv's)
   DMA_UDMA4_DEFAULT: UDMA 4 standaard
@@ -403,8 +403,8 @@ translations:
   DMA_HDD_ONLY: <alleen HDD>
   CHEAT_TOGGLE_ALL: Alles selecteren/deselecteren
   CHEAT_SAVE_AND_RUN: Opslaan en starten
-  THEME_COVERFLOW: Ingebouwd Coverflow-thema
-  THEME_LIST: Ingebouwd lijstthema
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: Lijst
   MSG_DEVICE_DETECT_TIMEOUT: Detectie van %s is verlopen. Probleem met apparaatcompatibiliteit.
   MSG_TXT_CREATED: Het txt-bestand is aangemaakt!
   MSG_TXT_REBUILT: Het txt-bestand is opnieuw opgebouwd!

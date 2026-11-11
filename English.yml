@@ -381,11 +381,11 @@ translations:
   COVERARTMODE_COMPAT: Compatibility (JPG & PNG)
   ART_RANDOM_OFF: Random Art Off
   ART_RANDOM_ON: Random Art On
-  CF_COVER_COUNT_1: 'Covers on screen: 1'
-  CF_COVER_COUNT_3: 'Covers on screen: 3'
-  CF_COVER_COUNT_5: 'Covers on screen: 5'
-  CF_COVER_COUNT_7: 'Covers on screen: 7'
-  CF_COVER_COUNT_9: 'Covers on screen: 9'
+  CF_COVER_COUNT_1: 1 Cover
+  CF_COVER_COUNT_3: 3 Covers
+  CF_COVER_COUNT_5: 5 Covers
+  CF_COVER_COUNT_7: 7 Covers
+  CF_COVER_COUNT_9: 9 Covers
   GSM_VMODE_480I_NORMAL: 480i Normal (for CRT)
   GSM_VMODE_480I_SHRINK: 480i Shrink (stretch to 4:3 on modern TVs)
   DMA_UDMA4_DEFAULT: UDMA 4 Default
@@ -396,8 +396,8 @@ translations:
   DMA_HDD_ONLY: <HDD only>
   CHEAT_TOGGLE_ALL: Select/Deselect All
   CHEAT_SAVE_AND_RUN: Save and Run
-  THEME_COVERFLOW: Built-in Coverflow Theme
-  THEME_LIST: Built-in List Theme
+  THEME_COVERFLOW: Coverflow
+  THEME_LIST: List
   MSG_DEVICE_DETECT_TIMEOUT: '%s detection timed out. Device compatibility issue.'
   MSG_TXT_CREATED: The txt file has been created!
   MSG_TXT_REBUILT: The txt file has been rebuilt!
